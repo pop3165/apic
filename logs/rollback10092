@@ -1,0 +1,665 @@
+# Created by: admin
+# Date: 2015-07-16 22:37:51
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10092
+
+ncs:devices {
+    ncs:device api {
+        ncs:address 10.79.44.61;
+        ncs:port  22;
+        ncs:ssh {
+            ncs:host-key ssh-dss {
+                ncs:key-data "AAAAB3NzaC1kc3MAAACBAI4SoFTGus9YNj7O3yCkgHwrJcBl5PJAJUY+pahc2p2bfns4a7o/\n2GOUZS2kxKUAfLuf03tbJYb3+6c0bHZvLvHD0MDyHSMz1batwHvmwUDjW4MtbIjGFd9FPAQh\npGKiucc5e3gKr5Ga9RtdAl8/ADL5iXALTKRfiZwzf0/3mUlBAAAAFQCXgLcFxbSsjfqaCOIS\n1RaEDV7s6QAAAIAMuqPPSx4ZDJA4BbdDdQ5vi67PJV6fnwt1fgPV3NtF6qDMUWVe0FYFbnSP\ndD5eevrQk10c+JWE6PusSAfDYHnd3AXYIL/Xjsn9+wfbse4IJ37bXWsSOBo1uNNVliwgbHVv\nWqOqJjUUNRjqgas9dhyGBfRd1gTjDqrUlGJ2WIRELgAAAIBQA7C8kgxoTnQv162r8Q1+mRZd\nLu/c+gXyvC3uLMJse7J3P07OpWaK9+5KcKe33eI2sd/QmyUGQn44cQcayeutX/gGQg0TgJF2\nLZ6PsDgvoF3jhBat+p3hxNs7UNdHXgWXFqtOPZhk/KNfhWAPn5P7dI3RhCHhXWXWLKsMMu4Q\nbA==";
+            }
+            ncs:host-key ssh-rsa {
+                ncs:key-data "AAAAB3NzaC1yc2EAAAADAQABAAABAQCbZBveLIO0qS/aKluWQKNIM+K/Zo4nIjtzYV+w5PWF\nlF3IyBzAR/h8pHUAWjYQzXMZr3svb6EoLy8pBOXjvmVTt0zLH10//KOp7q+JwZRHuSnhRiBo\n45aMnr9X2QVrOjMCaSeIzteFwv1FBalSw45FJ3NcIOi3UM7EkuqiOPJUnqmNjhIOtm8LiM63\nH6b/Bayh1JP7B0SRuJFWpVCDtCCK4TBzBxoQbi6T1x/5lUT0+r6ueYI8CMeh5cCZzfO4KbAL\nNFxiwYMcJSbVEb161iMR+VG2C275ssZaMpjDYZHR4C6oSbVGirdYS9s092RI8gLk007UsO3d\nOn6P9JUCIgjv";
+            }
+        }
+        ncs:authgroup apic_au;
+        ncs:device-type {
+            ncs:generic {
+                ncs:ned-id cisco-apicdc-id;
+            }
+        }
+        ncs:state {
+            ncs:admin-state unlocked;
+        }
+        ncs:config {
+            cisco-apicdc:apic {
+                cisco-apicdc:fvTenant common {
+                    cisco-apicdc:fvAp default {
+                        cisco-apicdc:prio unspecified;
+                    }
+                    cisco-apicdc:fvBD publ-default {
+                        cisco-apicdc:unkMcastAct flood;
+                        cisco-apicdc:unkMacUcastAct proxy;
+                        cisco-apicdc:arpFlood no;
+                        cisco-apicdc:mac 00:22:bd:f8:19:ff;
+                        cisco-apicdc:unicastRoute yes;
+                        cisco-apicdc:multiDstPktAct bd-flood;
+                    }
+                    cisco-apicdc:vzFilter arp {
+                        cisco-apicdc:vzEntry arp {
+                            cisco-apicdc:applyToFrag no;
+                            cisco-apicdc:arpOpc unspecified;
+                            cisco-apicdc:dFromPort unspecified;
+                            cisco-apicdc:dToPort unspecified;
+                            cisco-apicdc:etherT arp;
+                            cisco-apicdc:prot unspecified;
+                            cisco-apicdc:sFromPort unspecified;
+                            cisco-apicdc:sToPort unspecified;
+                        }
+                    }
+                    cisco-apicdc:vzFilter default {
+                        cisco-apicdc:vzEntry default {
+                            cisco-apicdc:applyToFrag no;
+                            cisco-apicdc:arpOpc unspecified;
+                            cisco-apicdc:dFromPort unspecified;
+                            cisco-apicdc:dToPort unspecified;
+                            cisco-apicdc:etherT unspecified;
+                            cisco-apicdc:prot unspecified;
+                            cisco-apicdc:sFromPort unspecified;
+                            cisco-apicdc:sToPort unspecified;
+                        }
+                    }
+                    cisco-apicdc:vzFilter est {
+                        cisco-apicdc:vzEntry est {
+                            cisco-apicdc:applyToFrag no;
+                            cisco-apicdc:arpOpc unspecified;
+                            cisco-apicdc:dFromPort unspecified;
+                            cisco-apicdc:dToPort unspecified;
+                            cisco-apicdc:etherT ip;
+                            cisco-apicdc:prot tcp;
+                            cisco-apicdc:sFromPort unspecified;
+                            cisco-apicdc:sToPort unspecified;
+                            cisco-apicdc:tcpRules est;
+                        }
+                    }
+                    cisco-apicdc:vzFilter icmp {
+                        cisco-apicdc:vzEntry icmp {
+                            cisco-apicdc:applyToFrag no;
+                            cisco-apicdc:arpOpc unspecified;
+                            cisco-apicdc:dFromPort unspecified;
+                            cisco-apicdc:dToPort unspecified;
+                            cisco-apicdc:etherT ip;
+                            cisco-apicdc:prot icmp;
+                            cisco-apicdc:sFromPort unspecified;
+                            cisco-apicdc:sToPort unspecified;
+                        }
+                    }
+                    cisco-apicdc:vzBrCP default {
+                        cisco-apicdc:prio unspecified;
+                        cisco-apicdc:scope context;
+                        cisco-apicdc:vzSubj default {
+                            cisco-apicdc:consMatchT AtleastOne;
+                            cisco-apicdc:prio unspecified;
+                            cisco-apicdc:provMatchT AtleastOne;
+                            cisco-apicdc:revFltPorts yes;
+                            cisco-apicdc:vzRsSubjFiltAtt default;
+                        }
+                    }
+                }
+                cisco-apicdc:fvTenant felix {
+                    cisco-apicdc:fvAp felix-app-profile1 {
+                        cisco-apicdc:prio unspecified;
+                        cisco-apicdc:fvAEPg epg-tier1 {
+                            cisco-apicdc:prio unspecified;
+                            cisco-apicdc:matchT AtleastOne;
+                            cisco-apicdc:fvRsBd felix-BD-tier1;
+                            cisco-apicdc:fvRsPathAtt topology/pod-1/paths-101/pathep-[eth1/1] {
+                                cisco-apicdc:encap vlan-400;
+                                cisco-apicdc:instrImedcy lazy;
+                                cisco-apicdc:mode regular;
+                            }
+                            cisco-apicdc:fvCEp 00:0C:29:D7:E1:1B {
+                                cisco-apicdc:id 0;
+                            }
+                            cisco-apicdc:fvRsCons permit-any {
+                                cisco-apicdc:prio unspecified;
+                            }
+                        }
+                        cisco-apicdc:fvAEPg epg-tier2 {
+                            cisco-apicdc:prio unspecified;
+                            cisco-apicdc:matchT AtleastOne;
+                            cisco-apicdc:fvRsBd felix-BD-tier2;
+                            cisco-apicdc:fvRsPathAtt topology/pod-1/paths-101/pathep-[eth1/1] {
+                                cisco-apicdc:encap vlan-401;
+                                cisco-apicdc:instrImedcy lazy;
+                                cisco-apicdc:mode regular;
+                            }
+                            cisco-apicdc:fvCEp 00:0C:29:36:97:3A {
+                                cisco-apicdc:id 0;
+                            }
+                            cisco-apicdc:fvRsProv permit-any {
+                                cisco-apicdc:matchT AtleastOne;
+                                cisco-apicdc:prio unspecified;
+                            }
+                        }
+                    }
+                    cisco-apicdc:fvBD felix-BD-tier1 {
+                        cisco-apicdc:unkMcastAct flood;
+                        cisco-apicdc:unkMacUcastAct proxy;
+                        cisco-apicdc:arpFlood no;
+                        cisco-apicdc:mac 00:22:bd:f8:19:ff;
+                        cisco-apicdc:unicastRoute yes;
+                        cisco-apicdc:multiDstPktAct bd-flood;
+                        cisco-apicdc:fvRsCtx felix-vrf1;
+                        cisco-apicdc:fvSubnet 192.168.40.1/24;
+                    }
+                    cisco-apicdc:fvBD felix-BD-tier2 {
+                        cisco-apicdc:unkMcastAct flood;
+                        cisco-apicdc:unkMacUcastAct proxy;
+                        cisco-apicdc:arpFlood no;
+                        cisco-apicdc:mac 00:22:bd:f8:19:ff;
+                        cisco-apicdc:unicastRoute yes;
+                        cisco-apicdc:multiDstPktAct bd-flood;
+                        cisco-apicdc:fvRsCtx felix-vrf1;
+                        cisco-apicdc:fvSubnet 192.168.41.1/24;
+                    }
+                    cisco-apicdc:fvCtx felix-tier1-network {
+                        cisco-apicdc:pcEnfPref unenforced;
+                        cisco-apicdc:knwMcastAct permit;
+                    }
+                    cisco-apicdc:fvCtx felix-tier2-network {
+                        cisco-apicdc:pcEnfPref unenforced;
+                        cisco-apicdc:knwMcastAct permit;
+                    }
+                    cisco-apicdc:fvCtx felix-vrf1 {
+                        cisco-apicdc:pcEnfPref enforced;
+                        cisco-apicdc:knwMcastAct permit;
+                    }
+                    cisco-apicdc:vzBrCP permit-any {
+                        cisco-apicdc:prio unspecified;
+                        cisco-apicdc:scope context;
+                        cisco-apicdc:vzSubj permit-any {
+                            cisco-apicdc:consMatchT AtleastOne;
+                            cisco-apicdc:prio unspecified;
+                            cisco-apicdc:provMatchT AtleastOne;
+                            cisco-apicdc:revFltPorts yes;
+                            cisco-apicdc:vzRsSubjFiltAtt icmp;
+                        }
+                    }
+                }
+                cisco-apicdc:fvTenant infra {
+                    cisco-apicdc:fvAp access {
+                        cisco-apicdc:prio unspecified;
+                        cisco-apicdc:fvAEPg default {
+                            cisco-apicdc:prio unspecified;
+                            cisco-apicdc:matchT AtleastOne;
+                            cisco-apicdc:fvRsBd default;
+                        }
+                    }
+                    cisco-apicdc:fvBD default {
+                        cisco-apicdc:unkMcastAct flood;
+                        cisco-apicdc:unkMacUcastAct proxy;
+                        cisco-apicdc:arpFlood no;
+                        cisco-apicdc:mac 00:22:bd:f8:19:ff;
+                        cisco-apicdc:unicastRoute yes;
+                        cisco-apicdc:multiDstPktAct bd-flood;
+                        cisco-apicdc:fvRsCtx overlay-1;
+                        cisco-apicdc:fvSubnet 10.0.0.30/27;
+                    }
+                    cisco-apicdc:fvCtx overlay-1 {
+                        cisco-apicdc:pcEnfPref enforced;
+                        cisco-apicdc:knwMcastAct permit;
+                    }
+                }
+                cisco-apicdc:fvTenant j3 {
+                    cisco-apicdc:fvAp VM_DB {
+                        cisco-apicdc:prio unspecified;
+                        cisco-apicdc:fvAEPg APPEPF {
+                            cisco-apicdc:prio unspecified;
+                            cisco-apicdc:matchT AtleastOne;
+                            cisco-apicdc:fvRsBd APP;
+                            cisco-apicdc:fvCEp 00:0C:29:75:BC:B6 {
+                                cisco-apicdc:id 0;
+                            }
+                            cisco-apicdc:fvRsCons default {
+                                cisco-apicdc:prio unspecified;
+                            }
+                            cisco-apicdc:fvRsDomAtt uni/vmmp-VMware/dom-pod1dc {
+                                cisco-apicdc:instrImedcy immediate;
+                                cisco-apicdc:resImedcy immediate;
+                            }
+                        }
+                        cisco-apicdc:fvAEPg DBEPG {
+                            cisco-apicdc:prio unspecified;
+                            cisco-apicdc:matchT AtleastOne;
+                            cisco-apicdc:fvRsBd DB;
+                            cisco-apicdc:fvCEp 00:0C:29:2D:1F:DB {
+                                cisco-apicdc:id 0;
+                            }
+                            cisco-apicdc:fvRsProv default {
+                                cisco-apicdc:matchT AtleastOne;
+                                cisco-apicdc:prio unspecified;
+                            }
+                            cisco-apicdc:fvRsDomAtt uni/vmmp-VMware/dom-pod1dc {
+                                cisco-apicdc:instrImedcy immediate;
+                                cisco-apicdc:resImedcy immediate;
+                            }
+                        }
+                    }
+                    cisco-apicdc:fvBD APP {
+                        cisco-apicdc:unkMcastAct flood;
+                        cisco-apicdc:unkMacUcastAct proxy;
+                        cisco-apicdc:arpFlood no;
+                        cisco-apicdc:mac 00:22:bd:f8:19:ff;
+                        cisco-apicdc:unicastRoute yes;
+                        cisco-apicdc:multiDstPktAct bd-flood;
+                        cisco-apicdc:fvRsCtx DB;
+                        cisco-apicdc:fvSubnet 172.2.1.1/24;
+                    }
+                    cisco-apicdc:fvBD DB {
+                        cisco-apicdc:unkMcastAct flood;
+                        cisco-apicdc:unkMacUcastAct proxy;
+                        cisco-apicdc:arpFlood no;
+                        cisco-apicdc:mac 00:22:bd:f8:19:ff;
+                        cisco-apicdc:unicastRoute yes;
+                        cisco-apicdc:multiDstPktAct bd-flood;
+                        cisco-apicdc:fvRsCtx DB;
+                        cisco-apicdc:fvSubnet 172.1.1.1/24;
+                    }
+                    cisco-apicdc:fvCtx DB {
+                        cisco-apicdc:pcEnfPref enforced;
+                        cisco-apicdc:knwMcastAct permit;
+                    }
+                    cisco-apicdc:l3extOut DB_outside {
+                        cisco-apicdc:targetDscp unspecified;
+                        cisco-apicdc:l3extLNodeP outside_DB_profile {
+                            cisco-apicdc:targetDscp unspecified;
+                            cisco-apicdc:tag yellow-green;
+                            cisco-apicdc:l3extLIfP outside_interface {
+                                cisco-apicdc:tag yellow-green;
+                                cisco-apicdc:l3extRsPathL3OutAtt topology/pod-1/paths-102/pathep-[eth1/19] {
+                                    cisco-apicdc:addr 88.88.88.1/24;
+                                    cisco-apicdc:ifInstT l3-port;
+                                    cisco-apicdc:mtu inherit;
+                                    cisco-apicdc:targetDscp unspecified;
+                                }
+                            }
+                        }
+                    }
+                }
+                cisco-apicdc:fvTenant mgmt {
+                    cisco-apicdc:fvBD inb {
+                        cisco-apicdc:unkMcastAct flood;
+                        cisco-apicdc:unkMacUcastAct proxy;
+                        cisco-apicdc:arpFlood no;
+                        cisco-apicdc:mac 00:22:bd:f8:19:ff;
+                        cisco-apicdc:unicastRoute yes;
+                        cisco-apicdc:multiDstPktAct bd-flood;
+                        cisco-apicdc:fvRsCtx inb;
+                    }
+                    cisco-apicdc:fvCtx inb {
+                        cisco-apicdc:pcEnfPref enforced;
+                        cisco-apicdc:knwMcastAct permit;
+                    }
+                    cisco-apicdc:fvCtx oob {
+                        cisco-apicdc:pcEnfPref enforced;
+                        cisco-apicdc:knwMcastAct permit;
+                    }
+                }
+                cisco-apicdc:fvTenant win_cisco {
+                    cisco-apicdc:descr "yuanchao tenant";
+                    cisco-apicdc:fvAp ap1 {
+                        cisco-apicdc:prio unspecified;
+                        cisco-apicdc:fvAEPg ep1 {
+                            cisco-apicdc:prio level2;
+                            cisco-apicdc:matchT AtleastOne;
+                            cisco-apicdc:fvRsBd BD1;
+                            cisco-apicdc:fvRsPathAtt topology/pod-1/paths-101/pathep-[eth1/14] {
+                                cisco-apicdc:encap vlan-200;
+                                cisco-apicdc:instrImedcy immediate;
+                                cisco-apicdc:mode regular;
+                            }
+                            cisco-apicdc:fvRsProv aci-ospf {
+                                cisco-apicdc:matchT AtleastOne;
+                                cisco-apicdc:prio unspecified;
+                            }
+                            cisco-apicdc:fvRsDomAtt uni/phys-aci-srv-phy-domain {
+                                cisco-apicdc:instrImedcy immediate;
+                                cisco-apicdc:resImedcy lazy;
+                            }
+                        }
+                    }
+                    cisco-apicdc:fvAp ap2 {
+                        cisco-apicdc:prio unspecified;
+                        cisco-apicdc:fvAEPg epg2 {
+                            cisco-apicdc:prio level1;
+                            cisco-apicdc:matchT AtleastOne;
+                            cisco-apicdc:fvRsBd BD1;
+                        }
+                        cisco-apicdc:fvAEPg epg3 {
+                            cisco-apicdc:prio level2;
+                            cisco-apicdc:matchT AtleastOne;
+                            cisco-apicdc:fvRsBd BD1;
+                        }
+                    }
+                    cisco-apicdc:fvBD BD1 {
+                        cisco-apicdc:unkMcastAct flood;
+                        cisco-apicdc:unkMacUcastAct proxy;
+                        cisco-apicdc:arpFlood no;
+                        cisco-apicdc:mac 00:22:bd:f8:19:ff;
+                        cisco-apicdc:unicastRoute yes;
+                        cisco-apicdc:multiDstPktAct bd-flood;
+                        cisco-apicdc:fvRsCtx PN1;
+                        cisco-apicdc:fvSubnet 200.0.0.1/24;
+                    }
+                    cisco-apicdc:vzFilter aci-ftp {
+                        cisco-apicdc:vzEntry ftp {
+                            cisco-apicdc:applyToFrag no;
+                            cisco-apicdc:arpOpc unspecified;
+                            cisco-apicdc:dFromPort 21;
+                            cisco-apicdc:dToPort 21;
+                            cisco-apicdc:etherT ip;
+                            cisco-apicdc:prot tcp;
+                            cisco-apicdc:sFromPort unspecified;
+                            cisco-apicdc:sToPort unspecified;
+                        }
+                        cisco-apicdc:vzEntry ftp-response {
+                            cisco-apicdc:applyToFrag no;
+                            cisco-apicdc:arpOpc unspecified;
+                            cisco-apicdc:dFromPort unspecified;
+                            cisco-apicdc:dToPort unspecified;
+                            cisco-apicdc:etherT ip;
+                            cisco-apicdc:prot tcp;
+                            cisco-apicdc:sFromPort unspecified;
+                            cisco-apicdc:sToPort unspecified;
+                        }
+                    }
+                    cisco-apicdc:fvCtx PN1 {
+                        cisco-apicdc:pcEnfPref enforced;
+                        cisco-apicdc:knwMcastAct permit;
+                    }
+                    cisco-apicdc:vzBrCP aci-ospf {
+                        cisco-apicdc:prio unspecified;
+                        cisco-apicdc:scope context;
+                        cisco-apicdc:vzSubj aci-ftp {
+                            cisco-apicdc:consMatchT AtleastOne;
+                            cisco-apicdc:prio unspecified;
+                            cisco-apicdc:provMatchT AtleastOne;
+                            cisco-apicdc:revFltPorts yes;
+                            cisco-apicdc:vzRsSubjFiltAtt aci-ftp;
+                        }
+                        cisco-apicdc:vzSubj aci-icmp {
+                            cisco-apicdc:consMatchT AtleastOne;
+                            cisco-apicdc:prio unspecified;
+                            cisco-apicdc:provMatchT AtleastOne;
+                            cisco-apicdc:revFltPorts yes;
+                            cisco-apicdc:vzRsSubjFiltAtt icmp;
+                        }
+                    }
+                    cisco-apicdc:l3extOut odl-ospf {
+                        cisco-apicdc:targetDscp unspecified;
+                        cisco-apicdc:l3extLNodeP odl-node-profile {
+                            cisco-apicdc:targetDscp unspecified;
+                            cisco-apicdc:tag yellow-green;
+                            cisco-apicdc:l3extLIfP odl-ospf-int-profile {
+                                cisco-apicdc:tag yellow-green;
+                                cisco-apicdc:l3extRsPathL3OutAtt topology/pod-1/paths-102/pathep-[eth1/15] {
+                                    cisco-apicdc:addr 150.0.0.102/24;
+                                    cisco-apicdc:ifInstT l3-port;
+                                    cisco-apicdc:mtu inherit;
+                                    cisco-apicdc:targetDscp unspecified;
+                                }
+                            }
+                        }
+                    }
+                }
+                cisco-apicdc:fvTenant yeechan-tenant {
+                    cisco-apicdc:descr "Test tenant for yeechan";
+                    cisco-apicdc:fvBD yeechan-bd2 {
+                        cisco-apicdc:unkMcastAct flood;
+                        cisco-apicdc:unkMacUcastAct proxy;
+                        cisco-apicdc:arpFlood no;
+                        cisco-apicdc:mac 00:22:bd:f8:19:ff;
+                        cisco-apicdc:unicastRoute yes;
+                        cisco-apicdc:multiDstPktAct bd-flood;
+                        cisco-apicdc:fvRsCtx yeechna-private-net1;
+                        cisco-apicdc:fvSubnet 10.1.101.1/24;
+                    }
+                    cisco-apicdc:fvCtx yeechna-private-net1 {
+                        cisco-apicdc:pcEnfPref enforced;
+                        cisco-apicdc:knwMcastAct permit;
+                    }
+                }
+                cisco-apicdc:vmmProvP Microsoft;
+                cisco-apicdc:vmmProvP VMware {
+                    cisco-apicdc:vmmDomP pod1dc {
+                        cisco-apicdc:enfPref hw;
+                        cisco-apicdc:mcastAddr 0.0.0.0;
+                        cisco-apicdc:mode default;
+                        cisco-apicdc:vmmCtrlrP pod1dc {
+                            cisco-apicdc:dvsVersion 5.5;
+                            cisco-apicdc:mode default;
+                            cisco-apicdc:scope vm;
+                            cisco-apicdc:statsMode disabled;
+                            cisco-apicdc:hostOrIp 10.79.44.65;
+                            cisco-apicdc:inventoryTrigSt untriggered;
+                            cisco-apicdc:port 0;
+                            cisco-apicdc:rootContName pod1dc;
+                        }
+                    }
+                }
+                cisco-apicdc:infraInfra {
+                    cisco-apicdc:infraNodeP Switch101-102_Profile-vPC {
+                        cisco-apicdc:descr "GUI Interface Selector Generated Profile: Switch101-102_Profile-vPC";
+                        cisco-apicdc:infraLeafS Switch101-102_Profile-vPC_selector_1 range {
+                            cisco-apicdc:infraNodeBlk single0 {
+                                cisco-apicdc:from_ 101;
+                                cisco-apicdc:to_ 101;
+                            }
+                            cisco-apicdc:infraNodeBlk single1 {
+                                cisco-apicdc:from_ 102;
+                                cisco-apicdc:to_ 102;
+                            }
+                        }
+                        cisco-apicdc:infraRsAccPortP uni/infra/accportprof-Switch101-102_Profile-vPC_ifselector;
+                    }
+                    cisco-apicdc:infraNodeP Switch101_Profile {
+                        cisco-apicdc:descr "GUI Interface Selector Generated Profile: Switch101_Profile";
+                        cisco-apicdc:infraLeafS Switch101_Profile_selector_1 range {
+                            cisco-apicdc:infraNodeBlk single0 {
+                                cisco-apicdc:from_ 101;
+                                cisco-apicdc:to_ 101;
+                            }
+                        }
+                        cisco-apicdc:infraRsAccPortP uni/infra/accportprof-Switch101_Profile_ifselector;
+                    }
+                    cisco-apicdc:infraNodeP Switch102_Profile {
+                        cisco-apicdc:descr "GUI Interface Selector Generated Profile: Switch102_Profile";
+                        cisco-apicdc:infraLeafS Switch102_Profile_selector_1 range {
+                            cisco-apicdc:infraNodeBlk single0 {
+                                cisco-apicdc:from_ 102;
+                                cisco-apicdc:to_ 102;
+                            }
+                        }
+                        cisco-apicdc:infraRsAccPortP uni/infra/accportprof-Switch102_Profile_ifselector;
+                    }
+                    cisco-apicdc:infraAccPortP Switch101-102_Profile-vPC_ifselector {
+                        cisco-apicdc:descr "GUI Interface Selector Generated PortP Profile: Switch101-102_Profile-vPC";
+                        cisco-apicdc:infraHPortS 1-ports-17 range {
+                            cisco-apicdc:infraPortBlk block1 {
+                                cisco-apicdc:fromCard 1;
+                                cisco-apicdc:toCard 1;
+                                cisco-apicdc:fromPort 17;
+                                cisco-apicdc:toPort 17;
+                            }
+                            cisco-apicdc:infraRsAccBaseGrp uni/infra/funcprof/accbundle-1-ports-17_PolGrp {
+                                cisco-apicdc:fexId 101;
+                            }
+                        }
+                    }
+                    cisco-apicdc:infraAccPortP Switch101-102_Profile_ifselector {
+                        cisco-apicdc:descr "GUI Interface Selector Generated PortP Profile: Switch101-102_Profile";
+                        cisco-apicdc:infraHPortS 1-ports-1 range {
+                            cisco-apicdc:infraPortBlk block1 {
+                                cisco-apicdc:fromCard 1;
+                                cisco-apicdc:toCard 1;
+                                cisco-apicdc:fromPort 1;
+                                cisco-apicdc:toPort 1;
+                            }
+                            cisco-apicdc:infraRsAccBaseGrp uni/infra/funcprof/accportgrp-1-ports-1_PolGrp {
+                                cisco-apicdc:fexId 101;
+                            }
+                        }
+                        cisco-apicdc:infraHPortS 1-ports-17_19 range {
+                            cisco-apicdc:infraPortBlk block1 {
+                                cisco-apicdc:fromCard 1;
+                                cisco-apicdc:toCard 1;
+                                cisco-apicdc:fromPort 17;
+                                cisco-apicdc:toPort 17;
+                            }
+                            cisco-apicdc:infraPortBlk block2 {
+                                cisco-apicdc:fromCard 1;
+                                cisco-apicdc:toCard 1;
+                                cisco-apicdc:fromPort 19;
+                                cisco-apicdc:toPort 19;
+                            }
+                            cisco-apicdc:infraRsAccBaseGrp uni/infra/funcprof/accbundle-1-ports-17_19_PolGrp {
+                                cisco-apicdc:fexId 101;
+                            }
+                        }
+                        cisco-apicdc:infraHPortS 1-ports-47 range {
+                            cisco-apicdc:infraPortBlk block1 {
+                                cisco-apicdc:fromCard 1;
+                                cisco-apicdc:toCard 1;
+                                cisco-apicdc:fromPort 47;
+                                cisco-apicdc:toPort 47;
+                            }
+                            cisco-apicdc:infraRsAccBaseGrp uni/infra/funcprof/accportgrp-1-ports-47_PolGrp {
+                                cisco-apicdc:fexId 101;
+                            }
+                        }
+                    }
+                    cisco-apicdc:infraAccPortP Switch101_Profile_ifselector {
+                        cisco-apicdc:descr "GUI Interface Selector Generated PortP Profile: Switch101_Profile";
+                        cisco-apicdc:infraHPortS 1-ports-1 range {
+                            cisco-apicdc:infraPortBlk block1 {
+                                cisco-apicdc:fromCard 1;
+                                cisco-apicdc:toCard 1;
+                                cisco-apicdc:fromPort 1;
+                                cisco-apicdc:toPort 1;
+                            }
+                            cisco-apicdc:infraRsAccBaseGrp uni/infra/funcprof/accportgrp-1-ports-1_PolGrp {
+                                cisco-apicdc:fexId 101;
+                            }
+                        }
+                    }
+                    cisco-apicdc:infraAccPortP Switch102_Profile_ifselector {
+                        cisco-apicdc:descr "GUI Interface Selector Generated PortP Profile: Switch102_Profile";
+                        cisco-apicdc:infraHPortS 1-ports-19 range {
+                            cisco-apicdc:infraPortBlk block1 {
+                                cisco-apicdc:fromCard 1;
+                                cisco-apicdc:toCard 1;
+                                cisco-apicdc:fromPort 19;
+                                cisco-apicdc:toPort 19;
+                            }
+                            cisco-apicdc:infraRsAccBaseGrp uni/infra/funcprof/accportgrp-1-ports-19_PolGrp {
+                                cisco-apicdc:fexId 101;
+                            }
+                        }
+                        cisco-apicdc:infraHPortS if1-ports-1 range {
+                            cisco-apicdc:infraPortBlk block1 {
+                                cisco-apicdc:fromCard 1;
+                                cisco-apicdc:toCard 1;
+                                cisco-apicdc:fromPort 1;
+                                cisco-apicdc:toPort 1;
+                            }
+                            cisco-apicdc:infraRsAccBaseGrp uni/infra/funcprof/accportgrp-if1-ports-1_PolGrp {
+                                cisco-apicdc:fexId 101;
+                            }
+                        }
+                    }
+                    cisco-apicdc:infraAccPortP aci-server-int-profile {
+                        cisco-apicdc:infraHPortS aci-srv-port-selector range {
+                            cisco-apicdc:infraPortBlk block2 {
+                                cisco-apicdc:fromCard 1;
+                                cisco-apicdc:toCard 1;
+                                cisco-apicdc:fromPort 14;
+                                cisco-apicdc:toPort 14;
+                            }
+                            cisco-apicdc:infraRsAccBaseGrp uni/infra/funcprof/accportgrp-aci-server {
+                                cisco-apicdc:fexId 101;
+                            }
+                        }
+                    }
+                    cisco-apicdc:infraAccPortP acl-odl-srv-int-profile {
+                        cisco-apicdc:infraHPortS aci-odl-srv-port-selector range {
+                            cisco-apicdc:infraPortBlk block2 {
+                                cisco-apicdc:fromCard 1;
+                                cisco-apicdc:toCard 1;
+                                cisco-apicdc:fromPort 15;
+                                cisco-apicdc:toPort 15;
+                            }
+                            cisco-apicdc:infraRsAccBaseGrp uni/infra/funcprof/accportgrp-aci-odl-srv {
+                                cisco-apicdc:fexId 101;
+                            }
+                        }
+                    }
+                    cisco-apicdc:infraFuncP {
+                        cisco-apicdc:name default;
+                        cisco-apicdc:infraAccBndlGrp 1-ports-17_PolGrp {
+                            cisco-apicdc:lagT node;
+                            cisco-apicdc:infraRsHIfPol {
+                                cisco-apicdc:tnFabricHIfPolName 10Gspeed;
+                            }
+                            cisco-apicdc:infraRsCdpIfPol {
+                                cisco-apicdc:tnCdpIfPolName enable-cdp;
+                            }
+                            cisco-apicdc:infraRsLacpPol {
+                                cisco-apicdc:tnLacpLagPolName LACPactive;
+                            }
+                        }
+                        cisco-apicdc:infraAccPortGrp 1-ports-19_PolGrp;
+                        cisco-apicdc:infraAccPortGrp If102-1-ports-1_PolGrp;
+                        cisco-apicdc:infraAccPortGrp aci-odl-srv;
+                        cisco-apicdc:infraAccPortGrp aci-server;
+                        cisco-apicdc:infraAccPortGrp if1-ports-1_PolGrp;
+                        cisco-apicdc:infraAccPortGrp if201-1-ports-19_PolGrp;
+                        cisco-apicdc:infraAccPortGrp if21-ports-19_PolGrp;
+                    }
+                    cisco-apicdc:fabricHIfPol 10Gspeed {
+                        cisco-apicdc:autoNeg on;
+                        cisco-apicdc:linkDebounce 100;
+                        cisco-apicdc:speed 10G;
+                    }
+                    cisco-apicdc:fabricHIfPol 1Gspeed {
+                        cisco-apicdc:autoNeg on;
+                        cisco-apicdc:linkDebounce 100;
+                        cisco-apicdc:speed 1G;
+                    }
+                    cisco-apicdc:fabricHIfPol default {
+                        cisco-apicdc:autoNeg on;
+                        cisco-apicdc:linkDebounce 100;
+                        cisco-apicdc:speed 1G;
+                    }
+                    cisco-apicdc:lacpLagPol LACPactive {
+                        cisco-apicdc:ctrl [ fast-sel-hot-stdby,graceful-conv,susp-individual ];
+                        cisco-apicdc:maxLinks 16;
+                        cisco-apicdc:minLinks 1;
+                        cisco-apicdc:mode active;
+                    }
+                    cisco-apicdc:lacpLagPol default {
+                        cisco-apicdc:ctrl [ fast-sel-hot-stdby,graceful-conv,susp-individual ];
+                        cisco-apicdc:maxLinks 16;
+                        cisco-apicdc:minLinks 1;
+                        cisco-apicdc:mode off;
+                    }
+                    cisco-apicdc:cdpIfPol CDP_enable {
+                        cisco-apicdc:adminSt enabled;
+                    }
+                    cisco-apicdc:cdpIfPol default {
+                        cisco-apicdc:adminSt disabled;
+                    }
+                    cisco-apicdc:cdpIfPol enable-cdp {
+                        cisco-apicdc:adminSt enabled;
+                    }
+                }
+            }
+        }
+    }
+}

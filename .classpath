@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
+	<classpathentry kind="src" path="packages/cisco-apicdc/src/java/src"/>
+	<classpathentry kind="src" path="packages/cisco-ios/src/java/src"/>
+	<classpathentry kind="src" path="packages/odl/src/java/src"/>
+	<classpathentry kind="src" path="packages/qos/src/java/src"/>
+	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/ncs.jar" sourcepath="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/ncs-src.jar"/>
+	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/conf-api.jar" sourcepath="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/conf-api-src.jar"/>
+	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/ganymed-ssh2.jar"/>
+	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/log4j.jar"/>
+	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/snmp4j-1.11.3.jar"/>
+	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/snmp4j.jar"/>
+	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/tailf-ganymed-ssh2-262-p2.jar"/>
+	<classpathentry kind="lib" path="packages/cisco-apicdc/shared-jar/cisco-apicdc-ns.jar"/>
+	<classpathentry kind="lib" path="packages/cisco-apicdc/shared-jar/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="packages/cisco-apicdc/shared-jar/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="packages/cisco-apicdc/shared-jar/httpclient-4.4.jar"/>
+	<classpathentry kind="lib" path="packages/cisco-apicdc/shared-jar/httpcore-4.4.jar"/>
+	<classpathentry kind="lib" path="packages/cisco-ios/shared-jar/ios-ns.jar"/>
+	<classpathentry kind="lib" path="packages/odl/shared-jar/odl-ns.jar"/>
+	<classpathentry kind="lib" path="packages/qos/shared-jar/qos-ns.jar"/>
+	<classpathentry kind="lib" path="packages/odl/load-dir/odl-stats.fxs"/>
+	<classpathentry kind="lib" path="packages/odl/load-dir/odl.fxs"/>
+	<classpathentry kind="lib" path="packages/odl/private-jar/commons-codec-1.10-javadoc.jar"/>
+	<classpathentry kind="lib" path="packages/odl/private-jar/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="packages/odl/private-jar/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="packages/odl/private-jar/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="packages/odl/private-jar/httpclient-4.4.jar"/>
+	<classpathentry kind="lib" path="packages/odl/private-jar/httpcore-4.4.jar"/>
+	<classpathentry kind="lib" path="packages/odl/private-jar/odl.jar"/>
+	<classpathentry kind="lib" path="packages/qos/shared-jar/commons-net-3.3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

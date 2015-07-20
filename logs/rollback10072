@@ -1,0 +1,13 @@
+# Created by: admin
+# Date: 2015-07-15 22:24:58
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10072
+
+ncs:services {
+    qos:qos c_qos {
+        qos:qos-level level3;
+    }
+ }

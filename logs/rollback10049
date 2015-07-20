@@ -1,0 +1,17 @@
+# Created by: admin
+# Date: 2015-07-08 16:52:05
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10049
+
+ncs:devices {
+    ncs:authgroups {
+        ncs:group apic_au {
+            ncs:default-map {
+                ncs:remote-password $4$wocla9wLwmdEhYYI0d4IDw==;
+            }
+         }
+     }
+ }

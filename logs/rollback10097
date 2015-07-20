@@ -1,0 +1,18 @@
+# Created by: admin
+# Date: 2015-07-16 22:46:50
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10097
+
+ncs:services {
+    qos:qos c_qos {
+        qos:src-device-name apic;
+        qos:src-endpoint ap1;
+        qos:src-port    ep1;
+        qos:dst-device-name odlc;
+        qos:dst-endpoint 192.168.0.1;
+        qos:qos-level   level3;
+    }
+}

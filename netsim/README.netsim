@@ -1,0 +1,22 @@
+
+This is a netsim project directory. The directory has been generated
+through the invocation of
+
+/Users/fan/Documents/NCS-Workspace/ncs3.4/bin/ncs-netsim create-network /Users/fan/Documents/NCS-Workspace/ncs3.4/packages/neds/cisco-ios 3 c
+
+This netsim project manages a set of emulated devices. Each device
+is emulated by ConfD. The devices are:
+
+ncs-netsim list for  /Users/fan/Documents/NCS-Workspace/apic/netsim
+
+name=c0 netconf=12022 snmp=11022 ipc=5010 cli=10022 dir=/Users/fan/Documents/NCS-Workspace/apic/netsim/c/c0 
+name=c1 netconf=12023 snmp=11023 ipc=5011 cli=10023 dir=/Users/fan/Documents/NCS-Workspace/apic/netsim/c/c1 
+name=c2 netconf=12024 snmp=11024 ipc=5012 cli=10024 dir=/Users/fan/Documents/NCS-Workspace/apic/netsim/c/c2 
+
+Run ncs-netsim help for available commands to control this
+emulated network
+
+There exists directories for each device below here, the logs
+as well as start/stop/cli/status scripts for each device reside in
+each corresponding directory
+

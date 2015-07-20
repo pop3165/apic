@@ -1,0 +1,76 @@
+# Created by: admin
+# Date: 2015-07-08 16:52:15
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10050
+
+ncs:devices {
+    ncs:device api {
+        ncs:config {
+            cisco-apicdc:apic {
+                cisco-apicdc:infraInfra {
+                    delete:
+                    cisco-apicdc:fabricHIfPol 1Gspeed;
+                    delete:
+                    cisco-apicdc:fabricHIfPol default;
+                    cisco-apicdc:infraFuncP {
+                        delete:
+                        cisco-apicdc:infraAccBndlGrp 1-ports-17_PolGrp;
+                        delete:
+                        cisco-apicdc:infraAccBndlGrp 1-ports-19_PolGrp;
+                        delete:
+                        cisco-apicdc:name default;
+                        delete:
+                        cisco-apicdc:infraAccPortGrp 1-ports-1_PolGrp;
+                    }
+                    delete:
+                    cisco-apicdc:infraNodeP Switch101-102_Profile;
+                    delete:
+                    cisco-apicdc:infraNodeP Switch101_Profile;
+                    delete:
+                    cisco-apicdc:infraNodeP Switch102_Profile;
+                    delete:
+                    cisco-apicdc:infraAccPortP Switch101-102_Profile_ifselector;
+                    delete:
+                    cisco-apicdc:infraAccPortP Switch101_Profile_ifselector;
+                    delete:
+                    cisco-apicdc:infraAccPortP Switch102_Profile_ifselector;
+                    delete:
+                    cisco-apicdc:lacpLagPol LACPactive;
+                    delete:
+                    cisco-apicdc:lacpLagPol default;
+                    delete:
+                    cisco-apicdc:cdpIfPol default;
+                    delete:
+                    cisco-apicdc:cdpIfPol enable-cdp;
+                }
+                delete:
+                cisco-apicdc:fvTenant LiuChao-tenant;
+                delete:
+                cisco-apicdc:fvTenant PUBL-TENANT;
+                delete:
+                cisco-apicdc:fvTenant TL-haorong;
+                delete:
+                cisco-apicdc:fvTenant TN-FK;
+                delete:
+                cisco-apicdc:fvTenant common;
+                delete:
+                cisco-apicdc:fvTenant infra;
+                delete:
+                cisco-apicdc:fvTenant mgmt;
+                delete:
+                cisco-apicdc:fvTenant tn-zhaozk;
+                delete:
+                cisco-apicdc:fvTenant yijxiang;
+                delete:
+                cisco-apicdc:fvTenant zhaoyue;
+                delete:
+                cisco-apicdc:vmmProvP Microsoft;
+                delete:
+                cisco-apicdc:vmmProvP VMware;
+            }
+         }
+     }
+ }

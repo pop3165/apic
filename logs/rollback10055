@@ -1,0 +1,29 @@
+# Created by: admin
+# Date: 2015-07-09 14:04:31
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10055
+
+ncs:devices {
+    ncs:authgroups {
+        delete:
+        ncs:group odlc_au;
+    }
+    ncs:device odlc {
+        delete:
+        ncs:port 8181;
+        delete:
+        ncs:authgroup odlc_au;
+        ncs:state {
+            delete:
+            ncs:admin-state unlocked;
+        }
+        ncs:address 1.1.1.1;
+        ncs:device-type {
+            delete:
+            ncs:generic;
+        }
+     }
+ }

@@ -1,0 +1,17 @@
+# Created by: admin
+# Date: 2015-05-27 13:07:50
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10023
+
+ncs:services {
+    qos:qos apicqos {
+        qos:device-name     apic;
+        qos:tenant          ttt;
+        qos:application-profile ap1;
+        qos:end-point       ep1;
+        qos:qos-level       level2;
+    }
+}

@@ -1,0 +1,77 @@
+
+25-May-2015::14:52:43.104 Evaluating XPath for: /ios:router/rip/address-family/ipv4/unicast/disable:
+  ../passive-interface/default
+exists("/ios:router/rip/address-family/ipv4/unicast/passive-interface/default") = false
+25-May-2015::14:52:43.113 XPath for: /ios:router/rip/address-family/ipv4/unicast/disable returns false
+
+25-May-2015::14:52:43.113 Evaluating XPath for: /ios:router/rip/disable:
+  ../passive-interface/default
+exists("/ios:router/rip/passive-interface/default") = false
+25-May-2015::14:52:43.113 XPath for: /ios:router/rip/disable returns false
+
+25-May-2015::14:52:43.113 Evaluating XPath for: /ios:router/rip/default/disable:
+  ../passive-interface/default
+exists("/ios:router/rip/default/passive-interface/default") = false
+25-May-2015::14:52:43.113 XPath for: /ios:router/rip/default/disable returns false
+
+25-May-2015::14:52:43.117 Evaluating XPath for: /ios:router/bgp{64512}/neighbor{1.2.3.4}:
+  count(*) > 1
+exists("/ios:router/bgp{64512}/neighbor{1.2.3.4}/peer-group") = false
+get_elem("/ios:router/bgp{64512}/neighbor{1.2.3.4}/remote-as") = 1
+exists("/ios:router/bgp{64512}/neighbor{1.2.3.4}/local-as") = false
+exists("/ios:router/bgp{64512}/neighbor{1.2.3.4}/activate") = false
+get_elem("/ios:router/bgp{64512}/neighbor{1.2.3.4}/advertisement-interval") = not_found
+exists("/ios:router/bgp{64512}/neighbor{1.2.3.4}/allowas-in") = false
+exists("/ios:router/bgp{64512}/neighbor{1.2.3.4}/as-override") = false
+exists("/ios:router/bgp{64512}/neighbor{1.2.3.4}/default-originate") = false
+get_elem("/ios:router/bgp{64512}/neighbor{1.2.3.4}/description") = not_found
+exists("/ios:router/bgp{64512}/neighbor{1.2.3.4}/disable-connected-check") = false
+get_next(/ios:router/bgp{64512}/neighbor{1.2.3.4}/distribute-list) = false
+exists("/ios:router/bgp{64512}/neighbor{1.2.3.4}/dmzlink-bw") = false
+exists("/ios:router/bgp{64512}/neighbor{1.2.3.4}/ebgp-multihop") = true
+exists("/ios:router/bgp{64512}/neighbor{1.2.3.4}/fall-over") = false
+get_next(/ios:router/bgp{64512}/neighbor{1.2.3.4}/filter-list) = false
+exists("/ios:router/bgp{64512}/neighbor{1.2.3.4}/next-hop-self") = false
+exists("/ios:router/bgp{64512}/neighbor{1.2.3.4}/next-hop-unchanged") = false
+get_next(/ios:router/bgp{64512}/neighbor{1.2.3.4}/prefix-list) = false
+exists("/ios:router/bgp{64512}/neighbor{1.2.3.4}/remove-private-as") = false
+get_next(/ios:router/bgp{64512}/neighbor{1.2.3.4}/route-map) = false
+exists("/ios:router/bgp{64512}/neighbor{1.2.3.4}/route-reflector-client") = false
+exists("/ios:router/bgp{64512}/neighbor{1.2.3.4}/send-community") = false
+exists("/ios:router/bgp{64512}/neighbor{1.2.3.4}/shutdown") = false
+get_elem("/ios:router/bgp{64512}/neighbor{1.2.3.4}/soft-reconfiguration") = not_found
+get_elem("/ios:router/bgp{64512}/neighbor{1.2.3.4}/unsuppress-map") = not_found
+get_elem("/ios:router/bgp{64512}/neighbor{1.2.3.4}/version") = not_found
+get_elem("/ios:router/bgp{64512}/neighbor{1.2.3.4}/weight") = not_found
+25-May-2015::14:52:43.119 XPath for: /ios:router/bgp{64512}/neighbor{1.2.3.4} returns true
+
+25-May-2015::14:52:43.119 Evaluating XPath for: /ios:router/bgp{64512}/neighbor{2.3.4.5}:
+  count(*) > 1
+exists("/ios:router/bgp{64512}/neighbor{2.3.4.5}/peer-group") = false
+get_elem("/ios:router/bgp{64512}/neighbor{2.3.4.5}/remote-as") = 1
+exists("/ios:router/bgp{64512}/neighbor{2.3.4.5}/local-as") = false
+exists("/ios:router/bgp{64512}/neighbor{2.3.4.5}/activate") = true
+get_elem("/ios:router/bgp{64512}/neighbor{2.3.4.5}/advertisement-interval") = not_found
+exists("/ios:router/bgp{64512}/neighbor{2.3.4.5}/allowas-in") = false
+exists("/ios:router/bgp{64512}/neighbor{2.3.4.5}/as-override") = false
+exists("/ios:router/bgp{64512}/neighbor{2.3.4.5}/default-originate") = false
+get_elem("/ios:router/bgp{64512}/neighbor{2.3.4.5}/description") = not_found
+exists("/ios:router/bgp{64512}/neighbor{2.3.4.5}/disable-connected-check") = false
+get_next(/ios:router/bgp{64512}/neighbor{2.3.4.5}/distribute-list) = false
+exists("/ios:router/bgp{64512}/neighbor{2.3.4.5}/dmzlink-bw") = false
+exists("/ios:router/bgp{64512}/neighbor{2.3.4.5}/ebgp-multihop") = false
+exists("/ios:router/bgp{64512}/neighbor{2.3.4.5}/fall-over") = false
+get_next(/ios:router/bgp{64512}/neighbor{2.3.4.5}/filter-list) = false
+exists("/ios:router/bgp{64512}/neighbor{2.3.4.5}/next-hop-self") = false
+exists("/ios:router/bgp{64512}/neighbor{2.3.4.5}/next-hop-unchanged") = false
+get_next(/ios:router/bgp{64512}/neighbor{2.3.4.5}/prefix-list) = false
+exists("/ios:router/bgp{64512}/neighbor{2.3.4.5}/remove-private-as") = false
+get_next(/ios:router/bgp{64512}/neighbor{2.3.4.5}/route-map) = false
+exists("/ios:router/bgp{64512}/neighbor{2.3.4.5}/route-reflector-client") = false
+exists("/ios:router/bgp{64512}/neighbor{2.3.4.5}/send-community") = false
+exists("/ios:router/bgp{64512}/neighbor{2.3.4.5}/shutdown") = false
+get_elem("/ios:router/bgp{64512}/neighbor{2.3.4.5}/soft-reconfiguration") = not_found
+get_elem("/ios:router/bgp{64512}/neighbor{2.3.4.5}/unsuppress-map") = not_found
+get_elem("/ios:router/bgp{64512}/neighbor{2.3.4.5}/version") = not_found
+get_elem("/ios:router/bgp{64512}/neighbor{2.3.4.5}/weight") = 300
+25-May-2015::14:52:43.121 XPath for: /ios:router/bgp{64512}/neighbor{2.3.4.5} returns true

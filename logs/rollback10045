@@ -1,0 +1,28 @@
+# Created by: admin
+# Date: 2015-07-04 10:57:52
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10045
+
+ncs:devices {
+    ncs:authgroups {
+        ncs:group apic_au {
+            ncs:default-map {
+                ncs:remote-password $4$wocla9wLwmdwhYYI0d4IDw==;
+            }
+        }
+    }
+    ncs:device apic {
+        ncs:address 10.75.44.208;
+        ncs:ssh {
+            ncs:host-key ssh-dss {
+                ncs:key-data "AAAAB3NzaC1kc3MAAACBAN7OhOkafVWMVjWkEhA2ihjLXmsT1KDSc9CSs/kE/fskQxLHBbzR\nOsmc5Bqqbaxv37ynoN6Bk/KXj1hPpR6u97TLdEaf0j7+JnZATSr3LY53NtHKrpWhvBi4vwb3\nWD63i7FDVQQrPzu73gYIrRZ5ElZFo1FLJDHfZHg4OdNtdyOJAAAAFQC+zmlON+KWp/ZS13kF\n9+ne/1YPTQAAAIEA3J0rMIWkLodYkwkHXLkIzeeBXnZCfLhcF6Gm71k66HoC9YwW8MwtU+me\np8IOqzhioGq0VUupQm6DVQR9Qj274kcznMUZq2HihNeA9sbv259ZZOWKwG8rI58+1CXk8j3n\ndcd8w9EwxVn0wrxPmeAQipQKoJs8jmWKAKc4IxXseLUAAACBAMTVgpQi+ekviH7zbYi37lE+\nSmallCdvjf3mPnmhJDgITyvS6OFw9xGEfg4LRlAL5uCoA1bi1+LBo5Y6L5xhYLL3IsezF4E5\nJr9dMggFOwTOCuiNUTz+ojg2aUQXTA9gJxder1FTY2Y7yWu/ze7D5bSZqfmrRAVDuUpyrFid\novCp";
+            }
+            ncs:host-key ssh-rsa {
+                ncs:key-data "AAAAB3NzaC1yc2EAAAADAQABAAABAQCekq6VksUvcj//ls/7P6cJ/kBJ05geG3O8ZphbSQF9\nWulivDd9OlHrzoBCv/P9qOkFny3Nn/76e9OvQ5gQXqelFJ7djUMONh2IGN0uOOCjrINuiihD\nZ221oUk2Gt3HAaqKZASGtPqRE+Ln44tHVWaae+GALBBHel1fPeK3GP0NuFa4HEnP68oQ63Ce\nr+Mh38zY1hMPf+ZvueAlGWF296K+biEd8K6Iq1ZXWIcnKnsNI0WI/w+GYrxuauoMd0I1Mjpc\nBI3I2P7DABjD+U8bF0T2TLKah+6xVbKF36gT4qw/qmZMVca+txh5UzXk6fG7Y8Uw5qauG1Zl\n+0rhMFTMwB+H";
+            }
+         }
+     }
+ }

@@ -1,0 +1,16 @@
+# Created by: admin
+# Date: 2015-07-16 23:05:08
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10100
+
+ncs:devices {
+    ncs:authgroups {
+        delete:
+        ncs:group a9k_au;
+    }
+    delete:
+    ncs:device a9k;
+}

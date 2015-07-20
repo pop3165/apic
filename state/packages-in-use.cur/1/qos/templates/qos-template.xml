@@ -1,0 +1,22 @@
+<config-template xmlns="http://tail-f.com/ns/config/1.0">
+  <devices xmlns="http://tail-f.com/ns/ncs">
+    <device>
+      <name>{$DEVICE}</name>
+      <config tags="merge">
+        <apic xmlns="http://tail-f.com/ned/cisco-apic">
+    		<fvTenant>
+      			<name>{$TENANT}</name>
+      			<fvAp>
+        			<name>{$APPLICATION_PROFILE}</name>
+        			<prio>level1</prio>
+        			<fvAEPg>
+	          			<name>{$END_POINT}</name>
+	          			<prio>{$QOS_LEVEL}</prio>
+        			</fvAEPg>
+      			</fvAp>
+    		</fvTenant>
+  		</apic>      
+      </config>
+    </device>
+  </devices>
+</config-template>

@@ -1,0 +1,11 @@
+module tailf-ned-cisco-apicdc-stats {
+
+  namespace "http://tail-f.com/ned/cisco-apic-stats";
+  prefix cisco-apicdcstats;
+
+  import tailf-common {
+    prefix tailf;
+  }
+}
+
+

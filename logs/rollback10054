@@ -1,0 +1,18 @@
+# Created by: admin
+# Date: 2015-07-08 23:52:39
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10054
+
+ncs:devices {
+    ncs:authgroups {
+        ncs:group apic_au {
+            ncs:default-map {
+                ncs:remote-name wincisco;
+                ncs:remote-password $4$wocla9wLwmdwhYYI0d4IDw==;
+            }
+         }
+     }
+ }

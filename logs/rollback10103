@@ -1,0 +1,13 @@
+# Created by: admin
+# Date: 2015-07-17 11:02:36
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10103
+
+ncs:devices {
+    ncs:device odlc {
+        ncs:address 10.79.44.246;
+    }
+ }

@@ -1,0 +1,379 @@
+module odl {
+  namespace "http://tail-f.com/ned/odl";
+  prefix "odl";
+
+  import tailf-ncs {
+    prefix ncs;
+  }
+  import tailf-ncs-ned {
+    prefix ned;
+  }
+  import tailf-common {
+    prefix tailf;
+  }
+  import ietf-inet-types {
+    prefix inet;
+  }
+  identity odl-id {
+    base ned:generic-ned-id;
+  }
+  typedef pcc-sync-state {
+    type enumeration {
+      enum "initial-resync" {
+        description "Initial state resynchronization is being performed.";
+      }
+      enum "synchronized" {
+        description "State synchronization has been achieved.";
+      }
+    }
+  }
+  grouping pcep-client-attributes {
+    container path-computation-client {
+      leaf ip-address {
+        type inet:ip-address;
+      }
+      container stateful-tlv {
+        container stateful {
+          leaf initiation {
+            type boolean;
+          }
+          leaf lsp-update-capability {
+            type boolean;
+          }
+        }
+      }
+      leaf state-sync {
+        type pcc-sync-state;
+        when "../stateful-tlv" {
+          tailf:xpath-root "3";
+        }
+      }
+      list reported-lsp {
+        leaf name {
+          type string;
+        }
+        key "name";
+        list path {
+          leaf lsp-id {
+            type uint32;
+            mandatory true;
+          }
+          key "lsp-id";
+          uses lsp-attributes;
+        }
+      }
+    }
+  }
+  grouping template_ncs_pcep-client-attributes {
+    container path-computation-client {
+      leaf ip-address {
+        type string;   // NCS patched all types to string
+      }
+      container stateful-tlv {
+        container stateful {
+          leaf initiation {
+            type string;   // NCS patched all types to string
+          }
+          leaf lsp-update-capability {
+            type string;   // NCS patched all types to string
+          }
+        }
+      }
+      leaf state-sync {
+        type string;   // NCS patched all types to string
+        // NCS drop path statement here
+      }
+      list reported-lsp {
+        ordered-by "user";  // NCS patched to keep predictable order
+        leaf name {
+          type string;   // NCS patched all types to string
+        }
+        key "name";
+        list path {
+          ordered-by "user";  // NCS patched to keep predictable order
+          leaf lsp-id {
+            type string;   // NCS patched all types to string
+            // NCS drop  (mandatory) statement
+          }
+          key "lsp-id";
+          uses template_ncs_lsp-attributes;
+        }
+      }
+    }
+  }
+  grouping reported-route-object;
+  grouping template_ncs_reported-route-object;
+  grouping lsp-id {
+    leaf node {
+      type string;
+      mandatory true;
+    }
+    leaf name {
+      type string;
+      mandatory true;
+    }
+  }
+  grouping template_ncs_lsp-id {
+    leaf node {
+      type string;   // NCS patched all types to string
+      // NCS drop  (mandatory) statement
+    }
+    leaf name {
+      type string;   // NCS patched all types to string
+      // NCS drop  (mandatory) statement
+    }
+  }
+  grouping lsp-attributes {
+    container lsp {
+      leaf delegate {
+        type boolean;
+        mandatory true;
+      }
+      leaf administrative {
+        type boolean;
+        mandatory true;
+      }
+    }
+  }
+  grouping template_ncs_lsp-attributes {
+    container lsp {
+      leaf delegate {
+        type string;   // NCS patched all types to string
+        // NCS drop  (mandatory) statement
+      }
+      leaf administrative {
+        type string;   // NCS patched all types to string
+        // NCS drop  (mandatory) statement
+      }
+    }
+  }
+  grouping endpoints-object {
+    container endpoints-obj {
+      choice address-family {
+        mandatory true;
+        case ipv4-case {
+          container ipv4 {
+            leaf source-ipv4-address {
+              type inet:ipv4-address;
+              mandatory true;
+            }
+            leaf destination-ipv4-address {
+              type inet:ipv4-address;
+              mandatory true;
+            }
+          }
+        }
+        case ipv6-case {
+          container ipv6 {
+            leaf source-ipv6-address {
+              type inet:ipv6-address;
+              mandatory true;
+            }
+            leaf destination-ipv6-address {
+              type inet:ipv6-address;
+              mandatory true;
+            }
+          }
+        }
+      }
+    }
+  }
+  grouping template_ncs_endpoints-object {
+    container endpoints-obj {
+      choice address-family {
+        // NCS drop  (mandatory) statement
+        case ipv4-case {
+          container ipv4 {
+            leaf source-ipv4-address {
+              type string;   // NCS patched all types to string
+              // NCS drop  (mandatory) statement
+            }
+            leaf destination-ipv4-address {
+              type string;   // NCS patched all types to string
+              // NCS drop  (mandatory) statement
+            }
+          }
+        }
+        case ipv6-case {
+          container ipv6 {
+            leaf source-ipv6-address {
+              type string;   // NCS patched all types to string
+              // NCS drop  (mandatory) statement
+            }
+            leaf destination-ipv6-address {
+              type string;   // NCS patched all types to string
+              // NCS drop  (mandatory) statement
+            }
+          }
+        }
+      }
+    }
+  }
+  grouping explicit-route-object {
+    container ero {
+      list subobject {
+        min-elements "1";
+        leaf loose {
+          type boolean;
+          mandatory true;
+        }
+        leaf ip-prefix {
+          type inet:ip-prefix;
+          mandatory true;
+        }
+      }
+    }
+  }
+  grouping template_ncs_explicit-route-object {
+    container ero {
+      list subobject {
+        ordered-by "user";  // NCS patched to keep predictable order
+        // NCS drop  (min-elements) statement
+        leaf loose {
+          type string;   // NCS patched all types to string
+          // NCS drop  (mandatory) statement
+        }
+        leaf ip-prefix {
+          type string;   // NCS patched all types to string
+          // NCS drop  (mandatory) statement
+        }
+      }
+    }
+  }
+  grouping add-lsp-args {
+    uses lsp-id;
+    container arguments {
+      uses lsp-attributes;
+      uses endpoints-object;
+      uses explicit-route-object;
+    }
+  }
+  grouping template_ncs_add-lsp-args {
+    uses template_ncs_lsp-id;
+    container arguments {
+      uses template_ncs_lsp-attributes;
+      uses template_ncs_endpoints-object;
+      uses template_ncs_explicit-route-object;
+    }
+  }
+  grouping update-lsp-args {
+    uses lsp-id;
+    container arguments {
+      uses lsp-attributes;
+      uses explicit-route-object;
+    }
+  }
+  grouping template_ncs_update-lsp-args {
+    uses template_ncs_lsp-id;
+    container arguments {
+      uses template_ncs_lsp-attributes;
+      uses template_ncs_explicit-route-object;
+    }
+  }
+  grouping remove-lsp-args {
+    uses lsp-id;
+  }
+  grouping template_ncs_remove-lsp-args {
+    uses template_ncs_lsp-id;
+  }
+  augment /ncs:devices/ncs:device/ncs:rpc {
+    container rpc-add-lsp {
+      tailf:action add-lsp {
+        tailf:actionpoint ncsproxy {
+              tailf:internal;
+        }
+        input {
+          uses add-lsp-args;
+          leaf network-topology {
+            type string;
+            mandatory true;
+          }
+        }
+        output {
+          leaf operation-result {
+            type string;
+          }
+        }
+      }
+   }
+   }
+  augment /ncs:devices/ncs:device/ncs:rpc {
+    container rpc-update-lsp {
+      tailf:action update-lsp {
+        tailf:actionpoint ncsproxy {
+              tailf:internal;
+        }
+        input {
+          uses update-lsp-args;
+          leaf network-topology {
+            type string;
+            mandatory true;
+          }
+        }
+        output {
+          leaf operation-result {
+            type string;
+          }
+        }
+      }
+   }
+   }
+  augment /ncs:devices/ncs:device/ncs:rpc {
+    container rpc-remove-lsp {
+      tailf:action remove-lsp {
+        tailf:actionpoint ncsproxy {
+              tailf:internal;
+        }
+        input {
+          uses remove-lsp-args;
+          leaf network-topology {
+            type string;
+            mandatory true;
+          }
+        }
+        output {
+          leaf operation-result {
+            type string;
+          }
+        }
+      }
+   }
+   }
+  augment /ncs:devices/ncs:device/ncs:config {
+    list pcep-topology {
+      tailf:ncs-device-type generic-ned;
+      tailf:display-when "not(../ncs:module) or ../ncs:module[ncs:name='odl']";
+      key "topology-id";
+      leaf topology-id {
+        type string;
+      }
+      list node {
+        leaf node-id {
+          type string;
+        }
+        key "node-id";
+        uses pcep-client-attributes;
+      }
+    }
+  }
+  augment /ncs:devices/ncs:template/ncs:config {
+    list pcep-topology {
+      ordered-by "user";  // NCS patched to keep predictable order
+      key "topology-id";
+      leaf topology-id {
+        type string;   // NCS patched all types to string
+      }
+      list node {
+        ordered-by "user";  // NCS patched to keep predictable order
+        leaf node-id {
+          type string;   // NCS patched all types to string
+        }
+        key "node-id";
+        uses template_ncs_pcep-client-attributes;
+      }
+    }
+  }
+
+  // Skip entire stats tree due to --ncs-skip-statistics flag
+
+}

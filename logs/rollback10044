@@ -1,0 +1,20 @@
+# Created by: admin
+# Date: 2015-07-01 23:03:51
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10044
+
+ncs:devices {
+    ncs:device apic {
+        ncs:ssh {
+            ncs:host-key ssh-dss {
+                ncs:key-data "AAAAB3NzaC1kc3MAAACBAILyBChDOMQYM0zhGxXhynuXa4tJH87hBoBwG+xQ3PzcTiiNYSuI\npxjJBCFrU+FxY2FrfAA1TM6acq7YpnaipQhMYEtsH6KFM18RPFFSqr7b0tKEHzPkyP2rhD6v\nb5MAuGpwVmReO2hhVWMNnci2U8joqzCx9+O1GuBnzU1GwfNzAAAAFQCHLbXcOFAgd/DXoT6E\ngV2egIRsAwAAAIBfaULTA0Z6u/OXufu7L8yG3ADHrWr1b4Pd6x/Cyg9Kzt1rO4xonvCBBMYS\nMPzprlpuazHQ6nC80dcDeZd5BsfuNi7rKZDTBpmSeuO2TAUCrLli9wEUmHQblvijM14XmB3t\nSi3nxAJoCIm5V3PgRWkEuVZGLeMkUIWI9KkChZZRzQAAAIAPuh7SKka/Zoh9mgNMkKdgUq/8\ntQI5FypzJ2c6vkVORCO0ivqTvzGBcBkkvvmlciI4dyjP/+KwrYyd8VPdM2B3Hu9ua0ZyamzD\n1RGirMnUedYpevtNDhbjrH++zoQZ0KdyzpGf5vUcI8k271iJ/Wgm924Bt1fE7UzTYmQSWCvg\ngQ==";
+            }
+            ncs:host-key ssh-rsa {
+                ncs:key-data "AAAAB3NzaC1yc2EAAAABIwAAAQEAqAykSmQkQUAcVOJlgHxAjeuKJAZE4VMIJ3HiOB71wwVh\nf5ViU7DsH/J3P7wWdmN/xyBavqLoM01804USqfyhFI/x08KMAXX04rhno//PZJ7QTAVdttKh\nGolMzLIBEmAoZfLtByCz2Nj4l7Vu3TzkVDJ7OBUKyEbpB3WgHcHGSbFY/HvPHI6FcJaC3sWX\n95zv/4lK0tudMqM+tp6MN2U67NQJtbSz8pAHFcJeSZD5uEKjOoqFzelg9NacDki+1kmSrOwY\naM8rxMjR0gx+Y9/FoMhjLuXl+i6K8/DHz7JePVedHbc1A5W7E2fs8Y5FQOMky8NDU819lIZ+\nOfW5srJYGQ==";
+            }
+         }
+     }
+ }

@@ -1,0 +1,31 @@
+module odl-stats {
+  namespace "http://com/tailf/packages/ned/odl-stats";
+  prefix "odlstats";
+
+  import tailf-ncs {
+    prefix ncs;
+  }
+  import tailf-common {
+    prefix tailf;
+  }
+  augment /ncs:devices/ncs:device/ncs:config {
+    // NCS Ignoring stats container block called test-stats here
+  }
+
+  // Skip entire template tree due to --ncs-skip-template flag
+
+  augment /ncs:devices/ncs:device/ncs:live-status {
+    container test-stats {
+      tailf:ncs-device-type generic-ned;
+      list item {
+        key "name";
+        leaf name {
+          type string;
+        }
+        leaf i {
+          type int32;
+        }
+      }
+    }
+  }
+}

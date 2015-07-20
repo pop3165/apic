@@ -1,0 +1,98 @@
+# Created by: admin
+# Date: 2015-07-17 19:59:47
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10145
+
+ncs:devices {
+    ncs:device a9k {
+        ncs:config {
+            cisco-ios-xr:policy-map qos-policing {
+                cisco-ios-xr:class {
+                    cisco-ios-xr:class-ref aci-class-map {
+                        cisco-ios-xr:police-rate-unit {
+                            cisco-ios-xr:police {
+                                cisco-ios-xr:rate {
+                                    delete:
+                                    cisco-ios-xr:peak-burst 1;
+                                    delete:
+                                    cisco-ios-xr:burst 1;
+                                    delete:
+                                    cisco-ios-xr:peak-burst-units bytes;
+                                    delete:
+                                    cisco-ios-xr:burst-units bytes;
+                                }
+                            }
+                        }
+                    }
+                    delete:
+                    cisco-ios-xr:class-ref mpls-header;
+                }
+            }
+            cisco-ios-xr:policy-map qos-policy {
+                cisco-ios-xr:class {
+                    cisco-ios-xr:class-ref aci-class-map {
+                        cisco-ios-xr:shape {
+                            cisco-ios-xr:average {
+                                cisco-ios-xr:rate 8;
+                                cisco-ios-xr:rate-unit kbps;
+                            }
+                        }
+                    }
+                    cisco-ios-xr:class-default class-default;
+                }
+            }
+            delete:
+            cisco-ios-xr:class-map mpls-header;
+            cisco-ios-xr:interface {
+                cisco-ios-xr:tunnel-te 2222 {
+                    cisco-ios-xr:ipv4 {
+                        cisco-ios-xr:unnumbered {
+                            cisco-ios-xr:Loopback 0;
+                        }
+                    }
+                    cisco-ios-xr:destination 2.2.2.2;
+                }
+            }
+            cisco-ios-xr:ipv4 {
+                cisco-ios-xr:unnumbered {
+                    cisco-ios-xr:mpls {
+                        cisco-ios-xr:traffic-eng {
+                            delete:
+                            cisco-ios-xr:Loopback 0;
+                        }
+                    }
+                }
+                cisco-ios-xr:access-list {
+                    delete:
+                    cisco-ios-xr:named-acl ef;
+                    cisco-ios-xr:named-acl pre2 {
+                        cisco-ios-xr:rule 10 {
+                            cisco-ios-xr:line "permit ipv4 any any dscp ef";
+                        }
+                    }
+                }
+            }
+            cisco-ios-xr:router {
+                cisco-ios-xr:bgp {
+                    delete:
+                    cisco-ios-xr:bgp-no-instance 1;
+                }
+                cisco-ios-xr:static {
+                    cisco-ios-xr:address-family {
+                        cisco-ios-xr:ipv4 {
+                            cisco-ios-xr:unicast {
+                                delete:
+                                cisco-ios-xr:routes 88.88.88.88/32 tunnel-te1;
+                                cisco-ios-xr:routes 88.88.88.88/32 tunnel-te1111 {
+                                }
+                            }
+                         }
+                     }
+                 }
+             }
+         }
+     }
+ }

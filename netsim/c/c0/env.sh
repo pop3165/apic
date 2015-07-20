@@ -1,0 +1,12 @@
+export CONFD_IPC_PORT=5010
+export NETCONF_SSH_PORT=12022
+export NETCONF_TCP_PORT=13022
+export CLI_SSH_PORT=10022
+export SNMP_PORT=11022
+export NAME=c0
+export COUNTER=0
+export CONFD=${NCS_DIR}/netsim/confd/bin/confd
+export CONFDC=${NCS_DIR}/netsim/confd/bin/confdc
+export CONFD_DIR=${NCS_DIR}/netsim/confd
+export PATH=${NCS_DIR}/netsim/confd/bin:/Users/fan/Documents/NCS-Workspace/ncs3.4/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users//fan/Documents/NCS-Workspace/ncs3.2/bin
+export PACKAGE_NETSIM_DIR=../../../../ncs3.4/packages/neds/cisco-ios/netsim

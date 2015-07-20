@@ -1,0 +1,20 @@
+<ncs-package xmlns="http://tail-f.com/ns/ncs-packages">
+  <name>cisco-apicdc</name>
+  <package-version>3.0.0.4</package-version>
+  <description>NED package for Cisco APIC DC</description>
+  <ncs-min-version>3.3.2</ncs-min-version>
+  <ncs-min-version>3.4</ncs-min-version>
+
+  <component>
+    <name>cisco-apicdc</name>
+    <ned>
+      <generic>
+        <ned-id xmlns:n="http://tail-f.com/ned/ciscoapicdc">n:cisco-apicdc-id</ned-id>
+        <java-class-name>com.tailf.packages.ned.ciscoApicdc.CiscoApicdcNed</java-class-name>
+      </generic>
+      <device>
+        <vendor>Cisco</vendor>
+      </device>
+    </ned>
+  </component>
+</ncs-package>

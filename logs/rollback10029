@@ -1,0 +1,12 @@
+# Created by: admin
+# Date: 2015-05-27 13:50:39
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10029
+
+ncs:java-vm {
+    delete:
+    ncs:auto-start false;
+}

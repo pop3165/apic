@@ -1,0 +1,22 @@
+<ncs-pkg-build xmlns='http://tail-f.com/ns/ncs-pkg-build'>
+    <date>2015-05-04 19:37:56</date>
+    <file>ncs-3.4.1_HEAD-cisco-ios-3.0.tar.gz</file>
+    <type>example</type>
+    <arch>linux.x86_64</arch>
+    <java>compiled Java class data, version 50.0 (Java 1.6)</java>
+    <package>
+        <name>cisco-ios</name>
+        <version>3.0</version>
+        <ref>3.0</ref>
+        <sha1>fef9e2d</sha1>
+    </package>
+    <ncs>
+        <version>3.4.1_HEAD</version>
+        <sha1>dd6edab</sha1>
+    </ncs>
+    <dev-support>
+        <version>1.0</version>
+        <branch>e3afe98</branch>
+        <sha1>e3afe98</sha1>
+    </dev-support>
+</ncs-pkg-build>

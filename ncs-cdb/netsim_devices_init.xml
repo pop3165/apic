@@ -1,0 +1,62 @@
+<devices xmlns="http://tail-f.com/ns/ncs">
+   <device>
+     <name>c0</name>
+     <address>127.0.0.1</address>
+     <port>10022</port>
+     <ssh>
+       <host-key>
+         <algorithm>ssh-dss</algorithm>
+         <key-data>ssh-dss AAAAB3NzaC1kc3MAAACBAJA5OFOBsqktxoIFZvN94XN8QLD0K2N/ELguLP2jAe4RJOjqg/wRWBPmBZ+Zb9wF58XM7nl+LdohZyq+UcpixCSkoAAxS5SPUdxKSZuOaDsNsWZpH3y0owxG4KbeiZcenZd9jZ6EMqDI/BSEaiDZObhcvT/Ffcuyp+5Xj0HGLVAhAAAAFQDPnVwp7VE3MMgIWGiiY/bn4+AIFQAAAIA/HVboo+e+nti4N4dGPbjlUOXpwYNZVgpi8Dvw6H1yl3uP8ht9I09zeytAZXL12UmKQS+a0+GjoqSmsYe2PSa7yQNQYVISGLI/xtV9oVx+5Z0FYovHo/UjZrJELQ5IbnVZgyccWJFRV1H2uQVaMn+tDtzTXldxczvga0WE7f8wTQAAAIAriZblv++9pDeyM71tDq9Phqlve13sKc6nngI0ONDadkRsHRoYUwJUWE4duYzTUY1Jl1ip+5qs7U+7Aji40lSf54DRHRKQSjbgEaEUAlpe2+3QXlLvB9V5W8+30cLlW46OCEz9jk6KJvoVR+T7lFyiJaAFV0513KQpgKlrwwFzUw== fan@FYANG2-M-L01D</key-data>
+       </host-key>
+     </ssh>
+     <state>
+       <admin-state>unlocked</admin-state>
+     </state>
+     <authgroup>default</authgroup>
+     <device-type>
+       <cli>
+         <ned-id xmlns:ios-id="urn:ios-id">ios-id:cisco-ios</ned-id>
+       </cli>
+     </device-type>
+   </device>
+   <device>
+     <name>c1</name>
+     <address>127.0.0.1</address>
+     <port>10023</port>
+     <ssh>
+       <host-key>
+         <algorithm>ssh-dss</algorithm>
+         <key-data>ssh-dss AAAAB3NzaC1kc3MAAACBAJA5OFOBsqktxoIFZvN94XN8QLD0K2N/ELguLP2jAe4RJOjqg/wRWBPmBZ+Zb9wF58XM7nl+LdohZyq+UcpixCSkoAAxS5SPUdxKSZuOaDsNsWZpH3y0owxG4KbeiZcenZd9jZ6EMqDI/BSEaiDZObhcvT/Ffcuyp+5Xj0HGLVAhAAAAFQDPnVwp7VE3MMgIWGiiY/bn4+AIFQAAAIA/HVboo+e+nti4N4dGPbjlUOXpwYNZVgpi8Dvw6H1yl3uP8ht9I09zeytAZXL12UmKQS+a0+GjoqSmsYe2PSa7yQNQYVISGLI/xtV9oVx+5Z0FYovHo/UjZrJELQ5IbnVZgyccWJFRV1H2uQVaMn+tDtzTXldxczvga0WE7f8wTQAAAIAriZblv++9pDeyM71tDq9Phqlve13sKc6nngI0ONDadkRsHRoYUwJUWE4duYzTUY1Jl1ip+5qs7U+7Aji40lSf54DRHRKQSjbgEaEUAlpe2+3QXlLvB9V5W8+30cLlW46OCEz9jk6KJvoVR+T7lFyiJaAFV0513KQpgKlrwwFzUw== fan@FYANG2-M-L01D</key-data>
+       </host-key>
+     </ssh>
+     <state>
+       <admin-state>unlocked</admin-state>
+     </state>
+     <authgroup>default</authgroup>
+     <device-type>
+       <cli>
+         <ned-id xmlns:ios-id="urn:ios-id">ios-id:cisco-ios</ned-id>
+       </cli>
+     </device-type>
+   </device>
+   <device>
+     <name>c2</name>
+     <address>127.0.0.1</address>
+     <port>10024</port>
+     <ssh>
+       <host-key>
+         <algorithm>ssh-dss</algorithm>
+         <key-data>ssh-dss AAAAB3NzaC1kc3MAAACBAJA5OFOBsqktxoIFZvN94XN8QLD0K2N/ELguLP2jAe4RJOjqg/wRWBPmBZ+Zb9wF58XM7nl+LdohZyq+UcpixCSkoAAxS5SPUdxKSZuOaDsNsWZpH3y0owxG4KbeiZcenZd9jZ6EMqDI/BSEaiDZObhcvT/Ffcuyp+5Xj0HGLVAhAAAAFQDPnVwp7VE3MMgIWGiiY/bn4+AIFQAAAIA/HVboo+e+nti4N4dGPbjlUOXpwYNZVgpi8Dvw6H1yl3uP8ht9I09zeytAZXL12UmKQS+a0+GjoqSmsYe2PSa7yQNQYVISGLI/xtV9oVx+5Z0FYovHo/UjZrJELQ5IbnVZgyccWJFRV1H2uQVaMn+tDtzTXldxczvga0WE7f8wTQAAAIAriZblv++9pDeyM71tDq9Phqlve13sKc6nngI0ONDadkRsHRoYUwJUWE4duYzTUY1Jl1ip+5qs7U+7Aji40lSf54DRHRKQSjbgEaEUAlpe2+3QXlLvB9V5W8+30cLlW46OCEz9jk6KJvoVR+T7lFyiJaAFV0513KQpgKlrwwFzUw== fan@FYANG2-M-L01D</key-data>
+       </host-key>
+     </ssh>
+     <state>
+       <admin-state>unlocked</admin-state>
+     </state>
+     <authgroup>default</authgroup>
+     <device-type>
+       <cli>
+         <ned-id xmlns:ios-id="urn:ios-id">ios-id:cisco-ios</ned-id>
+       </cli>
+     </device-type>
+   </device>
+</devices>

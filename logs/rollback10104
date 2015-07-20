@@ -1,0 +1,40 @@
+# Created by: admin
+# Date: 2015-07-17 11:02:48
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10104
+
+ncs:devices {
+    ncs:device odlc {
+        ncs:config {
+            odl:pcep-topology pcep-topology {
+                delete:
+                odl:node pcc://110.0.0.1;
+                delete:
+                odl:node pcc://110.0.0.2;
+                delete:
+                odl:node pcc://110.0.0.3;
+                odl:node pcc://192.168.0.1 {
+                    odl:path-computation-client {
+                        odl:ip-address 192.168.0.1;
+                        odl:state-sync synchronized;
+                    }
+                }
+                odl:node pcc://192.168.0.2 {
+                    odl:path-computation-client {
+                        odl:ip-address 192.168.0.2;
+                        odl:state-sync synchronized;
+                    }
+                }
+                odl:node pcc://192.168.0.3 {
+                    odl:path-computation-client {
+                        odl:ip-address 192.168.0.3;
+                        odl:state-sync synchronized;
+                    }
+                }
+            }
+         }
+     }
+ }

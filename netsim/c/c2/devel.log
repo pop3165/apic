@@ -1,0 +1,8 @@
+<INFO> 25-May-2015::14:52:43.869 FYANG2-M-L01D confd[20699]: devel-cdb init files found in ./cdb: aaa_init.xml, ios.xml
+<INFO> 25-May-2015::14:52:43.933 FYANG2-M-L01D confd[20699]: devel-cdb Compacted CDB journal file: 3 ms (167 nodes in memory, disk size 2.10 KiB -> 2.06 KiB)
+<INFO> 25-May-2015::19:40:06.257 FYANG2-M-L01D confd[4912]: devel-cdb Loaded oper data from ./cdb/O.cdb (4 bytes data in 0.000s)
+<INFO> 25-May-2015::19:40:06.276 FYANG2-M-L01D confd[4912]: devel-cdb Loaded schema file: ./cdb/C.cdb (v3 from 5.4.1)
+<INFO> 25-May-2015::19:40:06.278 FYANG2-M-L01D confd[4912]: devel-cdb Loaded configuration from ./cdb/A.cdb (2.06 KiB data, 1 transaction in 0.001s)
+<INFO> 26-May-2015::16:01:57.960 FYANG2-M-L01D confd[49467]: devel-cdb Loaded oper data from ./cdb/O.cdb (4 bytes data in 0.000s)
+<INFO> 26-May-2015::16:01:57.978 FYANG2-M-L01D confd[49467]: devel-cdb Loaded schema file: ./cdb/C.cdb (v3 from 5.4.1)
+<INFO> 26-May-2015::16:01:57.979 FYANG2-M-L01D confd[49467]: devel-cdb Loaded configuration from ./cdb/A.cdb (2.06 KiB data, 1 transaction in 0.000s)

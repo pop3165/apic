@@ -1,0 +1,22 @@
+<ncs-pkg-build xmlns='http://tail-f.com/ns/ncs-pkg-build'>
+    <date>2015-07-07 13:17:01</date>
+    <file>ncs-3.4.1-cisco-apicdc-3.0.0.4_a442267.tar.gz</file>
+    <type>release</type>
+    <arch>linux.x86_64</arch>
+    <java>compiled Java class data, version 50.0 (Java 1.6)</java>
+    <package>
+        <name>cisco-apicdc</name>
+        <version>3.0.0.4_a442267</version>
+        <ref>origin/YuanchaoSu</ref>
+        <sha1>a442267</sha1>
+    </package>
+    <ncs>
+        <version>3.4.1</version>
+        <sha1></sha1>
+    </ncs>
+    <dev-support>
+        <version>0.99</version>
+        <branch>master</branch>
+        <sha1>8252d61</sha1>
+    </dev-support>
+</ncs-pkg-build>

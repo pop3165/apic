@@ -1,0 +1,34 @@
+# Created by: admin
+# Date: 2015-07-17 19:59:47
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10144
+
+ncs:devices {
+    ncs:device apic {
+        ncs:config {
+            cisco-apicdc:apic {
+                cisco-apicdc:fvTenant j3 {
+                    cisco-apicdc:fvAp VM_DB {
+                        delete:
+                        cisco-apicdc:fvAEPg dd;
+                    }
+                    delete:
+                    cisco-apicdc:fvBD Web;
+                }
+                cisco-apicdc:fvTenant win_cisco {
+                    cisco-apicdc:fvAp ap1 {
+                        cisco-apicdc:fvAEPg ep1 {
+                            cisco-apicdc:prio level1;
+                        }
+                        cisco-apicdc:fvAEPg epg2 {
+                            cisco-apicdc:prio unspecified;
+                        }
+                     }
+                 }
+             }
+         }
+     }
+ }

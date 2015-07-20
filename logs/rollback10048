@@ -1,0 +1,18 @@
+# Created by: admin
+# Date: 2015-07-04 11:00:46
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10048
+
+ncs:devices {
+    ncs:device api {
+        ncs:ssh {
+            delete:
+            ncs:host-key ssh-dss;
+            delete:
+            ncs:host-key ssh-rsa;
+        }
+     }
+ }

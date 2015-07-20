@@ -1,0 +1,18 @@
+# Created by: admin
+# Date: 2015-05-26 16:02:22
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10004
+
+ncs:devices {
+    ncs:device apic {
+        ncs:config {
+            cisco-apicdc:apic {
+                delete:
+                cisco-apicdc:fvTenant ttt;
+            }
+         }
+     }
+ }

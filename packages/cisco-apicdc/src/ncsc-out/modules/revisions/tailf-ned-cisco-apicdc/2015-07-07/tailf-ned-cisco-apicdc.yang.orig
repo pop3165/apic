@@ -1,0 +1,1587 @@
+module tailf-ned-cisco-apicdc {
+
+  namespace "http://tail-f.com/ned/cisco-apic";
+  prefix cisco-apicdc;
+
+  import ietf-inet-types {
+    prefix inet;
+  }
+
+  import ietf-yang-types {
+    prefix yang;
+  }
+
+  import tailf-ncs-ned {
+    prefix ned;
+  }
+
+  import tailf-common {
+    prefix tailf;
+  }
+
+  revision 2015-07-07 {
+    description
+    "3.0.0.4.
+     Changed type of l3extRsPathL3OutAtt/addr to string.
+     Disabled check-sync function";
+  }
+
+  revision 2015-06-18 {
+    description
+    "3.0.0.3.
+     Added L2ExtOut to yang model.";
+  }
+
+  revision 2015-05-04 {
+    description
+    "3.0.0.2.
+    Updated for NCS 3.4.";
+  }
+
+  revision 2015-04-09 {
+    description
+    "3.0.0.1.
+     Enhanced yang model.
+     Using Apache httpClient for http access.
+     Added check-sync.";
+  }
+
+  revision 2015-03-16 {
+    description "3.0.0.0.
+                 Initial revision.";
+  }
+
+  identity cisco-apicdc-id {
+    base ned:generic-ned-id;
+  }
+
+  typedef enum-lcOwn {
+    type enumeration {
+      enum local;
+      enum policy;
+      enum replica;
+      enum resolveOnBehalf;
+    }
+  }
+
+  typedef enum-prio {
+    type enumeration {
+      enum defaultValue;
+      enum unspecified;
+      enum level3;
+      enum level2;
+      enum level1;
+    }
+  }
+
+  typedef enum-configSt {
+    type enumeration {
+      enum not-applied;
+      enum applying;
+      enum applied;
+      enum failed-to-apply;
+      enum temp-failed-to-apply;
+    }
+  }
+
+  typedef enum-triggerSt {
+    type enumeration {
+      enum not_triggerable;
+      enum triggerable;
+    }
+  }
+
+  typedef enum-matchT {
+    type enumeration {
+      enum All;
+      enum AtleastOne;
+      enum defaultValue;
+      enum AtmostOne;
+      enum None;
+    }
+  }
+
+  typedef enum-unkMcastAct {
+    type enumeration {
+      enum defaultValue;
+      enum flood;
+      enum opt-flood;
+    }
+  }
+
+  typedef enum-unkMacUcastAct {
+    type enumeration {
+      enum flood;
+      enum defaultValue;
+      enum proxy;
+    }
+  }
+
+  typedef enum-yes-no {
+    type enumeration {
+      enum defaultValue;
+      enum no;
+      enum yes;
+    }
+  }
+
+  typedef enum-mtu {
+    type enumeration {
+      enum inherit;
+    }
+  }
+
+  typedef enum-id {
+    type enumeration {
+      enum implicit;
+      enum default;
+    }
+  }
+
+  typedef enum-scope {
+    type enumeration {
+      enum public;
+      enum private;
+      enum shared;
+    }
+  }
+
+  typedef enum-pcEnfPref {
+    type enumeration {
+      enum defaultValue;
+      enum enforced;
+      enum unenforced;
+    }
+  }
+
+  typedef enum-knwMcastAct {
+    type enumeration {
+      enum deny;
+      enum defaultValue;
+      enum permit;
+    }
+  }
+
+  typedef enum-targetDscp {
+    type enumeration {
+      enum CS1;
+      enum AF11;
+      enum AF12;
+      enum AF13;
+      enum CS2;
+      enum AF21;
+      enum AF22;
+      enum AF23;
+      enum CS3;
+      enum AF31;
+      enum AF32;
+      enum AF33;
+      enum CS4;
+      enum AF41;
+      enum AF42;
+      enum AF43;
+      enum CS5;
+      enum VA;
+      enum EF;
+      enum CS6;
+      enum defaultValue;
+      enum unspecified;
+    }
+  }
+  typedef enum-colours{
+    type enumeration {
+      enum black;
+      enum navy;
+      enum dark-blue;
+      enum medium-blue;
+      enum blue;
+      enum dark-green;
+      enum green;
+      enum teal;
+      enum dark-cyan;
+      enum deep-sky-blue;
+      enum dark-turquoise;
+      enum medium-spring-green;
+      enum lime;
+      enum spring-green;
+      enum aqua;
+      enum cyan;
+      enum midnight-blue;
+      enum dodger-blue;
+      enum light-sea-green;
+      enum forest-green;
+      enum sea-green;
+      enum dark-slate-gray;
+      enum lime-green;
+      enum medium-sea-green;
+      enum turquoise;
+      enum royal-blue;
+      enum steel-blue;
+      enum dark-slate-blue;
+      enum medium-turquoise;
+      enum indigo;
+      enum dark-olive-green;
+      enum cadet-blue;
+      enum cornflower-blue;
+      enum medium-aquamarine;
+      enum dim-gray;
+      enum slate-blue;
+      enum olive-drab;
+      enum slate-gray;
+      enum light-slate-gray;
+      enum medium-slate-blue;
+      enum lawn-green;
+      enum chartreuse;
+      enum aquamarine;
+      enum maroon;
+      enum purple;
+      enum olive;
+      enum gray;
+      enum sky-blue;
+      enum light-sky-blue;
+      enum blue-violet;
+      enum dark-red;
+      enum dark-magenta;
+      enum saddle-brown;
+      enum dark-sea-green;
+      enum light-green;
+      enum medium-purple;
+      enum dark-violet;
+      enum pale-green;
+      enum dark-orchid;
+      enum yellow-green;
+      enum sienna;
+      enum brown;
+      enum dark-gray;
+      enum light-blue;
+      enum green-yellow;
+      enum pale-turquoise;
+      enum light-steel-blue;
+      enum powder-blue;
+      enum fire-brick;
+      enum dark-goldenrod;
+      enum medium-orchid;
+      enum rosy-brown;
+      enum dark-khaki;
+      enum silver;
+      enum medium-violet-red;
+      enum indian-red;
+      enum peru;
+      enum chocolate;
+      enum tan;
+      enum light-gray;
+      enum thistle;
+      enum orchid;
+      enum goldenrod;
+      enum pale-violet-red;
+      enum crimson;
+      enum gainsboro;
+      enum plum;
+      enum burlywood;
+      enum light-cyan;
+      enum lavender;
+      enum dark-salmon;
+      enum violet;
+      enum pale-goldenrod;
+      enum light-coral;
+      enum khaki;
+      enum alice-blue;
+      enum honeydew;
+      enum azure;
+      enum sandy-brown;
+      enum wheat;
+      enum beige;
+      enum white-smoke;
+      enum mint-cream;
+      enum ghost-white;
+      enum salmon;
+      enum antique-white;
+      enum linen;
+      enum light-goldenrod-yellow;
+      enum old-lace;
+      enum red;
+      enum fuchsia;
+      enum magenta;
+      enum deep-pink;
+      enum orange-red;
+      enum tomato;
+      enum hot-pink;
+      enum coral;
+      enum dark-orange;
+      enum light-salmon;
+      enum orange;
+      enum light-pink;
+      enum pink;
+      enum gold;
+      enum peachpuff;
+      enum navajo-white;
+      enum moccasin;
+      enum bisque;
+      enum misty-rose;
+      enum blanched-almond;
+      enum papaya-whip;
+      enum lavender-blush;
+      enum seashell;
+      enum cornsilk;
+      enum lemon-chiffon;
+      enum floral-white;
+      enum snow;
+      enum yellow;
+      enum light-yellow;
+      enum ivory;
+      enum white;
+    }
+  }
+  typedef enum-instrImedcy {
+    type enumeration {
+      enum immediate;
+      enum defaultValue;
+      enum lazy;
+      enum pre-provision;
+    }
+  }
+  typedef enum-mode {
+    type enumeration {
+      enum defaultValue;
+      enum regular;
+      enum native;
+      enum untagged;
+    }
+  }
+  typedef union-from-to-port {
+    type union {
+      type uint32 {
+        range "0..65535";
+      }
+      type enumeration {
+        enum defaultValue;
+        enum unspecified;
+        enum ftpData;
+        enum smtp;
+        enum dns;
+        enum http;
+        enum pop3;
+        enum https;
+        enum rtsp;
+      }
+    }
+  }
+  typedef name-t {
+    type string {
+//      pattern '[\-\.:_a-zA-Z0-9]';
+      length "1..64";
+    }
+  }
+  typedef string-128-t {
+    type string {
+//      pattern '[ !#$%&amp;\(\)\*\+,\-\./:;\?@\\_\{\|\}~a-zA-Z0-9]';
+      length "0..128";
+    }
+  }
+  typedef string-64-t {
+    type string {
+//      pattern '[ !#$%&amp;\(\)\*\+,\-\./:;\?@\\_\{\|\}~a-zA-Z0-9]';
+      length "0..64";
+    }
+  }
+
+  typedef enum-ctrl {
+    type enumeration {
+      enum defaultValue;
+      enum susp-individual;
+      enum graceful-conv;
+      enum load-defer;
+      enum fast-sel-hot-stdby;
+    }
+  }
+
+  grouping descr-grp {
+    leaf descr {
+      tailf:info "Specifies a description of the policy definition root.";
+      type string-128-t;
+    }
+  }
+  grouping owner-grp {
+    leaf ownerKey {
+      tailf:info "The key for enabling clients to own their data for
+                   entity correlation.";
+      type string-128-t;
+    }
+    leaf ownerTag {
+      tailf:info "A tag for enabling clients to add their own data.
+                   For example, to indicate who created this object.";
+    type string-64-t;
+    }
+  }
+
+  grouping vzSubj-grp {
+    list vzSubj {
+      tailf:info "A subject, which is a sub-application running behind an
+                  endpoint group (for example, an Exchange server). A subject
+                  is parented by the contract, which can encapsulate multiple
+                  subjects. An endpoint group associated to a contract is
+                  providing one or more subjects or is communicating with the
+                  subject as a peer entity. An endpoint group always
+                  associates with a subject and defines rules under the
+                  association for consuming/providing/peer-to-peer
+                  communications to that subject.";
+      key name;
+      leaf name {
+        tailf:info "";
+        type name-t;
+      }
+      leaf consMatchT {
+        tailf:info "Represents the subject match criteria across consumers";
+        type string;
+      }
+      leaf prio {
+        tailf:info "The priority class identifier.";
+        type enum-prio;
+        default unspecified;
+      }
+      leaf provMatchT {
+        tailf:info "Represents the subject match criteria across providers ";
+        type enum-matchT;
+      }
+      leaf revFltPorts {
+        type enum-yes-no;
+      }
+      leaf descr {
+        tailf:info "Specifies a description of the policy definition root.";
+          type string-128-t;
+      }
+      //****************
+      //vzRsSubjFiltAtt
+      //****************
+      list vzRsSubjFiltAtt {
+        key tnVzFilterName;
+        leaf tnVzFilterName {
+          type string {
+            length "1..64";
+          }
+        }
+      }
+    }
+  }
+  container apic {
+    //*****************
+    //fv:Tenant
+    //*****************
+
+    list fvTenant {
+      tailf:info "A policy owner in the virtual fabric. A tenant can be
+                   either a private or a shared entity. For example, you
+                   can create a tenant with contexts and bridge domains
+                   shared by other tenants. A shared type of tenant is
+                   typically named common, default, or infra.";
+      key "name";
+      leaf name {
+        tailf:info "The name of the tenant.";
+        type name-t;
+      }
+      uses descr-grp;
+      uses owner-grp;
+
+      //*****************
+      //fv:Ap
+      //*****************
+      list fvAp {
+      tailf:info "The application profile, which is a set of requirements
+                   that an application instance has on the virtualizable fabric.
+                   The policy regulates connectivity and visibility among
+                   endpoints within the scope of the policy. ";
+        key "name";
+        leaf name {
+          tailf:info "The name of the application profile.";
+          type name-t;
+        }
+        leaf prio {
+          tailf:info " The priority class identifier.";
+          type enum-prio;
+          default unspecified;
+        }
+        uses descr-grp;
+        uses owner-grp;
+        //****************
+        //fv:AEPg
+        //****************
+        list fvAEPg {
+          key "name";
+          leaf name {
+            tailf:info "The name for the endpoint group.";
+            type name-t;
+          }
+          leaf prio {
+            tailf:info "The QoS priority class identifier.";
+            type enum-prio;
+            default unspecified;
+          }
+          leaf matchT {
+            tailf:info "The provider label match criteria.";
+            type enum-matchT;
+            default AtleastOne;
+          }
+          //****************
+          //fv:RsBd
+          //****************
+          list fvRsBd {
+            tailf:info "A source relation to the bridge domain associated to
+                         this endpoint group. This is an internal object.";
+            key tnFvBDName;
+            leaf tnFvBDName {
+              tailf:info "The name of the bridge domain associated with this
+                          object.";
+              tailf:non-strict-leafref {
+                path "../../../../fvBD/name";
+              }
+              type name-t;
+            }
+          }
+          //****************
+          //fv:RsPathAtt
+          //****************
+          list fvRsPathAtt {
+            tailf:info "this object is used for creation of static association
+                        with a Path. Existence of this implies that the
+                        corresponding set of policies will be resolved into the
+                        node to which the relationship points. ";
+            key tDn;
+            leaf tDn {
+              tailf:info "";
+              type string;
+            }
+            leaf encap {
+              tailf:info "";
+              type string;
+            }
+            leaf instrImedcy {
+              type enum-instrImedcy;
+            }
+            leaf mode {
+              type enum-mode;
+            }
+          }
+          //****************
+          //fv:CEp
+          //****************
+          list fvCEp {
+            tailf:info "A client endpoint attaching to the network";
+            key name;
+            leaf name {
+              type name-t;
+            }
+            leaf id {
+              type uint64;
+            }
+          }
+          //****************
+          //fv:RsCons
+          //****************
+          list fvRsCons {
+            key tnVzBrCPName;
+            leaf tnVzBrCPName {
+              tailf:non-strict-leafref {
+                path "../../../../vzBrCP/name";
+              }
+              type name-t;
+            }
+            leaf prio {
+              type enum-prio;
+              default unspecified;
+            }
+          }
+          //****************
+          //fv:RsProv
+          //****************
+          list fvRsProv {
+            key tnVzBrCPName;
+            leaf tnVzBrCPName {
+              tailf:non-strict-leafref {
+                path "../../../../vzBrCP/name";
+              }
+              type name-t;
+            }
+            leaf matchT {
+              type enum-matchT;
+              default AtleastOne;
+            }
+            leaf prio {
+              type enum-prio;
+              default unspecified;
+            }
+          }
+          //****************
+          //fv:RsDomAtt
+          //****************
+          list fvRsDomAtt {
+            tailf:info "A source relation to an infrastructure domain profile
+                        associated with application endpoint groups. The domain
+                        profile can be either a VMM domain profile or a physical
+                        domain profile.";
+            key tDn;
+            leaf tDn {
+              tailf:info "";
+              type string;
+            }
+            leaf instrImedcy {
+              type enum-instrImedcy;
+            }
+            leaf resImedcy {
+              type enum-instrImedcy;
+            }
+          }
+        }
+      }
+      //****************
+      //fv:BD
+      //****************
+      list fvBD {
+        tailf:info "A private layer 2 bridge domain (BD), which consists of a
+                     set of physical or virtual ports. Each bridge domain must
+                     be linked to a context and have at least one subnet.";
+        key name;
+        leaf name {
+          tailf:info "Overrides:pol:Obj:name | naming:NamedObject:name
+                       The bridge domain name.";
+          type name-t;
+        }
+        uses descr-grp;
+        uses owner-grp;
+        leaf unkMcastAct {
+          tailf:info "The parameter used by the node (i.e. a leaf) for
+                       forwarding data for an unknown multicast destination.";
+          type enum-unkMcastAct;
+          default flood;
+        }
+        leaf unkMacUcastAct {
+          tailf:info " The forwarding method for unknown layer 2 destinations.";
+          type enum-unkMacUcastAct;
+          default proxy;
+        }
+        leaf arpFlood {
+          tailf:info "A property to specify whether ARP flooding is enabled.
+                       If flooding is disabled, unicast routing will be
+                       performed on the target IP address.";
+          type enum-yes-no;
+          default no;
+        }
+        leaf mac {
+          tailf:info "The MAC address of the bridge domain (BD) or switched
+                       virtual interface (SVI). Every BD by default takes the
+                       fabric wide default mac address. If user wants then he
+                       can override that address and with a different one By
+                       default the BD will take a 00:22:BD:F8:19:FF mac
+                       address.";
+          type yang:mac-address;
+          default "00:22:bd:f8:19:ff";
+        }
+        leaf unicastRoute {
+          tailf:info "The forwarding method based on predefined forwarding
+                       criteria (IP or MAC address).";
+          type enum-yes-no;
+          default yes;
+        }
+        leaf multiDstPktAct {
+          type enumeration {
+            enum bd-flood;
+            enum encap-flood;
+          }
+        }
+        //****************
+        //fv:RsCtx
+        //****************
+        list fvRsCtx {
+          key tnFvCtxName;
+          leaf tnFvCtxName {
+            type leafref {
+              path "../../../fvCtx/name";
+            }
+          }
+        }
+        //****************
+        //fv:Subnet
+        //****************
+        list fvSubnet {
+          tailf:info "A subnet, which represents routes that will be exported.
+                       While a context defines a unique IP address space, that
+                       address space can consist of multiple subnets. These
+                       subnets are defined per bridge domain. A bridge domain
+                       can contain multiple subnets, but a subnet is contained
+                       within a single bridge domain.";
+          key ip;
+          leaf name {
+            tailf:info "Name of the subnet";
+            type name-t;
+          }
+          leaf descr {
+            tailf:info " Specifies the description of a policy component.";
+            type string-128-t;
+          }
+          leaf ip {
+            tailf:info "The IP address and mask of the default gateway.";
+            type string; //Check type!
+          }
+          leaf ctrl {
+            tailf:info "The subnet control state. The control can be specific
+                        protocols applied to the subnet such as IGMP Snooping.";
+            type string; //bitmask8
+          }
+          //****************
+          //fv:RsCtx
+          //****************
+          list fvRsCtx {
+            key tnFvCtxName;
+            leaf tnFvCtxName {
+              type leafref {
+                path "../../../../fvCtx/name";
+              }
+            }
+          }
+        }
+      }
+      //****************
+      //vz:Filter
+      //****************
+      list vzFilter {
+        tailf:info "A filter policy, which is a group of resolvable filter
+                     entries. Each filter entry is a combination of network
+                     traffic classification properties.";
+        key name;
+        leaf name {
+          tailf:info "The name of a filter policy. This name can be up to 64
+                       alphanumeric characters. Note that you cannot change
+                       this name after the object has been saved.";
+          type name-t;
+        }
+        uses descr-grp;
+        uses owner-grp;
+        //****************
+        //vz:Entry
+        //****************
+        list vzEntry {
+          key name;
+          leaf name {
+            type name-t;
+          }
+          leaf applyToFrag {
+            tailf:info "When flag is true, apply this entry rule for all
+                        fragments. When false apply for initial fragment only";
+            type enum-yes-no;
+          }
+          leaf arpOpc {
+            type enumeration {
+               enum defaultValue;
+               enum unspecified;
+               enum req;
+               enum reply;
+            }
+          }
+          leaf dFromPort {
+            type union-from-to-port;
+          }
+          leaf dToPort {
+            type union-from-to-port;
+          }
+          leaf etherT {
+            type enumeration {
+               enum defaultValue;
+               enum unspecified;
+               enum trill;
+               enum arp;
+               enum mpls_ucast;
+               enum mac_security;
+               enum fcoe;
+               enum ip;
+            }
+          }
+          leaf prot {
+            type union {
+              type int32 {
+                range "0..255";
+              }
+              type enumeration {
+                enum defaultValue;
+                enum unspecified;
+                enum icmp;
+                enum igmp;
+                enum tcp;
+                enum egp;
+                enum igp;
+                enum udp;
+                enum eigrp;
+                enum ospfigp;
+                enum pim;
+                enum l2tp;
+              }
+            }
+          }
+          leaf sFromPort {
+            type union-from-to-port;
+          }
+          leaf sToPort {
+            type union-from-to-port;
+          }
+          leaf tcpRules {
+            type enumeration {
+              enum defaultValue;
+              enum unspecified;
+              enum est;
+              enum syn;
+              enum ack;
+              enum fin;
+              enum rst;
+            }
+          }
+          leaf descr {
+            tailf:info "Specifies a description of the policy definition root.";
+            type string-128-t;
+          }
+        }
+      }
+      //****************
+      //fv:Ctx
+      //****************
+      list fvCtx {
+        tailf:info "The private layer 3 network context that belongs to a
+                     specific tenant or is shared.";
+        key name;
+        leaf name {
+          tailf:info "A name for the network context.";
+          type name-t;
+        }
+        uses descr-grp;
+        uses owner-grp;
+        leaf pcEnfPref {
+          tailf:info "";
+          type enum-pcEnfPref;
+        }
+        leaf knwMcastAct {
+          tailf:info "";
+          type enum-knwMcastAct;
+        }
+      }
+      //****************
+      //vz:vzBrCP
+      //****************
+      list vzBrCP {
+        tailf:info "A binary contract profile, which is a service contract that
+                    can exist between two or more participating peer entities.
+                    For example, two applications running and talking to each
+                    other behind different endpoint groups or between providers
+                    and consumers, such as a DNS contract between a provider
+                    entity and a consumer entity. Note that if two tenants are
+                    participating in one contract they should not be able to see
+                    each other and their endpoint groups should not be able to
+                    communicate.";
+        key name;
+        leaf name {
+          type name-t;
+        }
+        leaf prio {
+          type enum-prio;
+          default unspecified;
+        }
+        leaf scope {
+          tailf:info "Represents the scope of this contract. If the scope is set
+                      as \"application-profile\", the epg can only
+                      communicate with epgs in the same application-profile ";
+          type enumeration {
+            enum application-profile;
+            enum tenant;
+            enum context;
+            enum defaultValue;
+            enum global;
+          }
+        }
+        uses descr-grp;
+        uses owner-grp;
+        //****************
+        //vz:Subj
+        //****************
+        uses vzSubj-grp;
+      }
+      //****************
+      //vz:Subj
+      //****************
+      uses vzSubj-grp;
+      //********************************************
+      //l3extOut
+      //********************************************
+      list l3extOut {
+        tailf:info "The L3 outside policy, which controls connectivity to the
+                    outside. ";
+        key name;
+        leaf name {
+          type name-t;
+        }
+        leaf targetDscp {
+          tailf:info "target dscp value. This supersedes InstP value when InstP
+                      is used because of vzAny.";
+          type enum-targetDscp;
+        }
+        uses descr-grp;
+        uses owner-grp;
+        //********************************************
+        //l3extLNodeP
+        //********************************************
+        list l3extLNodeP {
+          key name;
+          leaf name {
+            tailf:info "";
+            type name-t;
+          }
+          leaf targetDscp {
+            type enum-targetDscp;
+          }
+          leaf tag {
+            type enum-colours;
+          }
+          uses descr-grp;
+          uses owner-grp;
+          //********************************************
+          //l3extLIfP
+          //********************************************
+          list l3extLIfP {
+            key name;
+            leaf name {
+              tailf:info "The logical interface profile, which defines a common
+                          configuration that can be applied to one or more
+                          interfaces. ";
+              type name-t;
+            }
+            leaf tag {
+              type enum-colours;
+            }
+            uses descr-grp;
+            uses owner-grp;
+            //********************************************
+            //l3extRsPathL3OutAtt
+            //********************************************
+            list l3extRsPathL3OutAtt {
+              tailf:info "This object is used for creation of static
+                          association with a Leaf Host Path. Existence of this
+                          implies that the corresponding set of policies will
+                          be resolved into the node to which the relationship
+                          points.  ";
+              key tDn;
+              leaf tDn {
+                type string;
+              }
+              leaf addr {
+                type string;
+              }
+              leaf baseEncap {
+                type string;
+              }
+              leaf ifInstT {
+                type enumeration {
+                  enum unspecified;
+                  enum sub-interface;
+                  enum l3-port;
+                  enum ext-svi;
+                }
+              }
+              leaf addressMAC {
+                type enumeration {
+                  enum defaultValue;
+                }
+              }
+              leaf mtu {
+                type union {
+                  type uint16;
+                  type enum-mtu;
+                }
+              }
+              leaf targetDscp {
+                type enum-targetDscp;
+              }
+            }
+          }
+        } //l3extLNodeP
+      } //l3extOut
+
+      //********************************************
+      //l2extOut
+      //********************************************
+      list l2extOut {
+        tailf:info "Policy controlling connectivity to outside, like another
+                    fabric or WAN";
+        key name;
+        leaf name {
+          type name-t;
+        }
+
+        //********************************************
+        //l2extRsEBd
+        //********************************************
+        list l2extRsEBd {
+          tailf:info "Represents the Bridge Domain associated to this EPg.";
+          key tnFvBDName;
+          leaf tnFvBDName {
+            type name-t;
+          }
+          leaf encap {
+            type string;
+          }
+        }  //l2extRsEBd
+
+        //********************************************
+        //l2extRsL2DomAtt
+        //********************************************
+        list l2extRsL2DomAtt {
+          tailf:info "Relationship to the outside domain policy.";
+          key tDn;
+          leaf tDn {
+            type string;
+          }
+        }  //l2extRsL2DomAtt
+
+        //********************************************
+        //l2extLNodeP
+        //********************************************
+        list l2extLNodeP {
+          tailf:info "Logical Node Profile";
+          key name;
+          leaf name {
+            type name-t;
+          }
+
+          //********************************************
+          //l2extLIfP
+          //********************************************
+          list l2extLIfP {
+            tailf:info "Logical Interface Profile";
+            key name;
+            leaf name {
+              type name-t;
+            }
+
+            //********************************************
+            //l2extRsPathL2OutAtt
+            //********************************************
+            list l2extRsPathL2OutAtt {
+              tailf:info "Leaf Port. This object is used for creation of
+                          static association with a Leaf Host Path. Existence
+                          of this implies that the corresponding set of
+                          policies will be resolved into the node to which
+                          the relationship points.";
+              key tDn;
+              leaf tDn {
+                type string;
+              }
+            }  //l2extRsPathL2OutAtt
+          }  //l2extLIfP
+
+        }  //l2extLNodeP
+
+        //********************************************
+        //l2extInstP
+        //********************************************
+        list l2extInstP {
+          tailf:info "External Network Instance Profile";
+          key name;
+          leaf name {
+            type name-t;
+          }
+
+          //********************************************
+          //fvRsCons
+          //********************************************
+          list fvRsCons {
+            tailf:info "Contract Consumer. Represents that the EPg is acting
+                        as a consumer in the contract.";
+            key tnVzBrCPName;
+            leaf tnVzBrCPName {
+              tailf:non-strict-leafref {
+                path "../../../../vzBrCP/name";
+              }
+              type name-t;
+            }
+            leaf prio {
+              type enum-prio;
+              default unspecified;
+            }
+          }  //fvRsCons
+        }  //l2extInstP
+      }  //l2extOut
+    }  //fvTenant
+
+    //********************************************
+    //vmmProvP
+    //********************************************
+    list vmmProvP {
+      tailf:info "The VMM provider profile, which stores the policies of VMM
+                 systems from a particular vendor (VMware or Microsoft). This
+                 container is automatically created by the system. ";
+      key vendor;
+      leaf vendor {
+        tailf:info "Shall be one of VMware, defaultValue, Microsoft";
+        type string;
+      }
+      leaf name {
+        type name-t;
+      }
+      uses owner-grp;
+      //********************************************
+      //vmmDomP
+      //********************************************
+      list vmmDomP {
+        tailf:info "The VMM domain profile, which is a policy for grouping VM
+                    controllers with similar networking policy requirements. For
+                    example, the VM controllers can share VLAN or VXLAN space
+                    and application endpoint groups. The APIC communicates with
+                    the controller to publish network configurations such as
+                    port groups that are then applied to the virtual
+                    workloads.";
+        key name;
+        leaf name {
+          type name-t;
+        }
+        leaf enfPref {
+          tailf:info "Switching enforcement preference of the EpGs";
+          type enumeration {
+            enum sw;
+            enum defaultValue;
+            enum hw;
+          }
+          default hw;
+        }
+        leaf mcastAddr {
+          type inet:ip-address;
+          default "0.0.0.0";
+        }
+        leaf mode {
+          type enumeration {
+            enum default;
+            enum defaultValue;
+            enum n1kv;
+          }
+          default default;
+        }
+        uses owner-grp;
+        //********************************************
+        //vmmCtrlrP
+        //********************************************
+        list vmmCtrlrP {
+          tailf:info "VMM Controller Profile specifies how to connect to a
+                      single VM Management Controller that is part of
+                      containing policy enforcement domain. For example, policy
+                      to connect a VMware vCenter that is part a VMM Domain. ";
+          key name;
+          leaf name {
+            type name-t;
+          }
+          leaf dvsVersion {
+            type enumeration {
+              enum defaultValue;
+              enum unmanaged;
+              enum 5.1;
+              enum 5.5;
+            }
+            default unmanaged;
+          }
+          leaf mode {
+            type enumeration {
+              enum default;
+              enum defaultValue;
+              enum n1kv;
+            }
+            default default;
+          }
+          leaf scope {
+            type enumeration {
+              enum unmanaged;
+              enum defaultValue;
+              enum vm;
+              enum iaas;
+              enum network;
+              enum MicrosoftSCVMM;
+            }
+            default vm;
+          }
+          leaf statsMode {
+            type enumeration {
+              enum unknown;
+              enum defaultValue";
+              enum disabled;
+              enum enabled;
+            }
+            default disabled;
+          }
+          leaf hostOrIp {
+            type string {
+              pattern "[a-zA-Z0-9][a-zA-Z0-9_.-]+";
+            }
+          }
+          leaf inventoryTrigSt {
+            type enumeration {
+              enum triggered;
+              enum defaultValue;
+              enum untriggered;
+            }
+          }
+          leaf port {
+            type uint16;
+            default 0;
+          }
+          leaf rootContName {
+            tailf:info "Represents the name of top-level container in the
+                        external controller, which contains Hypervisor, VMs and
+                        Logical Switches. For e.g. it represents the name of
+                        the &apos;Datacenter&apos; for vCenter ";
+            type string {
+              length "0..512";
+            }
+          }
+        }
+      }
+    } //vmmProvP
+    //********************************************
+    //infraInfra
+    //********************************************
+    container infraInfra {
+      tailf:info "Infra represents a policy owner for the tenant infra";
+      uses owner-grp;
+      //********************************************
+      //infraNodeP
+      //********************************************
+      list infraNodeP {
+        tailf:info "Node Profile Node Access Policy: It represents the template
+                    used for deploying node access configuration
+                    (ex. Configuration for connecting hypervisor, Fex,
+                    External network ) ";
+        key name;
+        leaf name {
+          type name-t;
+        }
+        uses descr-grp;
+        uses owner-grp;
+        //********************************************
+        //infraLeafS
+        //********************************************
+        list infraLeafS {
+          tailf:info "Leaf Selector";
+          key "name type";
+          leaf name {
+            type name-t;
+          }
+          leaf type {
+            type enumeration {
+              enum ALL;
+              enum range;
+            }
+          }
+          leaf def {
+            tailf:info "Clients can add their own data for entity correlation";
+            type string-128-t;
+          }
+          uses owner-grp;
+          //********************************************
+          //infraNodeBlk
+          //********************************************
+          list infraNodeBlk {
+            tailf:info "";
+            key name;
+            leaf name {
+              type name-t;
+            }
+            leaf from_ {
+              type uint16 {
+                range "1..16000";
+              }
+            }
+            leaf to_ {
+              type uint16 {
+                range "1..16000";
+              }
+            }
+          }
+          //********************************************
+          //infraRsAccNodePGrp
+          //********************************************
+          list infraRsAccNodePGrp {
+            tailf:info "Relationship to policy group providing policies for
+                        the leafs";
+            key tDn;
+            leaf tDn {
+              tailf:info "";
+              type string;
+            }
+          }//infraRsAccNodePGrp
+        } //infraLeafS
+        //********************************************
+        //infraRsAccPortP
+        //********************************************
+        list infraRsAccPortP {
+          tailf:info "Relationship to policy providing connectivity groups";
+          key tDn;
+          leaf tDn {
+            tailf:info "";
+            type string;
+          }
+        }
+      } //infraNodeP
+      //********************************************
+      //infraAccPortP
+      //********************************************
+      list infraAccPortP {
+        tailf:info "Monitoring policy attached to this observable object";
+        key name;
+        leaf name {
+          type name-t;
+        }
+        uses descr-grp;
+        uses owner-grp;
+        //********************************************
+        //infraHPortS
+        //********************************************
+        list infraHPortS {
+          tailf:info "Monitoring policy attached to this observable object";
+          key "name type";
+          leaf name {
+            type name-t;
+          }
+          leaf type {
+            type enumeration {
+              enum ALL;
+              enum range;
+            }
+          }
+          leaf def {
+            tailf:info "Clients can add their own data for entity correlation";
+            type string-128-t;
+          }
+          uses owner-grp;
+          //********************************************
+          //infraPortBlk
+          //********************************************
+          list infraPortBlk {
+            tailf:info "";
+            key name;
+            leaf name {
+              type name-t;
+            }
+            leaf fromCard {
+              type uint8 {
+                range "1..100";
+              }
+            }
+            leaf toCard {
+              type uint16 {
+                range "1..100";
+              }
+            }
+            leaf fromPort {
+              type uint8 {
+                range "1..127";
+              }
+            }
+            leaf toPort {
+              type uint16 {
+                range "1..127";
+              }
+            }
+          } //infraPortBlk
+          //********************************************
+          //infraRsAccBaseGrp
+          //********************************************
+          list infraRsAccBaseGrp {
+            tailf:info "";
+            key tDn;
+            leaf tDn {
+              tailf:info "";
+              type string;
+            }
+            leaf fexId {
+              type uint8 {
+                range 101..164;
+              }
+            }
+          }//infraRsAccBaseGrp
+        } //infraHPortS
+      } //infraAccPortP
+      //********************************************
+      //infraFuncP
+      //********************************************
+      container infraFuncP {
+        tailf:info "Monitoring policy attached to this observable object";
+        uses descr-grp;
+        uses owner-grp;
+        leaf name {
+          type name-t;
+        }
+        //********************************************
+        //infraAccBndlGrp
+        //********************************************
+        list infraAccBndlGrp {
+          tailf:info "Used for respresenting the bundled ports";
+          key name;
+          leaf name {
+            type name-t;
+          }
+          leaf lagT {
+            tailf:info "Link Aggregation Type : PC vs VPC ";
+            type enumeration {
+              enum not-aggregated;
+              enum defaultValue;
+              enum link;
+              enum node;
+            }
+            default link;
+          }
+          uses descr-grp;
+          uses owner-grp;
+          //********************************************
+          //infraRsHIfPol
+          //********************************************
+          container infraRsHIfPol {
+            tailf:info "Relationship to policy providing physical configuration
+                        of the interfaces";
+            leaf tnFabricHIfPolName {
+              type leafref {
+                path "../../../../fabricHIfPol/name";
+              }
+            }
+          }
+          //********************************************
+          //infraRsCdpIfPol
+          //********************************************
+          container infraRsCdpIfPol {
+            tailf:info "Relationship to policy providing physical configuration
+                        of the interfaces";
+            leaf tnCdpIfPolName {
+              type leafref {
+                path "../../../../cdpIfPol/name";
+              }
+            }
+          }
+          //********************************************
+          //infraRsLacpPol
+          //********************************************
+          container infraRsLacpPol {
+            tailf:info "Relationship to policy providing physical configuration
+                        of the interfaces";
+            leaf tnLacpLagPolName {
+              type leafref {
+                path "../../../../lacpLagPol/name";
+              }
+            }
+          }
+        }
+        //********************************************
+        //infraAccPortGrp
+        //********************************************
+        list infraAccPortGrp {
+          tailf:info "Used for respresenting the bundled ports";
+          key name;
+          leaf name {
+            type name-t;
+          }
+          uses descr-grp;
+          uses owner-grp;
+        } //infraAccPortGrp
+        //********************************************
+        //infraAccNodePGrp
+        //********************************************
+        list infraAccNodePGrp {
+          tailf:info "Used for grouping node policies";
+          key name;
+          leaf name {
+            type name-t;
+          }
+          uses descr-grp;
+          uses owner-grp;
+        } //infraAccNodePGrp
+      } //infraFuncP
+      //********************************************
+      //fabricHIfPol
+      //********************************************
+      list fabricHIfPol {
+        tailf:info "";
+        key name;
+        leaf name {
+          type name-t;
+        }
+        leaf autoNeg {
+          type enumeration {
+            enum defaultValue;
+            enum on;
+            enum off;
+          }
+        }
+        leaf linkDebounce {
+          type uint16 {
+            range "0..5000";
+          }
+        }
+        leaf speed {
+          type enumeration {
+            enum unknown;
+            enum 100M;
+            enum 1G;
+            enum 10G;
+            enum defaultValue;
+            enum 40G;
+            enum inherit;
+          }
+        }
+        uses descr-grp;
+        uses owner-grp;
+      } //fabricHIfPol
+      //********************************************
+      //lacpLagPol
+      //********************************************
+      list lacpLagPol {
+        tailf:info "";
+        key name;
+        leaf name {
+          type name-t;
+        }
+        leaf-list ctrl {
+          type string;
+        }
+        leaf maxLinks {
+          type uint8 {
+            range 1..16;
+          }
+        }
+        leaf minLinks {
+          type uint8 {
+            range 1..16;
+          }
+        }
+        leaf mode {
+          type enumeration {
+            enum defaultValue;
+            enum off;
+            enum active;
+            enum passive;
+            enum mac-pin;
+          }
+        }
+        uses descr-grp;
+        uses owner-grp;
+      } //lacpLagPol
+      //********************************************
+      //cdpIfPol
+      //********************************************
+      list cdpIfPol {
+        tailf:info "CDP Interface Policy";
+        key name;
+        leaf name {
+          type name-t;
+        }
+        leaf adminSt {
+          type enumeration {
+            enum defaultValue;
+            enum enabled;
+            enum disabled;
+          }
+          default enabled;
+        }
+        uses descr-grp;
+        uses owner-grp;
+      } //cdpIfPol
+    } //infraInfra
+  }
+}

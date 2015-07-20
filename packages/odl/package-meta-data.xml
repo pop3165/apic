@@ -1,0 +1,19 @@
+<ncs-package xmlns="http://tail-f.com/ns/ncs-packages">
+  <name>odl</name>
+  <package-version>1.0</package-version>
+  <description>NED package for OpenDayLight</description>
+  <ncs-min-version>3.0</ncs-min-version>
+
+  <component>
+    <name>odl</name>
+    <ned>
+      <generic>
+        <ned-id xmlns:n="http//tail-f.com/ned/odl">n:odl-id</ned-id>
+        <java-class-name>com.tailf.packages.ned.odl.odlNed</java-class-name>
+      </generic>
+      <device>
+        <vendor>OpenDayLight</vendor>
+      </device>
+    </ned>
+  </component>
+</ncs-package>

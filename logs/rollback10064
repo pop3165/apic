@@ -1,0 +1,13 @@
+# Created by: admin
+# Date: 2015-07-15 21:53:21
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10064
+
+ncs:services {
+    qos:qos c_qos {
+        qos:dst-device-name odlc;
+    }
+}

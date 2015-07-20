@@ -1,0 +1,18 @@
+module tailf-ned-cisco-apicdc-stats {
+  namespace "http://tail-f.com/ned/cisco-apic-stats";
+  prefix "cisco-apicdcstats";
+
+  import tailf-ncs {
+    prefix ncs;
+  }
+  import tailf-common {
+    prefix tailf;
+  }
+  augment /ncs:devices/ncs:device/ncs:config {
+  }
+
+  // Skip entire template tree due to --ncs-skip-template flag
+
+  augment /ncs:devices/ncs:device/ncs:live-status {
+  }
+}

@@ -1,0 +1,70 @@
+1. Introduction
+---------------
+
+   This document describes the NED for Cisco APIC 
+   Application Policy Infrastructure Controller.
+
+   NOTE: 
+   This NED requires Java 1.7 to run with APIC 1.1, since APIC 1.1
+   uses TLS version 1.2 which is only supported in Java 1.7 or later.
+
+2. Getting started
+------------------
+
+   Set up the environment in $DIR, change DIR to something suitable
+
+     > tar xvzf ned-cisco-apicdc.tgz
+     > mv ned-cisco-apicdc $NCS_DIR/packages/neds/
+
+     > export DIR=/tmp/ncs-cisco-apicdc
+     > ncs-setup --ned-package $NCS_DIR/packages/neds/cisco-apicdc --dest $DIR
+     > cd $DIR
+
+   Start ncs:
+     > ncs
+
+   Start NCS CLI:
+     > ncs_cli -C -u admin
+
+   In the NCS CLI configure the device. Enter configuration mode:
+     # configure
+
+   Set the required configurables, address, remote user data including
+   remote secondary password, if needed:
+     # devices device apicdcdev address <device address>
+     # devices device apicdcdev device-type generic ned-id cisco-apicdc-id
+     # devices device apicdcdev state admin-state unlocked
+
+     # devices authgroups group apicdc default-map remote-name <login username>
+     # devices authgroups group apicdc default-map remote-password <login password>
+     # devices device apicdcdev authgroup apicdc
+     # commit
+
+
+   Optional debug and trace configurables:
+
+     Make the NED dump all APIC API sent to/from the Cisco APIC device
+     # devices global-settings trace raw
+     # commit
+
+     Make the NED print debug log messages
+     # java-vm java-logging logger com.tailf.packages.ned.ciscoApicdc level level-debug
+     # commit
+
+   Exit configure mode:
+     # exit
+
+   Try to connect to the device:
+     # devices device apicdcdev connect
+
+   Read the configuration from the device:
+     # devices device apicdcdev sync-from
+
+   Look at the configuration:
+     # show running-config devices device apicdcdev
+
+3. Known issues
+---------------
+    The check-sync function will report out-of-sync even for objects not modeled
+    in the subtrees of fvTenant, vmmProvP and infraInfra. 
+

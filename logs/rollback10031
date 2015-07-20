@@ -1,0 +1,23 @@
+# Created by: admin
+# Date: 2015-05-27 15:10:05
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10031
+
+ncs:devices {
+    ncs:device apic {
+        ncs:config {
+            cisco-apicdc:apic {
+                cisco-apicdc:fvTenant ttt {
+                    cisco-apicdc:fvAp ap1 {
+                        cisco-apicdc:fvAEPg ep1 {
+                            cisco-apicdc:prio level2;
+                        }
+                     }
+                 }
+             }
+         }
+     }
+ }

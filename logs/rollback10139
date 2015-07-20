@@ -1,0 +1,14 @@
+# Created by: admin
+# Date: 2015-07-17 15:14:43
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10139
+
+ncs:services {
+    qos:qos c_qos {
+        delete:
+        qos:dst-port ssss;
+    }
+ }

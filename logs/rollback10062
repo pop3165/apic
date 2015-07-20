@@ -1,0 +1,116 @@
+# Created by: admin
+# Date: 2015-07-09 15:09:50
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10062
+
+ncs:devices {
+    ncs:device api {
+        ncs:config {
+            cisco-apicdc:apic {
+                cisco-apicdc:infraInfra {
+                    cisco-apicdc:infraFuncP {
+                        delete:
+                        cisco-apicdc:infraAccBndlGrp 1-ports-17_19_PolGrp;
+                        cisco-apicdc:infraAccBndlGrp 1-ports-17_PolGrp {
+                            cisco-apicdc:lagT node;
+                            cisco-apicdc:infraRsCdpIfPol {
+                                cisco-apicdc:tnCdpIfPolName enable-cdp;
+                            }
+                            cisco-apicdc:infraRsLacpPol {
+                                cisco-apicdc:tnLacpLagPolName LACPactive;
+                            }
+                        }
+                        cisco-apicdc:infraAccBndlGrp 1-ports-19_PolGrp {
+                            cisco-apicdc:lagT node;
+                            cisco-apicdc:infraRsCdpIfPol {
+                                cisco-apicdc:tnCdpIfPolName enable-cdp;
+                            }
+                            cisco-apicdc:infraRsLacpPol {
+                                cisco-apicdc:tnLacpLagPolName LACPactive;
+                            }
+                        }
+                        cisco-apicdc:infraAccPortGrp 1-ports-1_PolGrp {
+                        }
+                    }
+                    cisco-apicdc:infraNodeP Switch101_Profile {
+                        cisco-apicdc:descr "GUI Interface Selector Generated Profile: Switch101_Profile";
+                        cisco-apicdc:infraLeafS Switch101_Profile_selector_1 range {
+                            cisco-apicdc:infraNodeBlk single0 {
+                                cisco-apicdc:from_ 101;
+                                cisco-apicdc:to_ 101;
+                            }
+                        }
+                        cisco-apicdc:infraRsAccPortP uni/infra/accportprof-Switch101_Profile_ifselector;
+                    }
+                    cisco-apicdc:infraNodeP Switch102_Profile {
+                        cisco-apicdc:descr "GUI Interface Selector Generated Profile: Switch102_Profile";
+                        cisco-apicdc:infraLeafS Switch102_Profile_selector_1 range {
+                            cisco-apicdc:infraNodeBlk single0 {
+                                cisco-apicdc:from_ 102;
+                                cisco-apicdc:to_ 102;
+                            }
+                        }
+                        cisco-apicdc:infraRsAccPortP uni/infra/accportprof-Switch102_Profile_ifselector;
+                    }
+                    cisco-apicdc:infraAccPortP Switch101-102_Profile_ifselector {
+                        cisco-apicdc:infraHPortS 1-ports-17 range {
+                            cisco-apicdc:infraPortBlk block1 {
+                                cisco-apicdc:fromCard 1;
+                                cisco-apicdc:toCard 1;
+                                cisco-apicdc:fromPort 17;
+                                cisco-apicdc:toPort 17;
+                            }
+                            cisco-apicdc:infraRsAccBaseGrp uni/infra/funcprof/accbundle-1-ports-17_PolGrp {
+                                cisco-apicdc:fexId 101;
+                            }
+                        }
+                        delete:
+                        cisco-apicdc:infraHPortS 1-ports-17_19 range;
+                        cisco-apicdc:infraHPortS 1-ports-19 range {
+                            cisco-apicdc:infraPortBlk block1 {
+                                cisco-apicdc:fromCard 1;
+                                cisco-apicdc:toCard 1;
+                                cisco-apicdc:fromPort 19;
+                                cisco-apicdc:toPort 19;
+                            }
+                            cisco-apicdc:infraRsAccBaseGrp uni/infra/funcprof/accbundle-1-ports-19_PolGrp {
+                                cisco-apicdc:fexId 101;
+                            }
+                        }
+                    }
+                    cisco-apicdc:infraAccPortP Switch101_Profile_ifselector {
+                        cisco-apicdc:descr "GUI Interface Selector Generated PortP Profile: Switch101_Profile";
+                        cisco-apicdc:infraHPortS 1-ports-1 range {
+                            cisco-apicdc:infraPortBlk block1 {
+                                cisco-apicdc:fromCard 1;
+                                cisco-apicdc:toCard 1;
+                                cisco-apicdc:fromPort 1;
+                                cisco-apicdc:toPort 1;
+                            }
+                            cisco-apicdc:infraRsAccBaseGrp uni/infra/funcprof/accportgrp-1-ports-1_PolGrp {
+                                cisco-apicdc:fexId 101;
+                            }
+                        }
+                    }
+                    cisco-apicdc:infraAccPortP Switch102_Profile_ifselector {
+                        cisco-apicdc:descr "GUI Interface Selector Generated PortP Profile: Switch102_Profile";
+                        cisco-apicdc:infraHPortS 1-ports-1 range {
+                            cisco-apicdc:infraPortBlk block1 {
+                                cisco-apicdc:fromCard 1;
+                                cisco-apicdc:toCard 1;
+                                cisco-apicdc:fromPort 1;
+                                cisco-apicdc:toPort 1;
+                            }
+                            cisco-apicdc:infraRsAccBaseGrp uni/infra/funcprof/accportgrp-1-ports-1_PolGrp {
+                                cisco-apicdc:fexId 101;
+                            }
+                        }
+                    }
+                }
+             }
+         }
+     }
+ }

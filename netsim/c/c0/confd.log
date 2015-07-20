@@ -1,0 +1,87 @@
+<DEBUG> 25-May-2015::14:49:25.484 FYANG2-M-L01D confd[19852]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/ietf-yang-types.fxs
+<DEBUG> 25-May-2015::14:49:25.486 FYANG2-M-L01D confd[19852]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/ietf-inet-types.fxs
+<DEBUG> 25-May-2015::14:49:25.486 FYANG2-M-L01D confd[19852]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/iana-crypt-hash.fxs
+<DEBUG> 25-May-2015::14:49:25.486 FYANG2-M-L01D confd[19852]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/ietf-netconf-monitoring.fxs
+<DEBUG> 25-May-2015::14:49:25.487 FYANG2-M-L01D confd[19852]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/tailf-common-monitoring.fxs
+<DEBUG> 25-May-2015::14:49:25.488 FYANG2-M-L01D confd[19852]: - Loading file ./ietf-netconf-acm.fxs
+<DEBUG> 25-May-2015::14:49:25.488 FYANG2-M-L01D confd[19852]: - Loading file ./tailf-ned-cisco-ios.fxs
+<DEBUG> 25-May-2015::14:49:25.571 FYANG2-M-L01D confd[19852]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/ietf-netconf-notifications.fxs
+<DEBUG> 25-May-2015::14:49:25.572 FYANG2-M-L01D confd[19852]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/tailf-netconf-monitoring.fxs
+<DEBUG> 25-May-2015::14:49:25.572 FYANG2-M-L01D confd[19852]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/tailf-confd-monitoring.fxs
+<DEBUG> 25-May-2015::14:49:25.574 FYANG2-M-L01D confd[19852]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/tailf-acm.fxs
+<DEBUG> 25-May-2015::14:49:25.575 FYANG2-M-L01D confd[19852]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/tailf-webui.fxs
+<DEBUG> 25-May-2015::14:49:25.576 FYANG2-M-L01D confd[19852]: - Loading file ./aaa.fxs
+<DEBUG> 25-May-2015::14:49:25.577 FYANG2-M-L01D confd[19852]: - Skipping file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/tailf-aaa.fxs: namespace already loaded
+<DEBUG> 25-May-2015::14:49:25.577 FYANG2-M-L01D confd[19852]: - Skipping file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/ietf-netconf-acm.fxs: namespace already loaded
+<DEBUG> 25-May-2015::14:49:25.615 FYANG2-M-L01D confd[19852]: - Loading file ./confd.c.ccl
+<DEBUG> 25-May-2015::14:49:25.619 FYANG2-M-L01D confd[19852]: - Loading file ./confd.i.ccl
+<DEBUG> 25-May-2015::14:49:25.619 FYANG2-M-L01D confd[19852]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/confd.ccl
+<CRIT> 25-May-2015::14:49:25.693 FYANG2-M-L01D confd[19852]: - Cannot bind to internal socket 127.0.0.1:5010 : address already in use
+<DEBUG> 25-May-2015::14:52:41.842 FYANG2-M-L01D confd[20676]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/ietf-yang-types.fxs
+<DEBUG> 25-May-2015::14:52:41.843 FYANG2-M-L01D confd[20676]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/ietf-inet-types.fxs
+<DEBUG> 25-May-2015::14:52:41.844 FYANG2-M-L01D confd[20676]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/iana-crypt-hash.fxs
+<DEBUG> 25-May-2015::14:52:41.844 FYANG2-M-L01D confd[20676]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/ietf-netconf-monitoring.fxs
+<DEBUG> 25-May-2015::14:52:41.845 FYANG2-M-L01D confd[20676]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/tailf-common-monitoring.fxs
+<DEBUG> 25-May-2015::14:52:41.845 FYANG2-M-L01D confd[20676]: - Loading file ./ietf-netconf-acm.fxs
+<DEBUG> 25-May-2015::14:52:41.846 FYANG2-M-L01D confd[20676]: - Loading file ./tailf-ned-cisco-ios.fxs
+<DEBUG> 25-May-2015::14:52:41.923 FYANG2-M-L01D confd[20676]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/ietf-netconf-notifications.fxs
+<DEBUG> 25-May-2015::14:52:41.923 FYANG2-M-L01D confd[20676]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/tailf-netconf-monitoring.fxs
+<DEBUG> 25-May-2015::14:52:41.924 FYANG2-M-L01D confd[20676]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/tailf-confd-monitoring.fxs
+<DEBUG> 25-May-2015::14:52:41.925 FYANG2-M-L01D confd[20676]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/tailf-acm.fxs
+<DEBUG> 25-May-2015::14:52:41.927 FYANG2-M-L01D confd[20676]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/tailf-webui.fxs
+<DEBUG> 25-May-2015::14:52:41.927 FYANG2-M-L01D confd[20676]: - Loading file ./aaa.fxs
+<DEBUG> 25-May-2015::14:52:41.928 FYANG2-M-L01D confd[20676]: - Skipping file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/tailf-aaa.fxs: namespace already loaded
+<DEBUG> 25-May-2015::14:52:41.928 FYANG2-M-L01D confd[20676]: - Skipping file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/ietf-netconf-acm.fxs: namespace already loaded
+<DEBUG> 25-May-2015::14:52:41.964 FYANG2-M-L01D confd[20676]: - Loading file ./confd.c.ccl
+<DEBUG> 25-May-2015::14:52:41.967 FYANG2-M-L01D confd[20676]: - Loading file ./confd.i.ccl
+<DEBUG> 25-May-2015::14:52:41.968 FYANG2-M-L01D confd[20676]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/confd.ccl
+<INFO> 25-May-2015::14:52:42.029 FYANG2-M-L01D confd[20676]: - Starting to listen for Internal IPC on 127.0.0.1:5010
+<INFO> 25-May-2015::14:52:42.266 FYANG2-M-L01D confd[20676]: - CDB load: processing file: ./cdb/aaa_init.xml
+<INFO> 25-May-2015::14:52:42.280 FYANG2-M-L01D confd[20676]: - CDB load: processing file: ./cdb/ios.xml
+<INFO> 25-May-2015::14:52:42.378 FYANG2-M-L01D confd[20676]: - Starting to listen for NETCONF SSH on 0.0.0.0:12022
+<INFO> 25-May-2015::14:52:42.432 FYANG2-M-L01D confd[20676]: - Starting to listen for CLI SSH on 0.0.0.0:10022
+<INFO> 25-May-2015::14:52:42.535 FYANG2-M-L01D confd[20676]: - ConfD started vsn: 5.4.1
+<DEBUG> 25-May-2015::19:40:04.593 FYANG2-M-L01D confd[4880]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/ietf-yang-types.fxs
+<DEBUG> 25-May-2015::19:40:04.594 FYANG2-M-L01D confd[4880]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/ietf-inet-types.fxs
+<DEBUG> 25-May-2015::19:40:04.595 FYANG2-M-L01D confd[4880]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/iana-crypt-hash.fxs
+<DEBUG> 25-May-2015::19:40:04.595 FYANG2-M-L01D confd[4880]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/ietf-netconf-monitoring.fxs
+<DEBUG> 25-May-2015::19:40:04.596 FYANG2-M-L01D confd[4880]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/tailf-common-monitoring.fxs
+<DEBUG> 25-May-2015::19:40:04.597 FYANG2-M-L01D confd[4880]: - Loading file ./ietf-netconf-acm.fxs
+<DEBUG> 25-May-2015::19:40:04.597 FYANG2-M-L01D confd[4880]: - Loading file ./tailf-ned-cisco-ios.fxs
+<DEBUG> 25-May-2015::19:40:04.681 FYANG2-M-L01D confd[4880]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/ietf-netconf-notifications.fxs
+<DEBUG> 25-May-2015::19:40:04.682 FYANG2-M-L01D confd[4880]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/tailf-netconf-monitoring.fxs
+<DEBUG> 25-May-2015::19:40:04.683 FYANG2-M-L01D confd[4880]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/tailf-confd-monitoring.fxs
+<DEBUG> 25-May-2015::19:40:04.685 FYANG2-M-L01D confd[4880]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/tailf-acm.fxs
+<DEBUG> 25-May-2015::19:40:04.690 FYANG2-M-L01D confd[4880]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/tailf-webui.fxs
+<DEBUG> 25-May-2015::19:40:04.691 FYANG2-M-L01D confd[4880]: - Loading file ./aaa.fxs
+<DEBUG> 25-May-2015::19:40:04.692 FYANG2-M-L01D confd[4880]: - Skipping file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/tailf-aaa.fxs: namespace already loaded
+<DEBUG> 25-May-2015::19:40:04.692 FYANG2-M-L01D confd[4880]: - Skipping file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/ietf-netconf-acm.fxs: namespace already loaded
+<DEBUG> 25-May-2015::19:40:04.737 FYANG2-M-L01D confd[4880]: - Loading file ./confd.c.ccl
+<DEBUG> 25-May-2015::19:40:04.742 FYANG2-M-L01D confd[4880]: - Loading file ./confd.i.ccl
+<DEBUG> 25-May-2015::19:40:04.743 FYANG2-M-L01D confd[4880]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/confd.ccl
+<INFO> 25-May-2015::19:40:04.825 FYANG2-M-L01D confd[4880]: - Starting to listen for Internal IPC on 127.0.0.1:5010
+<INFO> 25-May-2015::19:40:05.075 FYANG2-M-L01D confd[4880]: - Starting to listen for NETCONF SSH on 0.0.0.0:12022
+<INFO> 25-May-2015::19:40:05.128 FYANG2-M-L01D confd[4880]: - Starting to listen for CLI SSH on 0.0.0.0:10022
+<INFO> 25-May-2015::19:40:05.232 FYANG2-M-L01D confd[4880]: - ConfD started vsn: 5.4.1
+<DEBUG> 26-May-2015::16:01:56.263 FYANG2-M-L01D confd[49435]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/ietf-yang-types.fxs
+<DEBUG> 26-May-2015::16:01:56.264 FYANG2-M-L01D confd[49435]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/ietf-inet-types.fxs
+<DEBUG> 26-May-2015::16:01:56.265 FYANG2-M-L01D confd[49435]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/iana-crypt-hash.fxs
+<DEBUG> 26-May-2015::16:01:56.265 FYANG2-M-L01D confd[49435]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/ietf-netconf-monitoring.fxs
+<DEBUG> 26-May-2015::16:01:56.266 FYANG2-M-L01D confd[49435]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/tailf-common-monitoring.fxs
+<DEBUG> 26-May-2015::16:01:56.267 FYANG2-M-L01D confd[49435]: - Loading file ./ietf-netconf-acm.fxs
+<DEBUG> 26-May-2015::16:01:56.267 FYANG2-M-L01D confd[49435]: - Loading file ./tailf-ned-cisco-ios.fxs
+<DEBUG> 26-May-2015::16:01:56.353 FYANG2-M-L01D confd[49435]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/ietf-netconf-notifications.fxs
+<DEBUG> 26-May-2015::16:01:56.354 FYANG2-M-L01D confd[49435]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/tailf-netconf-monitoring.fxs
+<DEBUG> 26-May-2015::16:01:56.355 FYANG2-M-L01D confd[49435]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/tailf-confd-monitoring.fxs
+<DEBUG> 26-May-2015::16:01:56.358 FYANG2-M-L01D confd[49435]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/tailf-acm.fxs
+<DEBUG> 26-May-2015::16:01:56.362 FYANG2-M-L01D confd[49435]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/tailf-webui.fxs
+<DEBUG> 26-May-2015::16:01:56.363 FYANG2-M-L01D confd[49435]: - Loading file ./aaa.fxs
+<DEBUG> 26-May-2015::16:01:56.364 FYANG2-M-L01D confd[49435]: - Skipping file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/tailf-aaa.fxs: namespace already loaded
+<DEBUG> 26-May-2015::16:01:56.364 FYANG2-M-L01D confd[49435]: - Skipping file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/ietf-netconf-acm.fxs: namespace already loaded
+<DEBUG> 26-May-2015::16:01:56.408 FYANG2-M-L01D confd[49435]: - Loading file ./confd.c.ccl
+<DEBUG> 26-May-2015::16:01:56.414 FYANG2-M-L01D confd[49435]: - Loading file ./confd.i.ccl
+<DEBUG> 26-May-2015::16:01:56.414 FYANG2-M-L01D confd[49435]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/netsim/confd/etc/confd/confd.ccl
+<INFO> 26-May-2015::16:01:56.496 FYANG2-M-L01D confd[49435]: - Starting to listen for Internal IPC on 127.0.0.1:5010
+<INFO> 26-May-2015::16:01:56.742 FYANG2-M-L01D confd[49435]: - Starting to listen for NETCONF SSH on 0.0.0.0:12022
+<INFO> 26-May-2015::16:01:56.797 FYANG2-M-L01D confd[49435]: - Starting to listen for CLI SSH on 0.0.0.0:10022
+<INFO> 26-May-2015::16:01:56.900 FYANG2-M-L01D confd[49435]: - ConfD started vsn: 5.4.1

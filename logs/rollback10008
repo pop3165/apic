@@ -1,0 +1,19 @@
+# Created by: admin
+# Date: 2015-05-27 11:28:50
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10008
+
+ncs:devices {
+    ncs:device apic22 {
+        ncs:address 1.1.1.1;
+        ncs:authgroup apic_au;
+        ncs:device-type {
+            ncs:generic {
+                ncs:ned-id cisco-apicdc-id;
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+# Created by: admin
+# Date: 2015-07-16 23:05:42
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10101
+
+ncs:devices {
+    ncs:device a9k {
+        ncs:port 22;
+    }
+ }

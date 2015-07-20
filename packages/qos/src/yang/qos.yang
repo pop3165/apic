@@ -1,0 +1,64 @@
+module qos {
+
+  namespace "http://com/example/qos";
+  prefix qos;
+
+  import ietf-inet-types {
+    prefix inet;
+  }
+
+  import tailf-common {
+    prefix tailf;
+  }
+
+  import tailf-ncs {
+    prefix ncs;
+  }
+  
+  
+  
+	augment /ncs:services {
+		list qos {
+			key qosname;
+			uses ncs:service-data;
+			ncs:servicepoint "qos-servicepoint";
+			
+			leaf qosname{
+			type string;
+			}
+			
+			leaf src-device-name {
+				type leafref{path "/ncs:devices/ncs:device/ncs:name";}
+			}
+			
+			leaf src-endpoint{
+				type string;
+			}
+			
+			leaf src-port{
+				type string;
+			}
+			
+			leaf dst-device-name {
+				type leafref{path "/ncs:devices/ncs:device/ncs:name";}
+			}
+			
+			leaf dst-endpoint{
+				type string;
+			}
+			
+			leaf dst-port{
+				type string;
+			}
+			
+			leaf bandwith{
+				type uint16;
+			}
+		
+			leaf qos-level{
+				type string;
+			}	
+			
+		}
+	}
+}

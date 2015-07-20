@@ -1,0 +1,78 @@
+=========================================
+cisco-apicdc v3.0.0.4 [July 7, 2015]
+=========================================
+
+Corrections:
+	- Changed type of l3extRsPathL3OutAtt/addr to string.
+    - Disabled check-sync function.
+
+
+=========================================
+cisco-apicdc v3.0.0.3 [June 18, 2015]
+=========================================
+
+Enhancements:
+  - Added support for the following managed objects:
+    l2extOut
+    l2extRsEBd
+    l2extRsL2DomAtt
+    l2extLNodeP
+    l2extLIfP
+    l2extRsPathL2OutAtt
+    l2extInstP
+
+    (Issue tracker #18825)
+
+=========================================
+cisco-apicdc v3.0.0.2 [May 4, 2015]
+=========================================
+
+Updated for NCS 3.4
+
+=========================================
+cisco-apicdc v3.0.0.1 [April 09, 2015]
+=========================================
+
+Enhancements:
+  - Added support for the following managed objects:
+    fvRsCtx
+    fvCEp
+    vzBrCP
+    vzSubj
+    vzRsSubjFiltAtt
+    vzEntry
+    vzFilter
+    fvRsCons
+    fvRsProv
+    fvRsDomAtt
+    vmmCtrlrP
+    vmmProvP
+    vmmDomP
+    l3extRsPathL3OutAtt
+    l3extOut
+    l3extLNodeP
+    l3extLIfP
+    infraInfra
+    infraNodeP
+    infraAccPortP
+    infraNodeBlk
+    infraPortBlk
+    infraAccBndlGrp
+    infraAccPortGrp
+    infraFuncP
+    infraLeafS
+    infraHPortS
+  
+  - Added check-sync.
+    
+  - Changed to use Apache httpClient for http access.
+  
+  
+  
+Non-backwards compatible corrections:
+  - The list fvTenant has been moved into a container apic.
+  
+=========================================
+cisco-apicdc v3.0.0.0 [March 16, 2015]
+=========================================
+Initial revision.

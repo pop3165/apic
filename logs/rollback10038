@@ -1,0 +1,13 @@
+# Created by: admin
+# Date: 2015-05-27 15:41:04
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10038
+
+ncs:services {
+    qos:qos apicqos {
+        qos:qos-level level2;
+    }
+ }

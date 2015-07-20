@@ -1,0 +1,23 @@
+# Created by: admin
+# Date: 2015-07-15 22:35:37
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10073
+
+ncs:devices {
+    ncs:device api {
+        ncs:config {
+            cisco-apicdc:apic {
+                cisco-apicdc:fvTenant win_cisco {
+                    cisco-apicdc:fvAp ap1 {
+                        cisco-apicdc:fvAEPg ep1 {
+                            cisco-apicdc:prio level1;
+                        }
+                     }
+                 }
+             }
+         }
+     }
+ }
