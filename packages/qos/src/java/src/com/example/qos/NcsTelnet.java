@@ -103,10 +103,13 @@ public class NcsTelnet implements TelnetNotificationHandler{
                 	System.out.println("read:" + new String(buff, 0, ret_read));
                 }
                 
-                outstr.write("config t\n interface TenGigE0/0/2/0\n service-policy type pbr input E-PBR\n commit\n".getBytes());
-                outstr.flush();
+                {	
+                	outstr.write("config t\n interface TenGigE0/0/2/0\n service-policy type pbr input E-PBR\n commit\n".getBytes());
+                	outstr.flush();
                 
-                Thread.sleep(5000); 
+                	Thread.sleep(5000); 
+                }while(checkServiceExist(instr, outstr) == false)
+                	
                 ret_read = instr.read(buff);
                 if(ret_read > 0)
                 {
@@ -200,10 +203,13 @@ public class NcsTelnet implements TelnetNotificationHandler{
                 	System.out.println("read:" + new String(buff, 0, ret_read));
                 }
                 
-                outstr.write("config t\n interface TenGigE0/0/2/0\n no service-policy type pbr input E-PBR\n commit\n".getBytes());
-                outstr.flush();
+                {
+                	outstr.write("config t\n interface TenGigE0/0/2/0\n no service-policy type pbr input E-PBR\n commit\n".getBytes());
+                	outstr.flush();
                 
-                Thread.sleep(5000); 
+                	Thread.sleep(2000); }
+                while(checkServiceExist(instr, outstr) == true)
+                	
                 ret_read = instr.read(buff);
                 if(ret_read > 0)
                 {
@@ -216,6 +222,20 @@ public class NcsTelnet implements TelnetNotificationHandler{
             	System.out.println(e);
             }
         
+	}
+	
+	public static boolean checkServiceExist(InputStream in, OutputStream out) throws IOException, InterruptedException{
+		
+		out.write("show running-config interface tenGigE 0/0/2/0\n".getBytes());
+		out.flush();
+		Thread.sleep(500);
+		
+		byte[] buff = new byte[1024];
+		in.read(buff);
+		
+		String response = buff.toString();
+		
+		return response.contains("service")? true:false;
 	}
 	
 	public static void main(String[] arg){
