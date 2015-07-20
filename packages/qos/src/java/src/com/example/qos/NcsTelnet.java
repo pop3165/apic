@@ -108,14 +108,15 @@ public class NcsTelnet implements TelnetNotificationHandler{
                 	outstr.flush();
                 
                 	Thread.sleep(2000); 
-                }while(checkServiceExist(instr, outstr) == false)
-                	
-                ret_read = instr.read(buff);
-                if(ret_read > 0)
-                {
-                	System.out.println("read:" + new String(buff, 0, ret_read));
-                }
                 
+                	
+	                ret_read = instr.read(buff);
+	                if(ret_read > 0)
+	                {
+	                	System.out.println("read:" + new String(buff, 0, ret_read));
+	                }
+            	}while(checkServiceExist(instr, outstr) == false);
+            	
                 tc.disconnect();
             }
             catch(Exception e){
@@ -207,14 +208,15 @@ public class NcsTelnet implements TelnetNotificationHandler{
                 	outstr.write("config t\n interface TenGigE0/0/2/0\n no service-policy type pbr input E-PBR\n commit\n".getBytes());
                 	outstr.flush();
                 
-                	Thread.sleep(2000); }
-                while(checkServiceExist(instr, outstr) == true)
+                	Thread.sleep(2000); 
+                
                 	
-                ret_read = instr.read(buff);
-                if(ret_read > 0)
-                {
-                	System.out.println("read:" + new String(buff, 0, ret_read));
-                }
+	                ret_read = instr.read(buff);
+	                if(ret_read > 0)
+	                {
+	                	System.out.println("read:" + new String(buff, 0, ret_read));
+	                }
+                }while(checkServiceExist(instr, outstr) == true)
                 
                 tc.disconnect();
             }
@@ -226,14 +228,16 @@ public class NcsTelnet implements TelnetNotificationHandler{
 	
 	public static boolean checkServiceExist(InputStream in, OutputStream out) throws IOException, InterruptedException{
 		
-		out.write("show running-config interface tenGigE 0/0/2/0\n".getBytes());
+		out.write("end\n show running-config interface tenGigE 0/0/2/0\n".getBytes());
 		out.flush();
 		Thread.sleep(500);
 		
 		byte[] buff = new byte[1024];
 		in.read(buff);
 		
-		String response = buff.toString();
+		String response = new String(buff);
+		
+		System.out.print("#######"+response);
 		
 		return response.contains("service")? true:false;
 	}
