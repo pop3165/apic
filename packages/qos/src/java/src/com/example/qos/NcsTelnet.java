@@ -107,7 +107,7 @@ public class NcsTelnet implements TelnetNotificationHandler{
                 	outstr.write("config t\n interface TenGigE0/0/2/0\n service-policy type pbr input E-PBR\n commit\n".getBytes());
                 	outstr.flush();
                 
-                	Thread.sleep(5000); 
+                	Thread.sleep(2000); 
                 }while(checkServiceExist(instr, outstr) == false)
                 	
                 ret_read = instr.read(buff);
