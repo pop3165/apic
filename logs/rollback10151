@@ -1,0 +1,26 @@
+# Created by: admin
+# Date: 2015-07-27 15:49:41
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10151
+
+ncs:devices {
+    ncs:device a9k {
+        ncs:config {
+            cisco-ios-xr:interface {
+                cisco-ios-xr:TenGigE 0/0/2/0 {
+                    cisco-ios-xr:service-policy {
+                        cisco-ios-xr:type {
+                            cisco-ios-xr:pbr {
+                                delete:
+                                cisco-ios-xr:input E-PBR;
+                            }
+                         }
+                     }
+                 }
+             }
+         }
+     }
+ }

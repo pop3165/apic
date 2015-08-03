@@ -11625,3 +11625,995 @@ RP/0/RSP0/CPU0:A9001(config)# interface TenGigE0/0/2/0
 RP/0/RSP0/CPU0:A9001(config-if)# commit
 Fri Jul 17 12:09:29.956 UTC
 RP/0/RSP0/CPU0:A9001(config-if)#
+Starting java-vm with options:
+' -classpath :/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/* -Dport=4569 -Xmx512M -Djava.awt.headless=true -Djava.security.egd=file:/dev/./urandom -Dfile.encoding=UTF-8'
+NCS JVM STARTING
+NcsLogger applying Default configuration!
+<INFO> 27-Jul-2015::15:24:01.901 NcsMain JVM-Launcher: - CONNECTED TO to NCS --> Socket[addr=/127.0.0.1,port=4569,localport=54535]
+<INFO> 27-Jul-2015::15:24:01.919 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:24:01.929 NcsMain JVM-Launcher: -  <= GOT INIT_JVM
+JMXURL : service:jmx:rmi://127.0.0.1:9901/jndi/rmi://127.0.0.1:9902/ncs
+<INFO> 27-Jul-2015::15:24:03.201 NcsMain JVM-Launcher: - ALARM SERVICE STARTED
+<INFO> 27-Jul-2015::15:24:03.201 NcsMain JVM-Launcher: - DONE COMMAND --> INIT_JVM
+<INFO> 27-Jul-2015::15:24:03.201 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:24:03.202 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 27-Jul-2015::15:24:03.202 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-apicdc"] -->
+<INFO> 27-Jul-2015::15:24:03.202 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/cisco-apicdc-ns.jar
+<INFO> 27-Jul-2015::15:24:03.203 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/commons-io-2.4.jar
+<INFO> 27-Jul-2015::15:24:03.203 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/commons-logging-1.2.jar
+<INFO> 27-Jul-2015::15:24:03.203 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/httpclient-4.4.jar
+<INFO> 27-Jul-2015::15:24:03.203 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/httpcore-4.4.jar
+<INFO> 27-Jul-2015::15:24:03.203 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-apicdc"] --> OK
+<INFO> 27-Jul-2015::15:24:03.203 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 27-Jul-2015::15:24:03.203 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:24:03.204 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 27-Jul-2015::15:24:03.204 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-ios"] -->
+<INFO> 27-Jul-2015::15:24:03.204 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-ios/shared-jar/ios-ns.jar
+<INFO> 27-Jul-2015::15:24:03.205 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-ios"] --> OK
+<INFO> 27-Jul-2015::15:24:03.205 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 27-Jul-2015::15:24:03.205 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:24:03.205 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 27-Jul-2015::15:24:03.205 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-iosxr"] -->
+<INFO> 27-Jul-2015::15:24:03.205 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-iosxr/shared-jar/iosxr-ns.jar
+<INFO> 27-Jul-2015::15:24:03.205 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-iosxr"] --> OK
+<INFO> 27-Jul-2015::15:24:03.205 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 27-Jul-2015::15:24:03.205 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:24:03.205 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 27-Jul-2015::15:24:03.206 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["odl"] -->
+<INFO> 27-Jul-2015::15:24:03.206 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/odl/shared-jar/odl-ns.jar
+<INFO> 27-Jul-2015::15:24:03.206 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["odl"] --> OK
+<INFO> 27-Jul-2015::15:24:03.206 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 27-Jul-2015::15:24:03.206 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:24:03.206 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 27-Jul-2015::15:24:03.206 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["qos"] -->
+<INFO> 27-Jul-2015::15:24:03.206 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/qos/shared-jar/commons-net-3.3.jar
+<INFO> 27-Jul-2015::15:24:03.207 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/qos/shared-jar/qos-ns.jar
+<INFO> 27-Jul-2015::15:24:03.207 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["qos"] --> OK
+<INFO> 27-Jul-2015::15:24:03.207 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 27-Jul-2015::15:24:03.207 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:24:03.207 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 27-Jul-2015::15:24:03.207 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 27-Jul-2015::15:24:03.208 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-apicdc"] -->
+<INFO> 27-Jul-2015::15:24:03.244 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-apicdc"] --> LOADED
+<INFO> 27-Jul-2015::15:24:03.244 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 27-Jul-2015::15:24:03.244 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:24:03.244 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 27-Jul-2015::15:24:03.244 NcsMain JVM-Launcher: - FOUND TYPE: upgrade
+<INFO> 27-Jul-2015::15:24:03.245 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 27-Jul-2015::15:24:03.245 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-ios"] -->
+<WARN> 27-Jul-2015::15:24:03.269 ResourceManager JVM-Launcher: - Resource annotated field :IOSNedCli::mm already set, no resource injection performed
+<INFO> 27-Jul-2015::15:24:03.269 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-ios"] --> LOADED
+<INFO> 27-Jul-2015::15:24:03.269 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 27-Jul-2015::15:24:03.269 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:24:03.269 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 27-Jul-2015::15:24:03.270 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 27-Jul-2015::15:24:03.270 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-iosxr"] -->
+<WARN> 27-Jul-2015::15:24:03.278 ResourceManager JVM-Launcher: - Resource annotated field :IosxrNedCli::mm already set, no resource injection performed
+<INFO> 27-Jul-2015::15:24:03.278 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-iosxr"] --> LOADED
+<INFO> 27-Jul-2015::15:24:03.278 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 27-Jul-2015::15:24:03.278 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:24:03.278 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 27-Jul-2015::15:24:03.278 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 27-Jul-2015::15:24:03.279 NcsMain JVM-Launcher: - LOADING PACKAGE ["odl"] -->
+<INFO> 27-Jul-2015::15:24:03.292 NcsMain JVM-Launcher: - LOADING PACKAGE ["odl"] --> LOADED
+<INFO> 27-Jul-2015::15:24:03.293 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 27-Jul-2015::15:24:03.293 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:24:03.293 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 27-Jul-2015::15:24:03.293 NcsMain JVM-Launcher: - FOUND TYPE: callback
+<INFO> 27-Jul-2015::15:24:03.293 NcsMain JVM-Launcher: - LOADING PACKAGE ["qos"] -->
+<INFO> 27-Jul-2015::15:24:03.297 NcsMain JVM-Launcher: - LOADING PACKAGE ["qos"] --> LOADED
+<INFO> 27-Jul-2015::15:24:03.297 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 27-Jul-2015::15:24:03.297 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:24:03.297 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 27-Jul-2015::15:24:03.297 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-apicdc:cisco-apicdc"] -->
+<INFO> 27-Jul-2015::15:24:03.298 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-apicdc:cisco-apicdc"] --> DONE
+<INFO> 27-Jul-2015::15:24:03.298 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 27-Jul-2015::15:24:03.298 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:24:03.298 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 27-Jul-2015::15:24:03.298 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:upgrade-ned-id"] -->
+<INFO> 27-Jul-2015::15:24:03.298 NcsMain JVM-Launcher: - => Nothing to deploy for component cisco-ios:upgrade-ned-id
+<INFO> 27-Jul-2015::15:24:03.298 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:upgrade-ned-id"] --> DONE
+<INFO> 27-Jul-2015::15:24:03.298 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 27-Jul-2015::15:24:03.298 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:24:03.299 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 27-Jul-2015::15:24:03.299 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:cisco-ios"] -->
+<INFO> 27-Jul-2015::15:24:03.299 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:cisco-ios"] --> DONE
+<INFO> 27-Jul-2015::15:24:03.299 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 27-Jul-2015::15:24:03.299 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:24:03.299 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 27-Jul-2015::15:24:03.299 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-iosxr:cisco-ios-xr"] -->
+<INFO> 27-Jul-2015::15:24:03.299 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-iosxr:cisco-ios-xr"] --> DONE
+<INFO> 27-Jul-2015::15:24:03.299 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 27-Jul-2015::15:24:03.300 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:24:03.300 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 27-Jul-2015::15:24:03.300 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["odl:odl"] -->
+<INFO> 27-Jul-2015::15:24:03.300 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["odl:odl"] --> DONE
+<INFO> 27-Jul-2015::15:24:03.300 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 27-Jul-2015::15:24:03.300 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:24:03.300 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 27-Jul-2015::15:24:03.300 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["qos:RFSSkeleton"] -->
+<INFO> 27-Jul-2015::15:24:03.343 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["qos:RFSSkeleton"] --> DONE
+<INFO> 27-Jul-2015::15:24:03.343 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 27-Jul-2015::15:24:03.343 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:24:03.343 NcsMain JVM-Launcher: -  <= GOT DONE_LOADING
+<INFO> 27-Jul-2015::15:24:03.344 NcsMain JVM-Launcher: - DONE LOADING  -->
+<INFO> 27-Jul-2015::15:24:03.344 NcsMain JVM-Launcher: - DONE LOADING --> OK
+<INFO> 27-Jul-2015::15:24:03.344 NcsMain JVM-Launcher: - DONE COMMAND --> DONE_LOADING
+<INFO> 27-Jul-2015::15:24:03.344 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:49:19.208 NcsMain JVM-Launcher: -  <= GOT UNLOAD_ALL
+<INFO> 27-Jul-2015::15:49:19.208 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["qos"] -->
+<INFO> 27-Jul-2015::15:49:19.210 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["qos"] --> OK
+<WARN> 27-Jul-2015::15:49:19.210 Dp NCS-DpMUX-1-qos:RFSSkeleton: - Socket was closed
+<INFO> 27-Jul-2015::15:49:19.210 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["odl"] -->
+<WARN> 27-Jul-2015::15:49:19.211 NedWorker Ned-Worker-Thread-0: - Thread[Ned-Worker-Thread-0,5,main] dies due to!
+<INFO> 27-Jul-2015::15:49:19.211 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["odl"] --> OK
+<INFO> 27-Jul-2015::15:49:19.211 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-iosxr"] -->
+<INFO> 27-Jul-2015::15:49:19.211 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-iosxr"] --> OK
+<INFO> 27-Jul-2015::15:49:19.211 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-ios"] -->
+<INFO> 27-Jul-2015::15:49:19.212 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-ios"] --> OK
+<INFO> 27-Jul-2015::15:49:19.212 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-apicdc"] -->
+<INFO> 27-Jul-2015::15:49:19.212 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-apicdc"] --> OK
+<INFO> 27-Jul-2015::15:49:19.212 NcsMain JVM-Launcher: - DONE COMMAND --> UNLOAD_ALL
+<INFO> 27-Jul-2015::15:49:19.212 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:49:19.212 NcsMain JVM-Launcher: -  <= GOT RELOAD_SCHEMA
+<INFO> 27-Jul-2015::15:49:19.950 NcsMain JVM-Launcher: - DONE COMMAND --> RELOAD_SCHEMA
+<INFO> 27-Jul-2015::15:49:19.950 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:49:19.950 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 27-Jul-2015::15:49:19.951 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-apicdc"] -->
+<INFO> 27-Jul-2015::15:49:19.951 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/cisco-apicdc-ns.jar
+<INFO> 27-Jul-2015::15:49:19.951 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/commons-io-2.4.jar
+<INFO> 27-Jul-2015::15:49:19.951 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/commons-logging-1.2.jar
+<INFO> 27-Jul-2015::15:49:19.951 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/httpclient-4.4.jar
+<INFO> 27-Jul-2015::15:49:19.951 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/httpcore-4.4.jar
+<INFO> 27-Jul-2015::15:49:19.951 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-apicdc"] --> OK
+<INFO> 27-Jul-2015::15:49:19.951 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 27-Jul-2015::15:49:19.951 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:49:19.951 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 27-Jul-2015::15:49:19.952 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-ios"] -->
+<INFO> 27-Jul-2015::15:49:19.952 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-ios/shared-jar/ios-ns.jar
+<INFO> 27-Jul-2015::15:49:19.952 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-ios"] --> OK
+<INFO> 27-Jul-2015::15:49:19.952 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 27-Jul-2015::15:49:19.952 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:49:19.952 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 27-Jul-2015::15:49:19.952 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-iosxr"] -->
+<INFO> 27-Jul-2015::15:49:19.952 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-xr/shared-jar/iosxr-ns.jar
+<INFO> 27-Jul-2015::15:49:19.952 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-iosxr"] --> OK
+<INFO> 27-Jul-2015::15:49:19.952 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 27-Jul-2015::15:49:19.953 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:49:19.953 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 27-Jul-2015::15:49:19.953 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["odl"] -->
+<INFO> 27-Jul-2015::15:49:19.953 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/odl/shared-jar/odl-ns.jar
+<INFO> 27-Jul-2015::15:49:19.953 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["odl"] --> OK
+<INFO> 27-Jul-2015::15:49:19.953 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 27-Jul-2015::15:49:19.953 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:49:19.953 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 27-Jul-2015::15:49:19.953 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["qos"] -->
+<INFO> 27-Jul-2015::15:49:19.953 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/qos/shared-jar/commons-net-3.3.jar
+<INFO> 27-Jul-2015::15:49:19.953 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/qos/shared-jar/qos-ns.jar
+<INFO> 27-Jul-2015::15:49:19.954 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["qos"] --> OK
+<INFO> 27-Jul-2015::15:49:19.954 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 27-Jul-2015::15:49:19.954 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:49:19.954 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 27-Jul-2015::15:49:19.954 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 27-Jul-2015::15:49:19.954 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-apicdc"] -->
+<INFO> 27-Jul-2015::15:49:19.963 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-apicdc"] --> LOADED
+<INFO> 27-Jul-2015::15:49:19.963 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 27-Jul-2015::15:49:19.963 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:49:19.964 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 27-Jul-2015::15:49:19.964 NcsMain JVM-Launcher: - FOUND TYPE: upgrade
+<INFO> 27-Jul-2015::15:49:19.964 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 27-Jul-2015::15:49:19.964 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-ios"] -->
+<WARN> 27-Jul-2015::15:49:19.968 ResourceManager JVM-Launcher: - Resource annotated field :IOSNedCli::mm already set, no resource injection performed
+<INFO> 27-Jul-2015::15:49:19.969 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-ios"] --> LOADED
+<INFO> 27-Jul-2015::15:49:19.969 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 27-Jul-2015::15:49:19.969 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:49:19.969 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 27-Jul-2015::15:49:19.969 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 27-Jul-2015::15:49:19.969 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-iosxr"] -->
+<WARN> 27-Jul-2015::15:49:19.975 ResourceManager JVM-Launcher: - Resource annotated field :IosxrNedCli::mm already set, no resource injection performed
+<INFO> 27-Jul-2015::15:49:19.975 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-iosxr"] --> LOADED
+<INFO> 27-Jul-2015::15:49:19.975 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 27-Jul-2015::15:49:19.975 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:49:19.975 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 27-Jul-2015::15:49:19.975 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 27-Jul-2015::15:49:19.976 NcsMain JVM-Launcher: - LOADING PACKAGE ["odl"] -->
+<INFO> 27-Jul-2015::15:49:19.980 NcsMain JVM-Launcher: - LOADING PACKAGE ["odl"] --> LOADED
+<INFO> 27-Jul-2015::15:49:19.980 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 27-Jul-2015::15:49:19.980 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:49:19.980 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 27-Jul-2015::15:49:19.980 NcsMain JVM-Launcher: - FOUND TYPE: callback
+<INFO> 27-Jul-2015::15:49:19.980 NcsMain JVM-Launcher: - LOADING PACKAGE ["qos"] -->
+<INFO> 27-Jul-2015::15:49:19.982 NcsMain JVM-Launcher: - LOADING PACKAGE ["qos"] --> LOADED
+<INFO> 27-Jul-2015::15:49:19.982 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 27-Jul-2015::15:49:19.982 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:49:19.982 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 27-Jul-2015::15:49:19.982 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-apicdc:cisco-apicdc"] -->
+<INFO> 27-Jul-2015::15:49:19.982 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-apicdc:cisco-apicdc"] --> DONE
+<INFO> 27-Jul-2015::15:49:19.982 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 27-Jul-2015::15:49:19.982 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:49:19.982 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 27-Jul-2015::15:49:19.983 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:upgrade-ned-id"] -->
+<INFO> 27-Jul-2015::15:49:19.983 NcsMain JVM-Launcher: - => Nothing to deploy for component cisco-ios:upgrade-ned-id
+<INFO> 27-Jul-2015::15:49:19.983 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:upgrade-ned-id"] --> DONE
+<INFO> 27-Jul-2015::15:49:19.983 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 27-Jul-2015::15:49:19.983 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:49:19.983 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 27-Jul-2015::15:49:19.983 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:cisco-ios"] -->
+<INFO> 27-Jul-2015::15:49:19.983 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:cisco-ios"] --> DONE
+<INFO> 27-Jul-2015::15:49:19.984 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 27-Jul-2015::15:49:19.984 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:49:19.984 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 27-Jul-2015::15:49:19.984 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-iosxr:cisco-ios-xr"] -->
+<INFO> 27-Jul-2015::15:49:19.984 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-iosxr:cisco-ios-xr"] --> DONE
+<INFO> 27-Jul-2015::15:49:19.984 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 27-Jul-2015::15:49:19.984 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:49:19.984 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 27-Jul-2015::15:49:19.985 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["odl:odl"] -->
+<INFO> 27-Jul-2015::15:49:19.985 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["odl:odl"] --> DONE
+<INFO> 27-Jul-2015::15:49:19.985 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 27-Jul-2015::15:49:19.985 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:49:19.985 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 27-Jul-2015::15:49:19.985 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["qos:RFSSkeleton"] -->
+<INFO> 27-Jul-2015::15:49:19.993 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["qos:RFSSkeleton"] --> DONE
+<INFO> 27-Jul-2015::15:49:19.994 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 27-Jul-2015::15:49:19.994 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::15:49:19.995 NcsMain JVM-Launcher: -  <= GOT DONE_LOADING
+<INFO> 27-Jul-2015::15:49:19.995 NcsMain JVM-Launcher: - DONE LOADING  -->
+<INFO> 27-Jul-2015::15:49:19.995 NcsMain JVM-Launcher: - DONE LOADING --> OK
+<INFO> 27-Jul-2015::15:49:19.995 NcsMain JVM-Launcher: - DONE COMMAND --> DONE_LOADING
+<INFO> 27-Jul-2015::15:49:19.995 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 27-Jul-2015::16:09:47.730 NcsMain JVM-Launcher: -  <= GOT STOP_VM
+<WARN> 27-Jul-2015::16:09:47.731 NcsMain JVM-Launcher: - STOPPING
+<WARN> 27-Jul-2015::16:09:47.731 Dp NCS-DpMUX-2-qos:RFSSkeleton: - Socket was closed
+<WARN> 27-Jul-2015::16:09:47.732 NedWorker Ned-Worker-Thread-0: - Thread[Ned-Worker-Thread-0,5,main] dies due to!
+<WARN> 27-Jul-2015::16:09:47.739 NcsMain JVM-Launcher: - CONTROL SOCKET CLOSED - HALTING
+<WARN> 27-Jul-2015::16:09:47.740 NcsJVMLauncher main: -  NCS JVM STOPPED
+ NCS JVM STOPPED
+Starting java-vm with options:
+' -classpath :/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/* -Dport=4569 -Xmx512M -Djava.awt.headless=true -Djava.security.egd=file:/dev/./urandom -Dfile.encoding=UTF-8'
+NCS JVM STARTING
+NcsLogger applying Default configuration!
+<INFO> 03-Aug-2015::09:25:57.677 NcsMain JVM-Launcher: - CONNECTED TO to NCS --> Socket[addr=/127.0.0.1,port=4569,localport=49426]
+<INFO> 03-Aug-2015::09:25:57.691 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:25:57.699 NcsMain JVM-Launcher: -  <= GOT INIT_JVM
+JMXURL : service:jmx:rmi://127.0.0.1:9901/jndi/rmi://127.0.0.1:9902/ncs
+<INFO> 03-Aug-2015::09:25:58.900 NcsMain JVM-Launcher: - ALARM SERVICE STARTED
+<INFO> 03-Aug-2015::09:25:58.900 NcsMain JVM-Launcher: - DONE COMMAND --> INIT_JVM
+<INFO> 03-Aug-2015::09:25:58.900 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:25:58.901 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:25:58.901 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-apicdc"] -->
+<INFO> 03-Aug-2015::09:25:58.901 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/cisco-apicdc-ns.jar
+<INFO> 03-Aug-2015::09:25:58.902 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/commons-io-2.4.jar
+<INFO> 03-Aug-2015::09:25:58.902 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/commons-logging-1.2.jar
+<INFO> 03-Aug-2015::09:25:58.902 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/httpclient-4.4.jar
+<INFO> 03-Aug-2015::09:25:58.902 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/httpcore-4.4.jar
+<INFO> 03-Aug-2015::09:25:58.902 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-apicdc"] --> OK
+<INFO> 03-Aug-2015::09:25:58.902 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:25:58.902 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:25:58.904 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:25:58.904 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-ios"] -->
+<INFO> 03-Aug-2015::09:25:58.904 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-ios/shared-jar/ios-ns.jar
+<INFO> 03-Aug-2015::09:25:58.904 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-ios"] --> OK
+<INFO> 03-Aug-2015::09:25:58.904 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:25:58.904 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:25:58.905 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:25:58.905 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-iosxr"] -->
+<INFO> 03-Aug-2015::09:25:58.905 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-xr/shared-jar/iosxr-ns.jar
+<INFO> 03-Aug-2015::09:25:58.905 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-iosxr"] --> OK
+<INFO> 03-Aug-2015::09:25:58.905 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:25:58.905 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:25:58.905 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:25:58.906 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["odl"] -->
+<INFO> 03-Aug-2015::09:25:58.906 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/odl/shared-jar/odl-ns.jar
+<INFO> 03-Aug-2015::09:25:58.906 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["odl"] --> OK
+<INFO> 03-Aug-2015::09:25:58.906 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:25:58.906 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:25:58.906 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:25:58.906 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["qos"] -->
+<INFO> 03-Aug-2015::09:25:58.906 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/qos/shared-jar/commons-net-3.3.jar
+<INFO> 03-Aug-2015::09:25:58.907 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/qos/shared-jar/qos-ns.jar
+<INFO> 03-Aug-2015::09:25:58.907 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["qos"] --> OK
+<INFO> 03-Aug-2015::09:25:58.907 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:25:58.907 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:25:58.907 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:25:58.907 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 03-Aug-2015::09:25:58.908 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-apicdc"] -->
+<INFO> 03-Aug-2015::09:25:58.950 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-apicdc"] --> LOADED
+<INFO> 03-Aug-2015::09:25:58.950 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:25:58.950 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:25:58.950 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:25:58.950 NcsMain JVM-Launcher: - FOUND TYPE: upgrade
+<INFO> 03-Aug-2015::09:25:58.950 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 03-Aug-2015::09:25:58.951 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-ios"] -->
+<WARN> 03-Aug-2015::09:25:58.967 ResourceManager JVM-Launcher: - Resource annotated field :IOSNedCli::mm already set, no resource injection performed
+<INFO> 03-Aug-2015::09:25:58.968 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-ios"] --> LOADED
+<INFO> 03-Aug-2015::09:25:58.968 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:25:58.968 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:25:58.968 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:25:58.968 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 03-Aug-2015::09:25:58.968 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-iosxr"] -->
+<WARN> 03-Aug-2015::09:25:58.976 ResourceManager JVM-Launcher: - Resource annotated field :IosxrNedCli::mm already set, no resource injection performed
+<INFO> 03-Aug-2015::09:25:58.976 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-iosxr"] --> LOADED
+<INFO> 03-Aug-2015::09:25:58.976 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:25:58.977 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:25:58.977 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:25:58.977 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 03-Aug-2015::09:25:58.977 NcsMain JVM-Launcher: - LOADING PACKAGE ["odl"] -->
+<INFO> 03-Aug-2015::09:25:58.992 NcsMain JVM-Launcher: - LOADING PACKAGE ["odl"] --> LOADED
+<INFO> 03-Aug-2015::09:25:58.992 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:25:58.993 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:25:58.993 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:25:58.993 NcsMain JVM-Launcher: - FOUND TYPE: callback
+<INFO> 03-Aug-2015::09:25:58.993 NcsMain JVM-Launcher: - LOADING PACKAGE ["qos"] -->
+<INFO> 03-Aug-2015::09:25:58.997 NcsMain JVM-Launcher: - LOADING PACKAGE ["qos"] --> LOADED
+<INFO> 03-Aug-2015::09:25:58.997 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:25:58.997 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:25:58.997 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:25:58.997 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-apicdc:cisco-apicdc"] -->
+<INFO> 03-Aug-2015::09:25:58.997 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-apicdc:cisco-apicdc"] --> DONE
+<INFO> 03-Aug-2015::09:25:58.997 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:25:58.998 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:25:58.998 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:25:58.998 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:upgrade-ned-id"] -->
+<INFO> 03-Aug-2015::09:25:58.998 NcsMain JVM-Launcher: - => Nothing to deploy for component cisco-ios:upgrade-ned-id
+<INFO> 03-Aug-2015::09:25:58.998 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:upgrade-ned-id"] --> DONE
+<INFO> 03-Aug-2015::09:25:58.998 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:25:58.998 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:25:58.998 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:25:58.999 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:cisco-ios"] -->
+<INFO> 03-Aug-2015::09:25:58.999 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:cisco-ios"] --> DONE
+<INFO> 03-Aug-2015::09:25:58.999 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:25:58.999 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:25:58.999 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:25:58.999 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-iosxr:cisco-ios-xr"] -->
+<INFO> 03-Aug-2015::09:25:58.999 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-iosxr:cisco-ios-xr"] --> DONE
+<INFO> 03-Aug-2015::09:25:58.999 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:25:59.000 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:25:59.000 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:25:59.000 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["odl:odl"] -->
+<INFO> 03-Aug-2015::09:25:59.000 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["odl:odl"] --> DONE
+<INFO> 03-Aug-2015::09:25:59.000 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:25:59.000 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:25:59.000 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:25:59.000 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["qos:RFSSkeleton"] -->
+<INFO> 03-Aug-2015::09:25:59.042 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["qos:RFSSkeleton"] --> DONE
+<INFO> 03-Aug-2015::09:25:59.042 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:25:59.042 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:25:59.042 NcsMain JVM-Launcher: -  <= GOT DONE_LOADING
+<INFO> 03-Aug-2015::09:25:59.042 NcsMain JVM-Launcher: - DONE LOADING  -->
+<INFO> 03-Aug-2015::09:25:59.043 NcsMain JVM-Launcher: - DONE LOADING --> OK
+<INFO> 03-Aug-2015::09:25:59.043 NcsMain JVM-Launcher: - DONE COMMAND --> DONE_LOADING
+<INFO> 03-Aug-2015::09:25:59.043 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:42:53.494 NcsMain JVM-Launcher: -  <= GOT UNLOAD_ALL
+<INFO> 03-Aug-2015::09:42:53.495 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["qos"] -->
+<INFO> 03-Aug-2015::09:42:53.495 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["qos"] --> OK
+<INFO> 03-Aug-2015::09:42:53.495 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["odl"] -->
+<WARN> 03-Aug-2015::09:42:53.495 Dp NCS-DpMUX-1-qos:RFSSkeleton: - Socket was closed
+<INFO> 03-Aug-2015::09:42:53.496 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["odl"] --> OK
+<INFO> 03-Aug-2015::09:42:53.496 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-iosxr"] -->
+<INFO> 03-Aug-2015::09:42:53.496 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-iosxr"] --> OK
+<INFO> 03-Aug-2015::09:42:53.496 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-ios"] -->
+<INFO> 03-Aug-2015::09:42:53.497 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-ios"] --> OK
+<INFO> 03-Aug-2015::09:42:53.497 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-apicdc"] -->
+<INFO> 03-Aug-2015::09:42:53.497 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-apicdc"] --> OK
+<INFO> 03-Aug-2015::09:42:53.497 NcsMain JVM-Launcher: - DONE COMMAND --> UNLOAD_ALL
+<INFO> 03-Aug-2015::09:42:53.497 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:42:53.497 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:42:53.498 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-apicdc"] -->
+<INFO> 03-Aug-2015::09:42:53.498 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/cisco-apicdc-ns.jar
+<INFO> 03-Aug-2015::09:42:53.498 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/commons-io-2.4.jar
+<INFO> 03-Aug-2015::09:42:53.498 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/commons-logging-1.2.jar
+<INFO> 03-Aug-2015::09:42:53.498 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/httpclient-4.4.jar
+<INFO> 03-Aug-2015::09:42:53.498 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/httpcore-4.4.jar
+<INFO> 03-Aug-2015::09:42:53.498 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-apicdc"] --> OK
+<INFO> 03-Aug-2015::09:42:53.498 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:42:53.499 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:42:53.499 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:42:53.499 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-ios"] -->
+<INFO> 03-Aug-2015::09:42:53.499 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-ios/shared-jar/ios-ns.jar
+<INFO> 03-Aug-2015::09:42:53.499 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-ios"] --> OK
+<INFO> 03-Aug-2015::09:42:53.499 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:42:53.499 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:42:53.499 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:42:53.499 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-iosxr"] -->
+<INFO> 03-Aug-2015::09:42:53.500 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-xr/shared-jar/iosxr-ns.jar
+<INFO> 03-Aug-2015::09:42:53.500 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-iosxr"] --> OK
+<INFO> 03-Aug-2015::09:42:53.500 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:42:53.500 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:42:53.500 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:42:53.500 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["odl"] -->
+<INFO> 03-Aug-2015::09:42:53.501 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/odl/shared-jar/odl-ns.jar
+<INFO> 03-Aug-2015::09:42:53.501 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["odl"] --> OK
+<INFO> 03-Aug-2015::09:42:53.501 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:42:53.501 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:42:53.501 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:42:53.501 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["qos"] -->
+<INFO> 03-Aug-2015::09:42:53.501 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/qos/shared-jar/commons-net-3.3.jar
+<INFO> 03-Aug-2015::09:42:53.502 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/qos/shared-jar/qos-ns.jar
+<INFO> 03-Aug-2015::09:42:53.502 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["qos"] --> OK
+<INFO> 03-Aug-2015::09:42:53.502 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:42:53.502 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:42:53.502 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:42:53.503 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 03-Aug-2015::09:42:53.503 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-apicdc"] -->
+<INFO> 03-Aug-2015::09:42:53.513 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-apicdc"] --> LOADED
+<INFO> 03-Aug-2015::09:42:53.513 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:42:53.513 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:42:53.514 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:42:53.514 NcsMain JVM-Launcher: - FOUND TYPE: upgrade
+<INFO> 03-Aug-2015::09:42:53.514 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 03-Aug-2015::09:42:53.514 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-ios"] -->
+<WARN> 03-Aug-2015::09:42:53.519 ResourceManager JVM-Launcher: - Resource annotated field :IOSNedCli::mm already set, no resource injection performed
+<INFO> 03-Aug-2015::09:42:53.520 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-ios"] --> LOADED
+<INFO> 03-Aug-2015::09:42:53.520 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:42:53.520 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:42:53.520 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:42:53.520 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 03-Aug-2015::09:42:53.520 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-iosxr"] -->
+<WARN> 03-Aug-2015::09:42:53.524 ResourceManager JVM-Launcher: - Resource annotated field :IosxrNedCli::mm already set, no resource injection performed
+<INFO> 03-Aug-2015::09:42:53.525 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-iosxr"] --> LOADED
+<INFO> 03-Aug-2015::09:42:53.525 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:42:53.525 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:42:53.525 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:42:53.525 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 03-Aug-2015::09:42:53.525 NcsMain JVM-Launcher: - LOADING PACKAGE ["odl"] -->
+<INFO> 03-Aug-2015::09:42:53.530 NcsMain JVM-Launcher: - LOADING PACKAGE ["odl"] --> LOADED
+<INFO> 03-Aug-2015::09:42:53.530 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:42:53.530 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:42:53.530 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:42:53.530 NcsMain JVM-Launcher: - FOUND TYPE: callback
+<INFO> 03-Aug-2015::09:42:53.530 NcsMain JVM-Launcher: - LOADING PACKAGE ["qos"] -->
+<INFO> 03-Aug-2015::09:42:53.532 NcsMain JVM-Launcher: - LOADING PACKAGE ["qos"] --> LOADED
+<INFO> 03-Aug-2015::09:42:53.532 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:42:53.532 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:42:53.532 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:42:53.532 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-apicdc:cisco-apicdc"] -->
+<INFO> 03-Aug-2015::09:42:53.532 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-apicdc:cisco-apicdc"] --> DONE
+<INFO> 03-Aug-2015::09:42:53.532 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:42:53.533 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:42:53.533 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:42:53.533 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:upgrade-ned-id"] -->
+<INFO> 03-Aug-2015::09:42:53.533 NcsMain JVM-Launcher: - => Nothing to deploy for component cisco-ios:upgrade-ned-id
+<INFO> 03-Aug-2015::09:42:53.533 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:upgrade-ned-id"] --> DONE
+<INFO> 03-Aug-2015::09:42:53.533 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:42:53.533 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:42:53.533 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:42:53.533 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:cisco-ios"] -->
+<INFO> 03-Aug-2015::09:42:53.534 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:cisco-ios"] --> DONE
+<INFO> 03-Aug-2015::09:42:53.534 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:42:53.534 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:42:53.534 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:42:53.534 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-iosxr:cisco-ios-xr"] -->
+<INFO> 03-Aug-2015::09:42:53.534 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-iosxr:cisco-ios-xr"] --> DONE
+<INFO> 03-Aug-2015::09:42:53.534 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:42:53.534 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:42:53.535 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:42:53.535 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["odl:odl"] -->
+<INFO> 03-Aug-2015::09:42:53.535 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["odl:odl"] --> DONE
+<INFO> 03-Aug-2015::09:42:53.535 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:42:53.535 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:42:53.535 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:42:53.535 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["qos:RFSSkeleton"] -->
+<INFO> 03-Aug-2015::09:42:53.543 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["qos:RFSSkeleton"] --> DONE
+<INFO> 03-Aug-2015::09:42:53.544 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:42:53.544 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:42:53.544 NcsMain JVM-Launcher: -  <= GOT DONE_LOADING
+<INFO> 03-Aug-2015::09:42:53.544 NcsMain JVM-Launcher: - DONE LOADING  -->
+<INFO> 03-Aug-2015::09:42:53.545 NcsMain JVM-Launcher: - DONE LOADING --> OK
+<INFO> 03-Aug-2015::09:42:53.545 NcsMain JVM-Launcher: - DONE COMMAND --> DONE_LOADING
+<INFO> 03-Aug-2015::09:42:53.545 NcsMain JVM-Launcher: - READ SOCKET =>
+<ERROR> 03-Aug-2015::09:42:58.435 CiscoApicdcNed Ned-Worker-Thread-2: - java.lang.RuntimeException: HTTP/1.1 401 Unauthorized
+Before QOS servicelevel2
+After QOS servicelevel2
+Before QOS servicelevel2
+After QOS servicelevel2
+<INFO> 03-Aug-2015::09:50:36.477 NcsMain JVM-Launcher: -  <= GOT UNLOAD_ALL
+<INFO> 03-Aug-2015::09:50:36.477 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["qos"] -->
+<WARN> 03-Aug-2015::09:50:36.478 Dp NCS-DpMUX-2-qos:RFSSkeleton: - Socket was closed
+<INFO> 03-Aug-2015::09:50:36.478 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["qos"] --> OK
+<INFO> 03-Aug-2015::09:50:36.478 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["odl"] -->
+<WARN> 03-Aug-2015::09:50:36.479 NedWorker Ned-Worker-Thread-0: - Thread[Ned-Worker-Thread-0,5,main] dies due to!
+<INFO> 03-Aug-2015::09:50:36.479 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["odl"] --> OK
+<INFO> 03-Aug-2015::09:50:36.479 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-iosxr"] -->
+<WARN> 03-Aug-2015::09:50:36.479 NedWorker Ned-Worker-Thread-2: - Thread[Ned-Worker-Thread-2,5,main] dies due to!
+<WARN> 03-Aug-2015::09:50:36.479 NedWorker Ned-Worker-Thread-1: - Thread[Ned-Worker-Thread-1,5,main] dies due to!
+<INFO> 03-Aug-2015::09:50:36.480 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-iosxr"] --> OK
+<INFO> 03-Aug-2015::09:50:36.480 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-ios"] -->
+<INFO> 03-Aug-2015::09:50:36.480 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-ios"] --> OK
+<INFO> 03-Aug-2015::09:50:36.481 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-apicdc"] -->
+<INFO> 03-Aug-2015::09:50:36.481 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-apicdc"] --> OK
+<INFO> 03-Aug-2015::09:50:36.481 NcsMain JVM-Launcher: - DONE COMMAND --> UNLOAD_ALL
+<INFO> 03-Aug-2015::09:50:36.481 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:50:36.481 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:50:36.481 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-apicdc"] -->
+<INFO> 03-Aug-2015::09:50:36.481 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/cisco-apicdc-ns.jar
+<INFO> 03-Aug-2015::09:50:36.482 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/commons-io-2.4.jar
+<INFO> 03-Aug-2015::09:50:36.482 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/commons-logging-1.2.jar
+<INFO> 03-Aug-2015::09:50:36.482 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/httpclient-4.4.jar
+<INFO> 03-Aug-2015::09:50:36.482 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/httpcore-4.4.jar
+<INFO> 03-Aug-2015::09:50:36.482 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-apicdc"] --> OK
+<INFO> 03-Aug-2015::09:50:36.482 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:50:36.482 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:50:36.482 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:50:36.482 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-ios"] -->
+<INFO> 03-Aug-2015::09:50:36.483 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-ios/shared-jar/ios-ns.jar
+<INFO> 03-Aug-2015::09:50:36.483 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-ios"] --> OK
+<INFO> 03-Aug-2015::09:50:36.483 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:50:36.483 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:50:36.483 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:50:36.483 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-iosxr"] -->
+<INFO> 03-Aug-2015::09:50:36.483 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-xr/shared-jar/iosxr-ns.jar
+<INFO> 03-Aug-2015::09:50:36.483 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-iosxr"] --> OK
+<INFO> 03-Aug-2015::09:50:36.484 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:50:36.484 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:50:36.484 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:50:36.484 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["odl"] -->
+<INFO> 03-Aug-2015::09:50:36.484 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/odl/shared-jar/odl-ns.jar
+<INFO> 03-Aug-2015::09:50:36.484 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["odl"] --> OK
+<INFO> 03-Aug-2015::09:50:36.484 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:50:36.485 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:50:36.485 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:50:36.485 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["qos"] -->
+<INFO> 03-Aug-2015::09:50:36.485 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/qos/shared-jar/commons-net-3.3.jar
+<INFO> 03-Aug-2015::09:50:36.485 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/qos/shared-jar/qos-ns.jar
+<INFO> 03-Aug-2015::09:50:36.485 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["qos"] --> OK
+<INFO> 03-Aug-2015::09:50:36.485 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:50:36.485 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:50:36.486 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:50:36.486 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 03-Aug-2015::09:50:36.486 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-apicdc"] -->
+<INFO> 03-Aug-2015::09:50:36.494 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-apicdc"] --> LOADED
+<INFO> 03-Aug-2015::09:50:36.494 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:50:36.494 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:50:36.494 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:50:36.494 NcsMain JVM-Launcher: - FOUND TYPE: upgrade
+<INFO> 03-Aug-2015::09:50:36.495 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 03-Aug-2015::09:50:36.495 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-ios"] -->
+<WARN> 03-Aug-2015::09:50:36.500 ResourceManager JVM-Launcher: - Resource annotated field :IOSNedCli::mm already set, no resource injection performed
+<INFO> 03-Aug-2015::09:50:36.500 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-ios"] --> LOADED
+<INFO> 03-Aug-2015::09:50:36.500 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:50:36.500 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:50:36.500 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:50:36.500 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 03-Aug-2015::09:50:36.501 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-iosxr"] -->
+<WARN> 03-Aug-2015::09:50:36.505 ResourceManager JVM-Launcher: - Resource annotated field :IosxrNedCli::mm already set, no resource injection performed
+<INFO> 03-Aug-2015::09:50:36.505 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-iosxr"] --> LOADED
+<INFO> 03-Aug-2015::09:50:36.505 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:50:36.505 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:50:36.506 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:50:36.506 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 03-Aug-2015::09:50:36.506 NcsMain JVM-Launcher: - LOADING PACKAGE ["odl"] -->
+<INFO> 03-Aug-2015::09:50:36.510 NcsMain JVM-Launcher: - LOADING PACKAGE ["odl"] --> LOADED
+<INFO> 03-Aug-2015::09:50:36.510 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:50:36.510 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:50:36.511 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:50:36.511 NcsMain JVM-Launcher: - FOUND TYPE: callback
+<INFO> 03-Aug-2015::09:50:36.511 NcsMain JVM-Launcher: - LOADING PACKAGE ["qos"] -->
+<INFO> 03-Aug-2015::09:50:36.512 NcsMain JVM-Launcher: - LOADING PACKAGE ["qos"] --> LOADED
+<INFO> 03-Aug-2015::09:50:36.512 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:50:36.512 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:50:36.512 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:50:36.513 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-apicdc:cisco-apicdc"] -->
+<INFO> 03-Aug-2015::09:50:36.513 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-apicdc:cisco-apicdc"] --> DONE
+<INFO> 03-Aug-2015::09:50:36.513 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:50:36.513 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:50:36.513 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:50:36.513 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:upgrade-ned-id"] -->
+<INFO> 03-Aug-2015::09:50:36.513 NcsMain JVM-Launcher: - => Nothing to deploy for component cisco-ios:upgrade-ned-id
+<INFO> 03-Aug-2015::09:50:36.513 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:upgrade-ned-id"] --> DONE
+<INFO> 03-Aug-2015::09:50:36.513 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:50:36.513 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:50:36.514 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:50:36.514 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:cisco-ios"] -->
+<INFO> 03-Aug-2015::09:50:36.514 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:cisco-ios"] --> DONE
+<INFO> 03-Aug-2015::09:50:36.514 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:50:36.514 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:50:36.514 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:50:36.514 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-iosxr:cisco-ios-xr"] -->
+<INFO> 03-Aug-2015::09:50:36.514 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-iosxr:cisco-ios-xr"] --> DONE
+<INFO> 03-Aug-2015::09:50:36.514 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:50:36.514 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:50:36.515 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:50:36.515 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["odl:odl"] -->
+<INFO> 03-Aug-2015::09:50:36.515 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["odl:odl"] --> DONE
+<INFO> 03-Aug-2015::09:50:36.515 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:50:36.515 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:50:36.515 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:50:36.515 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["qos:RFSSkeleton"] -->
+<INFO> 03-Aug-2015::09:50:36.521 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["qos:RFSSkeleton"] --> DONE
+<INFO> 03-Aug-2015::09:50:36.522 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:50:36.522 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:50:36.522 NcsMain JVM-Launcher: -  <= GOT DONE_LOADING
+<INFO> 03-Aug-2015::09:50:36.522 NcsMain JVM-Launcher: - DONE LOADING  -->
+<INFO> 03-Aug-2015::09:50:36.523 NcsMain JVM-Launcher: - DONE LOADING --> OK
+<INFO> 03-Aug-2015::09:50:36.523 NcsMain JVM-Launcher: - DONE COMMAND --> DONE_LOADING
+<INFO> 03-Aug-2015::09:50:36.523 NcsMain JVM-Launcher: - READ SOCKET =>
+Delete ---- Modification
+read:
+
+read:
+User Access Verification
+
+Username: 
+read:admin
+Password: 
+
+
+RP/0/RSP0/CPU0:A9001#
+read:config t
+Mon Aug  3 01:54:34.073 UTC
+RP/0/RSP0/CPU0:A9001(config)# interface TenGigE0/0/2/0
+RP/0/RSP0/CPU0:A9001(config-if)# no service-policy type pbr input E-PBR
+RP/0/RSP0/CPU0:A9001(config-if)# commit
+Mon Aug  3 01:54:34.660 UTC
+RP/0/RSP0/CPU0:A9001(config-if)#
+#######end
+RP/0/RSP0/CPU0:A9001# show running-config interface tenGigE 0/0/2/0
+Mon Aug  3 01:54:36.213 UTC
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       com.tailf.navu.NavuException: com.tailf.maapi.MaapiException: /ncs:devices/device{odlc}/rpc/rpc-remove-lsp/remove-lsp/node: Missing value######device{a9k}
+######device{apic}
+######device{odlc}
+Before QOS servicelevel2
+After QOS servicelevel2
+com.tailf.navu.NoSuchNavuNodeException: /ncs:devices/device{a9k}/config/cisco-ios-xr:interface/TenGigE{0/0/2/0} has no child node "type" 
+ possible children (39): 
+  NavuLeaf: "id"
+  NavuLeaf: "description"
+  NavuLeaf: "bandwidth"
+  NavuContainer: "frequency"
+  NavuContainer: "ipv4"
+  NavuContainer: "ipv6"
+  NavuContainer: "isis"
+  NavuLeaf: "load-interval"
+  NavuContainer: "logging"
+  NavuContainer: "mpls"
+  NavuLeaf: "mtu"
+  NavuLeaf: "proxy-arp"
+  NavuContainer: "service-policy"
+  NavuLeaf: "shutdown"
+  NavuContainer: "storm-control"
+  NavuLeaf: "vrf"
+  NavuContainer: "dampening"
+  NavuContainer: "carrier-delay"
+  NavuLeaf: "duplex"
+  NavuContainer: "ethernet"
+  NavuContainer: "ethernet-services"
+  NavuLeaf: "mac-address"
+  NavuLeaf: "speed"
+  NavuContainer: "transceiver"
+  NavuContainer: "nv"
+  NavuContainer: "backup"
+  NavuContainer: "bfd"
+  NavuLeaf: "cdp"
+  NavuContainer: "dual-active"
+  NavuContainer: "l2transport"
+  NavuContainer: "platform"
+  NavuContainer: "xconnect"
+  NavuContainer: "channel-protocol"
+  NavuContainer: "switch"
+  NavuContainer: "switchport-conf"
+  NavuContainer: "switchport"
+  NavuContainer: "spanning-tree"
+  NavuContainer: "bundle"
+  NavuContainer: "lacp"
+
+######device{a9k}
+######device{apic}
+######device{odlc}
+Before QOS servicelevel2
+After QOS servicelevel2
+com.tailf.navu.NoSuchNavuNodeException: /ncs:devices/device{a9k}/config/cisco-ios-xr:interface/TenGigE{0/0/2/0} has no child node "type" 
+ possible children (39): 
+  NavuLeaf: "id"
+  NavuLeaf: "description"
+  NavuLeaf: "bandwidth"
+  NavuContainer: "frequency"
+  NavuContainer: "ipv4"
+  NavuContainer: "ipv6"
+  NavuContainer: "isis"
+  NavuLeaf: "load-interval"
+  NavuContainer: "logging"
+  NavuContainer: "mpls"
+  NavuLeaf: "mtu"
+  NavuLeaf: "proxy-arp"
+  NavuContainer: "service-policy"
+  NavuLeaf: "shutdown"
+  NavuContainer: "storm-control"
+  NavuLeaf: "vrf"
+  NavuContainer: "dampening"
+  NavuContainer: "carrier-delay"
+  NavuLeaf: "duplex"
+  NavuContainer: "ethernet"
+  NavuContainer: "ethernet-services"
+  NavuLeaf: "mac-address"
+  NavuLeaf: "speed"
+  NavuContainer: "transceiver"
+  NavuContainer: "nv"
+  NavuContainer: "backup"
+  NavuContainer: "bfd"
+  NavuLeaf: "cdp"
+  NavuContainer: "dual-active"
+  NavuContainer: "l2transport"
+  NavuContainer: "platform"
+  NavuContainer: "xconnect"
+  NavuContainer: "channel-protocol"
+  NavuContainer: "switch"
+  NavuContainer: "switchport-conf"
+  NavuContainer: "switchport"
+  NavuContainer: "spanning-tree"
+  NavuContainer: "bundle"
+  NavuContainer: "lacp"
+
+Delete ---- Modification
+read:
+
+read:
+User Access Verification
+
+Username: 
+read:admin
+Password: 
+read:
+
+
+RP/0/RSP0/CPU0:A9001#config t
+Mon Aug  3 01:56:07.802 UTC
+RP/0/RSP0/CPU0:A9001(config)# interface TenGigE0/0/2/0
+RP/0/RSP0/CPU0:A9001(config-if)# no service-policy type pbr input E-PBR
+RP/0/RSP0/CPU0:A9001(config-if)# commit
+Mon Aug  3 01:56:08.381 UTC
+RP/0/RSP0/CPU0:A9001(config-if)#
+#######end
+RP/0/RSP0/CPU0:A9001# show running-config interface tenGigE 0/0/2/0
+Mon Aug  3 01:56:09.961 UTC
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       <INFO> 03-Aug-2015::09:52:24.489 NcsMain JVM-Launcher: -  <= GOT UNLOAD_ALL
+<INFO> 03-Aug-2015::09:52:24.489 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["qos"] -->
+<WARN> 03-Aug-2015::09:52:24.489 Dp NCS-DpMUX-3-qos:RFSSkeleton: - Socket was closed
+<INFO> 03-Aug-2015::09:52:24.489 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["qos"] --> OK
+<INFO> 03-Aug-2015::09:52:24.490 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["odl"] -->
+<WARN> 03-Aug-2015::09:52:24.490 NedWorker Ned-Worker-Thread-0: - Thread[Ned-Worker-Thread-0,5,main] dies due to!
+<INFO> 03-Aug-2015::09:52:24.490 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["odl"] --> OK
+<INFO> 03-Aug-2015::09:52:24.491 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-iosxr"] -->
+<INFO> 03-Aug-2015::09:52:24.491 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-iosxr"] --> OK
+<INFO> 03-Aug-2015::09:52:24.491 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-ios"] -->
+<INFO> 03-Aug-2015::09:52:24.491 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-ios"] --> OK
+<INFO> 03-Aug-2015::09:52:24.491 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-apicdc"] -->
+<INFO> 03-Aug-2015::09:52:24.492 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-apicdc"] --> OK
+<INFO> 03-Aug-2015::09:52:24.492 NcsMain JVM-Launcher: - DONE COMMAND --> UNLOAD_ALL
+<INFO> 03-Aug-2015::09:52:24.492 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:52:24.492 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:52:24.492 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-apicdc"] -->
+<INFO> 03-Aug-2015::09:52:24.492 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/cisco-apicdc-ns.jar
+<INFO> 03-Aug-2015::09:52:24.492 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/commons-io-2.4.jar
+<INFO> 03-Aug-2015::09:52:24.492 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/commons-logging-1.2.jar
+<INFO> 03-Aug-2015::09:52:24.492 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/httpclient-4.4.jar
+<INFO> 03-Aug-2015::09:52:24.493 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/httpcore-4.4.jar
+<INFO> 03-Aug-2015::09:52:24.493 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-apicdc"] --> OK
+<INFO> 03-Aug-2015::09:52:24.493 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:52:24.493 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:52:24.493 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:52:24.493 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-ios"] -->
+<INFO> 03-Aug-2015::09:52:24.493 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-ios/shared-jar/ios-ns.jar
+<INFO> 03-Aug-2015::09:52:24.493 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-ios"] --> OK
+<INFO> 03-Aug-2015::09:52:24.493 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:52:24.493 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:52:24.493 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:52:24.494 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-iosxr"] -->
+<INFO> 03-Aug-2015::09:52:24.494 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-xr/shared-jar/iosxr-ns.jar
+<INFO> 03-Aug-2015::09:52:24.494 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-iosxr"] --> OK
+<INFO> 03-Aug-2015::09:52:24.494 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:52:24.494 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:52:24.494 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:52:24.494 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["odl"] -->
+<INFO> 03-Aug-2015::09:52:24.494 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/odl/shared-jar/odl-ns.jar
+<INFO> 03-Aug-2015::09:52:24.494 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["odl"] --> OK
+<INFO> 03-Aug-2015::09:52:24.494 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:52:24.494 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:52:24.494 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:52:24.495 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["qos"] -->
+<INFO> 03-Aug-2015::09:52:24.495 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/qos/shared-jar/commons-net-3.3.jar
+<INFO> 03-Aug-2015::09:52:24.495 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/qos/shared-jar/qos-ns.jar
+<INFO> 03-Aug-2015::09:52:24.495 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["qos"] --> OK
+<INFO> 03-Aug-2015::09:52:24.495 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:52:24.495 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:52:24.495 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:52:24.495 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 03-Aug-2015::09:52:24.495 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-apicdc"] -->
+<INFO> 03-Aug-2015::09:52:24.503 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-apicdc"] --> LOADED
+<INFO> 03-Aug-2015::09:52:24.503 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:52:24.503 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:52:24.503 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:52:24.503 NcsMain JVM-Launcher: - FOUND TYPE: upgrade
+<INFO> 03-Aug-2015::09:52:24.504 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 03-Aug-2015::09:52:24.504 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-ios"] -->
+<WARN> 03-Aug-2015::09:52:24.509 ResourceManager JVM-Launcher: - Resource annotated field :IOSNedCli::mm already set, no resource injection performed
+<INFO> 03-Aug-2015::09:52:24.510 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-ios"] --> LOADED
+<INFO> 03-Aug-2015::09:52:24.510 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:52:24.510 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:52:24.510 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:52:24.510 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 03-Aug-2015::09:52:24.510 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-iosxr"] -->
+<WARN> 03-Aug-2015::09:52:24.514 ResourceManager JVM-Launcher: - Resource annotated field :IosxrNedCli::mm already set, no resource injection performed
+<INFO> 03-Aug-2015::09:52:24.514 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-iosxr"] --> LOADED
+<INFO> 03-Aug-2015::09:52:24.514 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:52:24.514 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:52:24.515 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:52:24.515 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 03-Aug-2015::09:52:24.515 NcsMain JVM-Launcher: - LOADING PACKAGE ["odl"] -->
+<INFO> 03-Aug-2015::09:52:24.519 NcsMain JVM-Launcher: - LOADING PACKAGE ["odl"] --> LOADED
+<INFO> 03-Aug-2015::09:52:24.519 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:52:24.519 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:52:24.519 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:52:24.519 NcsMain JVM-Launcher: - FOUND TYPE: callback
+<INFO> 03-Aug-2015::09:52:24.519 NcsMain JVM-Launcher: - LOADING PACKAGE ["qos"] -->
+<INFO> 03-Aug-2015::09:52:24.521 NcsMain JVM-Launcher: - LOADING PACKAGE ["qos"] --> LOADED
+<INFO> 03-Aug-2015::09:52:24.521 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:52:24.521 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:52:24.521 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:52:24.522 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-apicdc:cisco-apicdc"] -->
+<INFO> 03-Aug-2015::09:52:24.522 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-apicdc:cisco-apicdc"] --> DONE
+<INFO> 03-Aug-2015::09:52:24.522 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:52:24.522 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:52:24.522 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:52:24.522 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:upgrade-ned-id"] -->
+<INFO> 03-Aug-2015::09:52:24.522 NcsMain JVM-Launcher: - => Nothing to deploy for component cisco-ios:upgrade-ned-id
+<INFO> 03-Aug-2015::09:52:24.522 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:upgrade-ned-id"] --> DONE
+<INFO> 03-Aug-2015::09:52:24.522 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:52:24.523 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:52:24.523 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:52:24.523 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:cisco-ios"] -->
+<INFO> 03-Aug-2015::09:52:24.523 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:cisco-ios"] --> DONE
+<INFO> 03-Aug-2015::09:52:24.523 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:52:24.523 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:52:24.523 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:52:24.523 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-iosxr:cisco-ios-xr"] -->
+<INFO> 03-Aug-2015::09:52:24.523 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-iosxr:cisco-ios-xr"] --> DONE
+<INFO> 03-Aug-2015::09:52:24.524 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:52:24.524 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:52:24.524 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:52:24.524 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["odl:odl"] -->
+<INFO> 03-Aug-2015::09:52:24.524 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["odl:odl"] --> DONE
+<INFO> 03-Aug-2015::09:52:24.524 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:52:24.524 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:52:24.524 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:52:24.524 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["qos:RFSSkeleton"] -->
+<INFO> 03-Aug-2015::09:52:24.529 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["qos:RFSSkeleton"] --> DONE
+<INFO> 03-Aug-2015::09:52:24.530 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:52:24.530 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:52:24.530 NcsMain JVM-Launcher: -  <= GOT DONE_LOADING
+<INFO> 03-Aug-2015::09:52:24.530 NcsMain JVM-Launcher: - DONE LOADING  -->
+<INFO> 03-Aug-2015::09:52:24.530 NcsMain JVM-Launcher: - DONE LOADING --> OK
+<INFO> 03-Aug-2015::09:52:24.531 NcsMain JVM-Launcher: - DONE COMMAND --> DONE_LOADING
+<INFO> 03-Aug-2015::09:52:24.531 NcsMain JVM-Launcher: - READ SOCKET =>
+######device{a9k}
+######device{apic}
+######device{odlc}
+Before QOS servicelevel2
+After QOS servicelevel2
+######device{a9k}
+######device{apic}
+######device{odlc}
+Before QOS servicelevel2
+After QOS servicelevel2
+<INFO> 03-Aug-2015::09:55:36.691 NcsMain JVM-Launcher: -  <= GOT UNLOAD_ALL
+<INFO> 03-Aug-2015::09:55:36.691 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["qos"] -->
+<WARN> 03-Aug-2015::09:55:36.691 Dp NCS-DpMUX-4-qos:RFSSkeleton: - Socket was closed
+<INFO> 03-Aug-2015::09:55:36.691 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["qos"] --> OK
+<INFO> 03-Aug-2015::09:55:36.692 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["odl"] -->
+<WARN> 03-Aug-2015::09:55:36.692 NedWorker Ned-Worker-Thread-0: - Thread[Ned-Worker-Thread-0,5,main] dies due to!
+<INFO> 03-Aug-2015::09:55:36.692 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["odl"] --> OK
+<INFO> 03-Aug-2015::09:55:36.693 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-iosxr"] -->
+<WARN> 03-Aug-2015::09:55:36.692 NedWorker Ned-Worker-Thread-1: - Thread[Ned-Worker-Thread-1,5,main] dies due to!
+<INFO> 03-Aug-2015::09:55:36.694 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-iosxr"] --> OK
+<INFO> 03-Aug-2015::09:55:36.694 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-ios"] -->
+<INFO> 03-Aug-2015::09:55:36.694 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-ios"] --> OK
+<INFO> 03-Aug-2015::09:55:36.694 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-apicdc"] -->
+<INFO> 03-Aug-2015::09:55:36.694 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-apicdc"] --> OK
+<INFO> 03-Aug-2015::09:55:36.695 NcsMain JVM-Launcher: - DONE COMMAND --> UNLOAD_ALL
+<INFO> 03-Aug-2015::09:55:36.695 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:55:36.695 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:55:36.695 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-apicdc"] -->
+<INFO> 03-Aug-2015::09:55:36.695 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/cisco-apicdc-ns.jar
+<INFO> 03-Aug-2015::09:55:36.695 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/commons-io-2.4.jar
+<INFO> 03-Aug-2015::09:55:36.695 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/commons-logging-1.2.jar
+<INFO> 03-Aug-2015::09:55:36.696 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/httpclient-4.4.jar
+<INFO> 03-Aug-2015::09:55:36.696 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/httpcore-4.4.jar
+<INFO> 03-Aug-2015::09:55:36.696 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-apicdc"] --> OK
+<INFO> 03-Aug-2015::09:55:36.696 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:55:36.696 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:55:36.696 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:55:36.696 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-ios"] -->
+<INFO> 03-Aug-2015::09:55:36.696 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-ios/shared-jar/ios-ns.jar
+<INFO> 03-Aug-2015::09:55:36.697 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-ios"] --> OK
+<INFO> 03-Aug-2015::09:55:36.697 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:55:36.697 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:55:36.697 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:55:36.697 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-iosxr"] -->
+<INFO> 03-Aug-2015::09:55:36.697 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-xr/shared-jar/iosxr-ns.jar
+<INFO> 03-Aug-2015::09:55:36.697 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-iosxr"] --> OK
+<INFO> 03-Aug-2015::09:55:36.697 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:55:36.697 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:55:36.698 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:55:36.698 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["odl"] -->
+<INFO> 03-Aug-2015::09:55:36.698 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/odl/shared-jar/odl-ns.jar
+<INFO> 03-Aug-2015::09:55:36.698 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["odl"] --> OK
+<INFO> 03-Aug-2015::09:55:36.698 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:55:36.698 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:55:36.698 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:55:36.698 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["qos"] -->
+<INFO> 03-Aug-2015::09:55:36.699 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/qos/shared-jar/commons-net-3.3.jar
+<INFO> 03-Aug-2015::09:55:36.699 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/qos/shared-jar/qos-ns.jar
+<INFO> 03-Aug-2015::09:55:36.699 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["qos"] --> OK
+<INFO> 03-Aug-2015::09:55:36.699 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 03-Aug-2015::09:55:36.699 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:55:36.699 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:55:36.699 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 03-Aug-2015::09:55:36.700 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-apicdc"] -->
+<INFO> 03-Aug-2015::09:55:36.707 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-apicdc"] --> LOADED
+<INFO> 03-Aug-2015::09:55:36.707 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:55:36.707 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:55:36.708 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:55:36.708 NcsMain JVM-Launcher: - FOUND TYPE: upgrade
+<INFO> 03-Aug-2015::09:55:36.708 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 03-Aug-2015::09:55:36.708 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-ios"] -->
+<WARN> 03-Aug-2015::09:55:36.712 ResourceManager JVM-Launcher: - Resource annotated field :IOSNedCli::mm already set, no resource injection performed
+<INFO> 03-Aug-2015::09:55:36.713 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-ios"] --> LOADED
+<INFO> 03-Aug-2015::09:55:36.713 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:55:36.713 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:55:36.713 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:55:36.713 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 03-Aug-2015::09:55:36.713 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-iosxr"] -->
+<WARN> 03-Aug-2015::09:55:36.717 ResourceManager JVM-Launcher: - Resource annotated field :IosxrNedCli::mm already set, no resource injection performed
+<INFO> 03-Aug-2015::09:55:36.717 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-iosxr"] --> LOADED
+<INFO> 03-Aug-2015::09:55:36.717 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:55:36.717 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:55:36.718 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:55:36.718 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 03-Aug-2015::09:55:36.718 NcsMain JVM-Launcher: - LOADING PACKAGE ["odl"] -->
+<INFO> 03-Aug-2015::09:55:36.722 NcsMain JVM-Launcher: - LOADING PACKAGE ["odl"] --> LOADED
+<INFO> 03-Aug-2015::09:55:36.722 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:55:36.722 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:55:36.722 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:55:36.722 NcsMain JVM-Launcher: - FOUND TYPE: callback
+<INFO> 03-Aug-2015::09:55:36.722 NcsMain JVM-Launcher: - LOADING PACKAGE ["qos"] -->
+<INFO> 03-Aug-2015::09:55:36.724 NcsMain JVM-Launcher: - LOADING PACKAGE ["qos"] --> LOADED
+<INFO> 03-Aug-2015::09:55:36.724 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 03-Aug-2015::09:55:36.724 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:55:36.724 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:55:36.724 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-apicdc:cisco-apicdc"] -->
+<INFO> 03-Aug-2015::09:55:36.724 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-apicdc:cisco-apicdc"] --> DONE
+<INFO> 03-Aug-2015::09:55:36.724 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:55:36.724 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:55:36.725 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:55:36.725 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:upgrade-ned-id"] -->
+<INFO> 03-Aug-2015::09:55:36.725 NcsMain JVM-Launcher: - => Nothing to deploy for component cisco-ios:upgrade-ned-id
+<INFO> 03-Aug-2015::09:55:36.725 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:upgrade-ned-id"] --> DONE
+<INFO> 03-Aug-2015::09:55:36.725 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:55:36.725 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:55:36.725 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:55:36.725 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:cisco-ios"] -->
+<INFO> 03-Aug-2015::09:55:36.725 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:cisco-ios"] --> DONE
+<INFO> 03-Aug-2015::09:55:36.725 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:55:36.726 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:55:36.726 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:55:36.726 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-iosxr:cisco-ios-xr"] -->
+<INFO> 03-Aug-2015::09:55:36.726 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-iosxr:cisco-ios-xr"] --> DONE
+<INFO> 03-Aug-2015::09:55:36.726 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:55:36.726 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:55:36.726 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:55:36.726 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["odl:odl"] -->
+<INFO> 03-Aug-2015::09:55:36.726 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["odl:odl"] --> DONE
+<INFO> 03-Aug-2015::09:55:36.726 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:55:36.726 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:55:36.726 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:55:36.727 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["qos:RFSSkeleton"] -->
+<INFO> 03-Aug-2015::09:55:36.733 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["qos:RFSSkeleton"] --> DONE
+<INFO> 03-Aug-2015::09:55:36.734 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 03-Aug-2015::09:55:36.734 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 03-Aug-2015::09:55:36.734 NcsMain JVM-Launcher: -  <= GOT DONE_LOADING
+<INFO> 03-Aug-2015::09:55:36.734 NcsMain JVM-Launcher: - DONE LOADING  -->
+<INFO> 03-Aug-2015::09:55:36.735 NcsMain JVM-Launcher: - DONE LOADING --> OK
+<INFO> 03-Aug-2015::09:55:36.735 NcsMain JVM-Launcher: - DONE COMMAND --> DONE_LOADING
+<INFO> 03-Aug-2015::09:55:36.735 NcsMain JVM-Launcher: - READ SOCKET =>
+Delete ---- Modification
+com.tailf.navu.NavuException: com.tailf.maapi.MaapiException: /ncs:devices/device{odlc}/rpc/rpc-remove-lsp/remove-lsp/node: Missing valueDelete ---- Modification

@@ -1,0 +1,22 @@
+# Created by: admin
+# Date: 2015-08-03 09:42:58
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10154
+
+ncs:devices {
+    ncs:device odlc {
+        ncs:config {
+            odl:pcep-topology pcep-topology {
+                delete:
+                odl:node pcc://110.0.0.101;
+                delete:
+                odl:node pcc://110.0.0.102;
+                delete:
+                odl:node pcc://110.0.0.103;
+            }
+         }
+     }
+ }

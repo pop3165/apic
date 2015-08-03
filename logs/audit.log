@@ -2107,3 +2107,132 @@
 <INFO> 17-Jul-2015::20:05:20.109 FYANG2-M-L01D ncs[37500]: audit user: admin/30 CLI done
 <INFO> 17-Jul-2015::20:05:21.379 FYANG2-M-L01D ncs[37500]: audit user: admin/30 CLI 'commit'
 <INFO> 17-Jul-2015::20:05:24.916 FYANG2-M-L01D ncs[37500]: audit user: admin/30 CLI done
+<INFO> 27-Jul-2015::15:34:44.217 FYANG2-M-L01D ncs[27320]: audit user: admin/22 assigned to groups: admin,staff,com.apple.sharepoint.group.1,access_bpf,everyone,localaccounts,_appserverusr,_appserveradm,_lpadmin,_appstore,_lpoperator,_developer,com.apple.access_screensharing,com.apple.access_ssh
+<INFO> 27-Jul-2015::15:40:44.085 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI 'config terminal'
+<INFO> 27-Jul-2015::15:40:44.089 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI done
+<INFO> 27-Jul-2015::15:45:05.808 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI 'end'
+<INFO> 27-Jul-2015::15:45:05.812 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI done
+<INFO> 27-Jul-2015::15:45:16.761 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI 'show devices device a9k'
+<INFO> 27-Jul-2015::15:45:19.606 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI done
+<INFO> 27-Jul-2015::15:45:27.824 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI 'devices device a9k sync-from'
+<INFO> 27-Jul-2015::15:45:31.587 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI done
+<INFO> 27-Jul-2015::15:45:37.112 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI 'show running-config devices device a9k'
+<INFO> 27-Jul-2015::15:45:49.867 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI aborted
+<INFO> 27-Jul-2015::15:45:51.245 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI 'config terminal'
+<INFO> 27-Jul-2015::15:45:51.246 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI done
+<INFO> 27-Jul-2015::15:47:44.472 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI 'devices device a9k config cisco-ios-xr:interface TenGigE 0/0/2/0 service-policy type test input E-PBR'
+<INFO> 27-Jul-2015::15:47:44.473 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI done
+<INFO> 27-Jul-2015::15:47:45.701 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI 'commit'
+<INFO> 27-Jul-2015::15:47:45.715 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI aborted
+<INFO> 27-Jul-2015::15:49:14.629 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI 'end'
+<INFO> 27-Jul-2015::15:49:15.315 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI done
+<INFO> 27-Jul-2015::15:49:16.574 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI 'packages reload'
+<INFO> 27-Jul-2015::15:49:19.996 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI done
+<INFO> 27-Jul-2015::15:49:21.300 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI 'config terminal'
+<INFO> 27-Jul-2015::15:49:21.301 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI done
+<INFO> 27-Jul-2015::15:49:37.362 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI 'devices device a9k config cisco-ios-xr:interface TenGigE 0/0/2/0 service-policy type pbr input E-PBR'
+<INFO> 27-Jul-2015::15:49:37.363 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI done
+<INFO> 27-Jul-2015::15:49:39.853 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI 'commit dry-run'
+<INFO> 27-Jul-2015::15:49:39.874 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI done
+<INFO> 27-Jul-2015::15:49:41.428 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI 'commit'
+<INFO> 27-Jul-2015::15:49:49.499 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI done
+<INFO> 27-Jul-2015::15:50:18.783 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI 'no devices device a9k config cisco-ios-xr:interface TenGigE 0/0/2/0 service-policy type pbr input E-PBR'
+<INFO> 27-Jul-2015::15:50:18.788 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI done
+<INFO> 27-Jul-2015::15:50:19.778 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI 'commit'
+<INFO> 27-Jul-2015::15:50:25.145 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI done
+<INFO> 27-Jul-2015::15:57:40.070 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI 'end'
+<INFO> 27-Jul-2015::15:57:40.071 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI done
+<INFO> 27-Jul-2015::15:57:41.542 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI 'config terminal'
+<INFO> 27-Jul-2015::15:57:41.543 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI done
+<INFO> 27-Jul-2015::15:58:00.280 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI 'devices device a9k config cisco-ios-xr:interface TenGigE 0/0/2/0 service-policy type pbr input E-PBR'
+<INFO> 27-Jul-2015::15:58:00.280 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI done
+<INFO> 27-Jul-2015::15:58:02.181 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI 'commit dry-run'
+<INFO> 27-Jul-2015::15:58:02.195 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI done
+<INFO> 27-Jul-2015::15:58:08.287 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI 'commit'
+<INFO> 27-Jul-2015::15:58:16.139 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI done
+<INFO> 27-Jul-2015::16:09:40.024 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI 'exit'
+<INFO> 27-Jul-2015::16:09:40.024 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI done
+<INFO> 27-Jul-2015::16:09:41.295 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI 'exit'
+<INFO> 27-Jul-2015::16:09:41.296 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI done
+<INFO> 27-Jul-2015::16:09:42.399 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI 'end'
+<INFO> 27-Jul-2015::16:09:42.399 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI done
+<INFO> 27-Jul-2015::16:09:44.981 FYANG2-M-L01D ncs[27320]: audit user: admin/22 CLI 'exit'
+<INFO> 3-Aug-2015::09:26:15.032 FYANG2-M-L01D ncs[6027]: audit user: admin/22 assigned to groups: admin,staff,com.apple.sharepoint.group.1,access_bpf,everyone,localaccounts,_appserverusr,_appserveradm,_lpadmin,_appstore,_lpoperator,_developer,com.apple.access_screensharing,com.apple.access_ssh
+<INFO> 3-Aug-2015::09:26:17.364 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'config terminal'
+<INFO> 3-Aug-2015::09:26:17.368 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:42:16.454 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'exit configuration-mode'
+<INFO> 3-Aug-2015::09:42:16.457 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:42:25.349 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'config terminal'
+<INFO> 3-Aug-2015::09:42:25.350 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:42:27.462 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'exit'
+<INFO> 3-Aug-2015::09:42:27.462 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:42:52.342 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'packages reload'
+<INFO> 3-Aug-2015::09:42:53.546 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:42:57.846 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'devices sync-from'
+<INFO> 3-Aug-2015::09:43:03.414 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:45:11.536 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'config terminal'
+<INFO> 3-Aug-2015::09:45:11.537 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:45:19.649 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'devices authgroups group apic_au'
+<INFO> 3-Aug-2015::09:45:19.650 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:45:29.688 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'default-map remote-password ****'
+<INFO> 3-Aug-2015::09:45:29.689 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:45:31.879 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'commit'
+<INFO> 3-Aug-2015::09:45:31.893 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:45:32.752 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'end'
+<INFO> 3-Aug-2015::09:45:32.752 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:45:34.131 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'devices sync-from'
+<INFO> 3-Aug-2015::09:45:38.152 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:46:03.193 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'config terminal'
+<INFO> 3-Aug-2015::09:46:03.194 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:47:41.860 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'services qos c_qos src-device-name apic src-endpoint ap1 src-port ep1 qos-level level2 dst-device-name odlc dst-endpoint 110.0.0.2'
+<INFO> 3-Aug-2015::09:47:41.861 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:47:44.051 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'commit dry-run'
+<INFO> 3-Aug-2015::09:47:44.279 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:47:50.954 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'commit'
+<INFO> 3-Aug-2015::09:47:51.082 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:50:31.764 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'end'
+<INFO> 3-Aug-2015::09:50:31.765 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:50:35.717 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'packages reload'
+<INFO> 3-Aug-2015::09:50:36.524 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:50:38.069 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'config terminal'
+<INFO> 3-Aug-2015::09:50:38.070 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:50:41.934 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'no services qos'
+<INFO> 3-Aug-2015::09:50:41.938 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:50:43.270 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'commit'
+<INFO> 3-Aug-2015::09:50:47.171 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:50:58.384 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'services qos c_qos src-device-name apic src-endpoint ap1 src-port ep1 qos-level level2 dst-device-name odlc dst-endpoint 110.0.0.2'
+<INFO> 3-Aug-2015::09:50:58.385 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:51:00.590 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'commit dry-run'
+<INFO> 3-Aug-2015::09:51:00.928 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:51:04.334 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'commit'
+<INFO> 3-Aug-2015::09:51:04.469 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:52:12.271 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'exit'
+<INFO> 3-Aug-2015::09:52:12.271 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:52:15.391 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'no services qos'
+<INFO> 3-Aug-2015::09:52:15.392 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:52:16.992 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'commit'
+<INFO> 3-Aug-2015::09:52:21.066 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:52:22.591 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'end'
+<INFO> 3-Aug-2015::09:52:22.592 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:52:23.736 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'packages reload'
+<INFO> 3-Aug-2015::09:52:24.532 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:52:25.846 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'config terminal'
+<INFO> 3-Aug-2015::09:52:25.847 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:52:28.922 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'services qos c_qos src-device-name apic src-endpoint ap1 src-port ep1 qos-level level2 dst-device-name odlc dst-endpoint 110.0.0.2'
+<INFO> 3-Aug-2015::09:52:28.923 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:52:34.727 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'commit dry-run'
+<INFO> 3-Aug-2015::09:52:35.054 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:52:40.439 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'commit'
+<INFO> 3-Aug-2015::09:52:48.840 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:55:34.498 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'end'
+<INFO> 3-Aug-2015::09:55:34.499 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:55:35.939 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'packages reload'
+<INFO> 3-Aug-2015::09:55:36.736 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:55:37.938 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'config terminal'
+<INFO> 3-Aug-2015::09:55:37.939 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:55:40.843 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'no services qos'
+<INFO> 3-Aug-2015::09:55:40.844 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:55:42.683 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'commit dry-run'
+<INFO> 3-Aug-2015::09:55:42.708 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done
+<INFO> 3-Aug-2015::09:55:44.795 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI 'commit'
+<INFO> 3-Aug-2015::09:55:53.080 FYANG2-M-L01D ncs[6027]: audit user: admin/22 CLI done

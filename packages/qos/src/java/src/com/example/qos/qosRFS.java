@@ -104,7 +104,7 @@ public class qosRFS{
 
             // iterate through all manage devices
             for(NavuContainer deviceContainer : managedDevices.elements()){
-
+            	System.out.println("######"+deviceContainer.getName());
                 // here we have the opportunity to do something with the
                 // ConfIPv4 ip value from the service instance,
                 // assume the device model has a path /xyz/ip, we could
@@ -157,8 +157,9 @@ public class qosRFS{
 				}
 				
 				//enable pbts on R1
-				NcsTelnet.enablePBTS();
-					
+				NavuContainer device = managedDevices.elem("a9k");
+				device.container("config").container("cisco-ios-xr", "interface").list("TenGigE").elem("0/0/2/0").container("service-policy").container("type").container("pbr").leaf("input").set("E-PBR");
+				
             }
             catch(ConfException e){
             	System.out.println(e);
@@ -209,7 +210,6 @@ public class qosRFS{
 	Properties opaque)
 	throws DpCallbackException{
 		
-		//System.out.println("before ---- Modification");
 		return opaque;
 		
 	}
@@ -226,8 +226,6 @@ public class qosRFS{
 			System.out.println("Delete ---- Modification");
 			
 			try{
-				//diable PBTS on R1
-				NcsTelnet.disablePBTS();
 				
 				NavuList managedDevices =context.getRootNode().container("devices").list("device");
                 NavuContainer odlController=managedDevices.elem("odlc");

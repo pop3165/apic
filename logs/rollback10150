@@ -1,0 +1,30 @@
+# Created by: admin
+# Date: 2015-07-27 15:45:31
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10150
+
+ncs:devices {
+    ncs:device a9k {
+        ncs:config {
+            cisco-ios-xr:interface {
+                cisco-ios-xr:TenGigE 0/0/2/1 {
+                    cisco-ios-xr:carrier-delay {
+                        cisco-ios-xr:down 0;
+                        cisco-ios-xr:up 0;
+                    }
+                }
+                cisco-ios-xr:tunnel-te 1111 {
+                    cisco-ios-xr:ipv4 {
+                        cisco-ios-xr:unnumbered {
+                            cisco-ios-xr:Loopback 0;
+                        }
+                    }
+                    cisco-ios-xr:destination 2.2.2.2;
+                }
+            }
+         }
+     }
+ }

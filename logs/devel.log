@@ -17743,3 +17743,1199 @@ Trace : [java.lang.NullPointerException]
 <DEBUG> 17-Jul-2015::20:35:25.020 FYANG2-M-L01D ncs[37500]: devel-c db reply daemon id: 10
 <DEBUG> 17-Jul-2015::20:35:25.020 FYANG2-M-L01D ncs[37500]: devel-c close_usess db request daemon id: 2
 <DEBUG> 17-Jul-2015::20:35:25.020 FYANG2-M-L01D ncs[37500]: devel-c db reply daemon id: 2
+<INFO> 27-Jul-2015::15:24:01.163 FYANG2-M-L01D ncs[27320]: devel-cdb Loaded oper data from ./ncs-cdb/O.cdb (14.46 KiB data in 0.002s)
+<DEBUG> 27-Jul-2015::15:24:01.167 FYANG2-M-L01D ncs[27320]: devel-cdb Using delayed CDB journal compaction (automatic mode)
+<INFO> 27-Jul-2015::15:24:01.184 FYANG2-M-L01D ncs[27320]: devel-cdb Loaded schema file: ./ncs-cdb/C.cdb (v3 from 5.4.1)
+<INFO> 27-Jul-2015::15:24:01.189 FYANG2-M-L01D ncs[27320]: devel-cdb Loaded configuration from ./ncs-cdb/A.cdb (27.35 KiB data, 57 transactions in 0.003s)
+<INFO> 27-Jul-2015::15:24:01.198 FYANG2-M-L01D ncs[27320]: devel-cdb Compacted CDB journal file: 2 ms (1357 nodes in memory, disk size 27.35 KiB -> 18.07 KiB)
+<DEBUG> 27-Jul-2015::15:24:01.347 FYANG2-M-L01D ncs[27320]: devel-cdb connect from ncs_server
+<DEBUG> 27-Jul-2015::15:24:01.348 FYANG2-M-L01D ncs[27320]: devel-cdb new subscriber session for ncs_server
+<DEBUG> 27-Jul-2015::15:24:01.390 FYANG2-M-L01D ncs[27320]: devel-c New daemon connected (name: ncs-internal-template-variable, daemon id: 0)
+<DEBUG> 27-Jul-2015::15:24:01.390 FYANG2-M-L01D ncs[27320]: devel-c New worker connected (daemon id: 0 worker id: 1)
+<DEBUG> 27-Jul-2015::15:24:01.394 FYANG2-M-L01D ncs[27320]: devel-c New daemon connected (name: ncs-internal-service-mux, daemon id: 1)
+<DEBUG> 27-Jul-2015::15:24:01.394 FYANG2-M-L01D ncs[27320]: devel-c New worker connected (daemon id: 1 worker id: 1)
+<DEBUG> 27-Jul-2015::15:24:01.410 FYANG2-M-L01D ncs[27320]: devel-c New daemon connected (name: snmp-config-transform, daemon id: 2)
+<DEBUG> 27-Jul-2015::15:24:01.410 FYANG2-M-L01D ncs[27320]: devel-c New worker connected (daemon id: 2 worker id: 4)
+<DEBUG> 27-Jul-2015::15:24:01.412 FYANG2-M-L01D ncs[27320]: devel-cdb connect from snmp-config-transform
+<DEBUG> 27-Jul-2015::15:24:01.412 FYANG2-M-L01D ncs[27320]: devel-cdb client snmp-config-transform has pid 27336/6
+<DEBUG> 27-Jul-2015::15:24:01.412 FYANG2-M-L01D ncs[27320]: devel-cdb inactive client snmp-config-transform closed
+<DEBUG> 27-Jul-2015::15:24:01.412 FYANG2-M-L01D ncs[27320]: devel-c New daemon connected (name: snmp-config-hook, daemon id: 3)
+<DEBUG> 27-Jul-2015::15:24:01.413 FYANG2-M-L01D ncs[27320]: devel-c New worker connected (daemon id: 3 worker id: 7)
+<DEBUG> 27-Jul-2015::15:24:01.467 FYANG2-M-L01D ncs[27320]: devel-cdb Loaded AAA data from CDB
+<DEBUG> 27-Jul-2015::15:24:01.474 FYANG2-M-L01D ncs[27320]: devel-cdb connect from econfd <0.162.0>
+<DEBUG> 27-Jul-2015::15:24:01.474 FYANG2-M-L01D ncs[27320]: devel-cdb new session on running for econfd <0.162.0>
+<DEBUG> 27-Jul-2015::15:24:01.476 FYANG2-M-L01D ncs[27320]: devel-cdb client econfd <0.162.0> closed
+<DEBUG> 27-Jul-2015::15:24:01.476 FYANG2-M-L01D ncs[27320]: devel-cdb connect from econfd <0.162.0>
+<DEBUG> 27-Jul-2015::15:24:01.477 FYANG2-M-L01D ncs[27320]: devel-cdb new session on operational for econfd <0.162.0>
+<DEBUG> 27-Jul-2015::15:24:01.477 FYANG2-M-L01D ncs[27320]: devel-cdb client econfd <0.162.0> closed
+<DEBUG> 27-Jul-2015::15:24:01.477 FYANG2-M-L01D ncs[27320]: devel-cdb connect from econfd <0.275.0>
+<DEBUG> 27-Jul-2015::15:24:01.477 FYANG2-M-L01D ncs[27320]: devel-cdb new subscriber session for econfd <0.275.0>
+<INFO> 27-Jul-2015::15:24:01.925 FYANG2-M-L01D ncs[27320]: devel-snmpa loaded snmp mib: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMPv2-MIB
+<INFO> 27-Jul-2015::15:24:01.925 FYANG2-M-L01D ncs[27320]: devel-snmpa loaded snmp mib: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-FRAMEWORK-MIB
+<INFO> 27-Jul-2015::15:24:01.925 FYANG2-M-L01D ncs[27320]: devel-snmpa loaded snmp mib: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-MPD-MIB
+<INFO> 27-Jul-2015::15:24:01.951 FYANG2-M-L01D ncs[27320]: devel-snmpa setting snmpEngineID: 80:00:7E:D9:04:74:65:73:74:69:6E:67
+<DEBUG> 27-Jul-2015::15:24:01.969 FYANG2-M-L01D ncs[27320]: devel-snmpa no view for view type: write
+<DEBUG> 27-Jul-2015::15:24:01.969 FYANG2-M-L01D ncs[27320]: devel-snmpa no access entry and view name found: view type: write, group name: public, context name: , sec model: SNMPv1(1), sec level: noAuthNoPriv(1)
+<DEBUG> 27-Jul-2015::15:24:01.969 FYANG2-M-L01D ncs[27320]: devel-snmpa no view for view type: write
+<DEBUG> 27-Jul-2015::15:24:01.969 FYANG2-M-L01D ncs[27320]: devel-snmpa no access entry and view name found: view type: write, group name: public, context name: , sec model: SNMPv2c(2), sec level: noAuthNoPriv(1)
+<INFO> 27-Jul-2015::15:24:01.990 FYANG2-M-L01D ncs[27320]: devel-snmpa loaded snmp mib: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/IANA-ITU-ALARM-TC-MIB.bin
+<INFO> 27-Jul-2015::15:24:01.991 FYANG2-M-L01D ncs[27320]: devel-snmpa loaded snmp mib: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/ITU-ALARM-TC-MIB.bin
+<INFO> 27-Jul-2015::15:24:01.998 FYANG2-M-L01D ncs[27320]: devel-snmpa loaded snmp mib: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-ALARM-MIB.bin
+<INFO> 27-Jul-2015::15:24:01.999 FYANG2-M-L01D ncs[27320]: devel-snmpa loaded snmp mib: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-ALARM-TC-MIB.bin
+<INFO> 27-Jul-2015::15:24:02.000 FYANG2-M-L01D ncs[27320]: devel-snmpa loaded snmp mib: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-TOP-MIB.bin
+<INFO> 27-Jul-2015::15:24:02.001 FYANG2-M-L01D ncs[27320]: devel-snmpa loaded snmp mib: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-COMMUNITY-MIB.bin
+<INFO> 27-Jul-2015::15:24:02.002 FYANG2-M-L01D ncs[27320]: devel-snmpa loaded snmp mib: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-TARGET-MIB.bin
+<INFO> 27-Jul-2015::15:24:02.003 FYANG2-M-L01D ncs[27320]: devel-snmpa loaded snmp mib: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-NOTIFICATION-MIB.bin
+<INFO> 27-Jul-2015::15:24:02.004 FYANG2-M-L01D ncs[27320]: devel-snmpa loaded snmp mib: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-USER-BASED-SM-MIB.bin
+<INFO> 27-Jul-2015::15:24:02.005 FYANG2-M-L01D ncs[27320]: devel-snmpa loaded snmp mib: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-VIEW-BASED-ACM-MIB.bin
+<INFO> 27-Jul-2015::15:24:02.005 FYANG2-M-L01D ncs[27320]: devel-snmpa snmp agent started
+<DEBUG> 27-Jul-2015::15:24:02.854 FYANG2-M-L01D ncs[27320]: devel-cdb connect from NCSLOGGER
+<DEBUG> 27-Jul-2015::15:24:02.875 FYANG2-M-L01D ncs[27320]: devel-cdb connect from com.tailf.ncs.logging.NcsLogger$LoggConfigurator
+<DEBUG> 27-Jul-2015::15:24:02.877 FYANG2-M-L01D ncs[27320]: devel-cdb new subscriber session for NCSLOGGER
+<DEBUG> 27-Jul-2015::15:24:02.894 FYANG2-M-L01D ncs[27320]: devel-cdb connect from com.tailf.ncs.logging.NcsLogger$LoggConfigurator-pool:0
+<DEBUG> 27-Jul-2015::15:24:02.897 FYANG2-M-L01D ncs[27320]: devel-cdb new session on running for com.tailf.ncs.logging.NcsLogger$LoggConfigurator-pool:0
+<DEBUG> 27-Jul-2015::15:24:02.904 FYANG2-M-L01D ncs[27320]: devel-cdb end session on running for com.tailf.ncs.logging.NcsLogger$LoggConfigurator-pool:0
+<DEBUG> 27-Jul-2015::15:24:02.904 FYANG2-M-L01D ncs[27320]: devel-cdb inactive client com.tailf.ncs.logging.NcsLogger$LoggConfigurator-pool:0 closed
+<DEBUG> 27-Jul-2015::15:24:02.905 FYANG2-M-L01D ncs[27320]: devel-cdb inactive client com.tailf.ncs.logging.NcsLogger$LoggConfigurator closed
+<DEBUG> 27-Jul-2015::15:24:02.912 FYANG2-M-L01D ncs[27320]: devel-cdb connect from com.tailf.ncs.alarmman.producer.AlarmSinkCentral
+<DEBUG> 27-Jul-2015::15:24:02.915 FYANG2-M-L01D ncs[27320]: devel-cdb connect from com.tailf.ncs.alarmman.consumer.AlarmSourceCentral
+<DEBUG> 27-Jul-2015::15:24:02.918 FYANG2-M-L01D ncs[27320]: devel-cdb connect from com.tailf.ncs.alarmman.producer.AlarmSinkCentral-pool:1
+<DEBUG> 27-Jul-2015::15:24:02.919 FYANG2-M-L01D ncs[27320]: devel-cdb new session on running for com.tailf.ncs.alarmman.producer.AlarmSinkCentral-pool:1
+<DEBUG> 27-Jul-2015::15:24:02.931 FYANG2-M-L01D ncs[27320]: devel-cdb connect from JMXConfigRead
+<DEBUG> 27-Jul-2015::15:24:02.933 FYANG2-M-L01D ncs[27320]: devel-cdb connect from JMXConfigRead-pool:2
+<DEBUG> 27-Jul-2015::15:24:02.933 FYANG2-M-L01D ncs[27320]: devel-cdb new session on running for JMXConfigRead-pool:2
+<DEBUG> 27-Jul-2015::15:24:03.314 FYANG2-M-L01D ncs[27320]: devel-c New daemon connected (name: ncs-dp-1-qos:RFSSkeleton, daemon id: 4)
+<ERR> 27-Jul-2015::15:24:03.343 FYANG2-M-L01D ncs[27320]: devel-c Daemon 'ncs-dp-1-qos:RFSSkeleton' registered for non-existing actionpoint 'qos-self-test'
+<DEBUG> 27-Jul-2015::15:24:03.354 FYANG2-M-L01D ncs[27320]: devel-cdb connect from econfd <0.379.0>
+<DEBUG> 27-Jul-2015::15:24:03.354 FYANG2-M-L01D ncs[27320]: devel-cdb new subscriber session for econfd <0.379.0>
+<DEBUG> 27-Jul-2015::15:24:21.958 FYANG2-M-L01D ncs[27320]: devel-c new_usess db request daemon id: 4
+<DEBUG> 27-Jul-2015::15:24:21.959 FYANG2-M-L01D ncs[27320]: devel-c db reply daemon id: 4
+<DEBUG> 27-Jul-2015::15:24:21.959 FYANG2-M-L01D ncs[27320]: devel-c close_usess db request daemon id: 4
+<DEBUG> 27-Jul-2015::15:24:21.959 FYANG2-M-L01D ncs[27320]: devel-c db reply daemon id: 4
+<INFO> 27-Jul-2015::15:45:16.784 FYANG2-M-L01D ncs[27320]: ncs connecting NED a9k
+<ERR> 27-Jul-2015::15:45:19.592 FYANG2-M-L01D ncs[27320]: ncs Unknown capability 'http://tail-f.com/ned/cisco-ios-xr-stats' returned from NED
+<ERR> 27-Jul-2015::15:45:19.597 FYANG2-M-L01D ncs[27320]: ncs Unknown capability 'http://tail-f.com/ned/cisco-ios-xr-stats' returned from NED
+<INFO> 27-Jul-2015::15:45:27.834 FYANG2-M-L01D ncs[27320]: ncs syncing from a9k...
+<INFO> 27-Jul-2015::15:45:27.835 FYANG2-M-L01D ncs[27320]: ncs connecting NED a9k
+<ERR> 27-Jul-2015::15:45:30.630 FYANG2-M-L01D ncs[27320]: ncs Unknown capability 'http://tail-f.com/ned/cisco-ios-xr-stats' returned from NED
+<ERR> 27-Jul-2015::15:45:30.631 FYANG2-M-L01D ncs[27320]: ncs Unknown capability 'http://tail-f.com/ned/cisco-ios-xr-stats' returned from NED
+<DEBUG> 27-Jul-2015::15:45:31.563 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=59: entering validate phase for running...
+<DEBUG> 27-Jul-2015::15:45:31.564 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=59:   validate: grabbing transaction lock...
+<DEBUG> 27-Jul-2015::15:45:31.564 FYANG2-M-L01D ncs[27320]: devel-c new_usess db request daemon id: 1
+<DEBUG> 27-Jul-2015::15:45:31.564 FYANG2-M-L01D ncs[27320]: devel-c db reply daemon id: 1
+<DEBUG> 27-Jul-2015::15:45:31.564 FYANG2-M-L01D ncs[27320]: devel-c new_trans request daemon id: 1 thandle: 59
+<DEBUG> 27-Jul-2015::15:45:31.564 FYANG2-M-L01D ncs[27320]: devel-c new_trans succeeded daemon id: 1 session id: 59 worker id: 1
+<DEBUG> 27-Jul-2015::15:45:31.564 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=59:  ok
+<DEBUG> 27-Jul-2015::15:45:31.564 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=59:   validate: creating rollback file...
+<DEBUG> 27-Jul-2015::15:45:31.577 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=59:  ok
+<DEBUG> 27-Jul-2015::15:45:31.577 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=59:   validate: run transforms and transaction hooks...
+<DEBUG> 27-Jul-2015::15:45:31.577 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=59:  ok
+<DEBUG> 27-Jul-2015::15:45:31.577 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=59:   validate: mark inactive...
+<DEBUG> 27-Jul-2015::15:45:31.578 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=59:  ok
+<DEBUG> 27-Jul-2015::15:45:31.578 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=59:   validate: pre validate...
+<DEBUG> 27-Jul-2015::15:45:31.578 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=59:  ok
+<DEBUG> 27-Jul-2015::15:45:31.581 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=59:   validate: run validation over the change set...
+<DEBUG> 27-Jul-2015::15:45:31.581 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=59:   validate: validation over the change set done
+<DEBUG> 27-Jul-2015::15:45:31.581 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=59:   validate: run dependency-triggered validation...
+<DEBUG> 27-Jul-2015::15:45:31.583 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=59:   validate: dependency-triggered validation done
+<DEBUG> 27-Jul-2015::15:45:31.584 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=59:   validate: check configuration policies...
+<DEBUG> 27-Jul-2015::15:45:31.584 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=59:   validate: configuration policies done
+<DEBUG> 27-Jul-2015::15:45:31.584 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=59: entering write phase for running...
+<DEBUG> 27-Jul-2015::15:45:31.584 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=59:   cdb: write_start
+<DEBUG> 27-Jul-2015::15:45:31.585 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=59: entering prepare phase for running...
+<DEBUG> 27-Jul-2015::15:45:31.585 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=59:   cdb: prepare
+<DEBUG> 27-Jul-2015::15:45:31.585 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=59:   cdb: delivering prepare subscription notifications at prio 0
+<DEBUG> 27-Jul-2015::15:45:31.585 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=59:   cdb: all prepare subscription notifications acknowledged
+<DEBUG> 27-Jul-2015::15:45:31.585 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=59: entering commit phase for running...
+<DEBUG> 27-Jul-2015::15:45:31.585 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=59:   cdb: commit
+<DEBUG> 27-Jul-2015::15:45:31.586 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=59:   cdb: delivering commit subscription notifications at prio 0
+<DEBUG> 27-Jul-2015::15:45:31.586 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=59:   cdb: all commit subscription notifications acknowledged
+<DEBUG> 27-Jul-2015::15:45:31.586 FYANG2-M-L01D ncs[27320]: devel-c close_trans request daemon id: 1 session id: 59
+<DEBUG> 27-Jul-2015::15:45:31.586 FYANG2-M-L01D ncs[27320]: devel-c close_trans succeeded daemon id: 1 session id: 59
+<INFO> 27-Jul-2015::15:45:31.587 FYANG2-M-L01D ncs[27320]: ncs syncing from a9k ok
+<DEBUG> 27-Jul-2015::15:47:45.701 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=63: entering validate phase for running...
+<DEBUG> 27-Jul-2015::15:47:45.701 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=63:   validate: grabbing transaction lock...
+<DEBUG> 27-Jul-2015::15:47:45.701 FYANG2-M-L01D ncs[27320]: devel-c new_trans request daemon id: 1 thandle: 63
+<DEBUG> 27-Jul-2015::15:47:45.702 FYANG2-M-L01D ncs[27320]: devel-c new_trans succeeded daemon id: 1 session id: 63 worker id: 1
+<DEBUG> 27-Jul-2015::15:47:45.702 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=63:  ok
+<DEBUG> 27-Jul-2015::15:47:45.702 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=63:   validate: creating rollback file...
+<DEBUG> 27-Jul-2015::15:47:45.710 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=63:  ok
+<DEBUG> 27-Jul-2015::15:47:45.710 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=63:   validate: run transforms and transaction hooks...
+<DEBUG> 27-Jul-2015::15:47:45.710 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=63:  ok
+<DEBUG> 27-Jul-2015::15:47:45.710 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=63:   validate: mark inactive...
+<DEBUG> 27-Jul-2015::15:47:45.710 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=63:  ok
+<DEBUG> 27-Jul-2015::15:47:45.711 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=63:   validate: pre validate...
+<DEBUG> 27-Jul-2015::15:47:45.711 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=63:  ok
+<DEBUG> 27-Jul-2015::15:47:45.711 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=63:   validate: run validation over the change set...
+<DEBUG> 27-Jul-2015::15:47:45.712 FYANG2-M-L01D ncs[27320]: devel-c trans_unlock request daemon id: 1 session id: 63
+<DEBUG> 27-Jul-2015::15:47:45.712 FYANG2-M-L01D ncs[27320]: devel-c trans_unlock succeeded daemon id: 1 session id: 63
+<DEBUG> 27-Jul-2015::15:49:15.315 FYANG2-M-L01D ncs[27320]: devel-c close_trans request daemon id: 1 session id: 63
+<DEBUG> 27-Jul-2015::15:49:15.315 FYANG2-M-L01D ncs[27320]: devel-c close_trans succeeded daemon id: 1 session id: 63
+<ERR> 27-Jul-2015::15:49:16.593 FYANG2-M-L01D ncs[27320]: devel webui_server webui_server: init_upgrade
+
+
+<ERR> 27-Jul-2015::15:49:16.593 FYANG2-M-L01D ncs[27320]: devel webui_server webui_server: init_upgrade: no sessions
+
+
+<DEBUG> 27-Jul-2015::15:49:16.594 FYANG2-M-L01D ncs[27320]: devel-c new_usess db request daemon id: 4
+<DEBUG> 27-Jul-2015::15:49:16.594 FYANG2-M-L01D ncs[27320]: devel-c close_usess db request daemon id: 4
+<DEBUG> 27-Jul-2015::15:49:16.594 FYANG2-M-L01D ncs[27320]: devel-c db reply daemon id: 4
+<DEBUG> 27-Jul-2015::15:49:16.594 FYANG2-M-L01D ncs[27320]: devel-c close_usess db request daemon id: 4
+<DEBUG> 27-Jul-2015::15:49:16.594 FYANG2-M-L01D ncs[27320]: devel-c db reply daemon id: 4
+<DEBUG> 27-Jul-2015::15:49:16.594 FYANG2-M-L01D ncs[27320]: devel-c new_usess db request daemon id: 3
+<DEBUG> 27-Jul-2015::15:49:16.594 FYANG2-M-L01D ncs[27320]: devel-c db reply daemon id: 4
+<DEBUG> 27-Jul-2015::15:49:16.594 FYANG2-M-L01D ncs[27320]: devel-c close_usess db request daemon id: 3
+<DEBUG> 27-Jul-2015::15:49:16.595 FYANG2-M-L01D ncs[27320]: devel-c db reply daemon id: 3
+<DEBUG> 27-Jul-2015::15:49:16.595 FYANG2-M-L01D ncs[27320]: devel-c db reply daemon id: 3
+<DEBUG> 27-Jul-2015::15:49:16.595 FYANG2-M-L01D ncs[27320]: devel-c close_usess db request daemon id: 3
+<DEBUG> 27-Jul-2015::15:49:16.595 FYANG2-M-L01D ncs[27320]: devel-c new_usess db request daemon id: 2
+<DEBUG> 27-Jul-2015::15:49:16.595 FYANG2-M-L01D ncs[27320]: devel-c db reply daemon id: 3
+<DEBUG> 27-Jul-2015::15:49:16.595 FYANG2-M-L01D ncs[27320]: devel-c close_usess db request daemon id: 2
+<DEBUG> 27-Jul-2015::15:49:16.595 FYANG2-M-L01D ncs[27320]: devel-c db reply daemon id: 2
+<DEBUG> 27-Jul-2015::15:49:16.595 FYANG2-M-L01D ncs[27320]: devel-c close_usess db request daemon id: 2
+<DEBUG> 27-Jul-2015::15:49:16.595 FYANG2-M-L01D ncs[27320]: devel-c db reply daemon id: 2
+<DEBUG> 27-Jul-2015::15:49:16.595 FYANG2-M-L01D ncs[27320]: devel-c close_usess db request daemon id: 1
+<DEBUG> 27-Jul-2015::15:49:16.595 FYANG2-M-L01D ncs[27320]: devel-c db reply daemon id: 1
+<DEBUG> 27-Jul-2015::15:49:16.595 FYANG2-M-L01D ncs[27320]: devel-c db reply daemon id: 2
+<DEBUG> 27-Jul-2015::15:49:16.595 FYANG2-M-L01D ncs[27320]: devel-c new_usess db request daemon id: 0
+<DEBUG> 27-Jul-2015::15:49:16.595 FYANG2-M-L01D ncs[27320]: devel-c close_usess db request daemon id: 1
+<DEBUG> 27-Jul-2015::15:49:16.595 FYANG2-M-L01D ncs[27320]: devel-c db reply daemon id: 0
+<DEBUG> 27-Jul-2015::15:49:16.595 FYANG2-M-L01D ncs[27320]: devel-c close_usess db request daemon id: 0
+<DEBUG> 27-Jul-2015::15:49:16.595 FYANG2-M-L01D ncs[27320]: devel-c db reply daemon id: 1
+<DEBUG> 27-Jul-2015::15:49:16.595 FYANG2-M-L01D ncs[27320]: devel-c db reply daemon id: 0
+<INFO> 27-Jul-2015::15:49:18.230 FYANG2-M-L01D ncs[27320]: devel-snmpa loaded snmp mib: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-TOP-MIB.bin
+<INFO> 27-Jul-2015::15:49:18.230 FYANG2-M-L01D ncs[27320]: devel-snmpa loaded snmp mib: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-ALARM-TC-MIB.bin
+<INFO> 27-Jul-2015::15:49:18.231 FYANG2-M-L01D ncs[27320]: devel-snmpa loaded snmp mib: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-ALARM-MIB.bin
+<INFO> 27-Jul-2015::15:49:18.231 FYANG2-M-L01D ncs[27320]: devel-snmpa loaded snmp mib: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/ITU-ALARM-TC-MIB.bin
+<INFO> 27-Jul-2015::15:49:18.232 FYANG2-M-L01D ncs[27320]: devel-snmpa loaded snmp mib: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/IANA-ITU-ALARM-TC-MIB.bin
+<ERR> 27-Jul-2015::15:49:18.232 FYANG2-M-L01D ncs[27320]: devel webui_server webui_server: perform_upgrade
+
+
+<INFO> 27-Jul-2015::15:49:18.239 FYANG2-M-L01D ncs[27320]: devel-cdb upgrade: processing data in module tailf-ncs
+<INFO> 27-Jul-2015::15:49:18.239 FYANG2-M-L01D ncs[27320]: devel-cdb upgrade: revision: tailf-ncs@2015-03-19
+<INFO> 27-Jul-2015::15:49:18.276 FYANG2-M-L01D ncs[27320]: devel-cdb upgrade: completed module tailf-ncs
+<INFO> 27-Jul-2015::15:49:18.276 FYANG2-M-L01D ncs[27320]: devel-cdb upgrade: processing data in module tailf-ned-cisco-ios-xr
+<INFO> 27-Jul-2015::15:49:18.276 FYANG2-M-L01D ncs[27320]: devel-cdb upgrade: revision: tailf-ned-cisco-ios-xr@2014-02-18
+<INFO> 27-Jul-2015::15:49:18.276 FYANG2-M-L01D ncs[27320]: devel-cdb upgrade: completed module tailf-ned-cisco-ios-xr
+<INFO> 27-Jul-2015::15:49:18.279 FYANG2-M-L01D ncs[27320]: devel-cdb init files found in ./packages: 
+<INFO> 27-Jul-2015::15:49:18.280 FYANG2-M-L01D ncs[27320]: devel-cdb init files found in /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs: 
+<INFO> 27-Jul-2015::15:49:18.280 FYANG2-M-L01D ncs[27320]: devel-cdb init files found in /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp: snmp_init.xml
+<INFO> 27-Jul-2015::15:49:18.280 FYANG2-M-L01D ncs[27320]: devel-cdb init files found in ./state/packages-in-use/1/cisco-apicdc/load-dir: 
+<INFO> 27-Jul-2015::15:49:18.280 FYANG2-M-L01D ncs[27320]: devel-cdb init files found in ./state/packages-in-use/1/cisco-ios/load-dir: 
+<INFO> 27-Jul-2015::15:49:18.280 FYANG2-M-L01D ncs[27320]: devel-cdb init files found in ./state/packages-in-use/1/cisco-xr/load-dir: 
+<INFO> 27-Jul-2015::15:49:18.280 FYANG2-M-L01D ncs[27320]: devel-cdb init files found in ./state/packages-in-use/1/odl/load-dir: 
+<INFO> 27-Jul-2015::15:49:18.280 FYANG2-M-L01D ncs[27320]: devel-cdb init files found in ./state/packages-in-use/1/qos/load-dir: 
+<DEBUG> 27-Jul-2015::15:49:18.291 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=-2: entering validate phase for running...
+<DEBUG> 27-Jul-2015::15:49:18.291 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=-2:   validate: grabbing transaction lock...
+<DEBUG> 27-Jul-2015::15:49:18.292 FYANG2-M-L01D ncs[27320]: devel-c new_trans request daemon id: 1 thandle: -2
+<DEBUG> 27-Jul-2015::15:49:18.292 FYANG2-M-L01D ncs[27320]: devel-c new_trans succeeded daemon id: 1 session id: -2 worker id: 1
+<DEBUG> 27-Jul-2015::15:49:18.292 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=-2:  ok
+<DEBUG> 27-Jul-2015::15:49:18.292 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=-2:   validate: run transforms and transaction hooks...
+<DEBUG> 27-Jul-2015::15:49:18.292 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=-2:  ok
+<DEBUG> 27-Jul-2015::15:49:18.292 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=-2:   validate: mark inactive...
+<DEBUG> 27-Jul-2015::15:49:18.292 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=-2:  ok
+<DEBUG> 27-Jul-2015::15:49:18.292 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=-2:   validate: pre validate...
+<DEBUG> 27-Jul-2015::15:49:18.292 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=-2:  ok
+<DEBUG> 27-Jul-2015::15:49:18.292 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=-2:   validate: run validation over the change set...
+<DEBUG> 27-Jul-2015::15:49:18.292 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=-2:   validate: validation over the change set done
+<DEBUG> 27-Jul-2015::15:49:18.292 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=-2:   validate: run dependency-triggered validation...
+<DEBUG> 27-Jul-2015::15:49:18.293 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=-2:   validate: dependency-triggered validation done
+<DEBUG> 27-Jul-2015::15:49:18.293 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=-2:   validate: check configuration policies...
+<DEBUG> 27-Jul-2015::15:49:18.293 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=-2:   validate: configuration policies done
+<DEBUG> 27-Jul-2015::15:49:18.293 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=-2: entering write phase for running...
+<DEBUG> 27-Jul-2015::15:49:18.293 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=-2:   cdb: write_start
+<DEBUG> 27-Jul-2015::15:49:18.293 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=-2: entering commit phase for running...
+<DEBUG> 27-Jul-2015::15:49:18.293 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=-2:   cdb: commit
+<DEBUG> 27-Jul-2015::15:49:18.707 FYANG2-M-L01D ncs[27320]: devel-c close_trans request daemon id: 1 session id: -2
+<DEBUG> 27-Jul-2015::15:49:18.707 FYANG2-M-L01D ncs[27320]: devel-c close_trans succeeded daemon id: 1 session id: -2
+<ERR> 27-Jul-2015::15:49:18.729 FYANG2-M-L01D ncs[27320]: devel webui_server webui_server: commit_upgrade
+
+
+<INFO> 27-Jul-2015::15:49:19.161 FYANG2-M-L01D ncs[27320]: devel-cdb CDB Operational: upgraded oper-data
+<DEBUG> 27-Jul-2015::15:49:19.986 FYANG2-M-L01D ncs[27320]: devel-c New daemon connected (name: ncs-dp-2-qos:RFSSkeleton, daemon id: 5)
+<ERR> 27-Jul-2015::15:49:19.994 FYANG2-M-L01D ncs[27320]: devel-c Daemon 'ncs-dp-2-qos:RFSSkeleton' registered for non-existing actionpoint 'qos-self-test'
+<DEBUG> 27-Jul-2015::15:49:39.854 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100: entering validate phase for running...
+<DEBUG> 27-Jul-2015::15:49:39.854 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   validate: grabbing transaction lock...
+<DEBUG> 27-Jul-2015::15:49:39.854 FYANG2-M-L01D ncs[27320]: devel-c new_usess db request daemon id: 1
+<DEBUG> 27-Jul-2015::15:49:39.854 FYANG2-M-L01D ncs[27320]: devel-c db reply daemon id: 1
+<DEBUG> 27-Jul-2015::15:49:39.854 FYANG2-M-L01D ncs[27320]: devel-c new_trans request daemon id: 1 thandle: 100
+<DEBUG> 27-Jul-2015::15:49:39.854 FYANG2-M-L01D ncs[27320]: devel-c new_trans succeeded daemon id: 1 session id: 100 worker id: 1
+<DEBUG> 27-Jul-2015::15:49:39.854 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:  ok
+<DEBUG> 27-Jul-2015::15:49:39.854 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   validate: creating rollback file...
+<DEBUG> 27-Jul-2015::15:49:39.861 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:  ok
+<DEBUG> 27-Jul-2015::15:49:39.861 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   validate: run transforms and transaction hooks...
+<DEBUG> 27-Jul-2015::15:49:39.862 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:  ok
+<DEBUG> 27-Jul-2015::15:49:39.862 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   validate: mark inactive...
+<DEBUG> 27-Jul-2015::15:49:39.862 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:  ok
+<DEBUG> 27-Jul-2015::15:49:39.862 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   validate: pre validate...
+<DEBUG> 27-Jul-2015::15:49:39.862 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:  ok
+<DEBUG> 27-Jul-2015::15:49:39.862 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   validate: run validation over the change set...
+<DEBUG> 27-Jul-2015::15:49:39.863 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   validate: validation over the change set done
+<DEBUG> 27-Jul-2015::15:49:39.863 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   validate: run dependency-triggered validation...
+<DEBUG> 27-Jul-2015::15:49:39.863 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   validate: dependency-triggered validation done
+<DEBUG> 27-Jul-2015::15:49:39.863 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   validate: check configuration policies...
+<DEBUG> 27-Jul-2015::15:49:39.863 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   validate: configuration policies done
+<DEBUG> 27-Jul-2015::15:49:39.863 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100: entering write phase for running...
+<DEBUG> 27-Jul-2015::15:49:39.863 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   cdb: write_start
+<DEBUG> 27-Jul-2015::15:49:39.864 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100: entering prepare phase for running...
+<DEBUG> 27-Jul-2015::15:49:39.864 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   cdb: prepare
+<DEBUG> 27-Jul-2015::15:49:39.864 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   cdb: delivering prepare subscription notifications at prio 0
+<DEBUG> 27-Jul-2015::15:49:39.873 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   cdb: all prepare subscription notifications acknowledged
+<DEBUG> 27-Jul-2015::15:49:39.873 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   cdb: aborting transaction
+<DEBUG> 27-Jul-2015::15:49:39.873 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100: entering abort phase for running...
+<DEBUG> 27-Jul-2015::15:49:39.873 FYANG2-M-L01D ncs[27320]: devel-c close_trans request daemon id: 1 session id: 100
+<DEBUG> 27-Jul-2015::15:49:39.873 FYANG2-M-L01D ncs[27320]: devel-c close_trans succeeded daemon id: 1 session id: 100
+<DEBUG> 27-Jul-2015::15:49:41.429 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100: entering validate phase for running...
+<DEBUG> 27-Jul-2015::15:49:41.429 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   validate: grabbing transaction lock...
+<DEBUG> 27-Jul-2015::15:49:41.429 FYANG2-M-L01D ncs[27320]: devel-c new_trans request daemon id: 1 thandle: 100
+<DEBUG> 27-Jul-2015::15:49:41.429 FYANG2-M-L01D ncs[27320]: devel-c new_trans succeeded daemon id: 1 session id: 100 worker id: 1
+<DEBUG> 27-Jul-2015::15:49:41.429 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:  ok
+<DEBUG> 27-Jul-2015::15:49:41.429 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   validate: creating rollback file...
+<DEBUG> 27-Jul-2015::15:49:41.435 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:  ok
+<DEBUG> 27-Jul-2015::15:49:41.435 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   validate: run transforms and transaction hooks...
+<DEBUG> 27-Jul-2015::15:49:41.435 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:  ok
+<DEBUG> 27-Jul-2015::15:49:41.436 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   validate: mark inactive...
+<DEBUG> 27-Jul-2015::15:49:41.436 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:  ok
+<DEBUG> 27-Jul-2015::15:49:41.436 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   validate: pre validate...
+<DEBUG> 27-Jul-2015::15:49:41.436 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:  ok
+<DEBUG> 27-Jul-2015::15:49:41.436 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   validate: run validation over the change set...
+<DEBUG> 27-Jul-2015::15:49:41.436 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   validate: validation over the change set done
+<DEBUG> 27-Jul-2015::15:49:41.436 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   validate: run dependency-triggered validation...
+<DEBUG> 27-Jul-2015::15:49:41.437 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   validate: dependency-triggered validation done
+<DEBUG> 27-Jul-2015::15:49:41.437 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   validate: check configuration policies...
+<DEBUG> 27-Jul-2015::15:49:41.437 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   validate: configuration policies done
+<DEBUG> 27-Jul-2015::15:49:41.437 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100: entering write phase for running...
+<DEBUG> 27-Jul-2015::15:49:41.437 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   cdb: write_start
+<DEBUG> 27-Jul-2015::15:49:41.437 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100: entering prepare phase for running...
+<DEBUG> 27-Jul-2015::15:49:41.438 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   cdb: prepare
+<DEBUG> 27-Jul-2015::15:49:41.438 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   cdb: delivering prepare subscription notifications at prio 0
+<INFO> 27-Jul-2015::15:49:41.440 FYANG2-M-L01D ncs[27320]: ncs connecting NED a9k
+<DEBUG> 27-Jul-2015::15:49:41.440 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   ncs: connecting NED a9k
+<ERR> 27-Jul-2015::15:49:44.233 FYANG2-M-L01D ncs[27320]: ncs Unknown capability 'http://tail-f.com/ned/cisco-ios-xr-stats' returned from NED
+<ERR> 27-Jul-2015::15:49:44.234 FYANG2-M-L01D ncs[27320]: ncs Unknown capability 'http://tail-f.com/ned/cisco-ios-xr-stats' returned from NED
+<INFO> 27-Jul-2015::15:49:44.235 FYANG2-M-L01D ncs[27320]: ncs calculating southbound diffs
+<DEBUG> 27-Jul-2015::15:49:44.235 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   ncs: calculating southbound diffs
+<INFO> 27-Jul-2015::15:49:44.241 FYANG2-M-L01D ncs[27320]: ncs device a9k: send NED prepare
+<DEBUG> 27-Jul-2015::15:49:44.241 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   ncs: device a9k: send NED prepare
+<INFO> 27-Jul-2015::15:49:48.985 FYANG2-M-L01D ncs[27320]: ncs device a9k: send NED commit
+<DEBUG> 27-Jul-2015::15:49:48.985 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   ncs: device a9k: send NED commit
+<DEBUG> 27-Jul-2015::15:49:48.985 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   cdb: all prepare subscription notifications acknowledged
+<DEBUG> 27-Jul-2015::15:49:48.986 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100: entering commit phase for running...
+<DEBUG> 27-Jul-2015::15:49:48.986 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   cdb: commit
+<DEBUG> 27-Jul-2015::15:49:48.987 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   cdb: delivering commit subscription notifications at prio 0
+<INFO> 27-Jul-2015::15:49:48.987 FYANG2-M-L01D ncs[27320]: ncs device a9k: send NED persist
+<DEBUG> 27-Jul-2015::15:49:48.987 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   ncs: device a9k: send NED persist
+<DEBUG> 27-Jul-2015::15:49:49.498 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=100:   cdb: all commit subscription notifications acknowledged
+<DEBUG> 27-Jul-2015::15:49:49.498 FYANG2-M-L01D ncs[27320]: devel-c close_trans request daemon id: 1 session id: 100
+<DEBUG> 27-Jul-2015::15:49:49.499 FYANG2-M-L01D ncs[27320]: devel-c close_trans succeeded daemon id: 1 session id: 100
+<DEBUG> 27-Jul-2015::15:50:19.779 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=127: entering validate phase for running...
+<DEBUG> 27-Jul-2015::15:50:19.779 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=127:   validate: grabbing transaction lock...
+<DEBUG> 27-Jul-2015::15:50:19.779 FYANG2-M-L01D ncs[27320]: devel-c new_trans request daemon id: 1 thandle: 127
+<DEBUG> 27-Jul-2015::15:50:19.779 FYANG2-M-L01D ncs[27320]: devel-c new_trans succeeded daemon id: 1 session id: 127 worker id: 1
+<DEBUG> 27-Jul-2015::15:50:19.779 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=127:  ok
+<DEBUG> 27-Jul-2015::15:50:19.779 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=127:   validate: creating rollback file...
+<DEBUG> 27-Jul-2015::15:50:19.787 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=127:  ok
+<DEBUG> 27-Jul-2015::15:50:19.787 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=127:   validate: run transforms and transaction hooks...
+<DEBUG> 27-Jul-2015::15:50:19.787 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=127:  ok
+<DEBUG> 27-Jul-2015::15:50:19.787 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=127:   validate: mark inactive...
+<DEBUG> 27-Jul-2015::15:50:19.788 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=127:  ok
+<DEBUG> 27-Jul-2015::15:50:19.788 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=127:   validate: pre validate...
+<DEBUG> 27-Jul-2015::15:50:19.788 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=127:  ok
+<DEBUG> 27-Jul-2015::15:50:19.788 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=127:   validate: run validation over the change set...
+<DEBUG> 27-Jul-2015::15:50:19.788 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=127:   validate: validation over the change set done
+<DEBUG> 27-Jul-2015::15:50:19.788 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=127:   validate: run dependency-triggered validation...
+<DEBUG> 27-Jul-2015::15:50:19.789 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=127:   validate: dependency-triggered validation done
+<DEBUG> 27-Jul-2015::15:50:19.789 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=127:   validate: check configuration policies...
+<DEBUG> 27-Jul-2015::15:50:19.789 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=127:   validate: configuration policies done
+<DEBUG> 27-Jul-2015::15:50:19.789 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=127: entering write phase for running...
+<DEBUG> 27-Jul-2015::15:50:19.789 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=127:   cdb: write_start
+<DEBUG> 27-Jul-2015::15:50:19.789 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=127: entering prepare phase for running...
+<DEBUG> 27-Jul-2015::15:50:19.789 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=127:   cdb: prepare
+<DEBUG> 27-Jul-2015::15:50:19.789 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=127:   cdb: delivering prepare subscription notifications at prio 0
+<INFO> 27-Jul-2015::15:50:19.792 FYANG2-M-L01D ncs[27320]: ncs connecting NED a9k
+<DEBUG> 27-Jul-2015::15:50:19.792 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=127:   ncs: connecting NED a9k
+<ERR> 27-Jul-2015::15:50:19.792 FYANG2-M-L01D ncs[27320]: ncs Unknown capability 'http://tail-f.com/ned/cisco-ios-xr-stats' returned from NED
+<INFO> 27-Jul-2015::15:50:19.792 FYANG2-M-L01D ncs[27320]: ncs calculating southbound diffs
+<DEBUG> 27-Jul-2015::15:50:19.792 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=127:   ncs: calculating southbound diffs
+<INFO> 27-Jul-2015::15:50:19.797 FYANG2-M-L01D ncs[27320]: ncs device a9k: send NED prepare
+<DEBUG> 27-Jul-2015::15:50:19.797 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=127:   ncs: device a9k: send NED prepare
+<INFO> 27-Jul-2015::15:50:24.636 FYANG2-M-L01D ncs[27320]: ncs device a9k: send NED commit
+<DEBUG> 27-Jul-2015::15:50:24.636 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=127:   ncs: device a9k: send NED commit
+<DEBUG> 27-Jul-2015::15:50:24.636 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=127:   cdb: all prepare subscription notifications acknowledged
+<DEBUG> 27-Jul-2015::15:50:24.637 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=127: entering commit phase for running...
+<DEBUG> 27-Jul-2015::15:50:24.637 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=127:   cdb: commit
+<DEBUG> 27-Jul-2015::15:50:24.637 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=127:   cdb: delivering commit subscription notifications at prio 0
+<INFO> 27-Jul-2015::15:50:24.637 FYANG2-M-L01D ncs[27320]: ncs device a9k: send NED persist
+<DEBUG> 27-Jul-2015::15:50:24.637 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=127:   ncs: device a9k: send NED persist
+<DEBUG> 27-Jul-2015::15:50:25.144 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=127:   cdb: all commit subscription notifications acknowledged
+<DEBUG> 27-Jul-2015::15:50:25.145 FYANG2-M-L01D ncs[27320]: devel-c close_trans request daemon id: 1 session id: 127
+<DEBUG> 27-Jul-2015::15:50:25.145 FYANG2-M-L01D ncs[27320]: devel-c close_trans succeeded daemon id: 1 session id: 127
+<DEBUG> 27-Jul-2015::15:58:02.181 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137: entering validate phase for running...
+<DEBUG> 27-Jul-2015::15:58:02.181 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   validate: grabbing transaction lock...
+<DEBUG> 27-Jul-2015::15:58:02.181 FYANG2-M-L01D ncs[27320]: devel-c new_trans request daemon id: 1 thandle: 137
+<DEBUG> 27-Jul-2015::15:58:02.181 FYANG2-M-L01D ncs[27320]: devel-c new_trans succeeded daemon id: 1 session id: 137 worker id: 1
+<DEBUG> 27-Jul-2015::15:58:02.181 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:  ok
+<DEBUG> 27-Jul-2015::15:58:02.181 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   validate: creating rollback file...
+<DEBUG> 27-Jul-2015::15:58:02.189 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:  ok
+<DEBUG> 27-Jul-2015::15:58:02.189 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   validate: run transforms and transaction hooks...
+<DEBUG> 27-Jul-2015::15:58:02.189 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:  ok
+<DEBUG> 27-Jul-2015::15:58:02.189 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   validate: mark inactive...
+<DEBUG> 27-Jul-2015::15:58:02.189 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:  ok
+<DEBUG> 27-Jul-2015::15:58:02.190 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   validate: pre validate...
+<DEBUG> 27-Jul-2015::15:58:02.190 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:  ok
+<DEBUG> 27-Jul-2015::15:58:02.190 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   validate: run validation over the change set...
+<DEBUG> 27-Jul-2015::15:58:02.190 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   validate: validation over the change set done
+<DEBUG> 27-Jul-2015::15:58:02.190 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   validate: run dependency-triggered validation...
+<DEBUG> 27-Jul-2015::15:58:02.190 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   validate: dependency-triggered validation done
+<DEBUG> 27-Jul-2015::15:58:02.190 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   validate: check configuration policies...
+<DEBUG> 27-Jul-2015::15:58:02.190 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   validate: configuration policies done
+<DEBUG> 27-Jul-2015::15:58:02.190 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137: entering write phase for running...
+<DEBUG> 27-Jul-2015::15:58:02.190 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   cdb: write_start
+<DEBUG> 27-Jul-2015::15:58:02.191 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137: entering prepare phase for running...
+<DEBUG> 27-Jul-2015::15:58:02.191 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   cdb: prepare
+<DEBUG> 27-Jul-2015::15:58:02.191 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   cdb: delivering prepare subscription notifications at prio 0
+<DEBUG> 27-Jul-2015::15:58:02.194 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   cdb: all prepare subscription notifications acknowledged
+<DEBUG> 27-Jul-2015::15:58:02.194 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   cdb: aborting transaction
+<DEBUG> 27-Jul-2015::15:58:02.194 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137: entering abort phase for running...
+<DEBUG> 27-Jul-2015::15:58:02.194 FYANG2-M-L01D ncs[27320]: devel-c close_trans request daemon id: 1 session id: 137
+<DEBUG> 27-Jul-2015::15:58:02.195 FYANG2-M-L01D ncs[27320]: devel-c close_trans succeeded daemon id: 1 session id: 137
+<DEBUG> 27-Jul-2015::15:58:08.288 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137: entering validate phase for running...
+<DEBUG> 27-Jul-2015::15:58:08.288 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   validate: grabbing transaction lock...
+<DEBUG> 27-Jul-2015::15:58:08.288 FYANG2-M-L01D ncs[27320]: devel-c new_trans request daemon id: 1 thandle: 137
+<DEBUG> 27-Jul-2015::15:58:08.288 FYANG2-M-L01D ncs[27320]: devel-c new_trans succeeded daemon id: 1 session id: 137 worker id: 1
+<DEBUG> 27-Jul-2015::15:58:08.289 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:  ok
+<DEBUG> 27-Jul-2015::15:58:08.289 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   validate: creating rollback file...
+<DEBUG> 27-Jul-2015::15:58:08.296 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:  ok
+<DEBUG> 27-Jul-2015::15:58:08.296 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   validate: run transforms and transaction hooks...
+<DEBUG> 27-Jul-2015::15:58:08.296 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:  ok
+<DEBUG> 27-Jul-2015::15:58:08.296 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   validate: mark inactive...
+<DEBUG> 27-Jul-2015::15:58:08.297 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:  ok
+<DEBUG> 27-Jul-2015::15:58:08.297 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   validate: pre validate...
+<DEBUG> 27-Jul-2015::15:58:08.297 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:  ok
+<DEBUG> 27-Jul-2015::15:58:08.297 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   validate: run validation over the change set...
+<DEBUG> 27-Jul-2015::15:58:08.298 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   validate: validation over the change set done
+<DEBUG> 27-Jul-2015::15:58:08.298 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   validate: run dependency-triggered validation...
+<DEBUG> 27-Jul-2015::15:58:08.298 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   validate: dependency-triggered validation done
+<DEBUG> 27-Jul-2015::15:58:08.298 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   validate: check configuration policies...
+<DEBUG> 27-Jul-2015::15:58:08.298 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   validate: configuration policies done
+<DEBUG> 27-Jul-2015::15:58:08.298 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137: entering write phase for running...
+<DEBUG> 27-Jul-2015::15:58:08.298 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   cdb: write_start
+<DEBUG> 27-Jul-2015::15:58:08.299 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137: entering prepare phase for running...
+<DEBUG> 27-Jul-2015::15:58:08.299 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   cdb: prepare
+<DEBUG> 27-Jul-2015::15:58:08.299 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   cdb: delivering prepare subscription notifications at prio 0
+<INFO> 27-Jul-2015::15:58:08.301 FYANG2-M-L01D ncs[27320]: ncs connecting NED a9k
+<DEBUG> 27-Jul-2015::15:58:08.302 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   ncs: connecting NED a9k
+<ERR> 27-Jul-2015::15:58:11.087 FYANG2-M-L01D ncs[27320]: ncs Unknown capability 'http://tail-f.com/ned/cisco-ios-xr-stats' returned from NED
+<ERR> 27-Jul-2015::15:58:11.088 FYANG2-M-L01D ncs[27320]: ncs Unknown capability 'http://tail-f.com/ned/cisco-ios-xr-stats' returned from NED
+<INFO> 27-Jul-2015::15:58:11.088 FYANG2-M-L01D ncs[27320]: ncs calculating southbound diffs
+<DEBUG> 27-Jul-2015::15:58:11.088 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   ncs: calculating southbound diffs
+<INFO> 27-Jul-2015::15:58:11.093 FYANG2-M-L01D ncs[27320]: ncs device a9k: send NED prepare
+<DEBUG> 27-Jul-2015::15:58:11.093 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   ncs: device a9k: send NED prepare
+<INFO> 27-Jul-2015::15:58:15.628 FYANG2-M-L01D ncs[27320]: ncs device a9k: send NED commit
+<DEBUG> 27-Jul-2015::15:58:15.628 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   ncs: device a9k: send NED commit
+<DEBUG> 27-Jul-2015::15:58:15.628 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   cdb: all prepare subscription notifications acknowledged
+<DEBUG> 27-Jul-2015::15:58:15.629 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137: entering commit phase for running...
+<DEBUG> 27-Jul-2015::15:58:15.629 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   cdb: commit
+<DEBUG> 27-Jul-2015::15:58:15.630 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   cdb: delivering commit subscription notifications at prio 0
+<INFO> 27-Jul-2015::15:58:15.630 FYANG2-M-L01D ncs[27320]: ncs device a9k: send NED persist
+<DEBUG> 27-Jul-2015::15:58:15.630 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   ncs: device a9k: send NED persist
+<DEBUG> 27-Jul-2015::15:58:16.136 FYANG2-M-L01D ncs[27320]: ncs commit progress db=running usid=22 thandle=137:   cdb: all commit subscription notifications acknowledged
+<DEBUG> 27-Jul-2015::15:58:16.138 FYANG2-M-L01D ncs[27320]: devel-c close_trans request daemon id: 1 session id: 137
+<DEBUG> 27-Jul-2015::15:58:16.138 FYANG2-M-L01D ncs[27320]: devel-c close_trans succeeded daemon id: 1 session id: 137
+<DEBUG> 27-Jul-2015::16:09:45.182 FYANG2-M-L01D ncs[27320]: devel-c close_usess db request daemon id: 5
+<DEBUG> 27-Jul-2015::16:09:45.183 FYANG2-M-L01D ncs[27320]: devel-c db reply daemon id: 5
+<DEBUG> 27-Jul-2015::16:09:45.183 FYANG2-M-L01D ncs[27320]: devel-c new_usess db request daemon id: 3
+<DEBUG> 27-Jul-2015::16:09:45.183 FYANG2-M-L01D ncs[27320]: devel-c db reply daemon id: 3
+<DEBUG> 27-Jul-2015::16:09:45.183 FYANG2-M-L01D ncs[27320]: devel-c close_usess db request daemon id: 3
+<DEBUG> 27-Jul-2015::16:09:45.183 FYANG2-M-L01D ncs[27320]: devel-c db reply daemon id: 3
+<DEBUG> 27-Jul-2015::16:09:45.183 FYANG2-M-L01D ncs[27320]: devel-c new_usess db request daemon id: 2
+<DEBUG> 27-Jul-2015::16:09:45.183 FYANG2-M-L01D ncs[27320]: devel-c db reply daemon id: 2
+<DEBUG> 27-Jul-2015::16:09:45.183 FYANG2-M-L01D ncs[27320]: devel-c close_usess db request daemon id: 2
+<DEBUG> 27-Jul-2015::16:09:45.183 FYANG2-M-L01D ncs[27320]: devel-c db reply daemon id: 2
+<DEBUG> 27-Jul-2015::16:09:45.184 FYANG2-M-L01D ncs[27320]: devel-c close_usess db request daemon id: 1
+<DEBUG> 27-Jul-2015::16:09:45.184 FYANG2-M-L01D ncs[27320]: devel-c db reply daemon id: 1
+<DEBUG> 27-Jul-2015::16:09:45.184 FYANG2-M-L01D ncs[27320]: devel-c new_usess db request daemon id: 0
+<DEBUG> 27-Jul-2015::16:09:45.184 FYANG2-M-L01D ncs[27320]: devel-c db reply daemon id: 0
+<DEBUG> 27-Jul-2015::16:09:45.184 FYANG2-M-L01D ncs[27320]: devel-c close_usess db request daemon id: 0
+<DEBUG> 27-Jul-2015::16:09:45.184 FYANG2-M-L01D ncs[27320]: devel-c db reply daemon id: 0
+<DEBUG> 27-Jul-2015::16:09:47.736 FYANG2-M-L01D ncs[27320]: devel-cdb subscriber NCSLOGGER closed
+<DEBUG> 27-Jul-2015::16:09:47.741 FYANG2-M-L01D ncs[27320]: devel-cdb end session on running for JMXConfigRead-pool:2
+<DEBUG> 27-Jul-2015::16:09:47.741 FYANG2-M-L01D ncs[27320]: devel-cdb inactive client JMXConfigRead-pool:2 closed
+<DEBUG> 27-Jul-2015::16:09:47.741 FYANG2-M-L01D ncs[27320]: devel-cdb end session on running for com.tailf.ncs.alarmman.producer.AlarmSinkCentral-pool:1
+<DEBUG> 27-Jul-2015::16:09:47.741 FYANG2-M-L01D ncs[27320]: devel-cdb inactive client com.tailf.ncs.alarmman.producer.AlarmSinkCentral-pool:1 closed
+<DEBUG> 27-Jul-2015::16:09:48.090 FYANG2-M-L01D ncs[27320]: devel-cdb inactive client JMXConfigRead closed
+<DEBUG> 27-Jul-2015::16:09:48.090 FYANG2-M-L01D ncs[27320]: devel-cdb inactive client com.tailf.ncs.alarmman.consumer.AlarmSourceCentral closed
+<DEBUG> 27-Jul-2015::16:09:48.090 FYANG2-M-L01D ncs[27320]: devel-cdb inactive client com.tailf.ncs.alarmman.producer.AlarmSinkCentral closed
+<DEBUG> 27-Jul-2015::16:09:48.091 FYANG2-M-L01D ncs[27320]: devel-cdb subscriber ncs_server closed
+<DEBUG> 27-Jul-2015::16:09:48.091 FYANG2-M-L01D ncs[27320]: devel-cdb subscriber econfd <0.379.0> closed
+<INFO> 3-Aug-2015::09:25:57.214 FYANG2-M-L01D ncs[6027]: devel-cdb Loaded oper data from ./ncs-cdb/O.cdb (14.85 KiB data in 0.002s)
+<DEBUG> 3-Aug-2015::09:25:57.220 FYANG2-M-L01D ncs[6027]: devel-cdb Using delayed CDB journal compaction (automatic mode)
+<INFO> 3-Aug-2015::09:25:57.236 FYANG2-M-L01D ncs[6027]: devel-cdb Loaded schema file: ./ncs-cdb/C.cdb (v3 from 5.4.1)
+<INFO> 3-Aug-2015::09:25:57.239 FYANG2-M-L01D ncs[6027]: devel-cdb Loaded configuration from ./ncs-cdb/A.cdb (18.57 KiB data, 6 transactions in 0.003s)
+<DEBUG> 3-Aug-2015::09:25:57.393 FYANG2-M-L01D ncs[6027]: devel-cdb connect from ncs_server
+<DEBUG> 3-Aug-2015::09:25:57.393 FYANG2-M-L01D ncs[6027]: devel-cdb new subscriber session for ncs_server
+<DEBUG> 3-Aug-2015::09:25:57.445 FYANG2-M-L01D ncs[6027]: devel-c New daemon connected (name: ncs-internal-template-variable, daemon id: 0)
+<DEBUG> 3-Aug-2015::09:25:57.445 FYANG2-M-L01D ncs[6027]: devel-c New worker connected (daemon id: 0 worker id: 1)
+<DEBUG> 3-Aug-2015::09:25:57.449 FYANG2-M-L01D ncs[6027]: devel-c New daemon connected (name: ncs-internal-service-mux, daemon id: 1)
+<DEBUG> 3-Aug-2015::09:25:57.449 FYANG2-M-L01D ncs[6027]: devel-c New worker connected (daemon id: 1 worker id: 1)
+<DEBUG> 3-Aug-2015::09:25:57.458 FYANG2-M-L01D ncs[6027]: devel-c New daemon connected (name: snmp-config-transform, daemon id: 2)
+<DEBUG> 3-Aug-2015::09:25:57.459 FYANG2-M-L01D ncs[6027]: devel-c New worker connected (daemon id: 2 worker id: 4)
+<DEBUG> 3-Aug-2015::09:25:57.460 FYANG2-M-L01D ncs[6027]: devel-cdb connect from snmp-config-transform
+<DEBUG> 3-Aug-2015::09:25:57.460 FYANG2-M-L01D ncs[6027]: devel-cdb client snmp-config-transform has pid 6038/6
+<DEBUG> 3-Aug-2015::09:25:57.460 FYANG2-M-L01D ncs[6027]: devel-cdb inactive client snmp-config-transform closed
+<DEBUG> 3-Aug-2015::09:25:57.461 FYANG2-M-L01D ncs[6027]: devel-c New daemon connected (name: snmp-config-hook, daemon id: 3)
+<DEBUG> 3-Aug-2015::09:25:57.461 FYANG2-M-L01D ncs[6027]: devel-c New worker connected (daemon id: 3 worker id: 7)
+<DEBUG> 3-Aug-2015::09:25:57.525 FYANG2-M-L01D ncs[6027]: devel-cdb Loaded AAA data from CDB
+<DEBUG> 3-Aug-2015::09:25:57.532 FYANG2-M-L01D ncs[6027]: devel-cdb connect from econfd <0.161.0>
+<DEBUG> 3-Aug-2015::09:25:57.532 FYANG2-M-L01D ncs[6027]: devel-cdb new session on running for econfd <0.161.0>
+<DEBUG> 3-Aug-2015::09:25:57.534 FYANG2-M-L01D ncs[6027]: devel-cdb client econfd <0.161.0> closed
+<DEBUG> 3-Aug-2015::09:25:57.534 FYANG2-M-L01D ncs[6027]: devel-cdb connect from econfd <0.161.0>
+<DEBUG> 3-Aug-2015::09:25:57.535 FYANG2-M-L01D ncs[6027]: devel-cdb new session on operational for econfd <0.161.0>
+<DEBUG> 3-Aug-2015::09:25:57.535 FYANG2-M-L01D ncs[6027]: devel-cdb client econfd <0.161.0> closed
+<DEBUG> 3-Aug-2015::09:25:57.535 FYANG2-M-L01D ncs[6027]: devel-cdb connect from econfd <0.275.0>
+<DEBUG> 3-Aug-2015::09:25:57.535 FYANG2-M-L01D ncs[6027]: devel-cdb new subscriber session for econfd <0.275.0>
+<INFO> 3-Aug-2015::09:25:57.881 FYANG2-M-L01D ncs[6027]: devel-snmpa loaded snmp mib: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMPv2-MIB
+<INFO> 3-Aug-2015::09:25:57.882 FYANG2-M-L01D ncs[6027]: devel-snmpa loaded snmp mib: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-FRAMEWORK-MIB
+<INFO> 3-Aug-2015::09:25:57.882 FYANG2-M-L01D ncs[6027]: devel-snmpa loaded snmp mib: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-MPD-MIB
+<INFO> 3-Aug-2015::09:25:57.923 FYANG2-M-L01D ncs[6027]: devel-snmpa setting snmpEngineID: 80:00:7E:D9:04:74:65:73:74:69:6E:67
+<DEBUG> 3-Aug-2015::09:25:57.955 FYANG2-M-L01D ncs[6027]: devel-snmpa no view for view type: write
+<DEBUG> 3-Aug-2015::09:25:57.955 FYANG2-M-L01D ncs[6027]: devel-snmpa no access entry and view name found: view type: write, group name: public, context name: , sec model: SNMPv1(1), sec level: noAuthNoPriv(1)
+<DEBUG> 3-Aug-2015::09:25:57.955 FYANG2-M-L01D ncs[6027]: devel-snmpa no view for view type: write
+<DEBUG> 3-Aug-2015::09:25:57.955 FYANG2-M-L01D ncs[6027]: devel-snmpa no access entry and view name found: view type: write, group name: public, context name: , sec model: SNMPv2c(2), sec level: noAuthNoPriv(1)
+<INFO> 3-Aug-2015::09:25:57.979 FYANG2-M-L01D ncs[6027]: devel-snmpa loaded snmp mib: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/IANA-ITU-ALARM-TC-MIB.bin
+<INFO> 3-Aug-2015::09:25:57.979 FYANG2-M-L01D ncs[6027]: devel-snmpa loaded snmp mib: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/ITU-ALARM-TC-MIB.bin
+<INFO> 3-Aug-2015::09:25:57.984 FYANG2-M-L01D ncs[6027]: devel-snmpa loaded snmp mib: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-ALARM-MIB.bin
+<INFO> 3-Aug-2015::09:25:57.985 FYANG2-M-L01D ncs[6027]: devel-snmpa loaded snmp mib: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-ALARM-TC-MIB.bin
+<INFO> 3-Aug-2015::09:25:57.985 FYANG2-M-L01D ncs[6027]: devel-snmpa loaded snmp mib: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-TOP-MIB.bin
+<INFO> 3-Aug-2015::09:25:57.986 FYANG2-M-L01D ncs[6027]: devel-snmpa loaded snmp mib: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-COMMUNITY-MIB.bin
+<INFO> 3-Aug-2015::09:25:57.987 FYANG2-M-L01D ncs[6027]: devel-snmpa loaded snmp mib: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-TARGET-MIB.bin
+<INFO> 3-Aug-2015::09:25:57.988 FYANG2-M-L01D ncs[6027]: devel-snmpa loaded snmp mib: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-NOTIFICATION-MIB.bin
+<INFO> 3-Aug-2015::09:25:57.989 FYANG2-M-L01D ncs[6027]: devel-snmpa loaded snmp mib: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-USER-BASED-SM-MIB.bin
+<INFO> 3-Aug-2015::09:25:57.990 FYANG2-M-L01D ncs[6027]: devel-snmpa loaded snmp mib: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-VIEW-BASED-ACM-MIB.bin
+<INFO> 3-Aug-2015::09:25:57.990 FYANG2-M-L01D ncs[6027]: devel-snmpa snmp agent started
+<DEBUG> 3-Aug-2015::09:25:58.600 FYANG2-M-L01D ncs[6027]: devel-cdb connect from NCSLOGGER
+<DEBUG> 3-Aug-2015::09:25:58.618 FYANG2-M-L01D ncs[6027]: devel-cdb connect from com.tailf.ncs.logging.NcsLogger$LoggConfigurator
+<DEBUG> 3-Aug-2015::09:25:58.619 FYANG2-M-L01D ncs[6027]: devel-cdb new subscriber session for NCSLOGGER
+<DEBUG> 3-Aug-2015::09:25:58.634 FYANG2-M-L01D ncs[6027]: devel-cdb connect from com.tailf.ncs.logging.NcsLogger$LoggConfigurator-pool:0
+<DEBUG> 3-Aug-2015::09:25:58.636 FYANG2-M-L01D ncs[6027]: devel-cdb new session on running for com.tailf.ncs.logging.NcsLogger$LoggConfigurator-pool:0
+<DEBUG> 3-Aug-2015::09:25:58.643 FYANG2-M-L01D ncs[6027]: devel-cdb end session on running for com.tailf.ncs.logging.NcsLogger$LoggConfigurator-pool:0
+<DEBUG> 3-Aug-2015::09:25:58.643 FYANG2-M-L01D ncs[6027]: devel-cdb inactive client com.tailf.ncs.logging.NcsLogger$LoggConfigurator-pool:0 closed
+<DEBUG> 3-Aug-2015::09:25:58.643 FYANG2-M-L01D ncs[6027]: devel-cdb inactive client com.tailf.ncs.logging.NcsLogger$LoggConfigurator closed
+<DEBUG> 3-Aug-2015::09:25:58.652 FYANG2-M-L01D ncs[6027]: devel-cdb connect from com.tailf.ncs.alarmman.producer.AlarmSinkCentral
+<DEBUG> 3-Aug-2015::09:25:58.662 FYANG2-M-L01D ncs[6027]: devel-cdb connect from com.tailf.ncs.alarmman.consumer.AlarmSourceCentral
+<DEBUG> 3-Aug-2015::09:25:58.665 FYANG2-M-L01D ncs[6027]: devel-cdb connect from com.tailf.ncs.alarmman.producer.AlarmSinkCentral-pool:1
+<DEBUG> 3-Aug-2015::09:25:58.665 FYANG2-M-L01D ncs[6027]: devel-cdb new session on running for com.tailf.ncs.alarmman.producer.AlarmSinkCentral-pool:1
+<DEBUG> 3-Aug-2015::09:25:58.669 FYANG2-M-L01D ncs[6027]: devel-cdb connect from JMXConfigRead
+<DEBUG> 3-Aug-2015::09:25:58.671 FYANG2-M-L01D ncs[6027]: devel-cdb connect from JMXConfigRead-pool:2
+<DEBUG> 3-Aug-2015::09:25:58.671 FYANG2-M-L01D ncs[6027]: devel-cdb new session on running for JMXConfigRead-pool:2
+<DEBUG> 3-Aug-2015::09:25:59.014 FYANG2-M-L01D ncs[6027]: devel-c New daemon connected (name: ncs-dp-1-qos:RFSSkeleton, daemon id: 4)
+<ERR> 3-Aug-2015::09:25:59.042 FYANG2-M-L01D ncs[6027]: devel-c Daemon 'ncs-dp-1-qos:RFSSkeleton' registered for non-existing actionpoint 'qos-self-test'
+<DEBUG> 3-Aug-2015::09:25:59.052 FYANG2-M-L01D ncs[6027]: devel-cdb connect from econfd <0.379.0>
+<DEBUG> 3-Aug-2015::09:25:59.052 FYANG2-M-L01D ncs[6027]: devel-cdb new subscriber session for econfd <0.379.0>
+<DEBUG> 3-Aug-2015::09:26:17.938 FYANG2-M-L01D ncs[6027]: devel-c new_usess db request daemon id: 4
+<DEBUG> 3-Aug-2015::09:26:17.938 FYANG2-M-L01D ncs[6027]: devel-c db reply daemon id: 4
+<DEBUG> 3-Aug-2015::09:26:17.938 FYANG2-M-L01D ncs[6027]: devel-c close_usess db request daemon id: 4
+<DEBUG> 3-Aug-2015::09:26:17.939 FYANG2-M-L01D ncs[6027]: devel-c db reply daemon id: 4
+<DEBUG> 3-Aug-2015::09:42:53.536 FYANG2-M-L01D ncs[6027]: devel-c New daemon connected (name: ncs-dp-2-qos:RFSSkeleton, daemon id: 5)
+<ERR> 3-Aug-2015::09:42:53.544 FYANG2-M-L01D ncs[6027]: devel-c Daemon 'ncs-dp-2-qos:RFSSkeleton' registered for non-existing actionpoint 'qos-self-test'
+<INFO> 3-Aug-2015::09:42:57.846 FYANG2-M-L01D ncs[6027]: ncs syncing from apic...
+<INFO> 3-Aug-2015::09:42:57.846 FYANG2-M-L01D ncs[6027]: ncs syncing from odlc...
+<INFO> 3-Aug-2015::09:42:57.846 FYANG2-M-L01D ncs[6027]: ncs syncing from a9k...
+<INFO> 3-Aug-2015::09:42:57.853 FYANG2-M-L01D ncs[6027]: ncs connecting NED a9k
+<INFO> 3-Aug-2015::09:42:57.853 FYANG2-M-L01D ncs[6027]: ncs connecting NED odlc
+<INFO> 3-Aug-2015::09:42:57.853 FYANG2-M-L01D ncs[6027]: ncs connecting NED apic
+<ERR> 3-Aug-2015::09:42:58.014 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/packages/ned/odl' returned from NED
+<ERR> 3-Aug-2015::09:42:58.014 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/packages/ned/odl-stats' returned from NED
+<ERR> 3-Aug-2015::09:42:58.018 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/packages/ned/odl' returned from NED
+<ERR> 3-Aug-2015::09:42:58.018 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/packages/ned/odl-stats' returned from NED
+<DEBUG> 3-Aug-2015::09:42:58.358 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=41: entering validate phase for running...
+<DEBUG> 3-Aug-2015::09:42:58.358 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=41:   validate: grabbing transaction lock...
+<DEBUG> 3-Aug-2015::09:42:58.358 FYANG2-M-L01D ncs[6027]: devel-c new_usess db request daemon id: 1
+<DEBUG> 3-Aug-2015::09:42:58.358 FYANG2-M-L01D ncs[6027]: devel-c db reply daemon id: 1
+<DEBUG> 3-Aug-2015::09:42:58.358 FYANG2-M-L01D ncs[6027]: devel-c new_trans request daemon id: 1 thandle: 41
+<DEBUG> 3-Aug-2015::09:42:58.359 FYANG2-M-L01D ncs[6027]: devel-c new_trans succeeded daemon id: 1 session id: 41 worker id: 1
+<DEBUG> 3-Aug-2015::09:42:58.359 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=41:  ok
+<DEBUG> 3-Aug-2015::09:42:58.359 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=41:   validate: creating rollback file...
+<DEBUG> 3-Aug-2015::09:42:58.369 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=41:  ok
+<DEBUG> 3-Aug-2015::09:42:58.369 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=41:   validate: run transforms and transaction hooks...
+<DEBUG> 3-Aug-2015::09:42:58.369 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=41:  ok
+<DEBUG> 3-Aug-2015::09:42:58.369 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=41:   validate: mark inactive...
+<DEBUG> 3-Aug-2015::09:42:58.370 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=41:  ok
+<DEBUG> 3-Aug-2015::09:42:58.370 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=41:   validate: pre validate...
+<DEBUG> 3-Aug-2015::09:42:58.370 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=41:  ok
+<DEBUG> 3-Aug-2015::09:42:58.372 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=41:   validate: run validation over the change set...
+<DEBUG> 3-Aug-2015::09:42:58.372 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=41:   validate: validation over the change set done
+<DEBUG> 3-Aug-2015::09:42:58.372 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=41:   validate: run dependency-triggered validation...
+<DEBUG> 3-Aug-2015::09:42:58.374 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=41:   validate: dependency-triggered validation done
+<DEBUG> 3-Aug-2015::09:42:58.375 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=41:   validate: check configuration policies...
+<DEBUG> 3-Aug-2015::09:42:58.375 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=41:   validate: configuration policies done
+<DEBUG> 3-Aug-2015::09:42:58.375 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=41: entering write phase for running...
+<DEBUG> 3-Aug-2015::09:42:58.375 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=41:   cdb: write_start
+<DEBUG> 3-Aug-2015::09:42:58.375 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=41: entering prepare phase for running...
+<DEBUG> 3-Aug-2015::09:42:58.375 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=41:   cdb: prepare
+<DEBUG> 3-Aug-2015::09:42:58.375 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=41:   cdb: delivering prepare subscription notifications at prio 0
+<DEBUG> 3-Aug-2015::09:42:58.376 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=41:   cdb: all prepare subscription notifications acknowledged
+<DEBUG> 3-Aug-2015::09:42:58.376 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=41: entering commit phase for running...
+<DEBUG> 3-Aug-2015::09:42:58.376 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=41:   cdb: commit
+<DEBUG> 3-Aug-2015::09:42:58.376 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=41:   cdb: delivering commit subscription notifications at prio 0
+<DEBUG> 3-Aug-2015::09:42:58.376 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=41:   cdb: all commit subscription notifications acknowledged
+<DEBUG> 3-Aug-2015::09:42:58.377 FYANG2-M-L01D ncs[6027]: devel-c close_trans request daemon id: 1 session id: 41
+<DEBUG> 3-Aug-2015::09:42:58.377 FYANG2-M-L01D ncs[6027]: devel-c close_trans succeeded daemon id: 1 session id: 41
+<INFO> 3-Aug-2015::09:42:58.377 FYANG2-M-L01D ncs[6027]: ncs syncing from odlc ok
+<INFO> 3-Aug-2015::09:42:58.436 FYANG2-M-L01D ncs[6027]: ncs failed to connect to apic: noconnection
+<INFO> 3-Aug-2015::09:42:58.444 FYANG2-M-L01D ncs[6027]: ncs syncing from apic error
+<DEBUG> 3-Aug-2015::09:42:58.453 FYANG2-M-L01D ncs[6027]: devel-snmpa notif dbg:Processing tfAlarmMajor in context "" for all snmpNotifyEntries
+<DEBUG> 3-Aug-2015::09:42:58.454 FYANG2-M-L01D ncs[6027]: devel-snmpa notif dbg:Found snmpTargetAddrName "monitor" (vsn: v2c, address: 127.0.0.1:162, sec-name: "public" type: trap) for tfAlarmMajor
+<DEBUG> 3-Aug-2015::09:42:58.457 FYANG2-M-L01D ncs[6027]: devel-snmpa notif dbg:Sending packet to 127.0.0.1:162
+<ERR> 3-Aug-2015::09:43:02.473 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/ned/cisco-ios-xr-stats' returned from NED
+<ERR> 3-Aug-2015::09:43:02.475 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/ned/cisco-ios-xr-stats' returned from NED
+<DEBUG> 3-Aug-2015::09:43:03.396 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=42: entering validate phase for running...
+<DEBUG> 3-Aug-2015::09:43:03.396 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=42:   validate: grabbing transaction lock...
+<DEBUG> 3-Aug-2015::09:43:03.396 FYANG2-M-L01D ncs[6027]: devel-c new_usess db request daemon id: 1
+<DEBUG> 3-Aug-2015::09:43:03.396 FYANG2-M-L01D ncs[6027]: devel-c db reply daemon id: 1
+<DEBUG> 3-Aug-2015::09:43:03.396 FYANG2-M-L01D ncs[6027]: devel-c new_trans request daemon id: 1 thandle: 42
+<DEBUG> 3-Aug-2015::09:43:03.396 FYANG2-M-L01D ncs[6027]: devel-c new_trans succeeded daemon id: 1 session id: 42 worker id: 1
+<DEBUG> 3-Aug-2015::09:43:03.396 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=42:  ok
+<DEBUG> 3-Aug-2015::09:43:03.396 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=42:   validate: creating rollback file...
+<DEBUG> 3-Aug-2015::09:43:03.408 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=42:  ok
+<DEBUG> 3-Aug-2015::09:43:03.409 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=42:   validate: run transforms and transaction hooks...
+<DEBUG> 3-Aug-2015::09:43:03.409 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=42:  ok
+<DEBUG> 3-Aug-2015::09:43:03.409 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=42:   validate: mark inactive...
+<DEBUG> 3-Aug-2015::09:43:03.409 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=42:  ok
+<DEBUG> 3-Aug-2015::09:43:03.410 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=42:   validate: pre validate...
+<DEBUG> 3-Aug-2015::09:43:03.410 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=42:  ok
+<DEBUG> 3-Aug-2015::09:43:03.410 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=42:   validate: run validation over the change set...
+<DEBUG> 3-Aug-2015::09:43:03.410 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=42:   validate: validation over the change set done
+<DEBUG> 3-Aug-2015::09:43:03.410 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=42:   validate: run dependency-triggered validation...
+<DEBUG> 3-Aug-2015::09:43:03.410 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=42:   validate: dependency-triggered validation done
+<DEBUG> 3-Aug-2015::09:43:03.410 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=42:   validate: check configuration policies...
+<DEBUG> 3-Aug-2015::09:43:03.410 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=42:   validate: configuration policies done
+<DEBUG> 3-Aug-2015::09:43:03.410 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=42: entering write phase for running...
+<DEBUG> 3-Aug-2015::09:43:03.410 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=42:   cdb: write_start
+<DEBUG> 3-Aug-2015::09:43:03.411 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=42: entering prepare phase for running...
+<DEBUG> 3-Aug-2015::09:43:03.411 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=42:   cdb: prepare
+<DEBUG> 3-Aug-2015::09:43:03.411 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=42:   cdb: delivering prepare subscription notifications at prio 0
+<DEBUG> 3-Aug-2015::09:43:03.412 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=42:   cdb: all prepare subscription notifications acknowledged
+<DEBUG> 3-Aug-2015::09:43:03.412 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=42: entering commit phase for running...
+<DEBUG> 3-Aug-2015::09:43:03.412 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=42:   cdb: commit
+<DEBUG> 3-Aug-2015::09:43:03.412 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=42:   cdb: delivering commit subscription notifications at prio 0
+<DEBUG> 3-Aug-2015::09:43:03.413 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=42:   cdb: all commit subscription notifications acknowledged
+<DEBUG> 3-Aug-2015::09:43:03.413 FYANG2-M-L01D ncs[6027]: devel-c close_trans request daemon id: 1 session id: 42
+<DEBUG> 3-Aug-2015::09:43:03.413 FYANG2-M-L01D ncs[6027]: devel-c close_trans succeeded daemon id: 1 session id: 42
+<INFO> 3-Aug-2015::09:43:03.413 FYANG2-M-L01D ncs[6027]: ncs syncing from a9k ok
+<DEBUG> 3-Aug-2015::09:43:08.454 FYANG2-M-L01D ncs[6027]: devel-c close_usess db request daemon id: 1
+<DEBUG> 3-Aug-2015::09:43:08.455 FYANG2-M-L01D ncs[6027]: devel-c db reply daemon id: 1
+<DEBUG> 3-Aug-2015::09:45:31.880 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=54: entering validate phase for running...
+<DEBUG> 3-Aug-2015::09:45:31.880 FYANG2-M-L01D ncs[6027]: devel-c new_trans request daemon id: 1 thandle: 54
+<DEBUG> 3-Aug-2015::09:45:31.880 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=54:   validate: grabbing transaction lock...
+<DEBUG> 3-Aug-2015::09:45:31.880 FYANG2-M-L01D ncs[6027]: devel-c new_trans succeeded daemon id: 1 session id: 54 worker id: 1
+<DEBUG> 3-Aug-2015::09:45:31.880 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=54:  ok
+<DEBUG> 3-Aug-2015::09:45:31.880 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=54:   validate: creating rollback file...
+<DEBUG> 3-Aug-2015::09:45:31.889 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=54:  ok
+<DEBUG> 3-Aug-2015::09:45:31.889 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=54:   validate: run transforms and transaction hooks...
+<DEBUG> 3-Aug-2015::09:45:31.889 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=54:  ok
+<DEBUG> 3-Aug-2015::09:45:31.889 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=54:   validate: mark inactive...
+<DEBUG> 3-Aug-2015::09:45:31.889 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=54:  ok
+<DEBUG> 3-Aug-2015::09:45:31.889 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=54:   validate: pre validate...
+<DEBUG> 3-Aug-2015::09:45:31.889 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=54:  ok
+<DEBUG> 3-Aug-2015::09:45:31.889 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=54:   validate: run validation over the change set...
+<DEBUG> 3-Aug-2015::09:45:31.890 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=54:   validate: validation over the change set done
+<DEBUG> 3-Aug-2015::09:45:31.890 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=54:   validate: run dependency-triggered validation...
+<DEBUG> 3-Aug-2015::09:45:31.890 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=54:   validate: dependency-triggered validation done
+<DEBUG> 3-Aug-2015::09:45:31.890 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=54:   validate: check configuration policies...
+<DEBUG> 3-Aug-2015::09:45:31.890 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=54:   validate: configuration policies done
+<DEBUG> 3-Aug-2015::09:45:31.890 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=54: entering write phase for running...
+<DEBUG> 3-Aug-2015::09:45:31.890 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=54:   cdb: write_start
+<DEBUG> 3-Aug-2015::09:45:31.890 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=54: entering prepare phase for running...
+<DEBUG> 3-Aug-2015::09:45:31.890 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=54:   cdb: prepare
+<DEBUG> 3-Aug-2015::09:45:31.890 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=54:   cdb: delivering prepare subscription notifications at prio 0
+<DEBUG> 3-Aug-2015::09:45:31.891 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=54:   cdb: all prepare subscription notifications acknowledged
+<DEBUG> 3-Aug-2015::09:45:31.891 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=54: entering commit phase for running...
+<DEBUG> 3-Aug-2015::09:45:31.891 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=54:   cdb: commit
+<DEBUG> 3-Aug-2015::09:45:31.891 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=54:   cdb: delivering commit subscription notifications at prio 0
+<DEBUG> 3-Aug-2015::09:45:31.892 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=54:   cdb: all commit subscription notifications acknowledged
+<DEBUG> 3-Aug-2015::09:45:31.892 FYANG2-M-L01D ncs[6027]: devel-c close_trans request daemon id: 1 session id: 54
+<DEBUG> 3-Aug-2015::09:45:31.892 FYANG2-M-L01D ncs[6027]: devel-c close_trans succeeded daemon id: 1 session id: 54
+<INFO> 3-Aug-2015::09:45:34.131 FYANG2-M-L01D ncs[6027]: ncs syncing from a9k...
+<INFO> 3-Aug-2015::09:45:34.131 FYANG2-M-L01D ncs[6027]: ncs syncing from apic...
+<INFO> 3-Aug-2015::09:45:34.131 FYANG2-M-L01D ncs[6027]: ncs syncing from odlc...
+<INFO> 3-Aug-2015::09:45:34.135 FYANG2-M-L01D ncs[6027]: ncs connecting NED a9k
+<INFO> 3-Aug-2015::09:45:34.135 FYANG2-M-L01D ncs[6027]: ncs connecting NED odlc
+<INFO> 3-Aug-2015::09:45:34.135 FYANG2-M-L01D ncs[6027]: ncs connecting NED apic
+<ERR> 3-Aug-2015::09:45:34.144 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/packages/ned/odl' returned from NED
+<ERR> 3-Aug-2015::09:45:34.144 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/packages/ned/odl-stats' returned from NED
+<ERR> 3-Aug-2015::09:45:34.145 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/packages/ned/odl' returned from NED
+<ERR> 3-Aug-2015::09:45:34.145 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/packages/ned/odl-stats' returned from NED
+<ERR> 3-Aug-2015::09:45:34.418 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/ned/ciscoapicdc' returned from NED
+<ERR> 3-Aug-2015::09:45:34.418 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/ned/ciscoapicdc-stats' returned from NED
+<ERR> 3-Aug-2015::09:45:34.421 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/ned/ciscoapicdc' returned from NED
+<ERR> 3-Aug-2015::09:45:34.422 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/ned/ciscoapicdc-stats' returned from NED
+<DEBUG> 3-Aug-2015::09:45:34.422 FYANG2-M-L01D ncs[6027]: devel-snmpa notif dbg:Processing tfAlarmClear in context "" for all snmpNotifyEntries
+<DEBUG> 3-Aug-2015::09:45:34.422 FYANG2-M-L01D ncs[6027]: devel-snmpa notif dbg:Found snmpTargetAddrName "monitor" (vsn: v2c, address: 127.0.0.1:162, sec-name: "public" type: trap) for tfAlarmClear
+<DEBUG> 3-Aug-2015::09:45:34.422 FYANG2-M-L01D ncs[6027]: devel-snmpa notif dbg:Sending packet to 127.0.0.1:162
+<DEBUG> 3-Aug-2015::09:45:34.467 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=73: entering validate phase for running...
+<DEBUG> 3-Aug-2015::09:45:34.467 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=73:   validate: grabbing transaction lock...
+<DEBUG> 3-Aug-2015::09:45:34.467 FYANG2-M-L01D ncs[6027]: devel-c new_trans request daemon id: 1 thandle: 73
+<DEBUG> 3-Aug-2015::09:45:34.467 FYANG2-M-L01D ncs[6027]: devel-c new_trans succeeded daemon id: 1 session id: 73 worker id: 1
+<DEBUG> 3-Aug-2015::09:45:34.467 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=73:  ok
+<DEBUG> 3-Aug-2015::09:45:34.467 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=73:   validate: creating rollback file...
+<DEBUG> 3-Aug-2015::09:45:34.476 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=73:  ok
+<DEBUG> 3-Aug-2015::09:45:34.476 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=73:   validate: run transforms and transaction hooks...
+<DEBUG> 3-Aug-2015::09:45:34.476 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=73:  ok
+<DEBUG> 3-Aug-2015::09:45:34.476 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=73:   validate: mark inactive...
+<DEBUG> 3-Aug-2015::09:45:34.476 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=73:  ok
+<DEBUG> 3-Aug-2015::09:45:34.476 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=73:   validate: pre validate...
+<DEBUG> 3-Aug-2015::09:45:34.476 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=73:  ok
+<DEBUG> 3-Aug-2015::09:45:34.476 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=73:   validate: run validation over the change set...
+<DEBUG> 3-Aug-2015::09:45:34.476 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=73:   validate: validation over the change set done
+<DEBUG> 3-Aug-2015::09:45:34.476 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=73:   validate: run dependency-triggered validation...
+<DEBUG> 3-Aug-2015::09:45:34.476 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=73:   validate: dependency-triggered validation done
+<DEBUG> 3-Aug-2015::09:45:34.476 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=73:   validate: check configuration policies...
+<DEBUG> 3-Aug-2015::09:45:34.476 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=73:   validate: configuration policies done
+<DEBUG> 3-Aug-2015::09:45:34.476 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=73: entering write phase for running...
+<DEBUG> 3-Aug-2015::09:45:34.476 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=73:   cdb: write_start
+<DEBUG> 3-Aug-2015::09:45:34.477 FYANG2-M-L01D ncs[6027]: devel-c close_trans request daemon id: 1 session id: 73
+<DEBUG> 3-Aug-2015::09:45:34.477 FYANG2-M-L01D ncs[6027]: devel-c close_trans succeeded daemon id: 1 session id: 73
+<INFO> 3-Aug-2015::09:45:34.477 FYANG2-M-L01D ncs[6027]: ncs syncing from odlc ok
+<ERR> 3-Aug-2015::09:45:36.924 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/ned/cisco-ios-xr-stats' returned from NED
+<ERR> 3-Aug-2015::09:45:36.925 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/ned/cisco-ios-xr-stats' returned from NED
+<DEBUG> 3-Aug-2015::09:45:37.844 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=71: entering validate phase for running...
+<DEBUG> 3-Aug-2015::09:45:37.844 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=71:   validate: grabbing transaction lock...
+<DEBUG> 3-Aug-2015::09:45:37.844 FYANG2-M-L01D ncs[6027]: devel-c new_trans request daemon id: 1 thandle: 71
+<DEBUG> 3-Aug-2015::09:45:37.844 FYANG2-M-L01D ncs[6027]: devel-c new_trans succeeded daemon id: 1 session id: 71 worker id: 1
+<DEBUG> 3-Aug-2015::09:45:37.845 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=71:  ok
+<DEBUG> 3-Aug-2015::09:45:37.845 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=71:   validate: creating rollback file...
+<DEBUG> 3-Aug-2015::09:45:37.853 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=71:  ok
+<DEBUG> 3-Aug-2015::09:45:37.853 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=71:   validate: run transforms and transaction hooks...
+<DEBUG> 3-Aug-2015::09:45:37.853 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=71:  ok
+<DEBUG> 3-Aug-2015::09:45:37.853 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=71:   validate: mark inactive...
+<DEBUG> 3-Aug-2015::09:45:37.853 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=71:  ok
+<DEBUG> 3-Aug-2015::09:45:37.853 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=71:   validate: pre validate...
+<DEBUG> 3-Aug-2015::09:45:37.853 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=71:  ok
+<DEBUG> 3-Aug-2015::09:45:37.853 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=71:   validate: run validation over the change set...
+<DEBUG> 3-Aug-2015::09:45:37.853 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=71:   validate: validation over the change set done
+<DEBUG> 3-Aug-2015::09:45:37.853 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=71:   validate: run dependency-triggered validation...
+<DEBUG> 3-Aug-2015::09:45:37.854 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=71:   validate: dependency-triggered validation done
+<DEBUG> 3-Aug-2015::09:45:37.854 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=71:   validate: check configuration policies...
+<DEBUG> 3-Aug-2015::09:45:37.854 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=71:   validate: configuration policies done
+<DEBUG> 3-Aug-2015::09:45:37.854 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=71: entering write phase for running...
+<DEBUG> 3-Aug-2015::09:45:37.854 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=71:   cdb: write_start
+<DEBUG> 3-Aug-2015::09:45:37.854 FYANG2-M-L01D ncs[6027]: devel-c close_trans request daemon id: 1 session id: 71
+<DEBUG> 3-Aug-2015::09:45:37.855 FYANG2-M-L01D ncs[6027]: devel-c close_trans succeeded daemon id: 1 session id: 71
+<INFO> 3-Aug-2015::09:45:37.855 FYANG2-M-L01D ncs[6027]: ncs syncing from a9k ok
+<DEBUG> 3-Aug-2015::09:45:38.102 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=72: entering validate phase for running...
+<DEBUG> 3-Aug-2015::09:45:38.102 FYANG2-M-L01D ncs[6027]: devel-c new_trans request daemon id: 1 thandle: 72
+<DEBUG> 3-Aug-2015::09:45:38.102 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=72:   validate: grabbing transaction lock...
+<DEBUG> 3-Aug-2015::09:45:38.102 FYANG2-M-L01D ncs[6027]: devel-c new_trans succeeded daemon id: 1 session id: 72 worker id: 1
+<DEBUG> 3-Aug-2015::09:45:38.102 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=72:  ok
+<DEBUG> 3-Aug-2015::09:45:38.102 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=72:   validate: creating rollback file...
+<DEBUG> 3-Aug-2015::09:45:38.130 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=72:  ok
+<DEBUG> 3-Aug-2015::09:45:38.130 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=72:   validate: run transforms and transaction hooks...
+<DEBUG> 3-Aug-2015::09:45:38.130 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=72:  ok
+<DEBUG> 3-Aug-2015::09:45:38.130 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=72:   validate: mark inactive...
+<DEBUG> 3-Aug-2015::09:45:38.133 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=72:  ok
+<DEBUG> 3-Aug-2015::09:45:38.133 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=72:   validate: pre validate...
+<DEBUG> 3-Aug-2015::09:45:38.134 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=72:  ok
+<DEBUG> 3-Aug-2015::09:45:38.134 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=72:   validate: run validation over the change set...
+<DEBUG> 3-Aug-2015::09:45:38.138 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=72:   validate: validation over the change set done
+<DEBUG> 3-Aug-2015::09:45:38.138 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=72:   validate: run dependency-triggered validation...
+<DEBUG> 3-Aug-2015::09:45:38.138 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=72:   validate: dependency-triggered validation done
+<DEBUG> 3-Aug-2015::09:45:38.138 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=72:   validate: check configuration policies...
+<DEBUG> 3-Aug-2015::09:45:38.138 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=72:   validate: configuration policies done
+<DEBUG> 3-Aug-2015::09:45:38.138 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=72: entering write phase for running...
+<DEBUG> 3-Aug-2015::09:45:38.138 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=72:   cdb: write_start
+<DEBUG> 3-Aug-2015::09:45:38.146 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=72: entering prepare phase for running...
+<DEBUG> 3-Aug-2015::09:45:38.146 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=72:   cdb: prepare
+<DEBUG> 3-Aug-2015::09:45:38.146 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=72:   cdb: delivering prepare subscription notifications at prio 0
+<DEBUG> 3-Aug-2015::09:45:38.146 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=72:   cdb: all prepare subscription notifications acknowledged
+<DEBUG> 3-Aug-2015::09:45:38.147 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=72: entering commit phase for running...
+<DEBUG> 3-Aug-2015::09:45:38.147 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=72:   cdb: commit
+<DEBUG> 3-Aug-2015::09:45:38.151 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=72:   cdb: delivering commit subscription notifications at prio 0
+<DEBUG> 3-Aug-2015::09:45:38.151 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=72:   cdb: all commit subscription notifications acknowledged
+<DEBUG> 3-Aug-2015::09:45:38.152 FYANG2-M-L01D ncs[6027]: devel-c close_trans request daemon id: 1 session id: 72
+<DEBUG> 3-Aug-2015::09:45:38.152 FYANG2-M-L01D ncs[6027]: devel-c close_trans succeeded daemon id: 1 session id: 72
+<INFO> 3-Aug-2015::09:45:38.152 FYANG2-M-L01D ncs[6027]: ncs syncing from apic ok
+<DEBUG> 3-Aug-2015::09:47:44.051 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81: entering validate phase for running...
+<DEBUG> 3-Aug-2015::09:47:44.051 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:   validate: grabbing transaction lock...
+<DEBUG> 3-Aug-2015::09:47:44.051 FYANG2-M-L01D ncs[6027]: devel-c new_trans request daemon id: 1 thandle: 81
+<DEBUG> 3-Aug-2015::09:47:44.051 FYANG2-M-L01D ncs[6027]: devel-c new_trans succeeded daemon id: 1 session id: 81 worker id: 1
+<DEBUG> 3-Aug-2015::09:47:44.051 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:  ok
+<DEBUG> 3-Aug-2015::09:47:44.051 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:   validate: creating rollback file...
+<DEBUG> 3-Aug-2015::09:47:44.058 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:  ok
+<DEBUG> 3-Aug-2015::09:47:44.058 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:   validate: run transforms and transaction hooks...
+<DEBUG> 3-Aug-2015::09:47:44.058 FYANG2-M-L01D ncs[6027]: devel-c write_all request for callpoint 'ncs-rfs-service-hook' path 
+<DEBUG> 3-Aug-2015::09:47:44.059 FYANG2-M-L01D ncs[6027]: devel-c new_trans request daemon id: 5 thandle: 81
+<DEBUG> 3-Aug-2015::09:47:44.065 FYANG2-M-L01D ncs[6027]: devel-c New worker connected (daemon id: 5 worker id: 2)
+<DEBUG> 3-Aug-2015::09:47:44.065 FYANG2-M-L01D ncs[6027]: devel-c new_trans succeeded daemon id: 5 session id: 2 worker id: 2
+<DEBUG> 3-Aug-2015::09:47:44.065 FYANG2-M-L01D ncs[6027]: devel-c service_pre_modification(create) request for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:47:44.068 FYANG2-M-L01D ncs[6027]: devel-c service_pre_modification(create) succeeded for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:47:44.069 FYANG2-M-L01D ncs[6027]: devel-c service_create request for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<INFO> 3-Aug-2015::09:47:44.105 FYANG2-M-L01D ncs[6027]: ncs connecting NED odlc
+<ERR> 3-Aug-2015::09:47:44.111 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/packages/ned/odl' returned from NED
+<ERR> 3-Aug-2015::09:47:44.111 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/packages/ned/odl-stats' returned from NED
+<ERR> 3-Aug-2015::09:47:44.111 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/packages/ned/odl' returned from NED
+<ERR> 3-Aug-2015::09:47:44.111 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/packages/ned/odl-stats' returned from NED
+<ERR> 3-Aug-2015::09:47:44.267 FYANG2-M-L01D ncs[6027]: devel-c Bad result from action "/ncs:devices/device{odlc}/rpc/rpc-add-lsp/add-lsp": /ncs:devices/device{odlc}/rpc/rpc-add-lsp/add-lsp/operation-result: expected type string, got unknown.
+<DEBUG> 3-Aug-2015::09:47:44.268 FYANG2-M-L01D ncs[6027]: devel-c service_create succeeded for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:47:44.273 FYANG2-M-L01D ncs[6027]: devel-c service_post_modification(create) request for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:47:44.273 FYANG2-M-L01D ncs[6027]: devel-c service_post_modification(create) succeeded for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:47:44.274 FYANG2-M-L01D ncs[6027]: devel-c write_all succeeded for callpoint 'ncs-rfs-service-hook' path 
+<DEBUG> 3-Aug-2015::09:47:44.274 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:  ok
+<DEBUG> 3-Aug-2015::09:47:44.274 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:   validate: mark inactive...
+<DEBUG> 3-Aug-2015::09:47:44.274 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:  ok
+<DEBUG> 3-Aug-2015::09:47:44.275 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:   validate: pre validate...
+<DEBUG> 3-Aug-2015::09:47:44.275 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:  ok
+<DEBUG> 3-Aug-2015::09:47:44.275 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:   validate: run validation over the change set...
+<DEBUG> 3-Aug-2015::09:47:44.276 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:   validate: validation over the change set done
+<DEBUG> 3-Aug-2015::09:47:44.276 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:   validate: run dependency-triggered validation...
+<DEBUG> 3-Aug-2015::09:47:44.276 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:   validate: dependency-triggered validation done
+<DEBUG> 3-Aug-2015::09:47:44.276 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:   validate: check configuration policies...
+<DEBUG> 3-Aug-2015::09:47:44.276 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:   validate: configuration policies done
+<DEBUG> 3-Aug-2015::09:47:44.276 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81: entering write phase for running...
+<DEBUG> 3-Aug-2015::09:47:44.276 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:   cdb: write_start
+<DEBUG> 3-Aug-2015::09:47:44.277 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81: entering prepare phase for running...
+<DEBUG> 3-Aug-2015::09:47:44.277 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:   cdb: prepare
+<DEBUG> 3-Aug-2015::09:47:44.277 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:   cdb: delivering prepare subscription notifications at prio 0
+<DEBUG> 3-Aug-2015::09:47:44.278 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:   cdb: all prepare subscription notifications acknowledged
+<DEBUG> 3-Aug-2015::09:47:44.278 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:   cdb: aborting transaction
+<DEBUG> 3-Aug-2015::09:47:44.278 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81: entering abort phase for running...
+<DEBUG> 3-Aug-2015::09:47:44.278 FYANG2-M-L01D ncs[6027]: devel-c close_trans request daemon id: 5 session id: 2
+<DEBUG> 3-Aug-2015::09:47:44.278 FYANG2-M-L01D ncs[6027]: devel-c close_trans succeeded daemon id: 5 session id: 2
+<DEBUG> 3-Aug-2015::09:47:44.278 FYANG2-M-L01D ncs[6027]: devel-c close_trans request daemon id: 1 session id: 81
+<DEBUG> 3-Aug-2015::09:47:44.278 FYANG2-M-L01D ncs[6027]: devel-c close_trans succeeded daemon id: 1 session id: 81
+<DEBUG> 3-Aug-2015::09:47:50.955 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81: entering validate phase for running...
+<DEBUG> 3-Aug-2015::09:47:50.955 FYANG2-M-L01D ncs[6027]: devel-c new_trans request daemon id: 1 thandle: 81
+<DEBUG> 3-Aug-2015::09:47:50.955 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:   validate: grabbing transaction lock...
+<DEBUG> 3-Aug-2015::09:47:50.955 FYANG2-M-L01D ncs[6027]: devel-c new_trans succeeded daemon id: 1 session id: 81 worker id: 1
+<DEBUG> 3-Aug-2015::09:47:50.955 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:  ok
+<DEBUG> 3-Aug-2015::09:47:50.955 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:   validate: creating rollback file...
+<DEBUG> 3-Aug-2015::09:47:50.960 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:  ok
+<DEBUG> 3-Aug-2015::09:47:50.960 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:   validate: run transforms and transaction hooks...
+<DEBUG> 3-Aug-2015::09:47:50.961 FYANG2-M-L01D ncs[6027]: devel-c write_all request for callpoint 'ncs-rfs-service-hook' path 
+<DEBUG> 3-Aug-2015::09:47:50.961 FYANG2-M-L01D ncs[6027]: devel-c new_trans request daemon id: 5 thandle: 81
+<DEBUG> 3-Aug-2015::09:47:50.962 FYANG2-M-L01D ncs[6027]: devel-c new_trans succeeded daemon id: 5 session id: 3 worker id: 2
+<DEBUG> 3-Aug-2015::09:47:50.962 FYANG2-M-L01D ncs[6027]: devel-c service_pre_modification(create) request for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:47:50.962 FYANG2-M-L01D ncs[6027]: devel-c service_pre_modification(create) succeeded for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:47:50.963 FYANG2-M-L01D ncs[6027]: devel-c service_create request for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<INFO> 3-Aug-2015::09:47:50.990 FYANG2-M-L01D ncs[6027]: ncs connecting NED odlc
+<ERR> 3-Aug-2015::09:47:50.990 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/packages/ned/odl' returned from NED
+<ERR> 3-Aug-2015::09:47:50.990 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/packages/ned/odl-stats' returned from NED
+<ERR> 3-Aug-2015::09:47:51.072 FYANG2-M-L01D ncs[6027]: devel-c Bad result from action "/ncs:devices/device{odlc}/rpc/rpc-add-lsp/add-lsp": /ncs:devices/device{odlc}/rpc/rpc-add-lsp/add-lsp/operation-result: expected type string, got unknown.
+<DEBUG> 3-Aug-2015::09:47:51.074 FYANG2-M-L01D ncs[6027]: devel-c service_create succeeded for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:47:51.075 FYANG2-M-L01D ncs[6027]: devel-c service_post_modification(create) request for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:47:51.075 FYANG2-M-L01D ncs[6027]: devel-c service_post_modification(create) succeeded for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:47:51.076 FYANG2-M-L01D ncs[6027]: devel-c write_all succeeded for callpoint 'ncs-rfs-service-hook' path 
+<DEBUG> 3-Aug-2015::09:47:51.076 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:  ok
+<DEBUG> 3-Aug-2015::09:47:51.076 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:   validate: mark inactive...
+<DEBUG> 3-Aug-2015::09:47:51.077 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:  ok
+<DEBUG> 3-Aug-2015::09:47:51.077 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:   validate: pre validate...
+<DEBUG> 3-Aug-2015::09:47:51.077 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:  ok
+<DEBUG> 3-Aug-2015::09:47:51.077 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:   validate: run validation over the change set...
+<DEBUG> 3-Aug-2015::09:47:51.078 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:   validate: validation over the change set done
+<DEBUG> 3-Aug-2015::09:47:51.078 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:   validate: run dependency-triggered validation...
+<DEBUG> 3-Aug-2015::09:47:51.078 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:   validate: dependency-triggered validation done
+<DEBUG> 3-Aug-2015::09:47:51.078 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:   validate: check configuration policies...
+<DEBUG> 3-Aug-2015::09:47:51.078 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:   validate: configuration policies done
+<DEBUG> 3-Aug-2015::09:47:51.078 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81: entering write phase for running...
+<DEBUG> 3-Aug-2015::09:47:51.078 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:   cdb: write_start
+<DEBUG> 3-Aug-2015::09:47:51.079 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81: entering prepare phase for running...
+<DEBUG> 3-Aug-2015::09:47:51.079 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:   cdb: prepare
+<DEBUG> 3-Aug-2015::09:47:51.079 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:   cdb: delivering prepare subscription notifications at prio 0
+<DEBUG> 3-Aug-2015::09:47:51.079 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:   cdb: all prepare subscription notifications acknowledged
+<DEBUG> 3-Aug-2015::09:47:51.080 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81: entering commit phase for running...
+<DEBUG> 3-Aug-2015::09:47:51.080 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:   cdb: commit
+<DEBUG> 3-Aug-2015::09:47:51.081 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:   cdb: delivering commit subscription notifications at prio 0
+<DEBUG> 3-Aug-2015::09:47:51.081 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=81:   cdb: all commit subscription notifications acknowledged
+<DEBUG> 3-Aug-2015::09:47:51.081 FYANG2-M-L01D ncs[6027]: devel-c close_trans request daemon id: 5 session id: 3
+<DEBUG> 3-Aug-2015::09:47:51.081 FYANG2-M-L01D ncs[6027]: devel-c close_trans succeeded daemon id: 5 session id: 3
+<DEBUG> 3-Aug-2015::09:47:51.081 FYANG2-M-L01D ncs[6027]: devel-c close_trans request daemon id: 1 session id: 81
+<DEBUG> 3-Aug-2015::09:47:51.082 FYANG2-M-L01D ncs[6027]: devel-c close_trans succeeded daemon id: 1 session id: 81
+<DEBUG> 3-Aug-2015::09:50:36.516 FYANG2-M-L01D ncs[6027]: devel-c New daemon connected (name: ncs-dp-3-qos:RFSSkeleton, daemon id: 6)
+<ERR> 3-Aug-2015::09:50:36.522 FYANG2-M-L01D ncs[6027]: devel-c Daemon 'ncs-dp-3-qos:RFSSkeleton' registered for non-existing actionpoint 'qos-self-test'
+<DEBUG> 3-Aug-2015::09:50:43.271 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=118: entering validate phase for running...
+<DEBUG> 3-Aug-2015::09:50:43.271 FYANG2-M-L01D ncs[6027]: devel-c new_trans request daemon id: 1 thandle: 118
+<DEBUG> 3-Aug-2015::09:50:43.271 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=118:   validate: grabbing transaction lock...
+<DEBUG> 3-Aug-2015::09:50:43.271 FYANG2-M-L01D ncs[6027]: devel-c new_trans succeeded daemon id: 1 session id: 118 worker id: 1
+<DEBUG> 3-Aug-2015::09:50:43.271 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=118:  ok
+<DEBUG> 3-Aug-2015::09:50:43.271 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=118:   validate: creating rollback file...
+<DEBUG> 3-Aug-2015::09:50:43.282 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=118:  ok
+<DEBUG> 3-Aug-2015::09:50:43.282 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=118:   validate: run transforms and transaction hooks...
+<DEBUG> 3-Aug-2015::09:50:43.282 FYANG2-M-L01D ncs[6027]: devel-c write_all request for callpoint 'ncs-rfs-service-hook' path 
+<DEBUG> 3-Aug-2015::09:50:43.283 FYANG2-M-L01D ncs[6027]: devel-c new_trans request daemon id: 6 thandle: 118
+<DEBUG> 3-Aug-2015::09:50:43.284 FYANG2-M-L01D ncs[6027]: devel-c New worker connected (daemon id: 6 worker id: 2)
+<DEBUG> 3-Aug-2015::09:50:43.284 FYANG2-M-L01D ncs[6027]: devel-c new_trans succeeded daemon id: 6 session id: 4 worker id: 2
+<DEBUG> 3-Aug-2015::09:50:43.284 FYANG2-M-L01D ncs[6027]: devel-c service_pre_modification(delete) request for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:50:43.285 FYANG2-M-L01D ncs[6027]: devel-c service_pre_modification(delete) succeeded for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:50:43.285 FYANG2-M-L01D ncs[6027]: devel-c service_post_modification(delete) request for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:50:47.165 FYANG2-M-L01D ncs[6027]: devel-c service_post_modification(delete) succeeded for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:50:47.166 FYANG2-M-L01D ncs[6027]: devel-c write_all succeeded for callpoint 'ncs-rfs-service-hook' path 
+<DEBUG> 3-Aug-2015::09:50:47.166 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=118:  ok
+<DEBUG> 3-Aug-2015::09:50:47.166 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=118:   validate: mark inactive...
+<DEBUG> 3-Aug-2015::09:50:47.167 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=118:  ok
+<DEBUG> 3-Aug-2015::09:50:47.167 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=118:   validate: pre validate...
+<DEBUG> 3-Aug-2015::09:50:47.167 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=118:  ok
+<DEBUG> 3-Aug-2015::09:50:47.167 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=118:   validate: run validation over the change set...
+<DEBUG> 3-Aug-2015::09:50:47.167 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=118:   validate: validation over the change set done
+<DEBUG> 3-Aug-2015::09:50:47.167 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=118:   validate: run dependency-triggered validation...
+<DEBUG> 3-Aug-2015::09:50:47.167 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=118:   validate: dependency-triggered validation done
+<DEBUG> 3-Aug-2015::09:50:47.167 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=118:   validate: check configuration policies...
+<DEBUG> 3-Aug-2015::09:50:47.168 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=118:   validate: configuration policies done
+<DEBUG> 3-Aug-2015::09:50:47.168 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=118: entering write phase for running...
+<DEBUG> 3-Aug-2015::09:50:47.168 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=118:   cdb: write_start
+<DEBUG> 3-Aug-2015::09:50:47.168 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=118: entering prepare phase for running...
+<DEBUG> 3-Aug-2015::09:50:47.168 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=118:   cdb: prepare
+<DEBUG> 3-Aug-2015::09:50:47.168 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=118:   cdb: delivering prepare subscription notifications at prio 0
+<DEBUG> 3-Aug-2015::09:50:47.169 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=118:   cdb: all prepare subscription notifications acknowledged
+<DEBUG> 3-Aug-2015::09:50:47.169 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=118: entering commit phase for running...
+<DEBUG> 3-Aug-2015::09:50:47.169 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=118:   cdb: commit
+<DEBUG> 3-Aug-2015::09:50:47.170 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=118:   cdb: delivering commit subscription notifications at prio 0
+<DEBUG> 3-Aug-2015::09:50:47.170 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=118:   cdb: all commit subscription notifications acknowledged
+<DEBUG> 3-Aug-2015::09:50:47.171 FYANG2-M-L01D ncs[6027]: devel-c close_trans request daemon id: 6 session id: 4
+<DEBUG> 3-Aug-2015::09:50:47.171 FYANG2-M-L01D ncs[6027]: devel-c close_trans succeeded daemon id: 6 session id: 4
+<DEBUG> 3-Aug-2015::09:50:47.171 FYANG2-M-L01D ncs[6027]: devel-c close_trans request daemon id: 1 session id: 118
+<DEBUG> 3-Aug-2015::09:50:47.171 FYANG2-M-L01D ncs[6027]: devel-c close_trans succeeded daemon id: 1 session id: 118
+<DEBUG> 3-Aug-2015::09:51:00.591 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127: entering validate phase for running...
+<DEBUG> 3-Aug-2015::09:51:00.591 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:   validate: grabbing transaction lock...
+<DEBUG> 3-Aug-2015::09:51:00.591 FYANG2-M-L01D ncs[6027]: devel-c new_trans request daemon id: 1 thandle: 127
+<DEBUG> 3-Aug-2015::09:51:00.591 FYANG2-M-L01D ncs[6027]: devel-c new_trans succeeded daemon id: 1 session id: 127 worker id: 1
+<DEBUG> 3-Aug-2015::09:51:00.591 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:  ok
+<DEBUG> 3-Aug-2015::09:51:00.591 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:   validate: creating rollback file...
+<DEBUG> 3-Aug-2015::09:51:00.599 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:  ok
+<DEBUG> 3-Aug-2015::09:51:00.599 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:   validate: run transforms and transaction hooks...
+<DEBUG> 3-Aug-2015::09:51:00.599 FYANG2-M-L01D ncs[6027]: devel-c write_all request for callpoint 'ncs-rfs-service-hook' path 
+<DEBUG> 3-Aug-2015::09:51:00.600 FYANG2-M-L01D ncs[6027]: devel-c new_trans request daemon id: 6 thandle: 127
+<DEBUG> 3-Aug-2015::09:51:00.600 FYANG2-M-L01D ncs[6027]: devel-c new_trans succeeded daemon id: 6 session id: 5 worker id: 2
+<DEBUG> 3-Aug-2015::09:51:00.600 FYANG2-M-L01D ncs[6027]: devel-c service_pre_modification(create) request for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:51:00.601 FYANG2-M-L01D ncs[6027]: devel-c service_pre_modification(create) succeeded for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:51:00.601 FYANG2-M-L01D ncs[6027]: devel-c service_create request for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<INFO> 3-Aug-2015::09:51:00.629 FYANG2-M-L01D ncs[6027]: ncs connecting NED odlc
+<ERR> 3-Aug-2015::09:51:00.715 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/packages/ned/odl' returned from NED
+<ERR> 3-Aug-2015::09:51:00.715 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/packages/ned/odl-stats' returned from NED
+<ERR> 3-Aug-2015::09:51:00.715 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/packages/ned/odl' returned from NED
+<ERR> 3-Aug-2015::09:51:00.715 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/packages/ned/odl-stats' returned from NED
+<ERR> 3-Aug-2015::09:51:00.904 FYANG2-M-L01D ncs[6027]: devel-c Bad result from action "/ncs:devices/device{odlc}/rpc/rpc-add-lsp/add-lsp": /ncs:devices/device{odlc}/rpc/rpc-add-lsp/add-lsp/operation-result: expected type string, got unknown.
+<DEBUG> 3-Aug-2015::09:51:00.922 FYANG2-M-L01D ncs[6027]: devel-c service_create succeeded for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:51:00.922 FYANG2-M-L01D ncs[6027]: devel-c service_post_modification(create) request for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:51:00.923 FYANG2-M-L01D ncs[6027]: devel-c service_post_modification(create) succeeded for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:51:00.923 FYANG2-M-L01D ncs[6027]: devel-c write_all succeeded for callpoint 'ncs-rfs-service-hook' path 
+<DEBUG> 3-Aug-2015::09:51:00.923 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:  ok
+<DEBUG> 3-Aug-2015::09:51:00.924 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:   validate: mark inactive...
+<DEBUG> 3-Aug-2015::09:51:00.924 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:  ok
+<DEBUG> 3-Aug-2015::09:51:00.924 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:   validate: pre validate...
+<DEBUG> 3-Aug-2015::09:51:00.924 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:  ok
+<DEBUG> 3-Aug-2015::09:51:00.924 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:   validate: run validation over the change set...
+<DEBUG> 3-Aug-2015::09:51:00.925 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:   validate: validation over the change set done
+<DEBUG> 3-Aug-2015::09:51:00.925 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:   validate: run dependency-triggered validation...
+<DEBUG> 3-Aug-2015::09:51:00.925 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:   validate: dependency-triggered validation done
+<DEBUG> 3-Aug-2015::09:51:00.925 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:   validate: check configuration policies...
+<DEBUG> 3-Aug-2015::09:51:00.926 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:   validate: configuration policies done
+<DEBUG> 3-Aug-2015::09:51:00.926 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127: entering write phase for running...
+<DEBUG> 3-Aug-2015::09:51:00.926 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:   cdb: write_start
+<DEBUG> 3-Aug-2015::09:51:00.926 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127: entering prepare phase for running...
+<DEBUG> 3-Aug-2015::09:51:00.926 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:   cdb: prepare
+<DEBUG> 3-Aug-2015::09:51:00.926 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:   cdb: delivering prepare subscription notifications at prio 0
+<DEBUG> 3-Aug-2015::09:51:00.927 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:   cdb: all prepare subscription notifications acknowledged
+<DEBUG> 3-Aug-2015::09:51:00.927 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:   cdb: aborting transaction
+<DEBUG> 3-Aug-2015::09:51:00.927 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127: entering abort phase for running...
+<DEBUG> 3-Aug-2015::09:51:00.927 FYANG2-M-L01D ncs[6027]: devel-c close_trans request daemon id: 6 session id: 5
+<DEBUG> 3-Aug-2015::09:51:00.928 FYANG2-M-L01D ncs[6027]: devel-c close_trans succeeded daemon id: 6 session id: 5
+<DEBUG> 3-Aug-2015::09:51:00.928 FYANG2-M-L01D ncs[6027]: devel-c close_trans request daemon id: 1 session id: 127
+<DEBUG> 3-Aug-2015::09:51:00.928 FYANG2-M-L01D ncs[6027]: devel-c close_trans succeeded daemon id: 1 session id: 127
+<DEBUG> 3-Aug-2015::09:51:04.334 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127: entering validate phase for running...
+<DEBUG> 3-Aug-2015::09:51:04.334 FYANG2-M-L01D ncs[6027]: devel-c new_trans request daemon id: 1 thandle: 127
+<DEBUG> 3-Aug-2015::09:51:04.334 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:   validate: grabbing transaction lock...
+<DEBUG> 3-Aug-2015::09:51:04.334 FYANG2-M-L01D ncs[6027]: devel-c new_trans succeeded daemon id: 1 session id: 127 worker id: 1
+<DEBUG> 3-Aug-2015::09:51:04.335 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:  ok
+<DEBUG> 3-Aug-2015::09:51:04.335 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:   validate: creating rollback file...
+<DEBUG> 3-Aug-2015::09:51:04.339 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:  ok
+<DEBUG> 3-Aug-2015::09:51:04.340 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:   validate: run transforms and transaction hooks...
+<DEBUG> 3-Aug-2015::09:51:04.340 FYANG2-M-L01D ncs[6027]: devel-c write_all request for callpoint 'ncs-rfs-service-hook' path 
+<DEBUG> 3-Aug-2015::09:51:04.341 FYANG2-M-L01D ncs[6027]: devel-c new_trans request daemon id: 6 thandle: 127
+<DEBUG> 3-Aug-2015::09:51:04.341 FYANG2-M-L01D ncs[6027]: devel-c new_trans succeeded daemon id: 6 session id: 6 worker id: 2
+<DEBUG> 3-Aug-2015::09:51:04.341 FYANG2-M-L01D ncs[6027]: devel-c service_pre_modification(create) request for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:51:04.342 FYANG2-M-L01D ncs[6027]: devel-c service_pre_modification(create) succeeded for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:51:04.342 FYANG2-M-L01D ncs[6027]: devel-c service_create request for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<INFO> 3-Aug-2015::09:51:04.367 FYANG2-M-L01D ncs[6027]: ncs connecting NED odlc
+<ERR> 3-Aug-2015::09:51:04.368 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/packages/ned/odl' returned from NED
+<ERR> 3-Aug-2015::09:51:04.368 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/packages/ned/odl-stats' returned from NED
+<ERR> 3-Aug-2015::09:51:04.446 FYANG2-M-L01D ncs[6027]: devel-c Bad result from action "/ncs:devices/device{odlc}/rpc/rpc-add-lsp/add-lsp": /ncs:devices/device{odlc}/rpc/rpc-add-lsp/add-lsp/operation-result: expected type string, got unknown.
+<DEBUG> 3-Aug-2015::09:51:04.462 FYANG2-M-L01D ncs[6027]: devel-c service_create succeeded for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:51:04.463 FYANG2-M-L01D ncs[6027]: devel-c service_post_modification(create) request for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:51:04.464 FYANG2-M-L01D ncs[6027]: devel-c service_post_modification(create) succeeded for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:51:04.464 FYANG2-M-L01D ncs[6027]: devel-c write_all succeeded for callpoint 'ncs-rfs-service-hook' path 
+<DEBUG> 3-Aug-2015::09:51:04.464 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:  ok
+<DEBUG> 3-Aug-2015::09:51:04.464 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:   validate: mark inactive...
+<DEBUG> 3-Aug-2015::09:51:04.465 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:  ok
+<DEBUG> 3-Aug-2015::09:51:04.465 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:   validate: pre validate...
+<DEBUG> 3-Aug-2015::09:51:04.465 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:  ok
+<DEBUG> 3-Aug-2015::09:51:04.465 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:   validate: run validation over the change set...
+<DEBUG> 3-Aug-2015::09:51:04.466 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:   validate: validation over the change set done
+<DEBUG> 3-Aug-2015::09:51:04.466 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:   validate: run dependency-triggered validation...
+<DEBUG> 3-Aug-2015::09:51:04.466 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:   validate: dependency-triggered validation done
+<DEBUG> 3-Aug-2015::09:51:04.466 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:   validate: check configuration policies...
+<DEBUG> 3-Aug-2015::09:51:04.466 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:   validate: configuration policies done
+<DEBUG> 3-Aug-2015::09:51:04.466 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127: entering write phase for running...
+<DEBUG> 3-Aug-2015::09:51:04.466 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:   cdb: write_start
+<DEBUG> 3-Aug-2015::09:51:04.467 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127: entering prepare phase for running...
+<DEBUG> 3-Aug-2015::09:51:04.467 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:   cdb: prepare
+<DEBUG> 3-Aug-2015::09:51:04.467 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:   cdb: delivering prepare subscription notifications at prio 0
+<DEBUG> 3-Aug-2015::09:51:04.467 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:   cdb: all prepare subscription notifications acknowledged
+<DEBUG> 3-Aug-2015::09:51:04.467 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127: entering commit phase for running...
+<DEBUG> 3-Aug-2015::09:51:04.467 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:   cdb: commit
+<DEBUG> 3-Aug-2015::09:51:04.468 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:   cdb: delivering commit subscription notifications at prio 0
+<DEBUG> 3-Aug-2015::09:51:04.468 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=127:   cdb: all commit subscription notifications acknowledged
+<DEBUG> 3-Aug-2015::09:51:04.469 FYANG2-M-L01D ncs[6027]: devel-c close_trans request daemon id: 6 session id: 6
+<DEBUG> 3-Aug-2015::09:51:04.469 FYANG2-M-L01D ncs[6027]: devel-c close_trans succeeded daemon id: 6 session id: 6
+<DEBUG> 3-Aug-2015::09:51:04.469 FYANG2-M-L01D ncs[6027]: devel-c close_trans request daemon id: 1 session id: 127
+<DEBUG> 3-Aug-2015::09:51:04.469 FYANG2-M-L01D ncs[6027]: devel-c close_trans succeeded daemon id: 1 session id: 127
+<DEBUG> 3-Aug-2015::09:52:16.992 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=141: entering validate phase for running...
+<DEBUG> 3-Aug-2015::09:52:16.992 FYANG2-M-L01D ncs[6027]: devel-c new_trans request daemon id: 1 thandle: 141
+<DEBUG> 3-Aug-2015::09:52:16.992 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=141:   validate: grabbing transaction lock...
+<DEBUG> 3-Aug-2015::09:52:16.992 FYANG2-M-L01D ncs[6027]: devel-c new_trans succeeded daemon id: 1 session id: 141 worker id: 1
+<DEBUG> 3-Aug-2015::09:52:16.992 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=141:  ok
+<DEBUG> 3-Aug-2015::09:52:16.993 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=141:   validate: creating rollback file...
+<DEBUG> 3-Aug-2015::09:52:17.003 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=141:  ok
+<DEBUG> 3-Aug-2015::09:52:17.003 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=141:   validate: run transforms and transaction hooks...
+<DEBUG> 3-Aug-2015::09:52:17.004 FYANG2-M-L01D ncs[6027]: devel-c write_all request for callpoint 'ncs-rfs-service-hook' path 
+<DEBUG> 3-Aug-2015::09:52:17.004 FYANG2-M-L01D ncs[6027]: devel-c new_trans request daemon id: 6 thandle: 141
+<DEBUG> 3-Aug-2015::09:52:17.005 FYANG2-M-L01D ncs[6027]: devel-c new_trans succeeded daemon id: 6 session id: 7 worker id: 2
+<DEBUG> 3-Aug-2015::09:52:17.005 FYANG2-M-L01D ncs[6027]: devel-c service_pre_modification(delete) request for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:52:17.006 FYANG2-M-L01D ncs[6027]: devel-c service_pre_modification(delete) succeeded for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:52:17.006 FYANG2-M-L01D ncs[6027]: devel-c service_post_modification(delete) request for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<INFO> 3-Aug-2015::09:52:20.916 FYANG2-M-L01D ncs[6027]: ncs connecting NED odlc
+<ERR> 3-Aug-2015::09:52:20.921 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/packages/ned/odl' returned from NED
+<ERR> 3-Aug-2015::09:52:20.921 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/packages/ned/odl-stats' returned from NED
+<ERR> 3-Aug-2015::09:52:20.921 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/packages/ned/odl' returned from NED
+<ERR> 3-Aug-2015::09:52:20.921 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/packages/ned/odl-stats' returned from NED
+<ERR> 3-Aug-2015::09:52:21.059 FYANG2-M-L01D ncs[6027]: devel-c Bad result from action "/ncs:devices/device{odlc}/rpc/rpc-remove-lsp/remove-lsp": /ncs:devices/device{odlc}/rpc/rpc-remove-lsp/remove-lsp/operation-result: expected type string, got unknown.
+<DEBUG> 3-Aug-2015::09:52:21.060 FYANG2-M-L01D ncs[6027]: devel-c service_post_modification(delete) succeeded for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:52:21.060 FYANG2-M-L01D ncs[6027]: devel-c write_all succeeded for callpoint 'ncs-rfs-service-hook' path 
+<DEBUG> 3-Aug-2015::09:52:21.060 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=141:  ok
+<DEBUG> 3-Aug-2015::09:52:21.061 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=141:   validate: mark inactive...
+<DEBUG> 3-Aug-2015::09:52:21.061 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=141:  ok
+<DEBUG> 3-Aug-2015::09:52:21.061 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=141:   validate: pre validate...
+<DEBUG> 3-Aug-2015::09:52:21.061 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=141:  ok
+<DEBUG> 3-Aug-2015::09:52:21.061 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=141:   validate: run validation over the change set...
+<DEBUG> 3-Aug-2015::09:52:21.061 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=141:   validate: validation over the change set done
+<DEBUG> 3-Aug-2015::09:52:21.061 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=141:   validate: run dependency-triggered validation...
+<DEBUG> 3-Aug-2015::09:52:21.062 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=141:   validate: dependency-triggered validation done
+<DEBUG> 3-Aug-2015::09:52:21.062 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=141:   validate: check configuration policies...
+<DEBUG> 3-Aug-2015::09:52:21.062 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=141:   validate: configuration policies done
+<DEBUG> 3-Aug-2015::09:52:21.062 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=141: entering write phase for running...
+<DEBUG> 3-Aug-2015::09:52:21.062 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=141:   cdb: write_start
+<DEBUG> 3-Aug-2015::09:52:21.062 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=141: entering prepare phase for running...
+<DEBUG> 3-Aug-2015::09:52:21.062 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=141:   cdb: prepare
+<DEBUG> 3-Aug-2015::09:52:21.062 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=141:   cdb: delivering prepare subscription notifications at prio 0
+<DEBUG> 3-Aug-2015::09:52:21.063 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=141:   cdb: all prepare subscription notifications acknowledged
+<DEBUG> 3-Aug-2015::09:52:21.063 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=141: entering commit phase for running...
+<DEBUG> 3-Aug-2015::09:52:21.063 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=141:   cdb: commit
+<DEBUG> 3-Aug-2015::09:52:21.064 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=141:   cdb: delivering commit subscription notifications at prio 0
+<DEBUG> 3-Aug-2015::09:52:21.064 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=141:   cdb: all commit subscription notifications acknowledged
+<DEBUG> 3-Aug-2015::09:52:21.065 FYANG2-M-L01D ncs[6027]: devel-c close_trans request daemon id: 6 session id: 7
+<DEBUG> 3-Aug-2015::09:52:21.065 FYANG2-M-L01D ncs[6027]: devel-c close_trans succeeded daemon id: 6 session id: 7
+<DEBUG> 3-Aug-2015::09:52:21.065 FYANG2-M-L01D ncs[6027]: devel-c close_trans request daemon id: 1 session id: 141
+<DEBUG> 3-Aug-2015::09:52:21.065 FYANG2-M-L01D ncs[6027]: devel-c close_trans succeeded daemon id: 1 session id: 141
+<DEBUG> 3-Aug-2015::09:52:24.525 FYANG2-M-L01D ncs[6027]: devel-c New daemon connected (name: ncs-dp-4-qos:RFSSkeleton, daemon id: 7)
+<ERR> 3-Aug-2015::09:52:24.530 FYANG2-M-L01D ncs[6027]: devel-c Daemon 'ncs-dp-4-qos:RFSSkeleton' registered for non-existing actionpoint 'qos-self-test'
+<DEBUG> 3-Aug-2015::09:52:34.727 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152: entering validate phase for running...
+<DEBUG> 3-Aug-2015::09:52:34.727 FYANG2-M-L01D ncs[6027]: devel-c new_trans request daemon id: 1 thandle: 152
+<DEBUG> 3-Aug-2015::09:52:34.727 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   validate: grabbing transaction lock...
+<DEBUG> 3-Aug-2015::09:52:34.728 FYANG2-M-L01D ncs[6027]: devel-c new_trans succeeded daemon id: 1 session id: 152 worker id: 1
+<DEBUG> 3-Aug-2015::09:52:34.728 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:  ok
+<DEBUG> 3-Aug-2015::09:52:34.728 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   validate: creating rollback file...
+<DEBUG> 3-Aug-2015::09:52:34.734 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:  ok
+<DEBUG> 3-Aug-2015::09:52:34.734 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   validate: run transforms and transaction hooks...
+<DEBUG> 3-Aug-2015::09:52:34.734 FYANG2-M-L01D ncs[6027]: devel-c write_all request for callpoint 'ncs-rfs-service-hook' path 
+<DEBUG> 3-Aug-2015::09:52:34.735 FYANG2-M-L01D ncs[6027]: devel-c new_trans request daemon id: 7 thandle: 152
+<DEBUG> 3-Aug-2015::09:52:34.736 FYANG2-M-L01D ncs[6027]: devel-c New worker connected (daemon id: 7 worker id: 2)
+<DEBUG> 3-Aug-2015::09:52:34.736 FYANG2-M-L01D ncs[6027]: devel-c new_trans succeeded daemon id: 7 session id: 8 worker id: 2
+<DEBUG> 3-Aug-2015::09:52:34.736 FYANG2-M-L01D ncs[6027]: devel-c service_pre_modification(create) request for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:52:34.737 FYANG2-M-L01D ncs[6027]: devel-c service_pre_modification(create) succeeded for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:52:34.738 FYANG2-M-L01D ncs[6027]: devel-c service_create request for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<INFO> 3-Aug-2015::09:52:34.763 FYANG2-M-L01D ncs[6027]: ncs connecting NED odlc
+<ERR> 3-Aug-2015::09:52:34.839 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/packages/ned/odl' returned from NED
+<ERR> 3-Aug-2015::09:52:34.839 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/packages/ned/odl-stats' returned from NED
+<ERR> 3-Aug-2015::09:52:34.840 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/packages/ned/odl' returned from NED
+<ERR> 3-Aug-2015::09:52:34.840 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/packages/ned/odl-stats' returned from NED
+<ERR> 3-Aug-2015::09:52:35.033 FYANG2-M-L01D ncs[6027]: devel-c Bad result from action "/ncs:devices/device{odlc}/rpc/rpc-add-lsp/add-lsp": /ncs:devices/device{odlc}/rpc/rpc-add-lsp/add-lsp/operation-result: expected type string, got unknown.
+<DEBUG> 3-Aug-2015::09:52:35.037 FYANG2-M-L01D ncs[6027]: devel-c service_create succeeded for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:52:35.039 FYANG2-M-L01D ncs[6027]: devel-c service_post_modification(create) request for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:52:35.039 FYANG2-M-L01D ncs[6027]: devel-c service_post_modification(create) succeeded for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:52:35.040 FYANG2-M-L01D ncs[6027]: devel-c write_all succeeded for callpoint 'ncs-rfs-service-hook' path 
+<DEBUG> 3-Aug-2015::09:52:35.040 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:  ok
+<DEBUG> 3-Aug-2015::09:52:35.040 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   validate: mark inactive...
+<DEBUG> 3-Aug-2015::09:52:35.041 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:  ok
+<DEBUG> 3-Aug-2015::09:52:35.041 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   validate: pre validate...
+<DEBUG> 3-Aug-2015::09:52:35.041 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:  ok
+<DEBUG> 3-Aug-2015::09:52:35.041 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   validate: run validation over the change set...
+<DEBUG> 3-Aug-2015::09:52:35.042 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   validate: validation over the change set done
+<DEBUG> 3-Aug-2015::09:52:35.042 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   validate: run dependency-triggered validation...
+<DEBUG> 3-Aug-2015::09:52:35.042 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   validate: dependency-triggered validation done
+<DEBUG> 3-Aug-2015::09:52:35.042 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   validate: check configuration policies...
+<DEBUG> 3-Aug-2015::09:52:35.042 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   validate: configuration policies done
+<DEBUG> 3-Aug-2015::09:52:35.042 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152: entering write phase for running...
+<DEBUG> 3-Aug-2015::09:52:35.042 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   cdb: write_start
+<DEBUG> 3-Aug-2015::09:52:35.044 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152: entering prepare phase for running...
+<DEBUG> 3-Aug-2015::09:52:35.044 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   cdb: prepare
+<DEBUG> 3-Aug-2015::09:52:35.044 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   cdb: delivering prepare subscription notifications at prio 0
+<DEBUG> 3-Aug-2015::09:52:35.052 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   cdb: all prepare subscription notifications acknowledged
+<DEBUG> 3-Aug-2015::09:52:35.052 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   cdb: aborting transaction
+<DEBUG> 3-Aug-2015::09:52:35.053 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152: entering abort phase for running...
+<DEBUG> 3-Aug-2015::09:52:35.053 FYANG2-M-L01D ncs[6027]: devel-c close_trans request daemon id: 7 session id: 8
+<DEBUG> 3-Aug-2015::09:52:35.053 FYANG2-M-L01D ncs[6027]: devel-c close_trans succeeded daemon id: 7 session id: 8
+<DEBUG> 3-Aug-2015::09:52:35.053 FYANG2-M-L01D ncs[6027]: devel-c close_trans request daemon id: 1 session id: 152
+<DEBUG> 3-Aug-2015::09:52:35.054 FYANG2-M-L01D ncs[6027]: devel-c close_trans succeeded daemon id: 1 session id: 152
+<DEBUG> 3-Aug-2015::09:52:40.440 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152: entering validate phase for running...
+<DEBUG> 3-Aug-2015::09:52:40.440 FYANG2-M-L01D ncs[6027]: devel-c new_trans request daemon id: 1 thandle: 152
+<DEBUG> 3-Aug-2015::09:52:40.440 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   validate: grabbing transaction lock...
+<DEBUG> 3-Aug-2015::09:52:40.440 FYANG2-M-L01D ncs[6027]: devel-c new_trans succeeded daemon id: 1 session id: 152 worker id: 1
+<DEBUG> 3-Aug-2015::09:52:40.440 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:  ok
+<DEBUG> 3-Aug-2015::09:52:40.440 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   validate: creating rollback file...
+<DEBUG> 3-Aug-2015::09:52:40.445 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:  ok
+<DEBUG> 3-Aug-2015::09:52:40.445 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   validate: run transforms and transaction hooks...
+<DEBUG> 3-Aug-2015::09:52:40.446 FYANG2-M-L01D ncs[6027]: devel-c write_all request for callpoint 'ncs-rfs-service-hook' path 
+<DEBUG> 3-Aug-2015::09:52:40.446 FYANG2-M-L01D ncs[6027]: devel-c new_trans request daemon id: 7 thandle: 152
+<DEBUG> 3-Aug-2015::09:52:40.447 FYANG2-M-L01D ncs[6027]: devel-c new_trans succeeded daemon id: 7 session id: 9 worker id: 2
+<DEBUG> 3-Aug-2015::09:52:40.447 FYANG2-M-L01D ncs[6027]: devel-c service_pre_modification(create) request for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:52:40.447 FYANG2-M-L01D ncs[6027]: devel-c service_pre_modification(create) succeeded for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:52:40.448 FYANG2-M-L01D ncs[6027]: devel-c service_create request for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<INFO> 3-Aug-2015::09:52:40.472 FYANG2-M-L01D ncs[6027]: ncs connecting NED odlc
+<ERR> 3-Aug-2015::09:52:40.473 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/packages/ned/odl' returned from NED
+<ERR> 3-Aug-2015::09:52:40.473 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/packages/ned/odl-stats' returned from NED
+<ERR> 3-Aug-2015::09:52:40.551 FYANG2-M-L01D ncs[6027]: devel-c Bad result from action "/ncs:devices/device{odlc}/rpc/rpc-add-lsp/add-lsp": /ncs:devices/device{odlc}/rpc/rpc-add-lsp/add-lsp/operation-result: expected type string, got unknown.
+<DEBUG> 3-Aug-2015::09:52:40.556 FYANG2-M-L01D ncs[6027]: devel-c service_create succeeded for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:52:40.557 FYANG2-M-L01D ncs[6027]: devel-c service_post_modification(create) request for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:52:40.558 FYANG2-M-L01D ncs[6027]: devel-c service_post_modification(create) succeeded for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:52:40.558 FYANG2-M-L01D ncs[6027]: devel-c write_all succeeded for callpoint 'ncs-rfs-service-hook' path 
+<DEBUG> 3-Aug-2015::09:52:40.558 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:  ok
+<DEBUG> 3-Aug-2015::09:52:40.558 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   validate: mark inactive...
+<DEBUG> 3-Aug-2015::09:52:40.559 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:  ok
+<DEBUG> 3-Aug-2015::09:52:40.559 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   validate: pre validate...
+<DEBUG> 3-Aug-2015::09:52:40.559 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:  ok
+<DEBUG> 3-Aug-2015::09:52:40.559 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   validate: run validation over the change set...
+<DEBUG> 3-Aug-2015::09:52:40.560 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   validate: validation over the change set done
+<DEBUG> 3-Aug-2015::09:52:40.560 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   validate: run dependency-triggered validation...
+<DEBUG> 3-Aug-2015::09:52:40.560 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   validate: dependency-triggered validation done
+<DEBUG> 3-Aug-2015::09:52:40.560 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   validate: check configuration policies...
+<DEBUG> 3-Aug-2015::09:52:40.561 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   validate: configuration policies done
+<DEBUG> 3-Aug-2015::09:52:40.561 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152: entering write phase for running...
+<DEBUG> 3-Aug-2015::09:52:40.561 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   cdb: write_start
+<DEBUG> 3-Aug-2015::09:52:40.561 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152: entering prepare phase for running...
+<DEBUG> 3-Aug-2015::09:52:40.561 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   cdb: prepare
+<DEBUG> 3-Aug-2015::09:52:40.562 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   cdb: delivering prepare subscription notifications at prio 0
+<INFO> 3-Aug-2015::09:52:40.564 FYANG2-M-L01D ncs[6027]: ncs connecting NED a9k
+<DEBUG> 3-Aug-2015::09:52:40.564 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   ncs: connecting NED a9k
+<ERR> 3-Aug-2015::09:52:43.364 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/ned/cisco-ios-xr-stats' returned from NED
+<ERR> 3-Aug-2015::09:52:43.364 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/ned/cisco-ios-xr-stats' returned from NED
+<INFO> 3-Aug-2015::09:52:43.364 FYANG2-M-L01D ncs[6027]: ncs calculating southbound diffs
+<DEBUG> 3-Aug-2015::09:52:43.364 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   ncs: calculating southbound diffs
+<INFO> 3-Aug-2015::09:52:43.370 FYANG2-M-L01D ncs[6027]: ncs device a9k: send NED prepare
+<DEBUG> 3-Aug-2015::09:52:43.370 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   ncs: device a9k: send NED prepare
+<INFO> 3-Aug-2015::09:52:48.327 FYANG2-M-L01D ncs[6027]: ncs device a9k: send NED commit
+<DEBUG> 3-Aug-2015::09:52:48.327 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   ncs: device a9k: send NED commit
+<DEBUG> 3-Aug-2015::09:52:48.328 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   cdb: all prepare subscription notifications acknowledged
+<DEBUG> 3-Aug-2015::09:52:48.328 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152: entering commit phase for running...
+<DEBUG> 3-Aug-2015::09:52:48.328 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   cdb: commit
+<DEBUG> 3-Aug-2015::09:52:48.329 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   cdb: delivering commit subscription notifications at prio 0
+<INFO> 3-Aug-2015::09:52:48.329 FYANG2-M-L01D ncs[6027]: ncs device a9k: send NED persist
+<DEBUG> 3-Aug-2015::09:52:48.329 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   ncs: device a9k: send NED persist
+<DEBUG> 3-Aug-2015::09:52:48.838 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=152:   cdb: all commit subscription notifications acknowledged
+<DEBUG> 3-Aug-2015::09:52:48.839 FYANG2-M-L01D ncs[6027]: devel-c close_trans request daemon id: 7 session id: 9
+<DEBUG> 3-Aug-2015::09:52:48.839 FYANG2-M-L01D ncs[6027]: devel-c close_trans succeeded daemon id: 7 session id: 9
+<DEBUG> 3-Aug-2015::09:52:48.839 FYANG2-M-L01D ncs[6027]: devel-c close_trans request daemon id: 1 session id: 152
+<DEBUG> 3-Aug-2015::09:52:48.839 FYANG2-M-L01D ncs[6027]: devel-c close_trans succeeded daemon id: 1 session id: 152
+<DEBUG> 3-Aug-2015::09:55:36.727 FYANG2-M-L01D ncs[6027]: devel-c New daemon connected (name: ncs-dp-5-qos:RFSSkeleton, daemon id: 8)
+<ERR> 3-Aug-2015::09:55:36.734 FYANG2-M-L01D ncs[6027]: devel-c Daemon 'ncs-dp-5-qos:RFSSkeleton' registered for non-existing actionpoint 'qos-self-test'
+<DEBUG> 3-Aug-2015::09:55:42.684 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172: entering validate phase for running...
+<DEBUG> 3-Aug-2015::09:55:42.684 FYANG2-M-L01D ncs[6027]: devel-c new_trans request daemon id: 1 thandle: 172
+<DEBUG> 3-Aug-2015::09:55:42.684 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   validate: grabbing transaction lock...
+<DEBUG> 3-Aug-2015::09:55:42.684 FYANG2-M-L01D ncs[6027]: devel-c new_trans succeeded daemon id: 1 session id: 172 worker id: 1
+<DEBUG> 3-Aug-2015::09:55:42.684 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:  ok
+<DEBUG> 3-Aug-2015::09:55:42.684 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   validate: creating rollback file...
+<DEBUG> 3-Aug-2015::09:55:42.694 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:  ok
+<DEBUG> 3-Aug-2015::09:55:42.694 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   validate: run transforms and transaction hooks...
+<DEBUG> 3-Aug-2015::09:55:42.694 FYANG2-M-L01D ncs[6027]: devel-c write_all request for callpoint 'ncs-rfs-service-hook' path 
+<DEBUG> 3-Aug-2015::09:55:42.695 FYANG2-M-L01D ncs[6027]: devel-c new_trans request daemon id: 8 thandle: 172
+<DEBUG> 3-Aug-2015::09:55:42.696 FYANG2-M-L01D ncs[6027]: devel-c New worker connected (daemon id: 8 worker id: 2)
+<DEBUG> 3-Aug-2015::09:55:42.696 FYANG2-M-L01D ncs[6027]: devel-c new_trans succeeded daemon id: 8 session id: 10 worker id: 2
+<DEBUG> 3-Aug-2015::09:55:42.697 FYANG2-M-L01D ncs[6027]: devel-c service_pre_modification(delete) request for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:55:42.697 FYANG2-M-L01D ncs[6027]: devel-c service_pre_modification(delete) succeeded for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:55:42.698 FYANG2-M-L01D ncs[6027]: devel-c service_post_modification(delete) request for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:55:42.701 FYANG2-M-L01D ncs[6027]: devel-c service_post_modification(delete) succeeded for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:55:42.701 FYANG2-M-L01D ncs[6027]: devel-c write_all succeeded for callpoint 'ncs-rfs-service-hook' path 
+<DEBUG> 3-Aug-2015::09:55:42.702 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:  ok
+<DEBUG> 3-Aug-2015::09:55:42.702 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   validate: mark inactive...
+<DEBUG> 3-Aug-2015::09:55:42.702 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:  ok
+<DEBUG> 3-Aug-2015::09:55:42.702 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   validate: pre validate...
+<DEBUG> 3-Aug-2015::09:55:42.702 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:  ok
+<DEBUG> 3-Aug-2015::09:55:42.702 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   validate: run validation over the change set...
+<DEBUG> 3-Aug-2015::09:55:42.702 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   validate: validation over the change set done
+<DEBUG> 3-Aug-2015::09:55:42.702 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   validate: run dependency-triggered validation...
+<DEBUG> 3-Aug-2015::09:55:42.703 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   validate: dependency-triggered validation done
+<DEBUG> 3-Aug-2015::09:55:42.703 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   validate: check configuration policies...
+<DEBUG> 3-Aug-2015::09:55:42.703 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   validate: configuration policies done
+<DEBUG> 3-Aug-2015::09:55:42.703 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172: entering write phase for running...
+<DEBUG> 3-Aug-2015::09:55:42.703 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   cdb: write_start
+<DEBUG> 3-Aug-2015::09:55:42.703 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172: entering prepare phase for running...
+<DEBUG> 3-Aug-2015::09:55:42.703 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   cdb: prepare
+<DEBUG> 3-Aug-2015::09:55:42.703 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   cdb: delivering prepare subscription notifications at prio 0
+<DEBUG> 3-Aug-2015::09:55:42.706 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   cdb: all prepare subscription notifications acknowledged
+<DEBUG> 3-Aug-2015::09:55:42.707 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   cdb: aborting transaction
+<DEBUG> 3-Aug-2015::09:55:42.707 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172: entering abort phase for running...
+<DEBUG> 3-Aug-2015::09:55:42.707 FYANG2-M-L01D ncs[6027]: devel-c close_trans request daemon id: 8 session id: 10
+<DEBUG> 3-Aug-2015::09:55:42.707 FYANG2-M-L01D ncs[6027]: devel-c close_trans succeeded daemon id: 8 session id: 10
+<DEBUG> 3-Aug-2015::09:55:42.707 FYANG2-M-L01D ncs[6027]: devel-c close_trans request daemon id: 1 session id: 172
+<DEBUG> 3-Aug-2015::09:55:42.707 FYANG2-M-L01D ncs[6027]: devel-c close_trans succeeded daemon id: 1 session id: 172
+<DEBUG> 3-Aug-2015::09:55:44.795 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172: entering validate phase for running...
+<DEBUG> 3-Aug-2015::09:55:44.795 FYANG2-M-L01D ncs[6027]: devel-c new_trans request daemon id: 1 thandle: 172
+<DEBUG> 3-Aug-2015::09:55:44.795 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   validate: grabbing transaction lock...
+<DEBUG> 3-Aug-2015::09:55:44.796 FYANG2-M-L01D ncs[6027]: devel-c new_trans succeeded daemon id: 1 session id: 172 worker id: 1
+<DEBUG> 3-Aug-2015::09:55:44.796 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:  ok
+<DEBUG> 3-Aug-2015::09:55:44.796 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   validate: creating rollback file...
+<DEBUG> 3-Aug-2015::09:55:44.804 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:  ok
+<DEBUG> 3-Aug-2015::09:55:44.804 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   validate: run transforms and transaction hooks...
+<DEBUG> 3-Aug-2015::09:55:44.804 FYANG2-M-L01D ncs[6027]: devel-c write_all request for callpoint 'ncs-rfs-service-hook' path 
+<DEBUG> 3-Aug-2015::09:55:44.805 FYANG2-M-L01D ncs[6027]: devel-c new_trans request daemon id: 8 thandle: 172
+<DEBUG> 3-Aug-2015::09:55:44.805 FYANG2-M-L01D ncs[6027]: devel-c new_trans succeeded daemon id: 8 session id: 11 worker id: 2
+<DEBUG> 3-Aug-2015::09:55:44.805 FYANG2-M-L01D ncs[6027]: devel-c service_pre_modification(delete) request for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:55:44.806 FYANG2-M-L01D ncs[6027]: devel-c service_pre_modification(delete) succeeded for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:55:44.806 FYANG2-M-L01D ncs[6027]: devel-c service_post_modification(delete) request for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:55:44.809 FYANG2-M-L01D ncs[6027]: devel-c service_post_modification(delete) succeeded for callpoint 'qos-servicepoint' path /ncs:services/qos{c_qos}
+<DEBUG> 3-Aug-2015::09:55:44.809 FYANG2-M-L01D ncs[6027]: devel-c write_all succeeded for callpoint 'ncs-rfs-service-hook' path 
+<DEBUG> 3-Aug-2015::09:55:44.810 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:  ok
+<DEBUG> 3-Aug-2015::09:55:44.810 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   validate: mark inactive...
+<DEBUG> 3-Aug-2015::09:55:44.810 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:  ok
+<DEBUG> 3-Aug-2015::09:55:44.810 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   validate: pre validate...
+<DEBUG> 3-Aug-2015::09:55:44.810 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:  ok
+<DEBUG> 3-Aug-2015::09:55:44.810 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   validate: run validation over the change set...
+<DEBUG> 3-Aug-2015::09:55:44.811 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   validate: validation over the change set done
+<DEBUG> 3-Aug-2015::09:55:44.811 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   validate: run dependency-triggered validation...
+<DEBUG> 3-Aug-2015::09:55:44.811 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   validate: dependency-triggered validation done
+<DEBUG> 3-Aug-2015::09:55:44.811 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   validate: check configuration policies...
+<DEBUG> 3-Aug-2015::09:55:44.811 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   validate: configuration policies done
+<DEBUG> 3-Aug-2015::09:55:44.811 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172: entering write phase for running...
+<DEBUG> 3-Aug-2015::09:55:44.811 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   cdb: write_start
+<DEBUG> 3-Aug-2015::09:55:44.812 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172: entering prepare phase for running...
+<DEBUG> 3-Aug-2015::09:55:44.812 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   cdb: prepare
+<DEBUG> 3-Aug-2015::09:55:44.812 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   cdb: delivering prepare subscription notifications at prio 0
+<INFO> 3-Aug-2015::09:55:44.815 FYANG2-M-L01D ncs[6027]: ncs connecting NED a9k
+<DEBUG> 3-Aug-2015::09:55:44.815 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   ncs: connecting NED a9k
+<ERR> 3-Aug-2015::09:55:47.608 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/ned/cisco-ios-xr-stats' returned from NED
+<ERR> 3-Aug-2015::09:55:47.609 FYANG2-M-L01D ncs[6027]: ncs Unknown capability 'http://tail-f.com/ned/cisco-ios-xr-stats' returned from NED
+<INFO> 3-Aug-2015::09:55:47.609 FYANG2-M-L01D ncs[6027]: ncs calculating southbound diffs
+<DEBUG> 3-Aug-2015::09:55:47.609 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   ncs: calculating southbound diffs
+<INFO> 3-Aug-2015::09:55:47.615 FYANG2-M-L01D ncs[6027]: ncs device a9k: send NED prepare
+<DEBUG> 3-Aug-2015::09:55:47.615 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   ncs: device a9k: send NED prepare
+<INFO> 3-Aug-2015::09:55:52.567 FYANG2-M-L01D ncs[6027]: ncs device a9k: send NED commit
+<DEBUG> 3-Aug-2015::09:55:52.567 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   ncs: device a9k: send NED commit
+<DEBUG> 3-Aug-2015::09:55:52.568 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   cdb: all prepare subscription notifications acknowledged
+<DEBUG> 3-Aug-2015::09:55:52.568 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172: entering commit phase for running...
+<DEBUG> 3-Aug-2015::09:55:52.568 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   cdb: commit
+<DEBUG> 3-Aug-2015::09:55:52.569 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   cdb: delivering commit subscription notifications at prio 0
+<INFO> 3-Aug-2015::09:55:52.569 FYANG2-M-L01D ncs[6027]: ncs device a9k: send NED persist
+<DEBUG> 3-Aug-2015::09:55:52.569 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   ncs: device a9k: send NED persist
+<DEBUG> 3-Aug-2015::09:55:53.078 FYANG2-M-L01D ncs[6027]: ncs commit progress db=running usid=22 thandle=172:   cdb: all commit subscription notifications acknowledged
+<DEBUG> 3-Aug-2015::09:55:53.079 FYANG2-M-L01D ncs[6027]: devel-c close_trans request daemon id: 8 session id: 11
+<DEBUG> 3-Aug-2015::09:55:53.079 FYANG2-M-L01D ncs[6027]: devel-c close_trans succeeded daemon id: 8 session id: 11
+<DEBUG> 3-Aug-2015::09:55:53.079 FYANG2-M-L01D ncs[6027]: devel-c close_trans request daemon id: 1 session id: 172
+<DEBUG> 3-Aug-2015::09:55:53.079 FYANG2-M-L01D ncs[6027]: devel-c close_trans succeeded daemon id: 1 session id: 172
