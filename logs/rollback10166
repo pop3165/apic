@@ -1,0 +1,27 @@
+# Created by: admin
+# Date: 2015-08-06 11:14:35
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10166
+
+ncs:devices {
+    ncs:device apic {
+        ncs:config {
+            cisco-apicdc:apic {
+                delete:
+                cisco-apicdc:fvTenant test;
+                cisco-apicdc:fvTenant win_cisco {
+                    cisco-apicdc:fvAp ap1 {
+                        cisco-apicdc:fvAEPg ep1 {
+                            cisco-apicdc:fvCEp E4:C7:22:3A:BD:D5 {
+                                cisco-apicdc:id 0;
+                            }
+                        }
+                     }
+                 }
+             }
+         }
+     }
+ }

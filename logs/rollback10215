@@ -1,0 +1,12 @@
+# Created by: admin
+# Date: 2015-08-06 15:41:01
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10215
+
+ncs:services {
+    delete:
+    qos:qos c_qos;
+}

@@ -34,6 +34,10 @@ public class qosRFS{
 	String apic_end_point = "";
 	
 	String odl_node = "";
+	
+	enum LspType{ SegmentRouting, RSVP};
+	
+	static LspType lt = LspType.SegmentRouting;
 
     /**
      * Create callback method.
@@ -104,7 +108,6 @@ public class qosRFS{
 
             // iterate through all manage devices
             for(NavuContainer deviceContainer : managedDevices.elements()){
-            	System.out.println("######"+deviceContainer.getName());
                 // here we have the opportunity to do something with the
                 // ConfIPv4 ip value from the service instance,
                 // assume the device model has a path /xyz/ip, we could
@@ -131,6 +134,7 @@ public class qosRFS{
 				
 				odl_node ="pcc://110.0.0.1";
 				
+				
 				if(src_device_name.contains("apic")){
 					NavuLeaf deviceLeaf = service.leaf("src-device-name");
 					NavuContainer device=(NavuContainer)deviceLeaf.deref().get(0).getParent();
@@ -151,9 +155,20 @@ public class qosRFS{
 				if(dst_device_name.contains("odlc")){
 					NavuLeaf deviceLeaf = service.leaf("dst-device-name");
 					NavuContainer device=(NavuContainer)deviceLeaf.deref().get(0).getParent();
-									
-					//add-lsp, R1->R3->R2, next hop 13.0.0.3, 23.0.0.2
-					device.container("rpc").container("odl", "rpc-add-lsp").action("add-lsp").call("<node>"+odl_node+"</node><name>tencentlsp</name><arguments><lsp><delegate>true</delegate><administrative>true</administrative> </lsp><endpoints-obj><ipv4><source-ipv4-address>1.1.1.1</source-ipv4-address><destination-ipv4-address>2.2.2.2</destination-ipv4-address></ipv4> </endpoints-obj><ero><subobject><loose>false</loose><ip-prefix><ip-prefix>13.0.0.3/32</ip-prefix></ip-prefix></subobject><subobject><loose>false</loose><ip-prefix><ip-prefix>23.0.0.2/32</ip-prefix></ip-prefix></subobject></ero> </arguments><network-topology>pcep-topology</network-topology>");
+						
+					switch(lt){
+					case RSVP:
+						//add-lsp, R1->R3->R2, next hop 13.0.0.3, 23.0.0.2
+						device.container("rpc").container("odl", "rpc-add-lsp").action("add-lsp").call("<node>"+odl_node+"</node><name>tencentlsp</name><arguments><lsp><delegate>true</delegate><administrative>true</administrative> </lsp><endpoints-obj><ipv4><source-ipv4-address>1.1.1.1</source-ipv4-address><destination-ipv4-address>2.2.2.2</destination-ipv4-address></ipv4> </endpoints-obj><ero><subobject><loose>false</loose><ip-prefix><ip-prefix>13.0.0.3/32</ip-prefix></ip-prefix></subobject><subobject><loose>false</loose><ip-prefix><ip-prefix>23.0.0.2/32</ip-prefix></ip-prefix></subobject></ero> </arguments><network-topology>pcep-topology</network-topology>");
+						break;
+						
+					case SegmentRouting:
+						device.container("rpc").container("odl", "rpc-add-lsp-sr").action("add-lsp-sr").call("<node>"+odl_node+"</node><name>update-tunnel</name><arguments><lsp><delegate>true</delegate><administrative>true</administrative></lsp><path-setup-type><pst>1</pst></path-setup-type><endpoints-obj><ipv4><source-ipv4-address>1.1.1.1</source-ipv4-address><destination-ipv4-address>2.2.2.2</destination-ipv4-address></ipv4></endpoints-obj><ero><subobject><loose>false</loose><sid-type>ipv4-adjacency</sid-type><m-flag>true</m-flag><sid>24003</sid><local-ip-address>13.0.0.1</local-ip-address><remote-ip-address>13.0.0.3</remote-ip-address></subobject><subobject><loose>false</loose><sid-type>ipv4-adjacency</sid-type><m-flag>true</m-flag><sid>24002</sid><local-ip-address>23.0.0.3</local-ip-address><remote-ip-address>23.0.0.2</remote-ip-address></subobject></ero></arguments><network-topology>pcep-topology</network-topology>");
+						//device.container("rpc").container("odl", "rpc-add-lsp-sr").action("add-lsp-sr").call("<node>"+odl_node+"</node><name>update-tunnel</name><arguments><lsp><delegate>true</delegate><administrative>true</administrative></lsp><path-setup-type><pst>1</pst></path-setup-type><endpoints-obj><ipv4><source-ipv4-address>1.1.1.1</source-ipv4-address><destination-ipv4-address>2.2.2.2</destination-ipv4-address></ipv4></endpoints-obj><ero><subobject><loose>false</loose><sid-type>ipv4-adjacency</sid-type><m-flag>true</m-flag><sid>24001</sid><local-ip-address>12.0.0.1</local-ip-address><remote-ip-address>12.0.0.2</remote-ip-address></subobject></ero></arguments><network-topology>pcep-topology</network-topology>");
+					
+					}
+					
+			
 				}
 				
 				//enable pbts on R1
@@ -229,7 +244,18 @@ public class qosRFS{
 				
 				NavuList managedDevices =context.getRootNode().container("devices").list("device");
                 NavuContainer odlController=managedDevices.elem("odlc");
-                odlController.container("rpc").container("odl", "rpc-remove-lsp").action("remove-lsp").call("<node>"+odl_node+"</node><name>tencentlsp</name><network-topology>pcep-topology</network-topology>");
+                
+                switch(lt){
+                case RSVP:
+                	odlController.container("rpc").container("odl", "rpc-remove-lsp").action("remove-lsp").call("<node>"+odl_node+"</node><name>tencentlsp</name><network-topology>pcep-topology</network-topology>");
+                	break;
+                	
+                case SegmentRouting:
+                	odlController.container("rpc").container("odl", "rpc-remove-lsp-sr").action("remove-lsp-sr").call("<node>"+odl_node+"</node><name>update-tunnel</name><network-topology>pcep-topology</network-topology>");
+                	break;
+                }
+                
+			
 			}
 			catch(Exception e){
 				System.out.print(e);
@@ -246,24 +272,49 @@ public class qosRFS{
                 
                 
                 if(qos_level.equals("level1")){
-	                System.out.println("delete old(level2) lsp");
-	                odlController.container("rpc").container("odl", "rpc-remove-lsp").action("remove-lsp").call("<node>"+odl_node+"</node><name>tencentlsp</name><network-topology>pcep-topology</network-topology>");
+                	
+                	switch(lt){
+                	case RSVP:
+                		System.out.println("delete old(level2) lsp");
+                		odlController.container("rpc").container("odl", "rpc-remove-lsp").action("remove-lsp").call("<node>"+odl_node+"</node><name>tencentlsp</name><network-topology>pcep-topology</network-topology>");
 	                
-	                //add lsp, R1->R2,next hop 12.0.0.2
-	                System.out.println("create new(level1) lsp");
-	                odlController.container("rpc").container("odl", "rpc-add-lsp").action("add-lsp").call("<node>"+odl_node+"</node><name>tencentlsp</name><arguments><lsp><delegate>true</delegate><administrative>true</administrative> </lsp><endpoints-obj><ipv4><source-ipv4-address>1.1.1.1</source-ipv4-address><destination-ipv4-address>2.2.2.2</destination-ipv4-address></ipv4> </endpoints-obj><ero><subobject><loose>false</loose><ip-prefix><ip-prefix>12.0.0.2/32</ip-prefix></ip-prefix></subobject></ero> </arguments><network-topology>pcep-topology</network-topology>");		
+                		//add lsp, R1->R2,next hop 12.0.0.2
+                		System.out.println("create new(level1) lsp");
+                		odlController.container("rpc").container("odl", "rpc-add-lsp").action("add-lsp").call("<node>"+odl_node+"</node><name>tencentlsp</name><arguments><lsp><delegate>true</delegate><administrative>true</administrative> </lsp><endpoints-obj><ipv4><source-ipv4-address>1.1.1.1</source-ipv4-address><destination-ipv4-address>2.2.2.2</destination-ipv4-address></ipv4> </endpoints-obj><ero><subobject><loose>false</loose><ip-prefix><ip-prefix>12.0.0.2/32</ip-prefix></ip-prefix></subobject></ero> </arguments><network-topology>pcep-topology</network-topology>");		
+                		break;
+                	case SegmentRouting:
+                		System.out.println("delete old(level2) lsp-sr");
+                		odlController.container("rpc").container("odl", "rpc-remove-lsp-sr").action("remove-lsp-sr").call("<node>"+odl_node+"</node><name>update-tunnel</name><network-topology>pcep-topology</network-topology>");
+                        
+                		//add lsp-sr, R1->R2,next hop 12.0.0.2
+                		System.out.println("create new(level1) lsp-sr");
+                		odlController.container("rpc").container("odl", "rpc-add-lsp-sr").action("add-lsp-sr").call("<node>"+odl_node+"");
+                		break;
+                	}
                 }
                 
                 if(qos_level.equals("level2")){
-                	System.out.println("delete old(level1) lsp");
-                    odlController.container("rpc").container("odl", "rpc-remove-lsp").action("remove-lsp").call("<node>"+odl_node+"</node><name>tencentlsp</name><network-topology>pcep-topology</network-topology>");
-                    
-                    System.out.println("create new(level2) lsp");
-                    //add-lsp, R1->R3->R2, next hop 13.0.0.3, 23.0.0.2
-                    odlController.container("rpc").container("odl", "rpc-add-lsp").action("add-lsp").call("<node>"+odl_node+"</node><name>tencentlsp</name><arguments><lsp><delegate>true</delegate><administrative>true</administrative> </lsp><endpoints-obj><ipv4><source-ipv4-address>1.1.1.1</source-ipv4-address><destination-ipv4-address>2.2.2.2</destination-ipv4-address></ipv4> </endpoints-obj><ero><subobject><loose>false</loose><ip-prefix><ip-prefix>13.0.0.3/32</ip-prefix></ip-prefix></subobject><subobject><loose>false</loose><ip-prefix><ip-prefix>23.0.0.2/32</ip-prefix></ip-prefix></subobject></ero> </arguments><network-topology>pcep-topology</network-topology>");
-				
-                    }
-            }
+                	
+                	switch(lt){
+                	case RSVP:
+	                	System.out.println("delete old(level1) lsp");
+	                    odlController.container("rpc").container("odl", "rpc-remove-lsp").action("remove-lsp").call("<node>"+odl_node+"</node><name>tencentlsp</name><network-topology>pcep-topology</network-topology>");
+
+	                    System.out.println("create new(level2) lsp");
+	                    //add-lsp, R1->R3->R2, next hop 13.0.0.3, 23.0.0.2
+	                    odlController.container("rpc").container("odl", "rpc-add-lsp").action("add-lsp").call("<node>"+odl_node+"</node><name>tencentlsp</name><arguments><lsp><delegate>true</delegate><administrative>true</administrative> </lsp><endpoints-obj><ipv4><source-ipv4-address>1.1.1.1</source-ipv4-address><destination-ipv4-address>2.2.2.2</destination-ipv4-address></ipv4> </endpoints-obj><ero><subobject><loose>false</loose><ip-prefix><ip-prefix>13.0.0.3/32</ip-prefix></ip-prefix></subobject><subobject><loose>false</loose><ip-prefix><ip-prefix>23.0.0.2/32</ip-prefix></ip-prefix></subobject></ero> </arguments><network-topology>pcep-topology</network-topology>");
+	                    break;
+                	case SegmentRouting:
+                		System.out.println("delete old(level1) lsp-sr");
+                		odlController.container("rpc").container("odl", "rpc-remove-lsp-sr").action("remove-lsp-sr").call("<node>"+odl_node+"</node><name>update-tunnel</name><network-topology>pcep-topology</network-topology>");
+                        
+                		//add lsp-sr, R1->R3->R2, next hop 13.0.0.3, 23.0.0.2
+                		System.out.println("create new(level2) lsp-sr");
+                		odlController.container("rpc").container("odl", "rpc-add-lsp-sr").action("add-lsp-sr").call("<node>"+odl_node+"</node><name>update-tunnel</name><arguments><lsp><delegate>true</delegate><administrative>true</administrative></lsp><path-setup-type><pst>1</pst></path-setup-type><endpoints-obj><ipv4><source-ipv4-address>1.1.1.1</source-ipv4-address><destination-ipv4-address>2.2.2.2</destination-ipv4-address></ipv4></endpoints-obj><ero><subobject><loose>false</loose><sid-type>ipv4-adjacency</sid-type><m-flag>true</m-flag><sid>24003</sid><local-ip-address>13.0.0.1</local-ip-address><remote-ip-address>13.0.0.3</remote-ip-address></subobject><subobject><loose>false</loose><sid-type>ipv4-adjacency</sid-type><m-flag>true</m-flag><sid>24002</sid><local-ip-address>23.0.0.3</local-ip-address><remote-ip-address>23.0.0.2</remote-ip-address></subobject></ero></arguments><network-topology>pcep-topology</network-topology>");
+                		break;
+                	}
+                }
+                }
 			catch(Exception e){
 				System.out.print(e);
 			}

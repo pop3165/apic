@@ -209,6 +209,8 @@ public class Odl {
         doc.appendChild(rootElement);
         
         Document input = ConfXMLParam.toDOM(p);
+        String XMLele = ConfXMLParam.toXML(p);
+        LOGGER.debug(XMLele);
         
         //node
         String nodeValue = input.getElementsByTagName("odl:node").item(0).getTextContent();
@@ -310,7 +312,6 @@ public class Odl {
         Element rootElement = doc.createElement("input");
         rootElement.setAttribute("xmlns", "urn:opendaylight:params:xml:ns:yang:topology:pcep");
         doc.appendChild(rootElement);
-        
         Document input = ConfXMLParam.toDOM(p);
         
         //node
@@ -417,4 +418,63 @@ public class Odl {
         LOGGER.debug(getStringFromXML(doc));
         httpPost(uri, getStringFromXML(doc));
     }
+
+   public void addLspSR(ConfXMLParam[] p) throws Exception {
+        String uri = "/restconf/operations/network-topology-pcep:add-lsp";
+        LOGGER.debug("add lsp sr");
+        
+        String XMLele = ConfXMLParam.toXML(p,"input","");
+        String res = modify_sr(XMLele);
+        LOGGER.debug(res);
+        //LOGGER.debug(getStringFromXML(doc));
+        httpPost(uri, res);
+    }
+
+   public void updateLspSR(ConfXMLParam[] p) throws Exception {
+        String uri = "/restconf/operations/network-topology-pcep:update-lsp";
+        LOGGER.debug("update lsp sr");
+        
+        String XMLele = ConfXMLParam.toXML(p,"input","");
+        String res = modify_sr(XMLele);
+        LOGGER.debug(res);
+        
+        //LOGGER.debug(getStringFromXML(doc));
+        httpPost(uri, res);
+    }
+
+   public void removeLspSR(ConfXMLParam[] p) throws Exception {
+        String uri = "/restconf/operations/network-topology-pcep:remove-lsp";
+        LOGGER.debug("remove lsp sr");
+        
+        String XMLele = ConfXMLParam.toXML(p,"input","");
+        String res = modify_sr(XMLele);
+        LOGGER.debug(res);
+        //LOGGER.debug(getStringFromXML(doc));
+        httpPost(uri, res);
+    }
+
+	static String add_after(String o,String a,String b){
+		return o.replace("<" + a + ">","<" + a+b + ">");
+	}
+	public static String modify_sr(String content)throws Exception{
+		final String nsrouting=" xmlns=\"urn:opendaylight:params:xml:ns:yang:pcep:segment:routing\"";
+		final String nspcep = " xmlns=\"urn:opendaylight:params:xml:ns:yang:topology:pcep\"";
+		final String nsstateful = " xmlns=\"urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful\"";
+		String c1 = content.replace("odl:","");
+        String c2 = c1.replace(":odl", "");
+        String c3 = c2.replace(" xmlns=\"http://www.tailf.com\"", "");
+        String c4 = c3.replace(" xmlns=\"http://tail-f.com/ned/odl\"","");
+        String c5 = add_after(c4,"input",nspcep);
+        String c6 = add_after(c5,"lsp",nsstateful);
+        String c7 = add_after(c6,"path-setup-type",nsstateful);
+        String c8 = add_after(c7,"sid-type",nsrouting);
+        String c9 = add_after(c8,"m-flag",nsrouting);
+        String c10 = add_after(c9,"sid",nsrouting);
+        String c11 = add_after(c10,"ip-address",nsrouting);
+        String c12 = add_after(c11,"local-ip-address",nsrouting);
+        String c13 = add_after(c12,"remote-ip-address",nsrouting);
+        String c14 = c13.replace("<network-topology>","<network-topology-ref xmlns:topo=\"urn:TBD:params:xml:ns:yang:network-topology\">/topo:network-topology/topo:topology[topo:topology-id=\"");
+        String c15 = c14.replace("</network-topology>","\"]</network-topology-ref>");
+        return c15;
+	}
 }

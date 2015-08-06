@@ -240,6 +240,77 @@ module odl {
       }
     }
   }
+  grouping explicit-route-object-sr {
+    container ero {
+      list subobject {
+        min-elements "1";
+        leaf loose {
+          type boolean;
+          mandatory true;
+        }
+        leaf sid-type {
+          type string;
+          mandatory true;
+        }
+        leaf m-flag {
+          type boolean;
+          mandatory true;
+        }
+        leaf sid {
+          type uint32;
+          mandatory true;
+        }
+        leaf ip-address {
+          type inet:ipv4-address;
+          mandatory false;
+        }
+        leaf local-ip-address {
+          type inet:ipv4-address;
+          mandatory false;
+        }
+        leaf remote-ip-address {
+          type inet:ipv4-address;
+          mandatory false;
+        }
+      }
+    }
+  }
+  grouping template_ncs_explicit-route-object-sr {
+    container ero {
+      list subobject {
+        ordered-by "user";  // NCS patched to keep predictable order
+        // NCS drop  (min-elements) statement
+        leaf loose {
+          type string;   // NCS patched all types to string
+          // NCS drop  (mandatory) statement
+        }
+        leaf sid-type {
+          type string;   // NCS patched all types to string
+          // NCS drop  (mandatory) statement
+        }
+        leaf m-flag {
+          type string;   // NCS patched all types to string
+          // NCS drop  (mandatory) statement
+        }
+        leaf sid {
+          type string;   // NCS patched all types to string
+          // NCS drop  (mandatory) statement
+        }
+        leaf ip-address {
+          type string;   // NCS patched all types to string
+          // NCS drop  (mandatory) statement
+        }
+        leaf local-ip-address {
+          type string;   // NCS patched all types to string
+          // NCS drop  (mandatory) statement
+        }
+        leaf remote-ip-address {
+          type string;   // NCS patched all types to string
+          // NCS drop  (mandatory) statement
+        }
+      }
+    }
+  }
   grouping add-lsp-args {
     uses lsp-id;
     container arguments {
@@ -256,6 +327,34 @@ module odl {
       uses template_ncs_explicit-route-object;
     }
   }
+  grouping add-lsp-sr-args {
+    uses lsp-id;
+    container arguments {
+      uses lsp-attributes;
+      container path-setup-type {
+        leaf pst {
+          type uint32;
+          mandatory true;
+        }
+      }
+      uses endpoints-object;
+      uses explicit-route-object-sr;
+    }
+  }
+  grouping template_ncs_add-lsp-sr-args {
+    uses template_ncs_lsp-id;
+    container arguments {
+      uses template_ncs_lsp-attributes;
+      container path-setup-type {
+        leaf pst {
+          type string;   // NCS patched all types to string
+          // NCS drop  (mandatory) statement
+        }
+      }
+      uses template_ncs_endpoints-object;
+      uses template_ncs_explicit-route-object-sr;
+    }
+  }
   grouping update-lsp-args {
     uses lsp-id;
     container arguments {
@@ -270,10 +369,42 @@ module odl {
       uses template_ncs_explicit-route-object;
     }
   }
+  grouping update-lsp-sr-args {
+    uses lsp-id;
+    container arguments {
+      uses lsp-attributes;
+      container path-setup-type {
+        leaf pst {
+          type uint32;
+          mandatory true;
+        }
+      }
+      uses explicit-route-object-sr;
+    }
+  }
+  grouping template_ncs_update-lsp-sr-args {
+    uses template_ncs_lsp-id;
+    container arguments {
+      uses template_ncs_lsp-attributes;
+      container path-setup-type {
+        leaf pst {
+          type string;   // NCS patched all types to string
+          // NCS drop  (mandatory) statement
+        }
+      }
+      uses template_ncs_explicit-route-object-sr;
+    }
+  }
   grouping remove-lsp-args {
     uses lsp-id;
   }
   grouping template_ncs_remove-lsp-args {
+    uses template_ncs_lsp-id;
+  }
+  grouping remove-lsp-sr-args {
+    uses lsp-id;
+  }
+  grouping template_ncs_remove-lsp-sr-args {
     uses template_ncs_lsp-id;
   }
   augment /ncs:devices/ncs:device/ncs:rpc {
@@ -284,6 +415,27 @@ module odl {
         }
         input {
           uses add-lsp-args;
+          leaf network-topology {
+            type string;
+            mandatory true;
+          }
+        }
+        output {
+          leaf operation-result {
+            type string;
+          }
+        }
+      }
+   }
+   }
+  augment /ncs:devices/ncs:device/ncs:rpc {
+    container rpc-add-lsp-sr {
+      tailf:action add-lsp-sr {
+        tailf:actionpoint ncsproxy {
+              tailf:internal;
+        }
+        input {
+          uses add-lsp-sr-args;
           leaf network-topology {
             type string;
             mandatory true;
@@ -319,6 +471,27 @@ module odl {
    }
    }
   augment /ncs:devices/ncs:device/ncs:rpc {
+    container rpc-update-lsp-sr {
+      tailf:action update-lsp-sr {
+        tailf:actionpoint ncsproxy {
+              tailf:internal;
+        }
+        input {
+          uses update-lsp-sr-args;
+          leaf network-topology {
+            type string;
+            mandatory true;
+          }
+        }
+        output {
+          leaf operation-result {
+            type string;
+          }
+        }
+      }
+   }
+   }
+  augment /ncs:devices/ncs:device/ncs:rpc {
     container rpc-remove-lsp {
       tailf:action remove-lsp {
         tailf:actionpoint ncsproxy {
@@ -326,6 +499,27 @@ module odl {
         }
         input {
           uses remove-lsp-args;
+          leaf network-topology {
+            type string;
+            mandatory true;
+          }
+        }
+        output {
+          leaf operation-result {
+            type string;
+          }
+        }
+      }
+   }
+   }
+  augment /ncs:devices/ncs:device/ncs:rpc {
+    container rpc-remove-lsp-sr {
+      tailf:action remove-lsp-sr {
+        tailf:actionpoint ncsproxy {
+              tailf:internal;
+        }
+        input {
+          uses remove-lsp-sr-args;
           leaf network-topology {
             type string;
             mandatory true;

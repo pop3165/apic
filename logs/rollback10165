@@ -1,0 +1,111 @@
+# Created by: admin
+# Date: 2015-08-06 11:14:35
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10165
+
+ncs:devices {
+    ncs:device a9k {
+        ncs:config {
+            cisco-ios-xr:policy-map qos-policing {
+                cisco-ios-xr:class {
+                    cisco-ios-xr:class-ref aci-class-map {
+                        cisco-ios-xr:police-rate-unit {
+                            cisco-ios-xr:police {
+                                cisco-ios-xr:rate {
+                                    cisco-ios-xr:cir 8;
+                                    cisco-ios-xr:cir-unit kbps;
+                                    cisco-ios-xr:burst 1;
+                                    cisco-ios-xr:burst-units bytes;
+                                    cisco-ios-xr:peak-burst 1;
+                                    cisco-ios-xr:peak-burst-units bytes;
+                                    cisco-ios-xr:conform-action {
+                                        cisco-ios-xr:transmit;
+                                    }
+                                    cisco-ios-xr:exceed-action {
+                                        cisco-ios-xr:drop;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    cisco-ios-xr:class-ref mpls-header {
+                        cisco-ios-xr:police-rate-unit {
+                            cisco-ios-xr:police {
+                                cisco-ios-xr:rate {
+                                    cisco-ios-xr:cir 8;
+                                    cisco-ios-xr:cir-unit kbps;
+                                    cisco-ios-xr:burst 1;
+                                    cisco-ios-xr:burst-units bytes;
+                                    cisco-ios-xr:peak-burst 1;
+                                    cisco-ios-xr:peak-burst-units bytes;
+                                    cisco-ios-xr:conform-action {
+                                        cisco-ios-xr:transmit;
+                                    }
+                                    cisco-ios-xr:exceed-action {
+                                        cisco-ios-xr:drop;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    cisco-ios-xr:class-default class-default;
+                }
+            }
+            delete:
+            cisco-ios-xr:policy-map qos-shaping;
+            cisco-ios-xr:interface {
+                cisco-ios-xr:GigabitEthernet-subinterface {
+                    cisco-ios-xr:GigabitEthernet 0/0/0/1.2 {
+                        cisco-ios-xr:service-policy {
+                            cisco-ios-xr:output qos-policing {
+                            }
+                            delete:
+                            cisco-ios-xr:output qos-shaping;
+                        }
+                    }
+                }
+            }
+            cisco-ios-xr:rsvp {
+                cisco-ios-xr:interface GigabitEthernet0/0/0/1.2 {
+                }
+                cisco-ios-xr:interface GigabitEthernet0/0/0/1.3 {
+                }
+            }
+            cisco-ios-xr:router {
+                cisco-ios-xr:isis {
+                    delete:
+                    cisco-ios-xr:tag 1;
+                }
+                cisco-ios-xr:ospf 1 {
+                    cisco-ios-xr:area 0 {
+                        cisco-ios-xr:interface GigabitEthernet0/0/0/1.100 {
+                        }
+                        cisco-ios-xr:interface GigabitEthernet0/0/0/1.2 {
+                        }
+                        cisco-ios-xr:interface GigabitEthernet0/0/0/1.3 {
+                        }
+                        cisco-ios-xr:interface Loopback0 {
+                        }
+                        cisco-ios-xr:mpls {
+                            cisco-ios-xr:traffic-eng;
+                        }
+                    }
+                }
+            }
+            delete:
+            cisco-ios-xr:route-policy test;
+            cisco-ios-xr:mpls {
+                cisco-ios-xr:ldp {
+                    cisco-ios-xr:interface GigabitEthernet0/0/0/1.2 {
+                    }
+                    cisco-ios-xr:interface GigabitEthernet0/0/0/1.3 {
+                    }
+                    cisco-ios-xr:router-id 1.1.1.1;
+                }
+             }
+         }
+     }
+ }

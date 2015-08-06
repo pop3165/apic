@@ -389,12 +389,12 @@ public class odlNed extends NedGenericBase  {
 
         try {
             // Find schema node for the Enumeration in the rpc reply
-            switch (cmdname) {
-                case "add-lsp": this.controller.addLsp(p);break;
-                case "remove-lsp": this.controller.removeLsp(p);break;
-                case "update-lsp": this.controller.updateLsp(p);break;
-                default: break;
-            }
+                if (cmdname.equals("add-lsp")) this.controller.addLsp(p);
+                if (cmdname.equals("remove-lsp")) this.controller.removeLsp(p);
+                if (cmdname.equals("update-lsp")) this.controller.updateLsp(p);
+                if (cmdname.equals("add-lsp-sr")) this.controller.addLspSR(p);
+                if (cmdname.equals("update-lsp-sr")) this.controller.updateLspSR(p);
+                if (cmdname.equals("remove-lsp-sr")) this.controller.removeLspSR(p);
             MaapiSchemas.CSNode ecs =
                 odlNed.schemas.findCSNode(Ncs.uri, "/devices/device/rpc", cmdname);
             ecs = ecs.getChild(odl._operation_result);
