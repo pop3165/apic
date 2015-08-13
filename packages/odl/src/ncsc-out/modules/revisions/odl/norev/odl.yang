@@ -533,6 +533,23 @@ module odl {
       }
    }
    }
+  augment /ncs:devices/ncs:device/ncs:rpc {
+    container rpc-get-tunnel-id {
+      tailf:action get-tunnel-id {
+        tailf:actionpoint ncsproxy {
+              tailf:internal;
+        }
+        input {
+          uses lsp-id;
+        }
+        output {
+          leaf tunnel-id {
+            type string;
+          }
+        }
+      }
+   }
+   }
   augment /ncs:devices/ncs:device/ncs:config {
     list pcep-topology {
       tailf:ncs-device-type generic-ned;

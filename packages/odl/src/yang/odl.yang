@@ -1,3 +1,36 @@
+/*
+Copyright @ 2015 <Cisco China Team>
+   This project is maintained by Cisco China Team.
+   Team members:
+   		Yuanchao Su  : yuasu@cisco.com
+		Fan Yang     : fyang2@cisco.com
+		Qing Zhong   : qinzhong@cisco.com
+		Zichuan Ma   : zicma@cisco.com
+		Yinsong Xue  : yinsxue@cisco.com
+		Xinyi Xu     : xinysu@cisco.com
+
+This part of code is written by Zichuan Ma & Yinsong Xue and is maintained by Yinsong (yinsxue).
+For further information, please contact Yinsong Xue (yinsxue@cisco.com) or Yuanchao Su(yuasu@cisco.com)
+*/
+
+/*
+The Yang Model for the following RPCs has been implemented：
+1. add/update/remove a LSP (add-lsp update-lsp remove-lsp)
+2. add/update/remove a Segment routing LSP (add-lsp-sr update-lsp-sr remove-lsp-sr)
+
+The corresponding REST post can be found in https://wiki.opendaylight.org/view/BGP_LS_PCEP:Helium_Operations_Guide .
+
+Sample ncs calls:
+1. add-lsp
+devices device odlc rpc rpc-add-lsp add-lsp name examplelsp node pcc://192.168.0.1 network-topology pcep-topology arguments { lsp { administrative true delegate true } endpoints-obj { ipv4 { source-ipv4-address 192.168.0.1 destination-ipv4-address 192.168.0.3 } } ero { subobject { ip-prefix 10.0.0.6/32 loose false } } }
+2. add-lsp-sr
+devices device odlc rpc rpc-add-lsp-sr add-lsp-sr name update-tunnel node pcc://172.16.1.158 network-topology pcep-topology arguments { lsp { administrative true delegate true } path-setup-type { pst 1 } endpoints-obj { ipv4 { source-ipv4-address 192.168.0.1 destination-ipv4-address 192.168.0.2 } } ero { subobject { loose false sid-type ipv4-node-id m-flag true sid 16002 ip-address 192.168.0.2 } } } 
+3. update-lsp-sr
+devices device odlc rpc rpc-update-lsp-sr update-lsp-sr node pcc://172.16.1.158 name update-tunnel arguments { lsp { delegate true administrative true } path-setup-type { pst 1 } ero { subobject { loose false sid-type ipv4-node-id m-flag true sid 16003 ip-address 192.168.0.3 } subobject { loose false sid-type ipv4-node-id m-flag true sid 16002 ip-address 192.168.0.2 } } } network-topology pcep-topology
+4. remove-lsp-sr
+devices device odlc rpc rpc-remove-lsp-sr remove-lsp-sr node pcc://172.16.1.158 name update-tunnel network-topology pcep-topology 
+
+*/
 module odl {
   namespace "http://tail-f.com/ned/odl";
   prefix odl;
@@ -325,7 +358,7 @@ module odl {
   	  }
     }
   }
-  
+
   rpc remove-lsp {
 	tailf:actionpoint ncsinternal {
 	  tailf:internal;
@@ -359,6 +392,19 @@ module odl {
       leaf operation-result {
         type string;
       }
+    }
+}    
+rpc get-tunnel-id {
+	tailf:actionpoint ncsinternal {
+	  tailf:internal;
+	  }
+	input {
+	  uses lsp-id;
+	  }
+	output {
+	  leaf tunnel-id {
+	    type string;
+	  }
     }
   }
 

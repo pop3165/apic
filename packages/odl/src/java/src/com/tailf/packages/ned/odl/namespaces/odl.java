@@ -75,6 +75,8 @@ public class odl extends ConfNamespace {
     public static final String _local_ip_address_ = "local-ip-address";
     public static final int    _sid = 1233827376;
     public static final String _sid_ = "sid";
+    public static final int    _tunnel_id = 861555660;
+    public static final String _tunnel_id_ = "tunnel-id";
     public static final int    _rpc_update_lsp_sr = 1801219246;
     public static final String _rpc_update_lsp_sr_ = "rpc-update-lsp-sr";
     public static final int    _subobject = 1593048295;
@@ -89,6 +91,8 @@ public class odl extends ConfNamespace {
     public static final String _reported_lsp_ = "reported-lsp";
     public static final int    _destination_ipv4_address = 804693942;
     public static final String _destination_ipv4_address_ = "destination-ipv4-address";
+    public static final int    _rpc_get_tunnel_id = 1848371936;
+    public static final String _rpc_get_tunnel_id_ = "rpc-get-tunnel-id";
     public static final int    _ipv4_case = 1413514427;
     public static final String _ipv4_case_ = "ipv4-case";
     public static final int    _source_ipv4_address = 288197810;
@@ -103,6 +107,8 @@ public class odl extends ConfNamespace {
     public static final String _ipv6_ = "ipv6";
     public static final int    _source_ipv6_address = 252700970;
     public static final String _source_ipv6_address_ = "source-ipv6-address";
+    public static final int    _get_tunnel_id = 2392939;
+    public static final String _get_tunnel_id_ = "get-tunnel-id";
     public static final int    _remote_ip_address = 1221714707;
     public static final String _remote_ip_address_ = "remote-ip-address";
     public static final int    _ero = 297555401;

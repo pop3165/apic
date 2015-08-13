@@ -5357,3 +5357,1226 @@
 <DEBUG> 6-Aug-2015::17:28:49.186 FYANG2-M-L01D ncs[76659]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
 <DEBUG> 6-Aug-2015::17:28:49.533 FYANG2-M-L01D ncs[76659]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
 <CRIT> 6-Aug-2015::17:28:49.540 FYANG2-M-L01D ncs[76659]: - Daemon ncs-dp-4-qos:RFSSkeleton died
+<ERR> 6-Aug-2015::18:49:42.650 FYANG2-M-L01D ncs[76659]: - The NCS Java VM NED request for device <<"odlc">> timeout
+<ERR> 6-Aug-2015::18:50:42.307 FYANG2-M-L01D ncs[76659]: - The NCS Java VM NED request for device <<"odlc">> timeout
+<ERR> 6-Aug-2015::18:52:02.502 FYANG2-M-L01D ncs[76659]: - The NCS Java VM NED request for device <<"odlc">> timeout
+<ERR> 6-Aug-2015::18:52:29.924 FYANG2-M-L01D ncs[76659]: - The NCS Java VM NED request for device <<"odlc">> timeout
+<ERR> 6-Aug-2015::18:54:15.805 FYANG2-M-L01D ncs[76659]: - The NCS Java VM NED request for device <<"odlc">> timeout
+<ERR> 6-Aug-2015::18:56:04.630 FYANG2-M-L01D ncs[76659]: - The NCS Java VM NED request for device <<"odlc">> timeout
+<ERR> 6-Aug-2015::18:56:28.856 FYANG2-M-L01D ncs[76659]: - The NCS Java VM NED request for device <<"odlc">> timeout
+<ERR> 6-Aug-2015::18:56:36.492 FYANG2-M-L01D ncs[76659]: - The NCS Java VM NED request for device <<"odlc">> timeout
+<ERR> 6-Aug-2015::19:06:33.596 FYANG2-M-L01D ncs[76659]: - The NCS Java VM NED request for device <<"odlc">> timeout
+<ERR> 6-Aug-2015::19:07:32.110 FYANG2-M-L01D ncs[76659]: - The NCS Java VM NED request for device <<"odlc">> timeout
+<ERR> 6-Aug-2015::19:07:37.337 FYANG2-M-L01D ncs[76659]: - The NCS Java VM NED request for device <<"odlc">> timeout
+<ERR> 6-Aug-2015::19:18:01.226 FYANG2-M-L01D ncs[76659]: - The NCS Java VM NED request for device <<"odlc">> timeout
+<ERR> 6-Aug-2015::19:18:13.204 FYANG2-M-L01D ncs[76659]: - The NCS Java VM NED request for device <<"odlc">> timeout
+<DEBUG> 6-Aug-2015::19:21:59.420 FYANG2-M-L01D ncs[76659]: - Loading file ./packages/qos/package-meta-data.xml
+<DEBUG> 6-Aug-2015::19:21:59.422 FYANG2-M-L01D ncs[76659]: - Loading file ./packages/odl/package-meta-data.xml
+<DEBUG> 6-Aug-2015::19:21:59.424 FYANG2-M-L01D ncs[76659]: - Loading file ./packages/cisco-xr/package-meta-data.xml
+<DEBUG> 6-Aug-2015::19:21:59.426 FYANG2-M-L01D ncs[76659]: - Loading file ./packages/cisco-ios/package-meta-data.xml
+<DEBUG> 6-Aug-2015::19:21:59.428 FYANG2-M-L01D ncs[76659]: - Loading file ./packages/cisco-apicdc/package-meta-data.xml
+<DEBUG> 6-Aug-2015::19:21:59.438 FYANG2-M-L01D ncs[76659]: - Copying NCS package from ./packages/qos to ./state/packages-in-use.new/1
+<DEBUG> 6-Aug-2015::19:21:59.466 FYANG2-M-L01D ncs[76659]: - Copying NCS package from ./packages/odl to ./state/packages-in-use.new/1
+<DEBUG> 6-Aug-2015::19:21:59.513 FYANG2-M-L01D ncs[76659]: - Copying NCS package from ./packages/cisco-xr to ./state/packages-in-use.new/1
+<DEBUG> 6-Aug-2015::19:21:59.546 FYANG2-M-L01D ncs[76659]: - Copying NCS package from ./packages/cisco-ios to ./state/packages-in-use.new/1
+<DEBUG> 6-Aug-2015::19:21:59.591 FYANG2-M-L01D ncs[76659]: - Copying NCS package from ./packages/cisco-apicdc to ./state/packages-in-use.new/1
+<DEBUG> 6-Aug-2015::19:21:59.646 FYANG2-M-L01D ncs[76659]: - Loading file ./state/packages-in-use/1/qos/package-meta-data.xml
+<DEBUG> 6-Aug-2015::19:21:59.647 FYANG2-M-L01D ncs[76659]: - Loading file ./state/packages-in-use/1/odl/package-meta-data.xml
+<DEBUG> 6-Aug-2015::19:21:59.648 FYANG2-M-L01D ncs[76659]: - Loading file ./state/packages-in-use/1/cisco-xr/package-meta-data.xml
+<DEBUG> 6-Aug-2015::19:21:59.649 FYANG2-M-L01D ncs[76659]: - Loading file ./state/packages-in-use/1/cisco-ios/package-meta-data.xml
+<DEBUG> 6-Aug-2015::19:21:59.650 FYANG2-M-L01D ncs[76659]: - Loading file ./state/packages-in-use/1/cisco-apicdc/package-meta-data.xml
+<DEBUG> 6-Aug-2015::19:21:59.652 FYANG2-M-L01D ncs[76659]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<DEBUG> 6-Aug-2015::19:21:59.705 FYANG2-M-L01D ncs[76659]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 6-Aug-2015::19:21:59.756 FYANG2-M-L01D ncs[76659]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 6-Aug-2015::19:21:59.809 FYANG2-M-L01D ncs[76659]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 6-Aug-2015::19:21:59.861 FYANG2-M-L01D ncs[76659]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<DEBUG> 6-Aug-2015::19:22:00.231 FYANG2-M-L01D ncs[76659]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<CRIT> 6-Aug-2015::19:22:00.239 FYANG2-M-L01D ncs[76659]: - Daemon ncs-dp-5-qos:RFSSkeleton died
+<ERR> 6-Aug-2015::19:27:14.893 FYANG2-M-L01D ncs[76659]: - The NCS Java VM NED request for device <<"odlc">> timeout
+<DEBUG> 6-Aug-2015::22:23:59.420 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-webui.fxs
+<DEBUG> 6-Aug-2015::22:23:59.422 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/IANA-ITU-ALARM-TC-MIB.fxs
+<DEBUG> 6-Aug-2015::22:23:59.422 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/ITU-ALARM-TC-MIB.fxs
+<DEBUG> 6-Aug-2015::22:23:59.422 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-ALARM-TC-MIB.fxs
+<DEBUG> 6-Aug-2015::22:23:59.423 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-FRAMEWORK-MIB.fxs
+<DEBUG> 6-Aug-2015::22:23:59.423 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/iana-crypt-hash.fxs
+<DEBUG> 6-Aug-2015::22:23:59.423 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/ietf-inet-types.fxs
+<DEBUG> 6-Aug-2015::22:23:59.424 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/ietf-yang-types.fxs
+<DEBUG> 6-Aug-2015::22:23:59.424 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs-ned.fxs
+<DEBUG> 6-Aug-2015::22:23:59.425 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/ietf-netconf-monitoring.fxs
+<DEBUG> 6-Aug-2015::22:23:59.426 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-common-monitoring.fxs
+<DEBUG> 6-Aug-2015::22:23:59.426 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/ietf-netconf-acm.fxs
+<DEBUG> 6-Aug-2015::22:23:59.427 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMPv2-TC.fxs
+<DEBUG> 6-Aug-2015::22:23:59.427 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs.fxs
+<DEBUG> 6-Aug-2015::22:23:59.438 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-USER-BASED-SM-MIB.fxs
+<DEBUG> 6-Aug-2015::22:23:59.438 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-TARGET-MIB.fxs
+<DEBUG> 6-Aug-2015::22:23:59.439 FYANG2-M-L01D ncs[2875]: - Loading file ./state/packages-in-use/1/cisco-ios/load-dir/tailf-ned-cisco-ios-stats.fxs
+<DEBUG> 6-Aug-2015::22:23:59.440 FYANG2-M-L01D ncs[2875]: - Loading file ./state/packages-in-use/1/cisco-ios/load-dir/tailf-ned-cisco-ios-id.fxs
+<DEBUG> 6-Aug-2015::22:23:59.440 FYANG2-M-L01D ncs[2875]: - Loading file ./state/packages-in-use/1/cisco-ios/load-dir/tailf-ned-cisco-ios.fxs
+<DEBUG> 6-Aug-2015::22:23:59.637 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/ietf-yang-smiv2.fxs
+<DEBUG> 6-Aug-2015::22:23:59.638 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs-netmod-netconf.fxs
+<DEBUG> 6-Aug-2015::22:23:59.638 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/snmp.fxs
+<DEBUG> 6-Aug-2015::22:23:59.642 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/encryption-usm.fxs
+<DEBUG> 6-Aug-2015::22:23:59.642 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-netconf-monitoring.fxs
+<DEBUG> 6-Aug-2015::22:23:59.643 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs-monitoring.fxs
+<DEBUG> 6-Aug-2015::22:23:59.647 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-configuration-policy.fxs
+<DEBUG> 6-Aug-2015::22:23:59.648 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-acm.fxs
+<DEBUG> 6-Aug-2015::22:23:59.649 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs-webui.fxs
+<DEBUG> 6-Aug-2015::22:23:59.650 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/tailf-ncs-snmp.fxs
+<DEBUG> 6-Aug-2015::22:23:59.651 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs-event-forwarding.fxs
+<DEBUG> 6-Aug-2015::22:23:59.651 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs-alarms.fxs
+<DEBUG> 6-Aug-2015::22:23:59.654 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TRANSPORT-ADDRESS-MIB.fxs
+<DEBUG> 6-Aug-2015::22:23:59.655 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-TOP-MIB.fxs
+<DEBUG> 6-Aug-2015::22:23:59.655 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-ALARM-MIB.fxs
+<DEBUG> 6-Aug-2015::22:23:59.655 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMPv2-SMI.fxs
+<DEBUG> 6-Aug-2015::22:23:59.656 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMPv2-MIB.fxs
+<DEBUG> 6-Aug-2015::22:23:59.656 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-VIEW-BASED-ACM-MIB.fxs
+<DEBUG> 6-Aug-2015::22:23:59.657 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-NOTIFICATION-MIB.fxs
+<DEBUG> 6-Aug-2015::22:23:59.658 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-MPD-MIB.fxs
+<DEBUG> 6-Aug-2015::22:23:59.658 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-COMMUNITY-MIB.fxs
+<DEBUG> 6-Aug-2015::22:23:59.658 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/IPV6-TC.fxs
+<DEBUG> 6-Aug-2015::22:23:59.659 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-aaa.fxs
+<DEBUG> 6-Aug-2015::22:23:59.660 FYANG2-M-L01D ncs[2875]: - Loading file ./state/packages-in-use/1/odl/load-dir/odl.fxs
+<DEBUG> 6-Aug-2015::22:23:59.663 FYANG2-M-L01D ncs[2875]: - Loading file ./state/packages-in-use/1/cisco-xr/load-dir/tailf-ned-cisco-ios-xr-id.fxs
+<DEBUG> 6-Aug-2015::22:23:59.663 FYANG2-M-L01D ncs[2875]: - Loading file ./state/packages-in-use/1/cisco-xr/load-dir/tailf-ned-cisco-ios-xr.fxs
+<DEBUG> 6-Aug-2015::22:23:59.959 FYANG2-M-L01D ncs[2875]: - Loading file ./state/packages-in-use/1/cisco-apicdc/load-dir/tailf-ned-cisco-apicdc-stats.fxs
+<DEBUG> 6-Aug-2015::22:23:59.960 FYANG2-M-L01D ncs[2875]: - Loading file ./state/packages-in-use/1/cisco-apicdc/load-dir/tailf-ned-cisco-apicdc.fxs
+<DEBUG> 6-Aug-2015::22:23:59.967 FYANG2-M-L01D ncs[2875]: - Loading file ./state/packages-in-use/1/odl/load-dir/odl-stats.fxs
+<DEBUG> 6-Aug-2015::22:23:59.967 FYANG2-M-L01D ncs[2875]: - Loading file ./state/packages-in-use/1/qos/load-dir/qos.fxs
+<DEBUG> 6-Aug-2015::22:23:59.969 FYANG2-M-L01D ncs[2875]: - Skipping file ./state/packages-in-use/1/qos/load-dir/tailf-ned-cisco-apicdc.fxs: namespace already loaded
+<DEBUG> 6-Aug-2015::22:24:00.285 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/ncs.ccl
+<DEBUG> 6-Aug-2015::22:24:00.297 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<INFO> 6-Aug-2015::22:24:00.330 FYANG2-M-L01D ncs[2875]: - Starting to listen for Internal IPC on 127.0.0.1:4569
+<DEBUG> 6-Aug-2015::22:24:00.525 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<INFO> 6-Aug-2015::22:24:00.583 FYANG2-M-L01D ncs[2875]: - Starting the NCS Java VM
+<DEBUG> 6-Aug-2015::22:24:00.595 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 6-Aug-2015::22:24:00.667 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<NOTICE> 6-Aug-2015::22:24:00.687 FYANG2-M-L01D ncs[2875]: - The notification replay store log ''ncs-events'' is being repaired...
+<NOTICE> 6-Aug-2015::22:24:00.699 FYANG2-M-L01D ncs[2875]: - The notification replay store log ''device-notifications'' is being repaired...
+<DEBUG> 6-Aug-2015::22:24:00.712 FYANG2-M-L01D ncs[2875]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<DEBUG> 6-Aug-2015::22:24:00.723 FYANG2-M-L01D ncs[2875]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<INFO> 6-Aug-2015::22:24:00.728 FYANG2-M-L01D ncs[2875]: - Starting to listen for NETCONF SSH on 0.0.0.0:2022
+<INFO> 6-Aug-2015::22:24:00.801 FYANG2-M-L01D ncs[2875]: - Starting to listen for CLI SSH on 0.0.0.0:2024
+<INFO> 6-Aug-2015::22:24:00.857 FYANG2-M-L01D ncs[2875]: - Starting to listen for WebUI TCP on 0.0.0.0:8080
+<DEBUG> 6-Aug-2015::22:24:01.002 FYANG2-M-L01D ncs[2875]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMPv2-MIB
+<DEBUG> 6-Aug-2015::22:24:01.002 FYANG2-M-L01D ncs[2875]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-FRAMEWORK-MIB
+<DEBUG> 6-Aug-2015::22:24:01.002 FYANG2-M-L01D ncs[2875]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-MPD-MIB
+<INFO> 6-Aug-2015::22:24:01.061 FYANG2-M-L01D ncs[2875]: - Starting to listen for SNMP UDP on 0.0.0.0:4000
+<DEBUG> 6-Aug-2015::22:24:01.076 FYANG2-M-L01D ncs[2875]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/IANA-ITU-ALARM-TC-MIB.bin
+<DEBUG> 6-Aug-2015::22:24:01.077 FYANG2-M-L01D ncs[2875]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/ITU-ALARM-TC-MIB.bin
+<DEBUG> 6-Aug-2015::22:24:01.081 FYANG2-M-L01D ncs[2875]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-ALARM-MIB.bin
+<DEBUG> 6-Aug-2015::22:24:01.082 FYANG2-M-L01D ncs[2875]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-ALARM-TC-MIB.bin
+<DEBUG> 6-Aug-2015::22:24:01.083 FYANG2-M-L01D ncs[2875]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-TOP-MIB.bin
+<DEBUG> 6-Aug-2015::22:24:01.084 FYANG2-M-L01D ncs[2875]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-COMMUNITY-MIB.bin
+<DEBUG> 6-Aug-2015::22:24:01.085 FYANG2-M-L01D ncs[2875]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-TARGET-MIB.bin
+<DEBUG> 6-Aug-2015::22:24:01.086 FYANG2-M-L01D ncs[2875]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-NOTIFICATION-MIB.bin
+<DEBUG> 6-Aug-2015::22:24:01.087 FYANG2-M-L01D ncs[2875]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-USER-BASED-SM-MIB.bin
+<DEBUG> 6-Aug-2015::22:24:01.088 FYANG2-M-L01D ncs[2875]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-VIEW-BASED-ACM-MIB.bin
+<INFO> 6-Aug-2015::22:24:02.557 FYANG2-M-L01D ncs[2875]: - NCS started vsn: 3.4.1
+<ERR> 6-Aug-2015::22:25:21.764 FYANG2-M-L01D ncs[2875]: - The NCS Java VM NED request for device <<"odlc">> timeout
+<ERR> 6-Aug-2015::22:25:21.764 FYANG2-M-L01D ncs[2875]: - The NCS Java VM Restarting NED for cli/'ios-id:cisco-ios'
+<ERR> 6-Aug-2015::22:25:21.764 FYANG2-M-L01D ncs[2875]: - The NCS Java VM Restarting NED for generic/'cisco-apicdc:cisco-apicdc-id'
+<ERR> 6-Aug-2015::22:25:21.765 FYANG2-M-L01D ncs[2875]: - The NCS Java VM Restarting NED for cli/'cisco-ios-xr-id:cisco-ios-xr'
+<ERR> 6-Aug-2015::22:25:21.765 FYANG2-M-L01D ncs[2875]: - The NCS Java VM Restarting NED for generic/'odl:odl-id'
+<ERR> 6-Aug-2015::22:30:31.018 FYANG2-M-L01D ncs[2875]: - The NCS Java VM NED request for device <<"odlc">> timeout
+<ERR> 6-Aug-2015::22:30:31.018 FYANG2-M-L01D ncs[2875]: - The NCS Java VM Restarting NED for cli/'ios-id:cisco-ios'
+<ERR> 6-Aug-2015::22:30:31.018 FYANG2-M-L01D ncs[2875]: - The NCS Java VM Restarting NED for generic/'cisco-apicdc:cisco-apicdc-id'
+<ERR> 6-Aug-2015::22:30:31.018 FYANG2-M-L01D ncs[2875]: - The NCS Java VM Restarting NED for cli/'cisco-ios-xr-id:cisco-ios-xr'
+<ERR> 6-Aug-2015::22:30:31.019 FYANG2-M-L01D ncs[2875]: - The NCS Java VM Restarting NED for generic/'odl:odl-id'
+<INFO> 6-Aug-2015::22:51:35.320 FYANG2-M-L01D ncs[2875]: - The NCS Java VM terminated
+<CRIT> 6-Aug-2015::22:51:35.321 FYANG2-M-L01D ncs[2875]: - Daemon ncs-dp-1-qos:RFSSkeleton died
+<ERR> 6-Aug-2015::22:54:26.718 FYANG2-M-L01D ncs[2875]: - The NCS Java VM NED request for device <<"odlc">> timeout
+<ERR> 6-Aug-2015::22:54:26.718 FYANG2-M-L01D ncs[2875]: - The NCS Java VM Restarting NED for cli/'ios-id:cisco-ios'
+<ERR> 6-Aug-2015::22:54:26.718 FYANG2-M-L01D ncs[2875]: - The NCS Java VM Restarting NED for generic/'cisco-apicdc:cisco-apicdc-id'
+<ERR> 6-Aug-2015::22:54:26.718 FYANG2-M-L01D ncs[2875]: - The NCS Java VM Restarting NED for cli/'cisco-ios-xr-id:cisco-ios-xr'
+<ERR> 6-Aug-2015::22:54:26.718 FYANG2-M-L01D ncs[2875]: - The NCS Java VM Restarting NED for generic/'odl:odl-id'
+<ERR> 6-Aug-2015::22:56:58.608 FYANG2-M-L01D ncs[2875]: - The NCS Java VM NED request for device <<"odlc">> timeout
+<ERR> 6-Aug-2015::22:56:58.608 FYANG2-M-L01D ncs[2875]: - The NCS Java VM Restarting NED for cli/'ios-id:cisco-ios'
+<ERR> 6-Aug-2015::22:56:58.608 FYANG2-M-L01D ncs[2875]: - The NCS Java VM Restarting NED for generic/'cisco-apicdc:cisco-apicdc-id'
+<ERR> 6-Aug-2015::22:56:58.609 FYANG2-M-L01D ncs[2875]: - The NCS Java VM Restarting NED for cli/'cisco-ios-xr-id:cisco-ios-xr'
+<ERR> 6-Aug-2015::22:56:58.609 FYANG2-M-L01D ncs[2875]: - The NCS Java VM Restarting NED for generic/'odl:odl-id'
+<ERR> 6-Aug-2015::23:02:30.380 FYANG2-M-L01D ncs[2875]: - The NCS Java VM NED request for device <<"odlc">> timeout
+<ERR> 6-Aug-2015::23:02:30.381 FYANG2-M-L01D ncs[2875]: - The NCS Java VM Restarting NED for cli/'ios-id:cisco-ios'
+<ERR> 6-Aug-2015::23:02:30.381 FYANG2-M-L01D ncs[2875]: - The NCS Java VM Restarting NED for generic/'cisco-apicdc:cisco-apicdc-id'
+<ERR> 6-Aug-2015::23:02:30.381 FYANG2-M-L01D ncs[2875]: - The NCS Java VM Restarting NED for cli/'cisco-ios-xr-id:cisco-ios-xr'
+<ERR> 6-Aug-2015::23:02:30.381 FYANG2-M-L01D ncs[2875]: - The NCS Java VM Restarting NED for generic/'odl:odl-id'
+<ERR> 6-Aug-2015::23:19:27.685 FYANG2-M-L01D ncs[2875]: - The NCS Java VM NED request for device <<"odlc">> timeout
+<ERR> 6-Aug-2015::23:19:27.685 FYANG2-M-L01D ncs[2875]: - The NCS Java VM Restarting NED for cli/'ios-id:cisco-ios'
+<ERR> 6-Aug-2015::23:19:27.685 FYANG2-M-L01D ncs[2875]: - The NCS Java VM Restarting NED for generic/'cisco-apicdc:cisco-apicdc-id'
+<ERR> 6-Aug-2015::23:19:27.685 FYANG2-M-L01D ncs[2875]: - The NCS Java VM Restarting NED for cli/'cisco-ios-xr-id:cisco-ios-xr'
+<ERR> 6-Aug-2015::23:19:27.685 FYANG2-M-L01D ncs[2875]: - The NCS Java VM Restarting NED for generic/'odl:odl-id'
+<CRIT> 6-Aug-2015::23:21:18.348 FYANG2-M-L01D ncs[2875]: - Daemon ncs-dp-1-qos:RFSSkeleton died
+<INFO> 6-Aug-2015::23:21:18.349 FYANG2-M-L01D ncs[2875]: - The NCS Java VM terminated
+<ERR> 6-Aug-2015::23:22:43.065 FYANG2-M-L01D ncs[2875]: - The NCS Java VM NED request for device <<"odlc">> timeout
+<ERR> 6-Aug-2015::23:22:43.065 FYANG2-M-L01D ncs[2875]: - The NCS Java VM Restarting NED for cli/'ios-id:cisco-ios'
+<ERR> 6-Aug-2015::23:22:43.065 FYANG2-M-L01D ncs[2875]: - The NCS Java VM Restarting NED for generic/'cisco-apicdc:cisco-apicdc-id'
+<ERR> 6-Aug-2015::23:22:43.065 FYANG2-M-L01D ncs[2875]: - The NCS Java VM Restarting NED for cli/'cisco-ios-xr-id:cisco-ios-xr'
+<ERR> 6-Aug-2015::23:22:43.065 FYANG2-M-L01D ncs[2875]: - The NCS Java VM Restarting NED for generic/'odl:odl-id'
+<CRIT> 6-Aug-2015::23:28:28.563 FYANG2-M-L01D ncs[2875]: - Daemon ncs-dp-1-qos:RFSSkeleton died
+<INFO> 6-Aug-2015::23:28:28.564 FYANG2-M-L01D ncs[2875]: - The NCS Java VM terminated
+<CRIT> 6-Aug-2015::23:29:33.084 FYANG2-M-L01D ncs[2875]: - Daemon ncs-dp-1-qos:RFSSkeleton died
+<INFO> 6-Aug-2015::23:29:33.084 FYANG2-M-L01D ncs[2875]: - The NCS Java VM terminated
+<CRIT> 6-Aug-2015::23:34:10.204 FYANG2-M-L01D ncs[2875]: - Daemon ncs-dp-1-qos:RFSSkeleton died
+<INFO> 6-Aug-2015::23:34:10.205 FYANG2-M-L01D ncs[2875]: - The NCS Java VM terminated
+<CRIT> 6-Aug-2015::23:35:08.431 FYANG2-M-L01D ncs[2875]: - Daemon ncs-dp-1-qos:RFSSkeleton died
+<INFO> 6-Aug-2015::23:35:08.431 FYANG2-M-L01D ncs[2875]: - The NCS Java VM terminated
+<CRIT> 6-Aug-2015::23:46:26.613 FYANG2-M-L01D ncs[2875]: - Daemon ncs-dp-1-qos:RFSSkeleton died
+<INFO> 6-Aug-2015::23:46:26.613 FYANG2-M-L01D ncs[2875]: - The NCS Java VM terminated
+<DEBUG> 13-Aug-2015::15:35:28.100 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-webui.fxs
+<DEBUG> 13-Aug-2015::15:35:28.103 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/IANA-ITU-ALARM-TC-MIB.fxs
+<DEBUG> 13-Aug-2015::15:35:28.103 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/ITU-ALARM-TC-MIB.fxs
+<DEBUG> 13-Aug-2015::15:35:28.103 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-ALARM-TC-MIB.fxs
+<DEBUG> 13-Aug-2015::15:35:28.104 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-FRAMEWORK-MIB.fxs
+<DEBUG> 13-Aug-2015::15:35:28.104 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/iana-crypt-hash.fxs
+<DEBUG> 13-Aug-2015::15:35:28.104 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/ietf-inet-types.fxs
+<DEBUG> 13-Aug-2015::15:35:28.105 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/ietf-yang-types.fxs
+<DEBUG> 13-Aug-2015::15:35:28.105 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs-ned.fxs
+<DEBUG> 13-Aug-2015::15:35:28.106 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/ietf-netconf-monitoring.fxs
+<DEBUG> 13-Aug-2015::15:35:28.107 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-common-monitoring.fxs
+<DEBUG> 13-Aug-2015::15:35:28.107 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/ietf-netconf-acm.fxs
+<DEBUG> 13-Aug-2015::15:35:28.108 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMPv2-TC.fxs
+<DEBUG> 13-Aug-2015::15:35:28.108 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs.fxs
+<DEBUG> 13-Aug-2015::15:35:28.119 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-USER-BASED-SM-MIB.fxs
+<DEBUG> 13-Aug-2015::15:35:28.120 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-TARGET-MIB.fxs
+<DEBUG> 13-Aug-2015::15:35:28.121 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-ios/load-dir/tailf-ned-cisco-ios-stats.fxs
+<DEBUG> 13-Aug-2015::15:35:28.121 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-ios/load-dir/tailf-ned-cisco-ios-id.fxs
+<DEBUG> 13-Aug-2015::15:35:28.122 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-ios/load-dir/tailf-ned-cisco-ios.fxs
+<DEBUG> 13-Aug-2015::15:35:28.324 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/ietf-yang-smiv2.fxs
+<DEBUG> 13-Aug-2015::15:35:28.325 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs-netmod-netconf.fxs
+<DEBUG> 13-Aug-2015::15:35:28.325 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/snmp.fxs
+<DEBUG> 13-Aug-2015::15:35:28.328 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/encryption-usm.fxs
+<DEBUG> 13-Aug-2015::15:35:28.329 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-netconf-monitoring.fxs
+<DEBUG> 13-Aug-2015::15:35:28.329 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs-monitoring.fxs
+<DEBUG> 13-Aug-2015::15:35:28.332 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-configuration-policy.fxs
+<DEBUG> 13-Aug-2015::15:35:28.333 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-acm.fxs
+<DEBUG> 13-Aug-2015::15:35:28.333 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs-webui.fxs
+<DEBUG> 13-Aug-2015::15:35:28.334 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/tailf-ncs-snmp.fxs
+<DEBUG> 13-Aug-2015::15:35:28.335 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs-event-forwarding.fxs
+<DEBUG> 13-Aug-2015::15:35:28.336 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs-alarms.fxs
+<DEBUG> 13-Aug-2015::15:35:28.340 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TRANSPORT-ADDRESS-MIB.fxs
+<DEBUG> 13-Aug-2015::15:35:28.340 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-TOP-MIB.fxs
+<DEBUG> 13-Aug-2015::15:35:28.340 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-ALARM-MIB.fxs
+<DEBUG> 13-Aug-2015::15:35:28.341 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMPv2-SMI.fxs
+<DEBUG> 13-Aug-2015::15:35:28.341 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMPv2-MIB.fxs
+<DEBUG> 13-Aug-2015::15:35:28.342 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-VIEW-BASED-ACM-MIB.fxs
+<DEBUG> 13-Aug-2015::15:35:28.343 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-NOTIFICATION-MIB.fxs
+<DEBUG> 13-Aug-2015::15:35:28.343 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-MPD-MIB.fxs
+<DEBUG> 13-Aug-2015::15:35:28.344 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-COMMUNITY-MIB.fxs
+<DEBUG> 13-Aug-2015::15:35:28.344 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/IPV6-TC.fxs
+<DEBUG> 13-Aug-2015::15:35:28.344 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-aaa.fxs
+<DEBUG> 13-Aug-2015::15:35:28.345 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/odl/load-dir/odl.fxs
+<DEBUG> 13-Aug-2015::15:35:28.348 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-xr/load-dir/tailf-ned-cisco-ios-xr-id.fxs
+<DEBUG> 13-Aug-2015::15:35:28.348 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-xr/load-dir/tailf-ned-cisco-ios-xr.fxs
+<DEBUG> 13-Aug-2015::15:35:28.662 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-apicdc/load-dir/tailf-ned-cisco-apicdc-stats.fxs
+<DEBUG> 13-Aug-2015::15:35:28.662 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-apicdc/load-dir/tailf-ned-cisco-apicdc.fxs
+<DEBUG> 13-Aug-2015::15:35:28.671 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/odl/load-dir/odl-stats.fxs
+<DEBUG> 13-Aug-2015::15:35:28.672 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/load-dir/qos.fxs
+<DEBUG> 13-Aug-2015::15:35:28.674 FYANG2-M-L01D ncs[35350]: - Skipping file ./state/packages-in-use/1/qos/load-dir/tailf-ned-cisco-apicdc.fxs: namespace already loaded
+<DEBUG> 13-Aug-2015::15:35:28.981 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/ncs.ccl
+<DEBUG> 13-Aug-2015::15:35:28.991 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<INFO> 13-Aug-2015::15:35:29.019 FYANG2-M-L01D ncs[35350]: - Starting to listen for Internal IPC on 127.0.0.1:4569
+<DEBUG> 13-Aug-2015::15:35:29.213 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::15:35:29.261 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<INFO> 13-Aug-2015::15:35:29.272 FYANG2-M-L01D ncs[35350]: - Starting the NCS Java VM
+<DEBUG> 13-Aug-2015::15:35:29.308 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::15:35:29.346 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<NOTICE> 13-Aug-2015::15:35:29.383 FYANG2-M-L01D ncs[35350]: - The notification replay store log ''ncs-events'' is being repaired...
+<NOTICE> 13-Aug-2015::15:35:29.391 FYANG2-M-L01D ncs[35350]: - The notification replay store log ''device-notifications'' is being repaired...
+<DEBUG> 13-Aug-2015::15:35:29.419 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<INFO> 13-Aug-2015::15:35:29.424 FYANG2-M-L01D ncs[35350]: - Starting to listen for NETCONF SSH on 0.0.0.0:2022
+<INFO> 13-Aug-2015::15:35:29.521 FYANG2-M-L01D ncs[35350]: - Starting to listen for CLI SSH on 0.0.0.0:2024
+<INFO> 13-Aug-2015::15:35:29.613 FYANG2-M-L01D ncs[35350]: - Starting to listen for WebUI TCP on 0.0.0.0:8080
+<DEBUG> 13-Aug-2015::15:35:29.780 FYANG2-M-L01D ncs[35350]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMPv2-MIB
+<DEBUG> 13-Aug-2015::15:35:29.780 FYANG2-M-L01D ncs[35350]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-FRAMEWORK-MIB
+<DEBUG> 13-Aug-2015::15:35:29.780 FYANG2-M-L01D ncs[35350]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-MPD-MIB
+<INFO> 13-Aug-2015::15:35:29.866 FYANG2-M-L01D ncs[35350]: - Starting to listen for SNMP UDP on 0.0.0.0:4000
+<DEBUG> 13-Aug-2015::15:35:29.887 FYANG2-M-L01D ncs[35350]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/IANA-ITU-ALARM-TC-MIB.bin
+<DEBUG> 13-Aug-2015::15:35:29.888 FYANG2-M-L01D ncs[35350]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/ITU-ALARM-TC-MIB.bin
+<DEBUG> 13-Aug-2015::15:35:29.893 FYANG2-M-L01D ncs[35350]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-ALARM-MIB.bin
+<DEBUG> 13-Aug-2015::15:35:29.894 FYANG2-M-L01D ncs[35350]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-ALARM-TC-MIB.bin
+<DEBUG> 13-Aug-2015::15:35:29.894 FYANG2-M-L01D ncs[35350]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-TOP-MIB.bin
+<DEBUG> 13-Aug-2015::15:35:29.895 FYANG2-M-L01D ncs[35350]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-COMMUNITY-MIB.bin
+<DEBUG> 13-Aug-2015::15:35:29.896 FYANG2-M-L01D ncs[35350]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-TARGET-MIB.bin
+<DEBUG> 13-Aug-2015::15:35:29.897 FYANG2-M-L01D ncs[35350]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-NOTIFICATION-MIB.bin
+<DEBUG> 13-Aug-2015::15:35:29.898 FYANG2-M-L01D ncs[35350]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-USER-BASED-SM-MIB.bin
+<DEBUG> 13-Aug-2015::15:35:29.899 FYANG2-M-L01D ncs[35350]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-VIEW-BASED-ACM-MIB.bin
+<INFO> 13-Aug-2015::15:35:31.084 FYANG2-M-L01D ncs[35350]: - NCS started vsn: 3.4.1
+<DEBUG> 13-Aug-2015::15:36:19.040 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:36:19.041 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:36:19.043 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:36:19.045 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:36:19.047 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-apicdc/package-meta-data.xml
+<INFO> 13-Aug-2015::15:36:19.061 FYANG2-M-L01D ncs[35350]: - Upgrade init started
+<INFO> 13-Aug-2015::15:36:19.061 FYANG2-M-L01D ncs[35350]: - Upgrade init succeeded
+<DEBUG> 13-Aug-2015::15:36:19.064 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/qos to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::15:36:19.142 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/odl to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::15:36:19.230 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-xr to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::15:36:19.290 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-ios to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::15:36:19.372 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-apicdc to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::15:36:19.485 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:36:19.486 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:36:19.487 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:36:19.488 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:36:19.490 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:36:19.498 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-webui.fxs
+<DEBUG> 13-Aug-2015::15:36:19.499 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/IANA-ITU-ALARM-TC-MIB.fxs
+<DEBUG> 13-Aug-2015::15:36:19.499 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/ITU-ALARM-TC-MIB.fxs
+<DEBUG> 13-Aug-2015::15:36:19.499 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-ALARM-TC-MIB.fxs
+<DEBUG> 13-Aug-2015::15:36:19.500 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-FRAMEWORK-MIB.fxs
+<DEBUG> 13-Aug-2015::15:36:19.500 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/iana-crypt-hash.fxs
+<DEBUG> 13-Aug-2015::15:36:19.500 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/ietf-inet-types.fxs
+<DEBUG> 13-Aug-2015::15:36:19.501 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/ietf-yang-types.fxs
+<DEBUG> 13-Aug-2015::15:36:19.501 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs-ned.fxs
+<DEBUG> 13-Aug-2015::15:36:19.502 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/ietf-netconf-monitoring.fxs
+<DEBUG> 13-Aug-2015::15:36:19.502 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-common-monitoring.fxs
+<DEBUG> 13-Aug-2015::15:36:19.503 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/ietf-netconf-acm.fxs
+<DEBUG> 13-Aug-2015::15:36:19.503 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMPv2-TC.fxs
+<DEBUG> 13-Aug-2015::15:36:19.504 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs.fxs
+<DEBUG> 13-Aug-2015::15:36:19.514 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-USER-BASED-SM-MIB.fxs
+<DEBUG> 13-Aug-2015::15:36:19.515 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-TARGET-MIB.fxs
+<DEBUG> 13-Aug-2015::15:36:19.516 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-ios/load-dir/tailf-ned-cisco-ios-stats.fxs
+<DEBUG> 13-Aug-2015::15:36:19.516 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-ios/load-dir/tailf-ned-cisco-ios-id.fxs
+<DEBUG> 13-Aug-2015::15:36:19.516 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-ios/load-dir/tailf-ned-cisco-ios.fxs
+<DEBUG> 13-Aug-2015::15:36:19.713 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/ietf-yang-smiv2.fxs
+<DEBUG> 13-Aug-2015::15:36:19.714 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs-netmod-netconf.fxs
+<DEBUG> 13-Aug-2015::15:36:19.714 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/snmp.fxs
+<DEBUG> 13-Aug-2015::15:36:19.716 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/encryption-usm.fxs
+<DEBUG> 13-Aug-2015::15:36:19.716 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-netconf-monitoring.fxs
+<DEBUG> 13-Aug-2015::15:36:19.717 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs-monitoring.fxs
+<DEBUG> 13-Aug-2015::15:36:19.719 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-configuration-policy.fxs
+<DEBUG> 13-Aug-2015::15:36:19.719 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-acm.fxs
+<DEBUG> 13-Aug-2015::15:36:19.720 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs-webui.fxs
+<DEBUG> 13-Aug-2015::15:36:19.721 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/tailf-ncs-snmp.fxs
+<DEBUG> 13-Aug-2015::15:36:19.721 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs-event-forwarding.fxs
+<DEBUG> 13-Aug-2015::15:36:19.722 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs-alarms.fxs
+<DEBUG> 13-Aug-2015::15:36:19.724 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TRANSPORT-ADDRESS-MIB.fxs
+<DEBUG> 13-Aug-2015::15:36:19.724 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-TOP-MIB.fxs
+<DEBUG> 13-Aug-2015::15:36:19.724 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-ALARM-MIB.fxs
+<DEBUG> 13-Aug-2015::15:36:19.725 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMPv2-SMI.fxs
+<DEBUG> 13-Aug-2015::15:36:19.725 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMPv2-MIB.fxs
+<DEBUG> 13-Aug-2015::15:36:19.726 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-VIEW-BASED-ACM-MIB.fxs
+<DEBUG> 13-Aug-2015::15:36:19.727 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-NOTIFICATION-MIB.fxs
+<DEBUG> 13-Aug-2015::15:36:19.727 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-MPD-MIB.fxs
+<DEBUG> 13-Aug-2015::15:36:19.727 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-COMMUNITY-MIB.fxs
+<DEBUG> 13-Aug-2015::15:36:19.728 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/IPV6-TC.fxs
+<DEBUG> 13-Aug-2015::15:36:19.728 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-aaa.fxs
+<DEBUG> 13-Aug-2015::15:36:19.729 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/odl/load-dir/odl.fxs
+<DEBUG> 13-Aug-2015::15:36:19.731 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-xr/load-dir/tailf-ned-cisco-ios-xr-id.fxs
+<DEBUG> 13-Aug-2015::15:36:19.731 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-xr/load-dir/tailf-ned-cisco-ios-xr.fxs
+<DEBUG> 13-Aug-2015::15:36:20.024 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-apicdc/load-dir/tailf-ned-cisco-apicdc-stats.fxs
+<DEBUG> 13-Aug-2015::15:36:20.025 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-apicdc/load-dir/tailf-ned-cisco-apicdc.fxs
+<DEBUG> 13-Aug-2015::15:36:20.030 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/odl/load-dir/odl-stats.fxs
+<DEBUG> 13-Aug-2015::15:36:20.031 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/load-dir/qos.fxs
+<DEBUG> 13-Aug-2015::15:36:20.032 FYANG2-M-L01D ncs[35350]: - Skipping file ./state/packages-in-use/1/qos/load-dir/tailf-ned-cisco-apicdc.fxs: namespace already loaded
+<DEBUG> 13-Aug-2015::15:36:20.343 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/ncs.ccl
+<DEBUG> 13-Aug-2015::15:36:20.344 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<DEBUG> 13-Aug-2015::15:36:20.387 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::15:36:20.428 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 13-Aug-2015::15:36:20.468 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::15:36:20.511 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<DEBUG> 13-Aug-2015::15:36:20.870 FYANG2-M-L01D ncs[35350]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-TOP-MIB.bin
+<DEBUG> 13-Aug-2015::15:36:20.870 FYANG2-M-L01D ncs[35350]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-ALARM-TC-MIB.bin
+<DEBUG> 13-Aug-2015::15:36:20.871 FYANG2-M-L01D ncs[35350]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-ALARM-MIB.bin
+<DEBUG> 13-Aug-2015::15:36:20.871 FYANG2-M-L01D ncs[35350]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/ITU-ALARM-TC-MIB.bin
+<DEBUG> 13-Aug-2015::15:36:20.872 FYANG2-M-L01D ncs[35350]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/IANA-ITU-ALARM-TC-MIB.bin
+<DEBUG> 13-Aug-2015::15:36:20.882 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<INFO> 13-Aug-2015::15:36:20.882 FYANG2-M-L01D ncs[35350]: - Upgrade performed
+<INFO> 13-Aug-2015::15:36:20.885 FYANG2-M-L01D ncs[35350]: - CDB load: processing file: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/snmp_init.xml
+<INFO> 13-Aug-2015::15:36:21.807 FYANG2-M-L01D ncs[35350]: - Upgrade committed
+<CRIT> 13-Aug-2015::15:36:21.808 FYANG2-M-L01D ncs[35350]: - Daemon ncs-dp-1-qos:RFSSkeleton died
+<DEBUG> 13-Aug-2015::15:44:06.625 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:44:06.626 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:44:06.628 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:44:06.629 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:44:06.630 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:44:06.636 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/qos to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::15:44:06.661 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/odl to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::15:44:06.694 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-xr to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::15:44:06.724 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-ios to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::15:44:06.751 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-apicdc to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::15:44:06.792 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:44:06.793 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:44:06.795 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:44:06.797 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:44:06.798 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:44:06.800 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<DEBUG> 13-Aug-2015::15:44:06.862 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::15:44:06.913 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 13-Aug-2015::15:44:06.963 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::15:44:07.013 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<DEBUG> 13-Aug-2015::15:44:07.364 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<CRIT> 13-Aug-2015::15:44:07.370 FYANG2-M-L01D ncs[35350]: - Daemon ncs-dp-2-qos:RFSSkeleton died
+<DEBUG> 13-Aug-2015::15:49:45.359 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:49:45.360 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:49:45.361 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:49:45.362 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:49:45.363 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:49:45.368 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/qos to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::15:49:45.393 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/odl to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::15:49:45.427 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-xr to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::15:49:45.452 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-ios to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::15:49:45.484 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-apicdc to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::15:49:45.527 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:49:45.529 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:49:45.531 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:49:45.533 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:49:45.534 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:49:45.536 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<DEBUG> 13-Aug-2015::15:49:45.590 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::15:49:45.641 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 13-Aug-2015::15:49:45.695 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::15:49:45.744 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<DEBUG> 13-Aug-2015::15:49:46.098 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<CRIT> 13-Aug-2015::15:49:46.104 FYANG2-M-L01D ncs[35350]: - Daemon ncs-dp-3-qos:RFSSkeleton died
+<DEBUG> 13-Aug-2015::15:50:22.407 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:50:22.408 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:50:22.410 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:50:22.411 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:50:22.412 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:50:22.417 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/qos to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::15:50:22.442 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/odl to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::15:50:22.475 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-xr to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::15:50:22.502 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-ios to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::15:50:22.527 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-apicdc to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::15:50:22.570 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:50:22.571 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:50:22.573 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:50:22.574 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:50:22.576 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:50:22.578 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<DEBUG> 13-Aug-2015::15:50:22.628 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::15:50:22.676 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 13-Aug-2015::15:50:22.727 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::15:50:22.776 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<DEBUG> 13-Aug-2015::15:50:23.200 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<CRIT> 13-Aug-2015::15:50:23.207 FYANG2-M-L01D ncs[35350]: - Daemon ncs-dp-4-qos:RFSSkeleton died
+<DEBUG> 13-Aug-2015::15:51:26.065 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:51:26.066 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:51:26.067 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:51:26.069 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:51:26.070 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:51:26.075 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/qos to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::15:51:26.100 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/odl to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::15:51:26.134 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-xr to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::15:51:26.159 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-ios to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::15:51:26.186 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-apicdc to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::15:51:26.226 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:51:26.227 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:51:26.228 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:51:26.230 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:51:26.231 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::15:51:26.233 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<DEBUG> 13-Aug-2015::15:51:26.285 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::15:51:26.334 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 13-Aug-2015::15:51:26.382 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::15:51:26.432 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<DEBUG> 13-Aug-2015::15:51:26.776 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<CRIT> 13-Aug-2015::15:51:26.783 FYANG2-M-L01D ncs[35350]: - Daemon ncs-dp-5-qos:RFSSkeleton died
+<DEBUG> 13-Aug-2015::16:06:01.831 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:06:01.832 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:06:01.833 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:06:01.834 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:06:01.835 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:06:01.841 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/qos to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:06:01.865 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/odl to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:06:01.898 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-xr to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:06:01.927 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-ios to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:06:01.960 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-apicdc to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:06:02.003 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:06:02.004 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:06:02.005 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:06:02.006 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:06:02.007 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:06:02.009 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<DEBUG> 13-Aug-2015::16:06:02.062 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::16:06:02.112 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 13-Aug-2015::16:06:02.161 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::16:06:02.210 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<DEBUG> 13-Aug-2015::16:06:02.558 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<CRIT> 13-Aug-2015::16:06:02.565 FYANG2-M-L01D ncs[35350]: - Daemon ncs-dp-6-qos:RFSSkeleton died
+<DEBUG> 13-Aug-2015::16:08:17.504 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:08:17.505 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:08:17.506 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:08:17.507 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:08:17.508 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:08:17.514 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/qos to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:08:17.537 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/odl to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:08:17.574 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-xr to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:08:17.601 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-ios to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:08:17.637 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-apicdc to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:08:17.679 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:08:17.681 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:08:17.683 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:08:17.685 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:08:17.687 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:08:17.689 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<DEBUG> 13-Aug-2015::16:08:17.740 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::16:08:17.790 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 13-Aug-2015::16:08:17.839 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::16:08:17.887 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<DEBUG> 13-Aug-2015::16:08:18.225 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<CRIT> 13-Aug-2015::16:08:18.231 FYANG2-M-L01D ncs[35350]: - Daemon ncs-dp-7-qos:RFSSkeleton died
+<DEBUG> 13-Aug-2015::16:11:19.397 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:11:19.398 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:11:19.399 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:11:19.400 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:11:19.401 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:11:19.406 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/qos to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:11:19.430 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/odl to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:11:19.464 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-xr to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:11:19.491 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-ios to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:11:19.517 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-apicdc to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:11:19.558 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:11:19.559 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:11:19.561 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:11:19.562 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:11:19.563 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:11:19.565 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<DEBUG> 13-Aug-2015::16:11:19.621 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::16:11:19.675 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 13-Aug-2015::16:11:19.724 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::16:11:19.774 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<DEBUG> 13-Aug-2015::16:11:20.140 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<CRIT> 13-Aug-2015::16:11:20.147 FYANG2-M-L01D ncs[35350]: - Daemon ncs-dp-8-qos:RFSSkeleton died
+<DEBUG> 13-Aug-2015::16:14:21.150 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:14:21.151 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:14:21.153 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:14:21.154 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:14:21.155 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:14:21.160 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/qos to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:14:21.184 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/odl to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:14:21.219 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-xr to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:14:21.247 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-ios to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:14:21.281 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-apicdc to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:14:21.327 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:14:21.328 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:14:21.330 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:14:21.332 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:14:21.334 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:14:21.336 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<DEBUG> 13-Aug-2015::16:14:21.385 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::16:14:21.434 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 13-Aug-2015::16:14:21.485 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::16:14:21.538 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<DEBUG> 13-Aug-2015::16:14:21.887 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<CRIT> 13-Aug-2015::16:14:21.893 FYANG2-M-L01D ncs[35350]: - Daemon ncs-dp-9-qos:RFSSkeleton died
+<DEBUG> 13-Aug-2015::16:24:04.729 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:24:04.730 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:24:04.731 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:24:04.733 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:24:04.734 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:24:04.739 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/qos to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:24:04.763 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/odl to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:24:04.797 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-xr to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:24:04.825 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-ios to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:24:04.859 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-apicdc to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:24:04.900 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:24:04.902 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:24:04.904 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:24:04.905 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:24:04.906 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:24:04.908 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<DEBUG> 13-Aug-2015::16:24:04.960 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::16:24:05.010 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 13-Aug-2015::16:24:05.059 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::16:24:05.109 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<DEBUG> 13-Aug-2015::16:24:05.492 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<CRIT> 13-Aug-2015::16:24:05.498 FYANG2-M-L01D ncs[35350]: - Daemon ncs-dp-10-qos:RFSSkeleton died
+<DEBUG> 13-Aug-2015::16:25:56.954 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:25:56.955 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:25:56.957 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:25:56.958 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:25:56.959 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:25:56.964 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/qos to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:25:56.988 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/odl to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:25:57.021 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-xr to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:25:57.048 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-ios to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:25:57.081 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-apicdc to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:25:57.130 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:25:57.131 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:25:57.132 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:25:57.133 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:25:57.134 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:25:57.136 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<DEBUG> 13-Aug-2015::16:25:57.191 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::16:25:57.241 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 13-Aug-2015::16:25:57.289 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::16:25:57.339 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<DEBUG> 13-Aug-2015::16:25:57.682 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<CRIT> 13-Aug-2015::16:25:57.689 FYANG2-M-L01D ncs[35350]: - Daemon ncs-dp-11-qos:RFSSkeleton died
+<DEBUG> 13-Aug-2015::16:29:48.342 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:29:48.344 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:29:48.345 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:29:48.346 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:29:48.348 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:29:48.353 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/qos to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:29:48.379 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/odl to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:29:48.412 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-xr to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:29:48.442 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-ios to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:29:48.477 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-apicdc to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:29:48.528 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:29:48.530 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:29:48.531 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:29:48.533 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:29:48.534 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:29:48.536 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<DEBUG> 13-Aug-2015::16:29:48.597 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::16:29:48.656 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 13-Aug-2015::16:29:48.711 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::16:29:48.761 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<DEBUG> 13-Aug-2015::16:29:49.133 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<CRIT> 13-Aug-2015::16:29:49.139 FYANG2-M-L01D ncs[35350]: - Daemon ncs-dp-12-qos:RFSSkeleton died
+<DEBUG> 13-Aug-2015::16:31:24.064 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:31:24.066 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:31:24.067 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:31:24.069 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:31:24.070 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:31:24.076 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/qos to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:31:24.100 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/odl to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:31:24.134 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-xr to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:31:24.160 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-ios to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:31:24.192 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-apicdc to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::16:31:24.234 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:31:24.235 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:31:24.238 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:31:24.240 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:31:24.241 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::16:31:24.243 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<DEBUG> 13-Aug-2015::16:31:24.297 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::16:31:24.347 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 13-Aug-2015::16:31:24.398 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::16:31:24.448 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<DEBUG> 13-Aug-2015::16:31:24.790 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<CRIT> 13-Aug-2015::16:31:24.796 FYANG2-M-L01D ncs[35350]: - Daemon ncs-dp-13-qos:RFSSkeleton died
+<DEBUG> 13-Aug-2015::17:09:03.604 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:09:03.606 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:09:03.607 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:09:03.608 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:09:03.609 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:09:03.614 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/qos to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:09:03.639 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/odl to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:09:03.673 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-xr to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:09:03.709 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-ios to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:09:03.738 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-apicdc to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:09:03.786 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:09:03.787 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:09:03.788 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:09:03.789 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:09:03.790 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:09:03.792 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<DEBUG> 13-Aug-2015::17:09:03.841 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::17:09:03.891 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 13-Aug-2015::17:09:03.943 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::17:09:03.994 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<DEBUG> 13-Aug-2015::17:09:04.341 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<CRIT> 13-Aug-2015::17:09:04.348 FYANG2-M-L01D ncs[35350]: - Daemon ncs-dp-14-qos:RFSSkeleton died
+<DEBUG> 13-Aug-2015::17:18:10.998 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:18:10.999 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:18:11.000 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:18:11.002 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:18:11.003 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:18:11.009 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/qos to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:18:11.032 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/odl to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:18:11.066 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-xr to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:18:11.096 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-ios to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:18:11.135 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-apicdc to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:18:11.179 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:18:11.180 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:18:11.181 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:18:11.183 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:18:11.184 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:18:11.185 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<DEBUG> 13-Aug-2015::17:18:11.236 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::17:18:11.286 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 13-Aug-2015::17:18:11.336 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::17:18:11.386 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<DEBUG> 13-Aug-2015::17:18:11.731 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<CRIT> 13-Aug-2015::17:18:11.738 FYANG2-M-L01D ncs[35350]: - Daemon ncs-dp-15-qos:RFSSkeleton died
+<DEBUG> 13-Aug-2015::17:18:49.407 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:18:49.409 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:18:49.411 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:18:49.412 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:18:49.413 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:18:49.418 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/qos to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:18:49.442 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/odl to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:18:49.476 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-xr to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:18:49.505 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-ios to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:18:49.531 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-apicdc to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:18:49.575 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:18:49.576 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:18:49.577 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:18:49.578 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:18:49.580 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:18:49.581 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<DEBUG> 13-Aug-2015::17:18:49.633 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::17:18:49.682 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 13-Aug-2015::17:18:49.731 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::17:18:49.780 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<DEBUG> 13-Aug-2015::17:18:50.118 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<CRIT> 13-Aug-2015::17:18:50.124 FYANG2-M-L01D ncs[35350]: - Daemon ncs-dp-16-qos:RFSSkeleton died
+<DEBUG> 13-Aug-2015::17:19:32.959 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:19:32.961 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:19:32.962 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:19:32.964 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:19:32.965 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:19:32.970 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/qos to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:19:32.993 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/odl to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:19:33.029 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-xr to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:19:33.056 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-ios to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:19:33.081 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-apicdc to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:19:33.124 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:19:33.125 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:19:33.126 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:19:33.127 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:19:33.128 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:19:33.130 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<DEBUG> 13-Aug-2015::17:19:33.181 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::17:19:33.230 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 13-Aug-2015::17:19:33.283 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::17:19:33.332 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<DEBUG> 13-Aug-2015::17:19:33.664 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<CRIT> 13-Aug-2015::17:19:33.671 FYANG2-M-L01D ncs[35350]: - Daemon ncs-dp-17-qos:RFSSkeleton died
+<DEBUG> 13-Aug-2015::17:20:20.215 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:20:20.216 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:20:20.218 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:20:20.219 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:20:20.220 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:20:20.225 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/qos to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:20:20.250 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/odl to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:20:20.284 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-xr to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:20:20.311 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-ios to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:20:20.340 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-apicdc to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:20:20.384 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:20:20.385 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:20:20.386 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:20:20.388 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:20:20.389 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:20:20.391 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<DEBUG> 13-Aug-2015::17:20:20.440 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::17:20:20.489 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 13-Aug-2015::17:20:20.540 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::17:20:20.589 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<DEBUG> 13-Aug-2015::17:20:20.930 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<CRIT> 13-Aug-2015::17:20:20.937 FYANG2-M-L01D ncs[35350]: - Daemon ncs-dp-18-qos:RFSSkeleton died
+<DEBUG> 13-Aug-2015::17:21:05.161 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:21:05.162 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:21:05.164 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:21:05.165 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:21:05.166 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:21:05.172 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/qos to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:21:05.196 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/odl to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:21:05.230 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-xr to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:21:05.257 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-ios to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:21:05.282 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-apicdc to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:21:05.327 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:21:05.328 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:21:05.330 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:21:05.331 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:21:05.332 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:21:05.333 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<DEBUG> 13-Aug-2015::17:21:05.384 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::17:21:05.435 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 13-Aug-2015::17:21:05.485 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::17:21:05.534 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<DEBUG> 13-Aug-2015::17:21:05.903 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<CRIT> 13-Aug-2015::17:21:05.910 FYANG2-M-L01D ncs[35350]: - Daemon ncs-dp-19-qos:RFSSkeleton died
+<DEBUG> 13-Aug-2015::17:22:16.106 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:22:16.107 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:22:16.108 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:22:16.110 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:22:16.111 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:22:16.116 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/qos to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:22:16.141 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/odl to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:22:16.175 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-xr to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:22:16.202 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-ios to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:22:16.228 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-apicdc to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:22:16.274 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:22:16.275 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:22:16.277 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:22:16.278 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:22:16.279 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:22:16.280 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<DEBUG> 13-Aug-2015::17:22:16.332 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::17:22:16.382 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 13-Aug-2015::17:22:16.432 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::17:22:16.483 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<DEBUG> 13-Aug-2015::17:22:16.842 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<CRIT> 13-Aug-2015::17:22:16.849 FYANG2-M-L01D ncs[35350]: - Daemon ncs-dp-20-qos:RFSSkeleton died
+<DEBUG> 13-Aug-2015::17:30:11.401 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:30:11.402 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:30:11.404 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:30:11.405 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:30:11.406 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:30:11.412 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/qos to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:30:11.436 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/odl to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:30:11.470 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-xr to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:30:11.495 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-ios to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:30:11.530 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-apicdc to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:30:11.575 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:30:11.576 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:30:11.577 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:30:11.579 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:30:11.580 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:30:11.581 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<DEBUG> 13-Aug-2015::17:30:11.635 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::17:30:11.685 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 13-Aug-2015::17:30:11.739 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::17:30:11.788 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<DEBUG> 13-Aug-2015::17:30:12.167 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<CRIT> 13-Aug-2015::17:30:12.174 FYANG2-M-L01D ncs[35350]: - Daemon ncs-dp-21-qos:RFSSkeleton died
+<DEBUG> 13-Aug-2015::17:32:05.067 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:32:05.068 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:32:05.069 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:32:05.071 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:32:05.072 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:32:05.077 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/qos to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:32:05.100 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/odl to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:32:05.135 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-xr to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:32:05.163 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-ios to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:32:05.204 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-apicdc to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:32:05.249 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:32:05.250 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:32:05.252 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:32:05.254 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:32:05.255 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:32:05.256 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<DEBUG> 13-Aug-2015::17:32:05.308 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::17:32:05.357 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 13-Aug-2015::17:32:05.407 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::17:32:05.457 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<DEBUG> 13-Aug-2015::17:32:05.805 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<CRIT> 13-Aug-2015::17:32:05.812 FYANG2-M-L01D ncs[35350]: - Daemon ncs-dp-22-qos:RFSSkeleton died
+<DEBUG> 13-Aug-2015::17:47:43.180 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:47:43.181 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:47:43.182 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:47:43.183 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:47:43.185 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:47:43.190 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/qos to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:47:43.215 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/odl to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:47:43.249 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-xr to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:47:43.278 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-ios to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:47:43.309 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-apicdc to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:47:43.353 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:47:43.354 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:47:43.355 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:47:43.357 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:47:43.358 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:47:43.359 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<DEBUG> 13-Aug-2015::17:47:43.415 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::17:47:43.465 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 13-Aug-2015::17:47:43.515 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::17:47:43.570 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<DEBUG> 13-Aug-2015::17:47:43.949 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<CRIT> 13-Aug-2015::17:47:43.955 FYANG2-M-L01D ncs[35350]: - Daemon ncs-dp-23-qos:RFSSkeleton died
+<DEBUG> 13-Aug-2015::17:51:06.670 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:51:06.671 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:51:06.672 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:51:06.673 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:51:06.675 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:51:06.680 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/qos to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:51:06.703 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/odl to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:51:06.738 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-xr to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:51:06.763 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-ios to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:51:06.795 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-apicdc to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:51:06.839 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:51:06.841 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:51:06.842 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:51:06.844 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:51:06.846 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:51:06.848 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<DEBUG> 13-Aug-2015::17:51:06.899 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::17:51:06.949 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 13-Aug-2015::17:51:06.999 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::17:51:07.048 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<DEBUG> 13-Aug-2015::17:51:07.389 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<CRIT> 13-Aug-2015::17:51:07.396 FYANG2-M-L01D ncs[35350]: - Daemon ncs-dp-24-qos:RFSSkeleton died
+<DEBUG> 13-Aug-2015::17:52:03.638 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:52:03.639 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:52:03.641 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:52:03.642 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:52:03.643 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:52:03.648 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/qos to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:52:03.672 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/odl to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:52:03.706 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-xr to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:52:03.734 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-ios to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:52:03.763 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-apicdc to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::17:52:03.805 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:52:03.806 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:52:03.808 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:52:03.809 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:52:03.811 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::17:52:03.813 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<DEBUG> 13-Aug-2015::17:52:03.864 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::17:52:03.914 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 13-Aug-2015::17:52:03.967 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::17:52:04.017 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<DEBUG> 13-Aug-2015::17:52:04.367 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<CRIT> 13-Aug-2015::17:52:04.373 FYANG2-M-L01D ncs[35350]: - Daemon ncs-dp-25-qos:RFSSkeleton died
+<DEBUG> 13-Aug-2015::21:14:28.794 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::21:14:28.795 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::21:14:28.797 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::21:14:28.798 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::21:14:28.800 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::21:14:28.806 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/qos to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::21:14:28.831 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/odl to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::21:14:28.867 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-xr to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::21:14:28.895 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-ios to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::21:14:28.932 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-apicdc to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::21:14:28.973 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::21:14:28.974 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::21:14:28.976 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::21:14:28.978 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::21:14:28.980 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::21:14:28.981 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<DEBUG> 13-Aug-2015::21:14:29.036 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::21:14:29.085 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 13-Aug-2015::21:14:29.134 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::21:14:29.183 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<DEBUG> 13-Aug-2015::21:14:29.556 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<CRIT> 13-Aug-2015::21:14:29.563 FYANG2-M-L01D ncs[35350]: - Daemon ncs-dp-26-qos:RFSSkeleton died
+<DEBUG> 13-Aug-2015::21:31:30.960 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::21:31:30.961 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::21:31:30.962 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::21:31:30.963 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::21:31:30.964 FYANG2-M-L01D ncs[35350]: - Loading file ./packages/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::21:31:30.969 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/qos to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::21:31:30.994 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/odl to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::21:31:31.030 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-xr to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::21:31:31.058 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-ios to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::21:31:31.092 FYANG2-M-L01D ncs[35350]: - Copying NCS package from ./packages/cisco-apicdc to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::21:31:31.137 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::21:31:31.138 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::21:31:31.139 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::21:31:31.141 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::21:31:31.143 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::21:31:31.144 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<DEBUG> 13-Aug-2015::21:31:31.196 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::21:31:31.246 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 13-Aug-2015::21:31:31.296 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::21:31:31.345 FYANG2-M-L01D ncs[35350]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<DEBUG> 13-Aug-2015::21:31:31.684 FYANG2-M-L01D ncs[35350]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<CRIT> 13-Aug-2015::21:31:31.691 FYANG2-M-L01D ncs[35350]: - Daemon ncs-dp-27-qos:RFSSkeleton died
+<ERR> 13-Aug-2015::21:32:57.470 FYANG2-M-L01D ncs[35350]: - The NCS Java VM NED request for device <<"odlc">> timeout
+<INFO> 13-Aug-2015::21:39:52.089 FYANG2-M-L01D ncs[35350]: - The NCS Java VM terminated
+<CRIT> 13-Aug-2015::21:39:52.090 FYANG2-M-L01D ncs[35350]: - Daemon ncs-dp-28-qos:RFSSkeleton died
+<CRIT> 13-Aug-2015::21:40:51.812 FYANG2-M-L01D ncs[35350]: - Daemon ncs-dp-1-qos:RFSSkeleton died
+<INFO> 13-Aug-2015::21:40:51.812 FYANG2-M-L01D ncs[35350]: - The NCS Java VM terminated
+<CRIT> 13-Aug-2015::21:41:14.668 FYANG2-M-L01D ncs[35350]: - Daemon ncs-dp-1-qos:RFSSkeleton died
+<INFO> 13-Aug-2015::21:41:14.669 FYANG2-M-L01D ncs[35350]: - The NCS Java VM terminated
+<ERR> 13-Aug-2015::21:41:34.052 FYANG2-M-L01D ncs[35350]: - The NCS Java VM NED request for device <<"a9k">> timeout
+<INFO> 13-Aug-2015::21:44:10.943 FYANG2-M-L01D ncs[35350]: - NCS stopping (ncs --stop called by fan in /Users/fan/Documents/NCS-Workspace/apic)
+<INFO> 13-Aug-2015::21:44:13.633 FYANG2-M-L01D ncs[35350]: - The NCS Java VM terminated
+<CRIT> 13-Aug-2015::21:44:13.633 FYANG2-M-L01D ncs[35350]: - Daemon ncs-dp-1-qos:RFSSkeleton died
+<DEBUG> 13-Aug-2015::21:54:43.611 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-webui.fxs
+<DEBUG> 13-Aug-2015::21:54:43.614 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/IANA-ITU-ALARM-TC-MIB.fxs
+<DEBUG> 13-Aug-2015::21:54:43.614 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/ITU-ALARM-TC-MIB.fxs
+<DEBUG> 13-Aug-2015::21:54:43.614 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-ALARM-TC-MIB.fxs
+<DEBUG> 13-Aug-2015::21:54:43.615 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-FRAMEWORK-MIB.fxs
+<DEBUG> 13-Aug-2015::21:54:43.615 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/iana-crypt-hash.fxs
+<DEBUG> 13-Aug-2015::21:54:43.616 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/ietf-inet-types.fxs
+<DEBUG> 13-Aug-2015::21:54:43.616 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/ietf-yang-types.fxs
+<DEBUG> 13-Aug-2015::21:54:43.616 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs-ned.fxs
+<DEBUG> 13-Aug-2015::21:54:43.617 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/ietf-netconf-monitoring.fxs
+<DEBUG> 13-Aug-2015::21:54:43.617 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-common-monitoring.fxs
+<DEBUG> 13-Aug-2015::21:54:43.618 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/ietf-netconf-acm.fxs
+<DEBUG> 13-Aug-2015::21:54:43.618 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMPv2-TC.fxs
+<DEBUG> 13-Aug-2015::21:54:43.619 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs.fxs
+<DEBUG> 13-Aug-2015::21:54:43.629 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-USER-BASED-SM-MIB.fxs
+<DEBUG> 13-Aug-2015::21:54:43.629 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-TARGET-MIB.fxs
+<DEBUG> 13-Aug-2015::21:54:43.630 FYANG2-M-L01D ncs[8161]: - Loading file ./state/packages-in-use/1/cisco-ios/load-dir/tailf-ned-cisco-ios-stats.fxs
+<DEBUG> 13-Aug-2015::21:54:43.631 FYANG2-M-L01D ncs[8161]: - Loading file ./state/packages-in-use/1/cisco-ios/load-dir/tailf-ned-cisco-ios-id.fxs
+<DEBUG> 13-Aug-2015::21:54:43.631 FYANG2-M-L01D ncs[8161]: - Loading file ./state/packages-in-use/1/cisco-ios/load-dir/tailf-ned-cisco-ios.fxs
+<DEBUG> 13-Aug-2015::21:54:43.829 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/ietf-yang-smiv2.fxs
+<DEBUG> 13-Aug-2015::21:54:43.829 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs-netmod-netconf.fxs
+<DEBUG> 13-Aug-2015::21:54:43.830 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/snmp.fxs
+<DEBUG> 13-Aug-2015::21:54:43.831 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/encryption-usm.fxs
+<DEBUG> 13-Aug-2015::21:54:43.832 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-netconf-monitoring.fxs
+<DEBUG> 13-Aug-2015::21:54:43.833 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs-monitoring.fxs
+<DEBUG> 13-Aug-2015::21:54:43.835 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-configuration-policy.fxs
+<DEBUG> 13-Aug-2015::21:54:43.835 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-acm.fxs
+<DEBUG> 13-Aug-2015::21:54:43.836 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs-webui.fxs
+<DEBUG> 13-Aug-2015::21:54:43.837 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/tailf-ncs-snmp.fxs
+<DEBUG> 13-Aug-2015::21:54:43.837 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs-event-forwarding.fxs
+<DEBUG> 13-Aug-2015::21:54:43.837 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs-alarms.fxs
+<DEBUG> 13-Aug-2015::21:54:43.840 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TRANSPORT-ADDRESS-MIB.fxs
+<DEBUG> 13-Aug-2015::21:54:43.840 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-TOP-MIB.fxs
+<DEBUG> 13-Aug-2015::21:54:43.840 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-ALARM-MIB.fxs
+<DEBUG> 13-Aug-2015::21:54:43.841 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMPv2-SMI.fxs
+<DEBUG> 13-Aug-2015::21:54:43.841 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMPv2-MIB.fxs
+<DEBUG> 13-Aug-2015::21:54:43.842 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-VIEW-BASED-ACM-MIB.fxs
+<DEBUG> 13-Aug-2015::21:54:43.842 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-NOTIFICATION-MIB.fxs
+<DEBUG> 13-Aug-2015::21:54:43.843 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-MPD-MIB.fxs
+<DEBUG> 13-Aug-2015::21:54:43.843 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-COMMUNITY-MIB.fxs
+<DEBUG> 13-Aug-2015::21:54:43.844 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/IPV6-TC.fxs
+<DEBUG> 13-Aug-2015::21:54:43.844 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-aaa.fxs
+<DEBUG> 13-Aug-2015::21:54:43.845 FYANG2-M-L01D ncs[8161]: - Loading file ./state/packages-in-use/1/odl/load-dir/odl.fxs
+<DEBUG> 13-Aug-2015::21:54:43.847 FYANG2-M-L01D ncs[8161]: - Loading file ./state/packages-in-use/1/cisco-xr/load-dir/tailf-ned-cisco-ios-xr-id.fxs
+<DEBUG> 13-Aug-2015::21:54:43.847 FYANG2-M-L01D ncs[8161]: - Loading file ./state/packages-in-use/1/cisco-xr/load-dir/tailf-ned-cisco-ios-xr.fxs
+<DEBUG> 13-Aug-2015::21:54:44.151 FYANG2-M-L01D ncs[8161]: - Loading file ./state/packages-in-use/1/cisco-apicdc/load-dir/tailf-ned-cisco-apicdc-stats.fxs
+<DEBUG> 13-Aug-2015::21:54:44.152 FYANG2-M-L01D ncs[8161]: - Loading file ./state/packages-in-use/1/cisco-apicdc/load-dir/tailf-ned-cisco-apicdc.fxs
+<DEBUG> 13-Aug-2015::21:54:44.157 FYANG2-M-L01D ncs[8161]: - Loading file ./state/packages-in-use/1/odl/load-dir/odl-stats.fxs
+<DEBUG> 13-Aug-2015::21:54:44.158 FYANG2-M-L01D ncs[8161]: - Loading file ./state/packages-in-use/1/qos/load-dir/qos.fxs
+<DEBUG> 13-Aug-2015::21:54:44.159 FYANG2-M-L01D ncs[8161]: - Skipping file ./state/packages-in-use/1/qos/load-dir/tailf-ned-cisco-apicdc.fxs: namespace already loaded
+<DEBUG> 13-Aug-2015::21:54:44.440 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/ncs.ccl
+<DEBUG> 13-Aug-2015::21:54:44.447 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<INFO> 13-Aug-2015::21:54:44.473 FYANG2-M-L01D ncs[8161]: - Starting to listen for Internal IPC on 127.0.0.1:4569
+<DEBUG> 13-Aug-2015::21:54:44.485 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::21:54:44.520 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 13-Aug-2015::21:54:44.560 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::21:54:44.599 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<INFO> 13-Aug-2015::21:54:44.675 FYANG2-M-L01D ncs[8161]: - Starting the NCS Java VM
+<DEBUG> 13-Aug-2015::21:54:44.826 FYANG2-M-L01D ncs[8161]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<INFO> 13-Aug-2015::21:54:44.832 FYANG2-M-L01D ncs[8161]: - Starting to listen for NETCONF SSH on 0.0.0.0:2022
+<INFO> 13-Aug-2015::21:54:44.949 FYANG2-M-L01D ncs[8161]: - Starting to listen for CLI SSH on 0.0.0.0:2024
+<INFO> 13-Aug-2015::21:54:45.002 FYANG2-M-L01D ncs[8161]: - Starting to listen for WebUI TCP on 0.0.0.0:8080
+<DEBUG> 13-Aug-2015::21:54:45.168 FYANG2-M-L01D ncs[8161]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMPv2-MIB
+<DEBUG> 13-Aug-2015::21:54:45.168 FYANG2-M-L01D ncs[8161]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-FRAMEWORK-MIB
+<DEBUG> 13-Aug-2015::21:54:45.168 FYANG2-M-L01D ncs[8161]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-MPD-MIB
+<INFO> 13-Aug-2015::21:54:45.232 FYANG2-M-L01D ncs[8161]: - Starting to listen for SNMP UDP on 0.0.0.0:4000
+<DEBUG> 13-Aug-2015::21:54:45.246 FYANG2-M-L01D ncs[8161]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/IANA-ITU-ALARM-TC-MIB.bin
+<DEBUG> 13-Aug-2015::21:54:45.246 FYANG2-M-L01D ncs[8161]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/ITU-ALARM-TC-MIB.bin
+<DEBUG> 13-Aug-2015::21:54:45.251 FYANG2-M-L01D ncs[8161]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-ALARM-MIB.bin
+<DEBUG> 13-Aug-2015::21:54:45.251 FYANG2-M-L01D ncs[8161]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-ALARM-TC-MIB.bin
+<DEBUG> 13-Aug-2015::21:54:45.251 FYANG2-M-L01D ncs[8161]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-TOP-MIB.bin
+<DEBUG> 13-Aug-2015::21:54:45.252 FYANG2-M-L01D ncs[8161]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-COMMUNITY-MIB.bin
+<DEBUG> 13-Aug-2015::21:54:45.253 FYANG2-M-L01D ncs[8161]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-TARGET-MIB.bin
+<DEBUG> 13-Aug-2015::21:54:45.253 FYANG2-M-L01D ncs[8161]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-NOTIFICATION-MIB.bin
+<DEBUG> 13-Aug-2015::21:54:45.254 FYANG2-M-L01D ncs[8161]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-USER-BASED-SM-MIB.bin
+<DEBUG> 13-Aug-2015::21:54:45.254 FYANG2-M-L01D ncs[8161]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-VIEW-BASED-ACM-MIB.bin
+<INFO> 13-Aug-2015::21:54:46.364 FYANG2-M-L01D ncs[8161]: - NCS started vsn: 3.4.1
+<INFO> 13-Aug-2015::21:54:54.681 FYANG2-M-L01D ncs[8161]: - The NCS Java VM terminated
+<CRIT> 13-Aug-2015::21:54:54.681 FYANG2-M-L01D ncs[8161]: - Daemon ncs-dp-1-qos:RFSSkeleton died
+<ERR> 13-Aug-2015::21:56:06.127 FYANG2-M-L01D ncs[8161]: - The NCS Java VM NED request for device <<"odlc">> timeout
+<ERR> 13-Aug-2015::21:56:06.127 FYANG2-M-L01D ncs[8161]: - The NCS Java VM Restarting NED for cli/'ios-id:cisco-ios'
+<ERR> 13-Aug-2015::21:56:06.127 FYANG2-M-L01D ncs[8161]: - The NCS Java VM Restarting NED for generic/'cisco-apicdc:cisco-apicdc-id'
+<ERR> 13-Aug-2015::21:56:06.128 FYANG2-M-L01D ncs[8161]: - The NCS Java VM Restarting NED for cli/'cisco-ios-xr-id:cisco-ios-xr'
+<ERR> 13-Aug-2015::21:56:06.128 FYANG2-M-L01D ncs[8161]: - The NCS Java VM Restarting NED for generic/'odl:odl-id'
+<INFO> 13-Aug-2015::22:00:11.464 FYANG2-M-L01D ncs[8161]: - The NCS Java VM terminated
+<CRIT> 13-Aug-2015::22:00:11.464 FYANG2-M-L01D ncs[8161]: - Daemon ncs-dp-1-qos:RFSSkeleton died
+<INFO> 13-Aug-2015::22:00:23.805 FYANG2-M-L01D ncs[8161]: - Starting the NCS Java VM
+<DEBUG> 13-Aug-2015::22:02:15.606 FYANG2-M-L01D ncs[8161]: - Loading file ./packages/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:02:15.607 FYANG2-M-L01D ncs[8161]: - Loading file ./packages/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:02:15.609 FYANG2-M-L01D ncs[8161]: - Loading file ./packages/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:02:15.610 FYANG2-M-L01D ncs[8161]: - Loading file ./packages/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:02:15.611 FYANG2-M-L01D ncs[8161]: - Loading file ./packages/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:02:15.617 FYANG2-M-L01D ncs[8161]: - Copying NCS package from ./packages/qos to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::22:02:15.642 FYANG2-M-L01D ncs[8161]: - Copying NCS package from ./packages/odl to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::22:02:15.675 FYANG2-M-L01D ncs[8161]: - Copying NCS package from ./packages/cisco-xr to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::22:02:15.700 FYANG2-M-L01D ncs[8161]: - Copying NCS package from ./packages/cisco-ios to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::22:02:15.739 FYANG2-M-L01D ncs[8161]: - Copying NCS package from ./packages/cisco-apicdc to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::22:02:15.783 FYANG2-M-L01D ncs[8161]: - Loading file ./state/packages-in-use/1/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:02:15.784 FYANG2-M-L01D ncs[8161]: - Loading file ./state/packages-in-use/1/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:02:15.785 FYANG2-M-L01D ncs[8161]: - Loading file ./state/packages-in-use/1/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:02:15.787 FYANG2-M-L01D ncs[8161]: - Loading file ./state/packages-in-use/1/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:02:15.788 FYANG2-M-L01D ncs[8161]: - Loading file ./state/packages-in-use/1/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:02:15.789 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<DEBUG> 13-Aug-2015::22:02:15.847 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::22:02:15.905 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 13-Aug-2015::22:02:15.965 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::22:02:16.027 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<DEBUG> 13-Aug-2015::22:02:16.388 FYANG2-M-L01D ncs[8161]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<CRIT> 13-Aug-2015::22:02:16.395 FYANG2-M-L01D ncs[8161]: - Daemon ncs-dp-1-qos:RFSSkeleton died
+<DEBUG> 13-Aug-2015::22:03:32.744 FYANG2-M-L01D ncs[8161]: - Loading file ./packages/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:03:32.745 FYANG2-M-L01D ncs[8161]: - Loading file ./packages/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:03:32.747 FYANG2-M-L01D ncs[8161]: - Loading file ./packages/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:03:32.748 FYANG2-M-L01D ncs[8161]: - Loading file ./packages/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:03:32.750 FYANG2-M-L01D ncs[8161]: - Loading file ./packages/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:03:32.755 FYANG2-M-L01D ncs[8161]: - Copying NCS package from ./packages/qos to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::22:03:32.779 FYANG2-M-L01D ncs[8161]: - Copying NCS package from ./packages/odl to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::22:03:32.814 FYANG2-M-L01D ncs[8161]: - Copying NCS package from ./packages/cisco-xr to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::22:03:32.843 FYANG2-M-L01D ncs[8161]: - Copying NCS package from ./packages/cisco-ios to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::22:03:32.869 FYANG2-M-L01D ncs[8161]: - Copying NCS package from ./packages/cisco-apicdc to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::22:03:32.914 FYANG2-M-L01D ncs[8161]: - Loading file ./state/packages-in-use/1/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:03:32.914 FYANG2-M-L01D ncs[8161]: - Loading file ./state/packages-in-use/1/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:03:32.916 FYANG2-M-L01D ncs[8161]: - Loading file ./state/packages-in-use/1/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:03:32.917 FYANG2-M-L01D ncs[8161]: - Loading file ./state/packages-in-use/1/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:03:32.918 FYANG2-M-L01D ncs[8161]: - Loading file ./state/packages-in-use/1/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:03:32.920 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<DEBUG> 13-Aug-2015::22:03:32.979 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::22:03:33.037 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 13-Aug-2015::22:03:33.094 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::22:03:33.152 FYANG2-M-L01D ncs[8161]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<DEBUG> 13-Aug-2015::22:03:33.510 FYANG2-M-L01D ncs[8161]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<CRIT> 13-Aug-2015::22:03:33.517 FYANG2-M-L01D ncs[8161]: - Daemon ncs-dp-2-qos:RFSSkeleton died
+<ERR> 13-Aug-2015::22:04:42.707 FYANG2-M-L01D ncs[8161]: - The NCS Java VM NED request for device <<"odlc">> timeout
+<ERR> 13-Aug-2015::22:08:04.103 FYANG2-M-L01D ncs[8161]: - The NCS Java VM NED request for device <<"odlc">> timeout
+<INFO> 13-Aug-2015::22:09:02.077 FYANG2-M-L01D ncs[8161]: - The NCS Java VM terminated
+<CRIT> 13-Aug-2015::22:09:02.078 FYANG2-M-L01D ncs[8161]: - Daemon ncs-dp-3-qos:RFSSkeleton died
+<CRIT> 13-Aug-2015::22:12:34.609 FYANG2-M-L01D ncs[8161]: - Daemon ncs-dp-1-qos:RFSSkeleton timed out
+<CRIT> 13-Aug-2015::22:13:49.137 FYANG2-M-L01D ncs[8161]: - no registration found for callpoint qos-servicepoint/service_create of type=external
+<CRIT> 13-Aug-2015::22:14:03.954 FYANG2-M-L01D ncs[8161]: - no registration found for callpoint qos-servicepoint/service_create of type=external
+<CRIT> 13-Aug-2015::22:14:10.970 FYANG2-M-L01D ncs[8161]: - no registration found for callpoint qos-servicepoint/service_create of type=external
+<CRIT> 13-Aug-2015::22:14:52.443 FYANG2-M-L01D ncs[8161]: - Daemon ncs-dp-2-qos:RFSSkeleton died
+<INFO> 13-Aug-2015::22:14:52.443 FYANG2-M-L01D ncs[8161]: - The NCS Java VM terminated
+<CRIT> 13-Aug-2015::22:14:59.395 FYANG2-M-L01D ncs[8161]: - no registration found for callpoint qos-servicepoint/service_create of type=external
+<CRIT> 13-Aug-2015::22:17:11.384 FYANG2-M-L01D ncs[8161]: - Daemon ncs-dp-1-qos:RFSSkeleton died
+<INFO> 13-Aug-2015::22:17:11.384 FYANG2-M-L01D ncs[8161]: - The NCS Java VM terminated
+<ERR> 13-Aug-2015::22:17:18.845 FYANG2-M-L01D ncs[8161]: - The NCS Java VM NED request for device <<"odlc">> timeout
+<CRIT> 13-Aug-2015::22:17:38.332 FYANG2-M-L01D ncs[8161]: - no registration found for callpoint qos-servicepoint/service_create of type=external
+<INFO> 13-Aug-2015::22:17:46.118 FYANG2-M-L01D ncs[8161]: - NCS stopping (ncs --stop called by fan in /Users/fan/Documents/NCS-Workspace/apic)
+<CRIT> 13-Aug-2015::22:17:50.181 FYANG2-M-L01D ncs[8161]: - Daemon snmp-config-hook died
+<CRIT> 13-Aug-2015::22:17:50.181 FYANG2-M-L01D ncs[8161]: - Daemon snmp-config-transform died
+<DEBUG> 13-Aug-2015::22:17:56.933 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-webui.fxs
+<DEBUG> 13-Aug-2015::22:17:56.936 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/IANA-ITU-ALARM-TC-MIB.fxs
+<DEBUG> 13-Aug-2015::22:17:56.936 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/ITU-ALARM-TC-MIB.fxs
+<DEBUG> 13-Aug-2015::22:17:56.936 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-ALARM-TC-MIB.fxs
+<DEBUG> 13-Aug-2015::22:17:56.937 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-FRAMEWORK-MIB.fxs
+<DEBUG> 13-Aug-2015::22:17:56.937 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/iana-crypt-hash.fxs
+<DEBUG> 13-Aug-2015::22:17:56.937 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/ietf-inet-types.fxs
+<DEBUG> 13-Aug-2015::22:17:56.938 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/ietf-yang-types.fxs
+<DEBUG> 13-Aug-2015::22:17:56.938 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs-ned.fxs
+<DEBUG> 13-Aug-2015::22:17:56.938 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/ietf-netconf-monitoring.fxs
+<DEBUG> 13-Aug-2015::22:17:56.939 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-common-monitoring.fxs
+<DEBUG> 13-Aug-2015::22:17:56.940 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/ietf-netconf-acm.fxs
+<DEBUG> 13-Aug-2015::22:17:56.940 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMPv2-TC.fxs
+<DEBUG> 13-Aug-2015::22:17:56.941 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs.fxs
+<DEBUG> 13-Aug-2015::22:17:56.951 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-USER-BASED-SM-MIB.fxs
+<DEBUG> 13-Aug-2015::22:17:56.952 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-TARGET-MIB.fxs
+<DEBUG> 13-Aug-2015::22:17:56.952 FYANG2-M-L01D ncs[17846]: - Loading file ./state/packages-in-use/1/cisco-ios/load-dir/tailf-ned-cisco-ios-stats.fxs
+<DEBUG> 13-Aug-2015::22:17:56.953 FYANG2-M-L01D ncs[17846]: - Loading file ./state/packages-in-use/1/cisco-ios/load-dir/tailf-ned-cisco-ios-id.fxs
+<DEBUG> 13-Aug-2015::22:17:56.953 FYANG2-M-L01D ncs[17846]: - Loading file ./state/packages-in-use/1/cisco-ios/load-dir/tailf-ned-cisco-ios.fxs
+<DEBUG> 13-Aug-2015::22:17:57.155 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/ietf-yang-smiv2.fxs
+<DEBUG> 13-Aug-2015::22:17:57.155 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs-netmod-netconf.fxs
+<DEBUG> 13-Aug-2015::22:17:57.156 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/snmp.fxs
+<DEBUG> 13-Aug-2015::22:17:57.158 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/encryption-usm.fxs
+<DEBUG> 13-Aug-2015::22:17:57.158 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-netconf-monitoring.fxs
+<DEBUG> 13-Aug-2015::22:17:57.159 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs-monitoring.fxs
+<DEBUG> 13-Aug-2015::22:17:57.161 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-configuration-policy.fxs
+<DEBUG> 13-Aug-2015::22:17:57.161 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-acm.fxs
+<DEBUG> 13-Aug-2015::22:17:57.162 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs-webui.fxs
+<DEBUG> 13-Aug-2015::22:17:57.163 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/tailf-ncs-snmp.fxs
+<DEBUG> 13-Aug-2015::22:17:57.163 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs-event-forwarding.fxs
+<DEBUG> 13-Aug-2015::22:17:57.164 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-ncs-alarms.fxs
+<DEBUG> 13-Aug-2015::22:17:57.166 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TRANSPORT-ADDRESS-MIB.fxs
+<DEBUG> 13-Aug-2015::22:17:57.166 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-TOP-MIB.fxs
+<DEBUG> 13-Aug-2015::22:17:57.167 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-ALARM-MIB.fxs
+<DEBUG> 13-Aug-2015::22:17:57.167 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMPv2-SMI.fxs
+<DEBUG> 13-Aug-2015::22:17:57.167 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMPv2-MIB.fxs
+<DEBUG> 13-Aug-2015::22:17:57.168 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-VIEW-BASED-ACM-MIB.fxs
+<DEBUG> 13-Aug-2015::22:17:57.169 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-NOTIFICATION-MIB.fxs
+<DEBUG> 13-Aug-2015::22:17:57.169 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-MPD-MIB.fxs
+<DEBUG> 13-Aug-2015::22:17:57.170 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/SNMP-COMMUNITY-MIB.fxs
+<DEBUG> 13-Aug-2015::22:17:57.170 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/IPV6-TC.fxs
+<DEBUG> 13-Aug-2015::22:17:57.170 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/tailf-aaa.fxs
+<DEBUG> 13-Aug-2015::22:17:57.171 FYANG2-M-L01D ncs[17846]: - Loading file ./state/packages-in-use/1/odl/load-dir/odl.fxs
+<DEBUG> 13-Aug-2015::22:17:57.174 FYANG2-M-L01D ncs[17846]: - Loading file ./state/packages-in-use/1/cisco-xr/load-dir/tailf-ned-cisco-ios-xr-id.fxs
+<DEBUG> 13-Aug-2015::22:17:57.174 FYANG2-M-L01D ncs[17846]: - Loading file ./state/packages-in-use/1/cisco-xr/load-dir/tailf-ned-cisco-ios-xr.fxs
+<DEBUG> 13-Aug-2015::22:17:57.471 FYANG2-M-L01D ncs[17846]: - Loading file ./state/packages-in-use/1/cisco-apicdc/load-dir/tailf-ned-cisco-apicdc-stats.fxs
+<DEBUG> 13-Aug-2015::22:17:57.471 FYANG2-M-L01D ncs[17846]: - Loading file ./state/packages-in-use/1/cisco-apicdc/load-dir/tailf-ned-cisco-apicdc.fxs
+<DEBUG> 13-Aug-2015::22:17:57.477 FYANG2-M-L01D ncs[17846]: - Loading file ./state/packages-in-use/1/odl/load-dir/odl-stats.fxs
+<DEBUG> 13-Aug-2015::22:17:57.477 FYANG2-M-L01D ncs[17846]: - Loading file ./state/packages-in-use/1/qos/load-dir/qos.fxs
+<DEBUG> 13-Aug-2015::22:17:57.479 FYANG2-M-L01D ncs[17846]: - Skipping file ./state/packages-in-use/1/qos/load-dir/tailf-ned-cisco-apicdc.fxs: namespace already loaded
+<DEBUG> 13-Aug-2015::22:17:57.766 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/ncs.ccl
+<DEBUG> 13-Aug-2015::22:17:57.773 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<INFO> 13-Aug-2015::22:17:57.798 FYANG2-M-L01D ncs[17846]: - Starting to listen for Internal IPC on 127.0.0.1:4569
+<DEBUG> 13-Aug-2015::22:17:57.811 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::22:17:57.845 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 13-Aug-2015::22:17:57.883 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::22:17:57.919 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<INFO> 13-Aug-2015::22:17:57.994 FYANG2-M-L01D ncs[17846]: - Starting the NCS Java VM
+<DEBUG> 13-Aug-2015::22:17:58.140 FYANG2-M-L01D ncs[17846]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<INFO> 13-Aug-2015::22:17:58.147 FYANG2-M-L01D ncs[17846]: - Starting to listen for NETCONF SSH on 0.0.0.0:2022
+<INFO> 13-Aug-2015::22:17:58.251 FYANG2-M-L01D ncs[17846]: - Starting to listen for CLI SSH on 0.0.0.0:2024
+<INFO> 13-Aug-2015::22:17:58.301 FYANG2-M-L01D ncs[17846]: - Starting to listen for WebUI TCP on 0.0.0.0:8080
+<DEBUG> 13-Aug-2015::22:17:58.460 FYANG2-M-L01D ncs[17846]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMPv2-MIB
+<DEBUG> 13-Aug-2015::22:17:58.461 FYANG2-M-L01D ncs[17846]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-FRAMEWORK-MIB
+<DEBUG> 13-Aug-2015::22:17:58.461 FYANG2-M-L01D ncs[17846]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-MPD-MIB
+<INFO> 13-Aug-2015::22:17:58.518 FYANG2-M-L01D ncs[17846]: - Starting to listen for SNMP UDP on 0.0.0.0:4000
+<DEBUG> 13-Aug-2015::22:17:58.536 FYANG2-M-L01D ncs[17846]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/IANA-ITU-ALARM-TC-MIB.bin
+<DEBUG> 13-Aug-2015::22:17:58.537 FYANG2-M-L01D ncs[17846]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/ITU-ALARM-TC-MIB.bin
+<DEBUG> 13-Aug-2015::22:17:58.543 FYANG2-M-L01D ncs[17846]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-ALARM-MIB.bin
+<DEBUG> 13-Aug-2015::22:17:58.543 FYANG2-M-L01D ncs[17846]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-ALARM-TC-MIB.bin
+<DEBUG> 13-Aug-2015::22:17:58.543 FYANG2-M-L01D ncs[17846]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/etc/ncs/snmp/TAILF-TOP-MIB.bin
+<DEBUG> 13-Aug-2015::22:17:58.544 FYANG2-M-L01D ncs[17846]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-COMMUNITY-MIB.bin
+<DEBUG> 13-Aug-2015::22:17:58.544 FYANG2-M-L01D ncs[17846]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-TARGET-MIB.bin
+<DEBUG> 13-Aug-2015::22:17:58.545 FYANG2-M-L01D ncs[17846]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-NOTIFICATION-MIB.bin
+<DEBUG> 13-Aug-2015::22:17:58.546 FYANG2-M-L01D ncs[17846]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-USER-BASED-SM-MIB.bin
+<DEBUG> 13-Aug-2015::22:17:58.546 FYANG2-M-L01D ncs[17846]: - Loading MIB: /Users/fan/Documents/NCS-Workspace/ncs3.4/lib/ncs/lib/snmp/snmp/priv/mibs/SNMP-VIEW-BASED-ACM-MIB.bin
+<INFO> 13-Aug-2015::22:17:59.650 FYANG2-M-L01D ncs[17846]: - NCS started vsn: 3.4.1
+<INFO> 13-Aug-2015::22:18:10.026 FYANG2-M-L01D ncs[17846]: - The NCS Java VM terminated
+<CRIT> 13-Aug-2015::22:18:10.026 FYANG2-M-L01D ncs[17846]: - Daemon ncs-dp-1-qos:RFSSkeleton died
+<CRIT> 13-Aug-2015::22:20:45.726 FYANG2-M-L01D ncs[17846]: - Daemon ncs-dp-1-qos:RFSSkeleton died
+<INFO> 13-Aug-2015::22:20:45.726 FYANG2-M-L01D ncs[17846]: - The NCS Java VM terminated
+<INFO> 13-Aug-2015::22:21:02.561 FYANG2-M-L01D ncs[17846]: - Starting the NCS Java VM
+<CRIT> 13-Aug-2015::22:21:19.419 FYANG2-M-L01D ncs[17846]: - Daemon ncs-dp-1-qos:RFSSkeleton died
+<INFO> 13-Aug-2015::22:21:19.778 FYANG2-M-L01D ncs[17846]: - Starting the NCS Java VM
+<CRIT> 13-Aug-2015::22:21:40.936 FYANG2-M-L01D ncs[17846]: - Daemon ncs-dp-1-qos:RFSSkeleton died
+<ERR> 13-Aug-2015::22:23:05.985 FYANG2-M-L01D ncs[17846]: - The NCS Java VM NED request for device <<"odlc">> timeout
+<INFO> 13-Aug-2015::22:23:46.955 FYANG2-M-L01D ncs[17846]: - The NCS Java VM terminated
+<CRIT> 13-Aug-2015::22:23:46.955 FYANG2-M-L01D ncs[17846]: - Daemon ncs-dp-2-qos:RFSSkeleton died
+<CRIT> 13-Aug-2015::22:28:37.891 FYANG2-M-L01D ncs[17846]: - Daemon ncs-dp-1-qos:RFSSkeleton timed out
+<ERR> 13-Aug-2015::22:29:58.216 FYANG2-M-L01D ncs[17846]: - The NCS Java VM NED request for device <<"odlc">> timeout
+<CRIT> 13-Aug-2015::22:30:07.895 FYANG2-M-L01D ncs[17846]: - Daemon ncs-dp-2-qos:RFSSkeleton died
+<INFO> 13-Aug-2015::22:30:07.895 FYANG2-M-L01D ncs[17846]: - The NCS Java VM terminated
+<CRIT> 13-Aug-2015::22:34:17.925 FYANG2-M-L01D ncs[17846]: - Daemon ncs-dp-1-qos:RFSSkeleton timed out
+<INFO> 13-Aug-2015::22:34:37.518 FYANG2-M-L01D ncs[17846]: - The NCS Java VM terminated
+<INFO> 13-Aug-2015::22:34:49.982 FYANG2-M-L01D ncs[17846]: - Starting the NCS Java VM
+<DEBUG> 13-Aug-2015::22:35:28.853 FYANG2-M-L01D ncs[17846]: - Loading file ./packages/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:35:28.854 FYANG2-M-L01D ncs[17846]: - Loading file ./packages/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:35:28.856 FYANG2-M-L01D ncs[17846]: - Loading file ./packages/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:35:28.857 FYANG2-M-L01D ncs[17846]: - Loading file ./packages/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:35:28.858 FYANG2-M-L01D ncs[17846]: - Loading file ./packages/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:35:28.864 FYANG2-M-L01D ncs[17846]: - Copying NCS package from ./packages/qos to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::22:35:28.873 FYANG2-M-L01D ncs[17846]: - Copying NCS package from ./packages/odl to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::22:35:28.878 FYANG2-M-L01D ncs[17846]: - Copying NCS package from ./packages/cisco-xr to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::22:35:28.884 FYANG2-M-L01D ncs[17846]: - Copying NCS package from ./packages/cisco-ios to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::22:35:28.891 FYANG2-M-L01D ncs[17846]: - Copying NCS package from ./packages/cisco-apicdc to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::22:35:28.904 FYANG2-M-L01D ncs[17846]: - Loading file ./state/packages-in-use/1/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:35:28.905 FYANG2-M-L01D ncs[17846]: - Loading file ./state/packages-in-use/1/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:35:28.907 FYANG2-M-L01D ncs[17846]: - Loading file ./state/packages-in-use/1/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:35:28.909 FYANG2-M-L01D ncs[17846]: - Loading file ./state/packages-in-use/1/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:35:28.911 FYANG2-M-L01D ncs[17846]: - Loading file ./state/packages-in-use/1/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:35:28.914 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<DEBUG> 13-Aug-2015::22:35:28.942 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::22:35:28.965 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 13-Aug-2015::22:35:28.989 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::22:35:29.010 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<DEBUG> 13-Aug-2015::22:35:29.331 FYANG2-M-L01D ncs[17846]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<CRIT> 13-Aug-2015::22:35:29.339 FYANG2-M-L01D ncs[17846]: - Daemon ncs-dp-1-qos:RFSSkeleton died
+<ERR> 13-Aug-2015::22:37:39.844 FYANG2-M-L01D ncs[17846]: - The NCS Java VM NED request for device <<"odlc">> timeout
+<ERR> 13-Aug-2015::22:38:54.930 FYANG2-M-L01D ncs[17846]: - The NCS Java VM NED request for device <<"odlc">> timeout
+<ERR> 13-Aug-2015::22:39:40.939 FYANG2-M-L01D ncs[17846]: - The NCS Java VM NED request for device <<"odlc">> timeout
+<ERR> 13-Aug-2015::22:40:47.994 FYANG2-M-L01D ncs[17846]: - The NCS Java VM NED request for device <<"odlc">> timeout
+<DEBUG> 13-Aug-2015::22:55:07.247 FYANG2-M-L01D ncs[17846]: - Loading file ./packages/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:55:07.248 FYANG2-M-L01D ncs[17846]: - Loading file ./packages/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:55:07.249 FYANG2-M-L01D ncs[17846]: - Loading file ./packages/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:55:07.250 FYANG2-M-L01D ncs[17846]: - Loading file ./packages/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:55:07.251 FYANG2-M-L01D ncs[17846]: - Loading file ./packages/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:55:07.256 FYANG2-M-L01D ncs[17846]: - Copying NCS package from ./packages/qos to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::22:55:07.280 FYANG2-M-L01D ncs[17846]: - Copying NCS package from ./packages/odl to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::22:55:07.315 FYANG2-M-L01D ncs[17846]: - Copying NCS package from ./packages/cisco-xr to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::22:55:07.342 FYANG2-M-L01D ncs[17846]: - Copying NCS package from ./packages/cisco-ios to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::22:55:07.378 FYANG2-M-L01D ncs[17846]: - Copying NCS package from ./packages/cisco-apicdc to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::22:55:07.427 FYANG2-M-L01D ncs[17846]: - Loading file ./state/packages-in-use/1/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:55:07.429 FYANG2-M-L01D ncs[17846]: - Loading file ./state/packages-in-use/1/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:55:07.430 FYANG2-M-L01D ncs[17846]: - Loading file ./state/packages-in-use/1/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:55:07.432 FYANG2-M-L01D ncs[17846]: - Loading file ./state/packages-in-use/1/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:55:07.434 FYANG2-M-L01D ncs[17846]: - Loading file ./state/packages-in-use/1/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:55:07.436 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<DEBUG> 13-Aug-2015::22:55:07.505 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::22:55:07.572 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 13-Aug-2015::22:55:07.638 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::22:55:07.704 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<DEBUG> 13-Aug-2015::22:55:08.057 FYANG2-M-L01D ncs[17846]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<CRIT> 13-Aug-2015::22:55:08.062 FYANG2-M-L01D ncs[17846]: - Daemon ncs-dp-2-qos:RFSSkeleton died
+<DEBUG> 13-Aug-2015::22:59:10.923 FYANG2-M-L01D ncs[17846]: - Loading file ./packages/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:59:10.924 FYANG2-M-L01D ncs[17846]: - Loading file ./packages/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:59:10.925 FYANG2-M-L01D ncs[17846]: - Loading file ./packages/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:59:10.926 FYANG2-M-L01D ncs[17846]: - Loading file ./packages/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:59:10.928 FYANG2-M-L01D ncs[17846]: - Loading file ./packages/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:59:10.933 FYANG2-M-L01D ncs[17846]: - Copying NCS package from ./packages/qos to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::22:59:10.957 FYANG2-M-L01D ncs[17846]: - Copying NCS package from ./packages/odl to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::22:59:10.991 FYANG2-M-L01D ncs[17846]: - Copying NCS package from ./packages/cisco-xr to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::22:59:11.019 FYANG2-M-L01D ncs[17846]: - Copying NCS package from ./packages/cisco-ios to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::22:59:11.051 FYANG2-M-L01D ncs[17846]: - Copying NCS package from ./packages/cisco-apicdc to ./state/packages-in-use.new/1
+<DEBUG> 13-Aug-2015::22:59:11.097 FYANG2-M-L01D ncs[17846]: - Loading file ./state/packages-in-use/1/qos/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:59:11.098 FYANG2-M-L01D ncs[17846]: - Loading file ./state/packages-in-use/1/odl/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:59:11.100 FYANG2-M-L01D ncs[17846]: - Loading file ./state/packages-in-use/1/cisco-xr/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:59:11.102 FYANG2-M-L01D ncs[17846]: - Loading file ./state/packages-in-use/1/cisco-ios/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:59:11.103 FYANG2-M-L01D ncs[17846]: - Loading file ./state/packages-in-use/1/cisco-apicdc/package-meta-data.xml
+<DEBUG> 13-Aug-2015::22:59:11.105 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief.sh
+<DEBUG> 13-Aug-2015::22:59:11.180 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_brief_c.sh
+<DEBUG> 13-Aug-2015::22:59:11.247 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list.sh
+<DEBUG> 13-Aug-2015::22:59:11.314 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_list_c.sh
+<DEBUG> 13-Aug-2015::22:59:11.379 FYANG2-M-L01D ncs[17846]: - Loading file /Users/fan/Documents/NCS-Workspace/ncs3.4/scripts/command/device_save.sh
+<DEBUG> 13-Aug-2015::22:59:11.738 FYANG2-M-L01D ncs[17846]: - Loading file ./state/packages-in-use/1/qos/templates/qos-template.xml
+<CRIT> 13-Aug-2015::22:59:11.745 FYANG2-M-L01D ncs[17846]: - Daemon ncs-dp-3-qos:RFSSkeleton died

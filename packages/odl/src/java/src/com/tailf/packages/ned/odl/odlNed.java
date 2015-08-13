@@ -1,3 +1,17 @@
+/*
+Copyright @ 2015 <Cisco China Team>
+   This project is maintained by Cisco China Team.
+   Team members:
+   		Yuanchao Su  : yuasu@cisco.com
+		Fan Yang     : fyang2@cisco.com
+		Qing Zhong   : qinzhong@cisco.com
+		Zichuan Ma   : zicma@cisco.com
+		Yinsong Xue  : yinsxue@cisco.com
+		Xinyi Xu     : xinysu@cisco.com
+
+This part of code is written by Zichuan Ma & Yinsong Xue and is maintained by Yinsong (yinsxue).
+For further information, please contact Yinsong Xue (yinsxue@cisco.com) or Yuanchao Su(yuasu@cisco.com)
+*/
 package com.tailf.packages.ned.odl;
 
 import java.io.IOException;
@@ -11,6 +25,9 @@ import com.tailf.conf.ConfObject;
 import com.tailf.conf.ConfPath;
 import com.tailf.conf.ConfXMLParam;
 import com.tailf.conf.ConfXMLParamLeaf;
+import com.tailf.conf.ConfValue;
+import com.tailf.conf.ConfBuf;
+import com.tailf.conf.ConfXMLParamValue;
 import com.tailf.maapi.Maapi;
 import com.tailf.maapi.MaapiSchemas;
 import com.tailf.ncs.ResourceManager;
@@ -399,9 +416,17 @@ public class odlNed extends NedGenericBase  {
                 odlNed.schemas.findCSNode(Ncs.uri, "/devices/device/rpc", cmdname);
             ecs = ecs.getChild(odl._operation_result);
             ConfNamespace x = new odl();
-            worker.commandResponse(new ConfXMLParam[] {
-                new ConfXMLParamLeaf(x, "operation-result")
-            });
+            if (cmdname.equals("get-tunnel-id")){
+                    worker.commandResponse(new ConfXMLParam[] {
+                        new ConfXMLParamValue(x, "tunnel-id",new ConfBuf(this.controller.getTunnelId(p)))
+                    });
+            }else{
+                    worker.commandResponse(new ConfXMLParam[] {
+                        new ConfXMLParamLeaf(x, "operation-result")
+                    });
+            }
+
+            int a = 1;
         }
         catch (Exception e) {
             throw new NedException("", e);

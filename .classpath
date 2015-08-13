@@ -31,9 +31,6 @@
 	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/conf-api-5.4.1.jar"/>
 	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/conf-api-src-5.4.1.jar"/>
 	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/fluent-hc-4.5.jar"/>
-	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/httpclient-4.5.jar"/>
-	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/httpclient-cache-4.5.jar"/>
-	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/httpclient-win-4.5.jar"/>
 	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/httpcore-4.4.1.jar"/>
 	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/httpmime-4.5.jar"/>
 	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/jna-4.1.0.jar"/>
