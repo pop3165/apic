@@ -39,7 +39,7 @@ public class qosRFS{
 	String lspName="tencentlsp";
 	Integer tunnelNumber;
 	
-	OdlEventsClient odlEventsClient;
+	//OdlEventsClient odlEventsClient;
 	
 	enum LspType{ SegmentRouting, RSVP};
 	
@@ -357,7 +357,7 @@ public class qosRFS{
 	                		//Get tunnelNumber of certain LSP by @lspName
 	        				getTunnelNumber(odlController);
 	        				//remove traffic steering static routes
-	        				removeTrafficSteer(a9k);
+	        				//removeTrafficSteer(a9k);
 	        				
 	                		System.out.println("delete old(level1) lsp-sr");
 	                		odlController.container("rpc").container("odl", "rpc-remove-lsp-sr").action("remove-lsp-sr").call("<node>"+odl_node+"</node><name>"+lspName+"</name><network-topology>pcep-topology</network-topology>");
@@ -369,7 +369,7 @@ public class qosRFS{
 	                		//Get tunnelNumber of certain LSP by @lspName
 	        				getTunnelNumber(odlController);
 	        				//add traffic steering static routes
-	        				addTrafficSteer(a9k);
+	        				//addTrafficSteer(a9k);
 	                		break;
 	                	}
 	                }
@@ -406,6 +406,8 @@ public class qosRFS{
 	
 	private void removeTrafficSteer(NavuContainer device) throws NavuException{
 		device.container("config").container("cisco-ios-xr", "router").container("static").container("address-family").container("ipv4").container("unicast").list("routes").delete(new String[]{"88.88.88.88/32", "tunnel-te"+tunnelNumber});
+		
+		//device.container("config").container("cisco-ios-xr", "router").container("static").container("address-family").container("ipv4").container("unicast").list("routes").delete(new String[]{"88.88.88.88/32"});
 	}
 	
 	private int getTunnelNumber(NavuContainer device) throws ConfException{

@@ -1,0 +1,34 @@
+# Created by: admin
+# Date: 2015-08-16 23:34:23
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10393
+
+ncs:devices {
+    ncs:device a9k {
+        ncs:config {
+            cisco-ios-xr:interface {
+                delete:
+                cisco-ios-xr:tunnel-te 1;
+            }
+            cisco-ios-xr:router {
+                cisco-ios-xr:static {
+                    cisco-ios-xr:address-family {
+                        cisco-ios-xr:ipv4 {
+                            cisco-ios-xr:unicast {
+                                cisco-ios-xr:routes 88.88.88.88/32 tunnel-te22 {
+                                }
+                                cisco-ios-xr:routes 88.88.88.88/32 tunnel-te24 {
+                                }
+                                cisco-ios-xr:routes 88.88.88.88/32 tunnel-te28 {
+                                }
+                            }
+                         }
+                     }
+                 }
+             }
+         }
+     }
+ }

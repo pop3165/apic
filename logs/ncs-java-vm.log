@@ -9723,3 +9723,689 @@ tencentlsp
 <topology xmlns="urn:TBD:params:xml:ns:yang:network-topology"><topology-id>pcep-topology</topology-id><topology-types><topology-pcep xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"></topology-pcep></topology-types><node><node-id>pcc://110.0.0.2</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><ip-address>110.0.0.2</ip-address><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><state-sync>synchronized</state-sync></path-computation-client></node><node><node-id>pcc://110.0.0.1</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><reported-lsp><name>tencentlsp</name><path><lsp-id>2</lsp-id><ero><subobject><loose>false</loose><remote-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">13.0.0.3</remote-ip-address><local-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">13.0.0.1</local-ip-address><sid xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">24003</sid><m-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">true</m-flag><c-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">false</c-flag><sid-type xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">ipv4-adjacency</sid-type></subobject><subobject><loose>false</loose><remote-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">23.0.0.2</remote-ip-address><local-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">23.0.0.3</local-ip-address><sid xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">24001</sid><m-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">true</m-flag><c-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">false</c-flag><sid-type xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">ipv4-adjacency</sid-type></subobject><processing-rule>false</processing-rule><ignore>false</ignore></ero><bandwidth><processing-rule>false</processing-rule><ignore>false</ignore><bandwidth>AAAAAA==</bandwidth></bandwidth><lspa><setup-priority>7</setup-priority><ignore>false</ignore><exclude-any>0</exclude-any><processing-rule>false</processing-rule><tlvs></tlvs><hold-priority>7</hold-priority><local-protection-desired>false</local-protection-desired><include-any>0</include-any><include-all>0</include-all></lspa><lsp xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><ignore>false</ignore><administrative>true</administrative><delegate>true</delegate><sync>false</sync><remove>false</remove><plsp-id>2</plsp-id><processing-rule>false</processing-rule><create xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</create><operational>up</operational><tlvs><lsp-identifiers><ipv4><ipv4-tunnel-sender-address>1.1.1.1</ipv4-tunnel-sender-address><ipv4-tunnel-endpoint-address>2.2.2.2</ipv4-tunnel-endpoint-address><ipv4-extended-tunnel-id>2.2.2.2</ipv4-extended-tunnel-id></ipv4><lsp-id>2</lsp-id><tunnel-id>1</tunnel-id></lsp-identifiers><symbolic-path-name><path-name>dGVuY2VudGxzcA==</path-name></symbolic-path-name><path-binding><binding-value>AAAAXc0=</binding-value><binding-type>0</binding-type></path-binding></tlvs></lsp></path></reported-lsp><state-sync>synchronized</state-sync><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><ip-address>110.0.0.1</ip-address></path-computation-client></node><node><node-id>pcc://110.0.0.3</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><ip-address>110.0.0.3</ip-address><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><state-sync>synchronized</state-sync></path-computation-client></node></topology>
 1
 1
+<INFO> 16-Aug-2015::23:07:15.788 NcsMain JVM-Launcher: -  <= GOT UNLOAD_ALL
+<INFO> 16-Aug-2015::23:07:15.788 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["qos"] -->
+<INFO> 16-Aug-2015::23:07:15.788 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["qos"] --> OK
+<INFO> 16-Aug-2015::23:07:15.789 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["odl"] -->
+<WARN> 16-Aug-2015::23:07:15.789 Dp NCS-DpMUX-4-qos:RFSSkeleton: - Socket was closed
+<WARN> 16-Aug-2015::23:07:15.789 NedWorker Ned-Worker-Thread-0: - Thread[Ned-Worker-Thread-0,5,main] dies due to!
+<INFO> 16-Aug-2015::23:07:15.789 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["odl"] --> OK
+<WARN> 16-Aug-2015::23:07:15.789 NedWorker Ned-Worker-Thread-1: - Thread[Ned-Worker-Thread-1,5,main] dies due to!
+<INFO> 16-Aug-2015::23:07:15.790 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-ios"] -->
+<INFO> 16-Aug-2015::23:07:15.790 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-ios"] --> OK
+<INFO> 16-Aug-2015::23:07:15.790 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-apicdc"] -->
+<INFO> 16-Aug-2015::23:07:15.791 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-apicdc"] --> OK
+<INFO> 16-Aug-2015::23:07:15.791 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-iosxr"] -->
+<INFO> 16-Aug-2015::23:07:15.791 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-iosxr"] --> OK
+<INFO> 16-Aug-2015::23:07:15.791 NcsMain JVM-Launcher: - DONE COMMAND --> UNLOAD_ALL
+<INFO> 16-Aug-2015::23:07:15.791 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:07:15.791 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 16-Aug-2015::23:07:15.792 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-apicdc"] -->
+<INFO> 16-Aug-2015::23:07:15.792 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/cisco-apicdc-ns.jar
+<INFO> 16-Aug-2015::23:07:15.792 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/commons-io-2.4.jar
+<INFO> 16-Aug-2015::23:07:15.792 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/commons-logging-1.2.jar
+<INFO> 16-Aug-2015::23:07:15.792 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/httpclient-4.4.jar
+<INFO> 16-Aug-2015::23:07:15.792 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/httpcore-4.4.jar
+<INFO> 16-Aug-2015::23:07:15.792 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-apicdc"] --> OK
+<INFO> 16-Aug-2015::23:07:15.792 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 16-Aug-2015::23:07:15.792 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:07:15.792 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 16-Aug-2015::23:07:15.792 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-ios"] -->
+<INFO> 16-Aug-2015::23:07:15.792 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-ios/shared-jar/ios-ns.jar
+<INFO> 16-Aug-2015::23:07:15.792 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-ios"] --> OK
+<INFO> 16-Aug-2015::23:07:15.792 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 16-Aug-2015::23:07:15.793 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:07:15.793 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 16-Aug-2015::23:07:15.793 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-iosxr"] -->
+<INFO> 16-Aug-2015::23:07:15.793 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-xr/shared-jar/iosxr-ns.jar
+<INFO> 16-Aug-2015::23:07:15.793 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-iosxr"] --> OK
+<INFO> 16-Aug-2015::23:07:15.793 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 16-Aug-2015::23:07:15.793 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:07:15.793 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 16-Aug-2015::23:07:15.793 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["odl"] -->
+<INFO> 16-Aug-2015::23:07:15.793 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/odl/shared-jar/odl-ns.jar
+<INFO> 16-Aug-2015::23:07:15.793 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["odl"] --> OK
+<INFO> 16-Aug-2015::23:07:15.793 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 16-Aug-2015::23:07:15.794 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:07:15.794 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 16-Aug-2015::23:07:15.794 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["qos"] -->
+<INFO> 16-Aug-2015::23:07:15.794 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/qos/shared-jar/commons-net-3.3.jar
+<INFO> 16-Aug-2015::23:07:15.794 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/qos/shared-jar/qos-ns.jar
+<INFO> 16-Aug-2015::23:07:15.794 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["qos"] --> OK
+<INFO> 16-Aug-2015::23:07:15.794 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 16-Aug-2015::23:07:15.794 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:07:15.795 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 16-Aug-2015::23:07:15.795 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 16-Aug-2015::23:07:15.795 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-apicdc"] -->
+<INFO> 16-Aug-2015::23:07:15.800 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-apicdc"] --> LOADED
+<INFO> 16-Aug-2015::23:07:15.800 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 16-Aug-2015::23:07:15.801 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:07:15.801 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 16-Aug-2015::23:07:15.801 NcsMain JVM-Launcher: - FOUND TYPE: upgrade
+<INFO> 16-Aug-2015::23:07:15.801 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 16-Aug-2015::23:07:15.801 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-ios"] -->
+<WARN> 16-Aug-2015::23:07:15.805 ResourceManager JVM-Launcher: - Resource annotated field :IOSNedCli::mm already set, no resource injection performed
+<INFO> 16-Aug-2015::23:07:15.805 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-ios"] --> LOADED
+<INFO> 16-Aug-2015::23:07:15.805 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 16-Aug-2015::23:07:15.805 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:07:15.805 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 16-Aug-2015::23:07:15.806 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 16-Aug-2015::23:07:15.806 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-iosxr"] -->
+<WARN> 16-Aug-2015::23:07:15.809 ResourceManager JVM-Launcher: - Resource annotated field :IosxrNedCli::mm already set, no resource injection performed
+<INFO> 16-Aug-2015::23:07:15.809 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-iosxr"] --> LOADED
+<INFO> 16-Aug-2015::23:07:15.809 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 16-Aug-2015::23:07:15.809 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:07:15.809 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 16-Aug-2015::23:07:15.809 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 16-Aug-2015::23:07:15.809 NcsMain JVM-Launcher: - LOADING PACKAGE ["odl"] -->
+<INFO> 16-Aug-2015::23:07:15.813 NcsMain JVM-Launcher: - LOADING PACKAGE ["odl"] --> LOADED
+<INFO> 16-Aug-2015::23:07:15.814 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 16-Aug-2015::23:07:15.814 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:07:15.814 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 16-Aug-2015::23:07:15.814 NcsMain JVM-Launcher: - FOUND TYPE: callback
+<INFO> 16-Aug-2015::23:07:15.814 NcsMain JVM-Launcher: - LOADING PACKAGE ["qos"] -->
+############ Service Initiled
+<INFO> 16-Aug-2015::23:07:15.817 NcsMain JVM-Launcher: - LOADING PACKAGE ["qos"] --> LOADED
+<INFO> 16-Aug-2015::23:07:15.817 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 16-Aug-2015::23:07:15.817 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:07:15.817 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:07:15.817 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-apicdc:cisco-apicdc"] -->
+<INFO> 16-Aug-2015::23:07:15.817 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-apicdc:cisco-apicdc"] --> DONE
+<INFO> 16-Aug-2015::23:07:15.817 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:07:15.817 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:07:15.817 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:07:15.817 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:upgrade-ned-id"] -->
+<INFO> 16-Aug-2015::23:07:15.818 NcsMain JVM-Launcher: - => Nothing to deploy for component cisco-ios:upgrade-ned-id
+<INFO> 16-Aug-2015::23:07:15.818 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:upgrade-ned-id"] --> DONE
+<INFO> 16-Aug-2015::23:07:15.818 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:07:15.818 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:07:15.818 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:07:15.818 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:cisco-ios"] -->
+<INFO> 16-Aug-2015::23:07:15.818 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:cisco-ios"] --> DONE
+<INFO> 16-Aug-2015::23:07:15.818 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:07:15.818 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:07:15.819 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:07:15.819 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-iosxr:cisco-ios-xr"] -->
+<INFO> 16-Aug-2015::23:07:15.820 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-iosxr:cisco-ios-xr"] --> DONE
+<INFO> 16-Aug-2015::23:07:15.820 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:07:15.820 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:07:15.820 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:07:15.820 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["odl:odl"] -->
+<INFO> 16-Aug-2015::23:07:15.820 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["odl:odl"] --> DONE
+<INFO> 16-Aug-2015::23:07:15.820 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:07:15.820 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:07:15.821 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:07:15.821 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["qos:RFSSkeleton"] -->
+<INFO> 16-Aug-2015::23:07:15.823 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["qos:RFSSkeleton"] --> DONE
+<INFO> 16-Aug-2015::23:07:15.824 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:07:15.824 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:07:15.824 NcsMain JVM-Launcher: -  <= GOT DONE_LOADING
+<INFO> 16-Aug-2015::23:07:15.824 NcsMain JVM-Launcher: - DONE LOADING  -->
+<INFO> 16-Aug-2015::23:07:15.824 NcsMain JVM-Launcher: - DONE LOADING --> OK
+<INFO> 16-Aug-2015::23:07:15.824 NcsMain JVM-Launcher: - DONE COMMAND --> DONE_LOADING
+<INFO> 16-Aug-2015::23:07:15.825 NcsMain JVM-Launcher: - READ SOCKET =>
+Before QOS servicelevel2
+After QOS servicelevel2
+node
+name
+pcc://110.0.0.1
+tencentlsp
+<topology xmlns="urn:TBD:params:xml:ns:yang:network-topology"><topology-id>pcep-topology</topology-id><topology-types><topology-pcep xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"></topology-pcep></topology-types><node><node-id>pcc://110.0.0.2</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><ip-address>110.0.0.2</ip-address><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><state-sync>synchronized</state-sync></path-computation-client></node><node><node-id>pcc://110.0.0.1</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><reported-lsp><name>tencentlsp</name><path><lsp-id>2</lsp-id><ero><subobject><loose>false</loose><remote-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">13.0.0.3</remote-ip-address><local-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">13.0.0.1</local-ip-address><sid xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">24001</sid><m-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">true</m-flag><c-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">false</c-flag><sid-type xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">ipv4-adjacency</sid-type></subobject><subobject><loose>false</loose><remote-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">23.0.0.2</remote-ip-address><local-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">23.0.0.3</local-ip-address><sid xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">24001</sid><m-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">true</m-flag><c-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">false</c-flag><sid-type xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">ipv4-adjacency</sid-type></subobject><processing-rule>false</processing-rule><ignore>false</ignore></ero><bandwidth><processing-rule>false</processing-rule><ignore>false</ignore><bandwidth>AAAAAA==</bandwidth></bandwidth><lspa><setup-priority>7</setup-priority><ignore>false</ignore><exclude-any>0</exclude-any><processing-rule>false</processing-rule><tlvs></tlvs><hold-priority>7</hold-priority><local-protection-desired>false</local-protection-desired><include-any>0</include-any><include-all>0</include-all></lspa><lsp xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><ignore>false</ignore><administrative>true</administrative><delegate>true</delegate><sync>false</sync><remove>false</remove><plsp-id>12</plsp-id><processing-rule>false</processing-rule><create xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</create><operational>up</operational><tlvs><lsp-identifiers><ipv4><ipv4-tunnel-sender-address>1.1.1.1</ipv4-tunnel-sender-address><ipv4-tunnel-endpoint-address>2.2.2.2</ipv4-tunnel-endpoint-address><ipv4-extended-tunnel-id>2.2.2.2</ipv4-extended-tunnel-id></ipv4><lsp-id>2</lsp-id><tunnel-id>11</tunnel-id></lsp-identifiers><symbolic-path-name><path-name>dGVuY2VudGxzcA==</path-name></symbolic-path-name><path-binding><binding-value>AAAAXdk=</binding-value><binding-type>0</binding-type></path-binding></tlvs></lsp></path></reported-lsp><state-sync>synchronized</state-sync><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><ip-address>110.0.0.1</ip-address></path-computation-client></node><node><node-id>pcc://110.0.0.3</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><ip-address>110.0.0.3</ip-address><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><state-sync>synchronized</state-sync></path-computation-client></node></topology>
+11
+11
+Before QOS servicelevel2
+After QOS servicelevel1
+node
+name
+pcc://110.0.0.1
+tencentlsp
+<topology xmlns="urn:TBD:params:xml:ns:yang:network-topology"><topology-id>pcep-topology</topology-id><topology-types><topology-pcep xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"></topology-pcep></topology-types><node><node-id>pcc://110.0.0.2</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><ip-address>110.0.0.2</ip-address><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><state-sync>synchronized</state-sync></path-computation-client></node><node><node-id>pcc://110.0.0.1</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><reported-lsp><name>tencentlsp</name><path><lsp-id>2</lsp-id><ero><subobject><loose>false</loose><remote-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">13.0.0.3</remote-ip-address><local-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">13.0.0.1</local-ip-address><sid xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">24001</sid><m-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">true</m-flag><c-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">false</c-flag><sid-type xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">ipv4-adjacency</sid-type></subobject><subobject><loose>false</loose><remote-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">23.0.0.2</remote-ip-address><local-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">23.0.0.3</local-ip-address><sid xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">24001</sid><m-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">true</m-flag><c-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">false</c-flag><sid-type xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">ipv4-adjacency</sid-type></subobject><processing-rule>false</processing-rule><ignore>false</ignore></ero><bandwidth><processing-rule>false</processing-rule><ignore>false</ignore><bandwidth>AAAAAA==</bandwidth></bandwidth><lspa><setup-priority>7</setup-priority><ignore>false</ignore><exclude-any>0</exclude-any><processing-rule>false</processing-rule><tlvs></tlvs><hold-priority>7</hold-priority><local-protection-desired>false</local-protection-desired><include-any>0</include-any><include-all>0</include-all></lspa><lsp xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><ignore>false</ignore><administrative>true</administrative><delegate>true</delegate><sync>false</sync><remove>false</remove><plsp-id>12</plsp-id><processing-rule>false</processing-rule><create xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</create><operational>up</operational><tlvs><lsp-identifiers><ipv4><ipv4-tunnel-sender-address>1.1.1.1</ipv4-tunnel-sender-address><ipv4-tunnel-endpoint-address>2.2.2.2</ipv4-tunnel-endpoint-address><ipv4-extended-tunnel-id>2.2.2.2</ipv4-extended-tunnel-id></ipv4><lsp-id>2</lsp-id><tunnel-id>11</tunnel-id></lsp-identifiers><symbolic-path-name><path-name>dGVuY2VudGxzcA==</path-name></symbolic-path-name><path-binding><binding-value>AAAAXdk=</binding-value><binding-type>0</binding-type></path-binding></tlvs></lsp></path></reported-lsp><state-sync>synchronized</state-sync><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><ip-address>110.0.0.1</ip-address></path-computation-client></node><node><node-id>pcc://110.0.0.3</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><ip-address>110.0.0.3</ip-address><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><state-sync>synchronized</state-sync></path-computation-client></node></topology>
+11
+11
+Update ---- Modification
+node
+name
+pcc://110.0.0.1
+tencentlsp
+<topology xmlns="urn:TBD:params:xml:ns:yang:network-topology"><topology-id>pcep-topology</topology-id><topology-types><topology-pcep xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"></topology-pcep></topology-types><node><node-id>pcc://110.0.0.2</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><ip-address>110.0.0.2</ip-address><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><state-sync>synchronized</state-sync></path-computation-client></node><node><node-id>pcc://110.0.0.1</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><reported-lsp><name>tencentlsp</name><path><lsp-id>2</lsp-id><ero><subobject><loose>false</loose><remote-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">13.0.0.3</remote-ip-address><local-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">13.0.0.1</local-ip-address><sid xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">24001</sid><m-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">true</m-flag><c-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">false</c-flag><sid-type xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">ipv4-adjacency</sid-type></subobject><subobject><loose>false</loose><remote-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">23.0.0.2</remote-ip-address><local-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">23.0.0.3</local-ip-address><sid xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">24001</sid><m-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">true</m-flag><c-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">false</c-flag><sid-type xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">ipv4-adjacency</sid-type></subobject><processing-rule>false</processing-rule><ignore>false</ignore></ero><bandwidth><processing-rule>false</processing-rule><ignore>false</ignore><bandwidth>AAAAAA==</bandwidth></bandwidth><lspa><setup-priority>7</setup-priority><ignore>false</ignore><exclude-any>0</exclude-any><processing-rule>false</processing-rule><tlvs></tlvs><hold-priority>7</hold-priority><local-protection-desired>false</local-protection-desired><include-any>0</include-any><include-all>0</include-all></lspa><lsp xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><ignore>false</ignore><administrative>true</administrative><delegate>true</delegate><sync>false</sync><remove>false</remove><plsp-id>12</plsp-id><processing-rule>false</processing-rule><create xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</create><operational>up</operational><tlvs><lsp-identifiers><ipv4><ipv4-tunnel-sender-address>1.1.1.1</ipv4-tunnel-sender-address><ipv4-tunnel-endpoint-address>2.2.2.2</ipv4-tunnel-endpoint-address><ipv4-extended-tunnel-id>2.2.2.2</ipv4-extended-tunnel-id></ipv4><lsp-id>2</lsp-id><tunnel-id>11</tunnel-id></lsp-identifiers><symbolic-path-name><path-name>dGVuY2VudGxzcA==</path-name></symbolic-path-name><path-binding><binding-value>AAAAXdk=</binding-value><binding-type>0</binding-type></path-binding></tlvs></lsp></path></reported-lsp><state-sync>synchronized</state-sync><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><ip-address>110.0.0.1</ip-address></path-computation-client></node><node><node-id>pcc://110.0.0.3</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><ip-address>110.0.0.3</ip-address><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><state-sync>synchronized</state-sync></path-computation-client></node></topology>
+11
+11
+delete old(level2) lsp-sr
+create new(level1) lsp-sr
+node
+name
+pcc://110.0.0.1
+tencentlsp
+<topology xmlns="urn:TBD:params:xml:ns:yang:network-topology"><topology-id>pcep-topology</topology-id><topology-types><topology-pcep xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"></topology-pcep></topology-types><node><node-id>pcc://110.0.0.2</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><ip-address>110.0.0.2</ip-address><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><state-sync>synchronized</state-sync></path-computation-client></node><node><node-id>pcc://110.0.0.1</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><reported-lsp><name>tencentlsp</name><path><lsp-id>2</lsp-id><ero><subobject><loose>false</loose><remote-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">12.0.0.2</remote-ip-address><local-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">12.0.0.1</local-ip-address><sid xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">24003</sid><m-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">true</m-flag><c-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">false</c-flag><sid-type xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">ipv4-adjacency</sid-type></subobject><processing-rule>false</processing-rule><ignore>false</ignore></ero><bandwidth><processing-rule>false</processing-rule><ignore>false</ignore><bandwidth>AAAAAA==</bandwidth></bandwidth><lspa><setup-priority>7</setup-priority><ignore>false</ignore><exclude-any>0</exclude-any><processing-rule>false</processing-rule><tlvs></tlvs><hold-priority>7</hold-priority><local-protection-desired>false</local-protection-desired><include-any>0</include-any><include-all>0</include-all></lspa><lsp xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><ignore>false</ignore><administrative>true</administrative><delegate>true</delegate><sync>false</sync><remove>false</remove><plsp-id>13</plsp-id><processing-rule>false</processing-rule><create xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</create><operational>up</operational><tlvs><lsp-identifiers><ipv4><ipv4-tunnel-sender-address>1.1.1.1</ipv4-tunnel-sender-address><ipv4-tunnel-endpoint-address>2.2.2.2</ipv4-tunnel-endpoint-address><ipv4-extended-tunnel-id>2.2.2.2</ipv4-extended-tunnel-id></ipv4><lsp-id>2</lsp-id><tunnel-id>12</tunnel-id></lsp-identifiers><symbolic-path-name><path-name>dGVuY2VudGxzcA==</path-name></symbolic-path-name><path-binding><binding-value>AAAAXds=</binding-value><binding-type>0</binding-type></path-binding></tlvs></lsp></path></reported-lsp><state-sync>synchronized</state-sync><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><ip-address>110.0.0.1</ip-address></path-computation-client></node><node><node-id>pcc://110.0.0.3</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><ip-address>110.0.0.3</ip-address><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><state-sync>synchronized</state-sync></path-computation-client></node></topology>
+12
+12
+Before QOS servicelevel2
+After QOS servicelevel2
+node
+name
+pcc://110.0.0.1
+tencentlsp
+<topology xmlns="urn:TBD:params:xml:ns:yang:network-topology"><topology-id>pcep-topology</topology-id><topology-types><topology-pcep xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"></topology-pcep></topology-types><node><node-id>pcc://110.0.0.2</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><ip-address>110.0.0.2</ip-address><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><state-sync>synchronized</state-sync></path-computation-client></node><node><node-id>pcc://110.0.0.1</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><reported-lsp><name>tencentlsp</name><path><lsp-id>2</lsp-id><ero><subobject><loose>false</loose><remote-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">12.0.0.2</remote-ip-address><local-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">12.0.0.1</local-ip-address><sid xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">24003</sid><m-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">true</m-flag><c-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">false</c-flag><sid-type xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">ipv4-adjacency</sid-type></subobject><processing-rule>false</processing-rule><ignore>false</ignore></ero><bandwidth><processing-rule>false</processing-rule><ignore>false</ignore><bandwidth>AAAAAA==</bandwidth></bandwidth><lspa><setup-priority>7</setup-priority><ignore>false</ignore><exclude-any>0</exclude-any><processing-rule>false</processing-rule><tlvs></tlvs><hold-priority>7</hold-priority><local-protection-desired>false</local-protection-desired><include-any>0</include-any><include-all>0</include-all></lspa><lsp xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><ignore>false</ignore><administrative>true</administrative><delegate>true</delegate><sync>false</sync><remove>false</remove><plsp-id>13</plsp-id><processing-rule>false</processing-rule><create xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</create><operational>up</operational><tlvs><lsp-identifiers><ipv4><ipv4-tunnel-sender-address>1.1.1.1</ipv4-tunnel-sender-address><ipv4-tunnel-endpoint-address>2.2.2.2</ipv4-tunnel-endpoint-address><ipv4-extended-tunnel-id>2.2.2.2</ipv4-extended-tunnel-id></ipv4><lsp-id>2</lsp-id><tunnel-id>12</tunnel-id></lsp-identifiers><symbolic-path-name><path-name>dGVuY2VudGxzcA==</path-name></symbolic-path-name><path-binding><binding-value>AAAAXds=</binding-value><binding-type>0</binding-type></path-binding></tlvs></lsp></path></reported-lsp><state-sync>synchronized</state-sync><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><ip-address>110.0.0.1</ip-address></path-computation-client></node><node><node-id>pcc://110.0.0.3</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><ip-address>110.0.0.3</ip-address><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><state-sync>synchronized</state-sync></path-computation-client></node></topology>
+12
+12
+com.tailf.navu.NavuException: com.tailf.maapi.MaapiException: /ncs:devices/device{a9k}/config/cisco-ios-xr:router/static/address-family/ipv4/unicast/routes{88.88.88.88/32 tunnel-te12}: already exists
+Update ---- Modification
+node
+name
+pcc://110.0.0.1
+tencentlsp
+<topology xmlns="urn:TBD:params:xml:ns:yang:network-topology"><topology-id>pcep-topology</topology-id><topology-types><topology-pcep xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"></topology-pcep></topology-types><node><node-id>pcc://110.0.0.2</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><ip-address>110.0.0.2</ip-address><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><state-sync>synchronized</state-sync></path-computation-client></node><node><node-id>pcc://110.0.0.1</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><reported-lsp><name>tencentlsp</name><path><lsp-id>2</lsp-id><ero><subobject><loose>false</loose><remote-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">12.0.0.2</remote-ip-address><local-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">12.0.0.1</local-ip-address><sid xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">24003</sid><m-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">true</m-flag><c-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">false</c-flag><sid-type xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">ipv4-adjacency</sid-type></subobject><processing-rule>false</processing-rule><ignore>false</ignore></ero><bandwidth><processing-rule>false</processing-rule><ignore>false</ignore><bandwidth>AAAAAA==</bandwidth></bandwidth><lspa><setup-priority>7</setup-priority><ignore>false</ignore><exclude-any>0</exclude-any><processing-rule>false</processing-rule><tlvs></tlvs><hold-priority>7</hold-priority><local-protection-desired>false</local-protection-desired><include-any>0</include-any><include-all>0</include-all></lspa><lsp xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><ignore>false</ignore><administrative>true</administrative><delegate>true</delegate><sync>false</sync><remove>false</remove><plsp-id>13</plsp-id><processing-rule>false</processing-rule><create xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</create><operational>up</operational><tlvs><lsp-identifiers><ipv4><ipv4-tunnel-sender-address>1.1.1.1</ipv4-tunnel-sender-address><ipv4-tunnel-endpoint-address>2.2.2.2</ipv4-tunnel-endpoint-address><ipv4-extended-tunnel-id>2.2.2.2</ipv4-extended-tunnel-id></ipv4><lsp-id>2</lsp-id><tunnel-id>12</tunnel-id></lsp-identifiers><symbolic-path-name><path-name>dGVuY2VudGxzcA==</path-name></symbolic-path-name><path-binding><binding-value>AAAAXds=</binding-value><binding-type>0</binding-type></path-binding></tlvs></lsp></path></reported-lsp><state-sync>synchronized</state-sync><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><ip-address>110.0.0.1</ip-address></path-computation-client></node><node><node-id>pcc://110.0.0.3</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><ip-address>110.0.0.3</ip-address><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><state-sync>synchronized</state-sync></path-computation-client></node></topology>
+12
+12
+delete old(level1) lsp-sr
+create new(level2) lsp-sr
+node
+name
+pcc://110.0.0.1
+tencentlsp
+<topology xmlns="urn:TBD:params:xml:ns:yang:network-topology"><topology-id>pcep-topology</topology-id><topology-types><topology-pcep xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"></topology-pcep></topology-types><node><node-id>pcc://110.0.0.2</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><ip-address>110.0.0.2</ip-address><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><state-sync>synchronized</state-sync></path-computation-client></node><node><node-id>pcc://110.0.0.1</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><reported-lsp><name>tencentlsp</name><path><lsp-id>2</lsp-id><ero><subobject><loose>false</loose><remote-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">13.0.0.3</remote-ip-address><local-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">13.0.0.1</local-ip-address><sid xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">24001</sid><m-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">true</m-flag><c-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">false</c-flag><sid-type xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">ipv4-adjacency</sid-type></subobject><subobject><loose>false</loose><remote-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">23.0.0.2</remote-ip-address><local-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">23.0.0.3</local-ip-address><sid xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">24001</sid><m-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">true</m-flag><c-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">false</c-flag><sid-type xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">ipv4-adjacency</sid-type></subobject><processing-rule>false</processing-rule><ignore>false</ignore></ero><bandwidth><processing-rule>false</processing-rule><ignore>false</ignore><bandwidth>AAAAAA==</bandwidth></bandwidth><lspa><setup-priority>7</setup-priority><ignore>false</ignore><exclude-any>0</exclude-any><processing-rule>false</processing-rule><tlvs></tlvs><hold-priority>7</hold-priority><local-protection-desired>false</local-protection-desired><include-any>0</include-any><include-all>0</include-all></lspa><lsp xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><ignore>false</ignore><administrative>true</administrative><delegate>true</delegate><sync>false</sync><remove>false</remove><plsp-id>14</plsp-id><processing-rule>false</processing-rule><create xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</create><operational>up</operational><tlvs><lsp-identifiers><ipv4><ipv4-tunnel-sender-address>1.1.1.1</ipv4-tunnel-sender-address><ipv4-tunnel-endpoint-address>2.2.2.2</ipv4-tunnel-endpoint-address><ipv4-extended-tunnel-id>2.2.2.2</ipv4-extended-tunnel-id></ipv4><lsp-id>2</lsp-id><tunnel-id>13</tunnel-id></lsp-identifiers><symbolic-path-name><path-name>dGVuY2VudGxzcA==</path-name></symbolic-path-name><path-binding><binding-value>AAAAXd0=</binding-value><binding-type>0</binding-type></path-binding></tlvs></lsp></path></reported-lsp><state-sync>synchronized</state-sync><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><ip-address>110.0.0.1</ip-address></path-computation-client></node><node><node-id>pcc://110.0.0.3</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><ip-address>110.0.0.3</ip-address><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><state-sync>synchronized</state-sync></path-computation-client></node></topology>
+13
+13
+Before QOS servicelevel2
+After QOS servicelevel1
+node
+name
+pcc://110.0.0.1
+tencentlsp
+<topology xmlns="urn:TBD:params:xml:ns:yang:network-topology"><topology-id>pcep-topology</topology-id><topology-types><topology-pcep xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"></topology-pcep></topology-types><node><node-id>pcc://110.0.0.2</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><ip-address>110.0.0.2</ip-address><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><state-sync>synchronized</state-sync></path-computation-client></node><node><node-id>pcc://110.0.0.1</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><reported-lsp><name>tencentlsp</name><path><lsp-id>2</lsp-id><ero><subobject><loose>false</loose><remote-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">13.0.0.3</remote-ip-address><local-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">13.0.0.1</local-ip-address><sid xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">24001</sid><m-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">true</m-flag><c-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">false</c-flag><sid-type xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">ipv4-adjacency</sid-type></subobject><subobject><loose>false</loose><remote-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">23.0.0.2</remote-ip-address><local-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">23.0.0.3</local-ip-address><sid xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">24001</sid><m-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">true</m-flag><c-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">false</c-flag><sid-type xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">ipv4-adjacency</sid-type></subobject><processing-rule>false</processing-rule><ignore>false</ignore></ero><bandwidth><processing-rule>false</processing-rule><ignore>false</ignore><bandwidth>AAAAAA==</bandwidth></bandwidth><lspa><setup-priority>7</setup-priority><ignore>false</ignore><exclude-any>0</exclude-any><processing-rule>false</processing-rule><tlvs></tlvs><hold-priority>7</hold-priority><local-protection-desired>false</local-protection-desired><include-any>0</include-any><include-all>0</include-all></lspa><lsp xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><ignore>false</ignore><administrative>true</administrative><delegate>true</delegate><sync>false</sync><remove>false</remove><plsp-id>14</plsp-id><processing-rule>false</processing-rule><create xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</create><operational>up</operational><tlvs><lsp-identifiers><ipv4><ipv4-tunnel-sender-address>1.1.1.1</ipv4-tunnel-sender-address><ipv4-tunnel-endpoint-address>2.2.2.2</ipv4-tunnel-endpoint-address><ipv4-extended-tunnel-id>2.2.2.2</ipv4-extended-tunnel-id></ipv4><lsp-id>2</lsp-id><tunnel-id>13</tunnel-id></lsp-identifiers><symbolic-path-name><path-name>dGVuY2VudGxzcA==</path-name></symbolic-path-name><path-binding><binding-value>AAAAXd0=</binding-value><binding-type>0</binding-type></path-binding></tlvs></lsp></path></reported-lsp><state-sync>synchronized</state-sync><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><ip-address>110.0.0.1</ip-address></path-computation-client></node><node><node-id>pcc://110.0.0.3</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><ip-address>110.0.0.3</ip-address><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><state-sync>synchronized</state-sync></path-computation-client></node></topology>
+13
+13
+com.tailf.navu.NavuException: com.tailf.maapi.MaapiException: /ncs:devices/device{a9k}/config/cisco-ios-xr:router/static/address-family/ipv4/unicast/routes{88.88.88.88/32 tunnel-te13}: already exists
+Update ---- Modification
+node
+name
+pcc://110.0.0.1
+tencentlsp
+<topology xmlns="urn:TBD:params:xml:ns:yang:network-topology"><topology-id>pcep-topology</topology-id><topology-types><topology-pcep xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"></topology-pcep></topology-types><node><node-id>pcc://110.0.0.2</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><ip-address>110.0.0.2</ip-address><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><state-sync>synchronized</state-sync></path-computation-client></node><node><node-id>pcc://110.0.0.1</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><reported-lsp><name>tencentlsp</name><path><lsp-id>2</lsp-id><ero><subobject><loose>false</loose><remote-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">13.0.0.3</remote-ip-address><local-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">13.0.0.1</local-ip-address><sid xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">24001</sid><m-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">true</m-flag><c-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">false</c-flag><sid-type xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">ipv4-adjacency</sid-type></subobject><subobject><loose>false</loose><remote-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">23.0.0.2</remote-ip-address><local-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">23.0.0.3</local-ip-address><sid xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">24001</sid><m-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">true</m-flag><c-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">false</c-flag><sid-type xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">ipv4-adjacency</sid-type></subobject><processing-rule>false</processing-rule><ignore>false</ignore></ero><bandwidth><processing-rule>false</processing-rule><ignore>false</ignore><bandwidth>AAAAAA==</bandwidth></bandwidth><lspa><setup-priority>7</setup-priority><ignore>false</ignore><exclude-any>0</exclude-any><processing-rule>false</processing-rule><tlvs></tlvs><hold-priority>7</hold-priority><local-protection-desired>false</local-protection-desired><include-any>0</include-any><include-all>0</include-all></lspa><lsp xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><ignore>false</ignore><administrative>true</administrative><delegate>true</delegate><sync>false</sync><remove>false</remove><plsp-id>14</plsp-id><processing-rule>false</processing-rule><create xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</create><operational>up</operational><tlvs><lsp-identifiers><ipv4><ipv4-tunnel-sender-address>1.1.1.1</ipv4-tunnel-sender-address><ipv4-tunnel-endpoint-address>2.2.2.2</ipv4-tunnel-endpoint-address><ipv4-extended-tunnel-id>2.2.2.2</ipv4-extended-tunnel-id></ipv4><lsp-id>2</lsp-id><tunnel-id>13</tunnel-id></lsp-identifiers><symbolic-path-name><path-name>dGVuY2VudGxzcA==</path-name></symbolic-path-name><path-binding><binding-value>AAAAXd0=</binding-value><binding-type>0</binding-type></path-binding></tlvs></lsp></path></reported-lsp><state-sync>synchronized</state-sync><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><ip-address>110.0.0.1</ip-address></path-computation-client></node><node><node-id>pcc://110.0.0.3</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><ip-address>110.0.0.3</ip-address><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><state-sync>synchronized</state-sync></path-computation-client></node></topology>
+13
+13
+delete old(level2) lsp-sr
+create new(level1) lsp-sr
+node
+name
+pcc://110.0.0.1
+tencentlsp
+<topology xmlns="urn:TBD:params:xml:ns:yang:network-topology"><topology-id>pcep-topology</topology-id><topology-types><topology-pcep xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"></topology-pcep></topology-types><node><node-id>pcc://110.0.0.2</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><ip-address>110.0.0.2</ip-address><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><state-sync>synchronized</state-sync></path-computation-client></node><node><node-id>pcc://110.0.0.1</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><reported-lsp><name>tencentlsp</name><path><lsp-id>2</lsp-id><ero><subobject><loose>false</loose><remote-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">12.0.0.2</remote-ip-address><local-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">12.0.0.1</local-ip-address><sid xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">24003</sid><m-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">true</m-flag><c-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">false</c-flag><sid-type xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">ipv4-adjacency</sid-type></subobject><processing-rule>false</processing-rule><ignore>false</ignore></ero><bandwidth><processing-rule>false</processing-rule><ignore>false</ignore><bandwidth>AAAAAA==</bandwidth></bandwidth><lspa><setup-priority>7</setup-priority><ignore>false</ignore><exclude-any>0</exclude-any><processing-rule>false</processing-rule><tlvs></tlvs><hold-priority>7</hold-priority><local-protection-desired>false</local-protection-desired><include-any>0</include-any><include-all>0</include-all></lspa><lsp xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><ignore>false</ignore><administrative>true</administrative><delegate>true</delegate><sync>false</sync><remove>false</remove><plsp-id>15</plsp-id><processing-rule>false</processing-rule><create xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</create><operational>up</operational><tlvs><lsp-identifiers><ipv4><ipv4-tunnel-sender-address>1.1.1.1</ipv4-tunnel-sender-address><ipv4-tunnel-endpoint-address>2.2.2.2</ipv4-tunnel-endpoint-address><ipv4-extended-tunnel-id>2.2.2.2</ipv4-extended-tunnel-id></ipv4><lsp-id>2</lsp-id><tunnel-id>14</tunnel-id></lsp-identifiers><symbolic-path-name><path-name>dGVuY2VudGxzcA==</path-name></symbolic-path-name><path-binding><binding-value>AAAAXd8=</binding-value><binding-type>0</binding-type></path-binding></tlvs></lsp></path></reported-lsp><state-sync>synchronized</state-sync><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><ip-address>110.0.0.1</ip-address></path-computation-client></node><node><node-id>pcc://110.0.0.3</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><ip-address>110.0.0.3</ip-address><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><state-sync>synchronized</state-sync></path-computation-client></node></topology>
+14
+14
+Delete ---- Modification
+node
+name
+pcc://110.0.0.1
+tencentlsp
+<topology xmlns="urn:TBD:params:xml:ns:yang:network-topology"><topology-id>pcep-topology</topology-id><topology-types><topology-pcep xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"></topology-pcep></topology-types><node><node-id>pcc://110.0.0.2</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><ip-address>110.0.0.2</ip-address><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><state-sync>synchronized</state-sync></path-computation-client></node><node><node-id>pcc://110.0.0.1</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><reported-lsp><name>tencentlsp</name><path><lsp-id>2</lsp-id><ero><subobject><loose>false</loose><remote-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">12.0.0.2</remote-ip-address><local-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">12.0.0.1</local-ip-address><sid xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">24003</sid><m-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">true</m-flag><c-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">false</c-flag><sid-type xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">ipv4-adjacency</sid-type></subobject><processing-rule>false</processing-rule><ignore>false</ignore></ero><bandwidth><processing-rule>false</processing-rule><ignore>false</ignore><bandwidth>AAAAAA==</bandwidth></bandwidth><lspa><setup-priority>7</setup-priority><ignore>false</ignore><exclude-any>0</exclude-any><processing-rule>false</processing-rule><tlvs></tlvs><hold-priority>7</hold-priority><local-protection-desired>false</local-protection-desired><include-any>0</include-any><include-all>0</include-all></lspa><lsp xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><ignore>false</ignore><administrative>true</administrative><delegate>true</delegate><sync>false</sync><remove>false</remove><plsp-id>15</plsp-id><processing-rule>false</processing-rule><create xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</create><operational>up</operational><tlvs><lsp-identifiers><ipv4><ipv4-tunnel-sender-address>1.1.1.1</ipv4-tunnel-sender-address><ipv4-tunnel-endpoint-address>2.2.2.2</ipv4-tunnel-endpoint-address><ipv4-extended-tunnel-id>2.2.2.2</ipv4-extended-tunnel-id></ipv4><lsp-id>2</lsp-id><tunnel-id>14</tunnel-id></lsp-identifiers><symbolic-path-name><path-name>dGVuY2VudGxzcA==</path-name></symbolic-path-name><path-binding><binding-value>AAAAXd8=</binding-value><binding-type>0</binding-type></path-binding></tlvs></lsp></path></reported-lsp><state-sync>synchronized</state-sync><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><ip-address>110.0.0.1</ip-address></path-computation-client></node><node><node-id>pcc://110.0.0.3</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><ip-address>110.0.0.3</ip-address><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><state-sync>synchronized</state-sync></path-computation-client></node></topology>
+14
+14
+<INFO> 16-Aug-2015::23:09:42.580 NcsMain JVM-Launcher: -  <= GOT STOP_VM
+<WARN> 16-Aug-2015::23:09:42.581 NcsMain JVM-Launcher: - STOPPING
+<WARN> 16-Aug-2015::23:09:42.582 Dp NCS-DpMUX-5-qos:RFSSkeleton: - Socket was closed
+<WARN> 16-Aug-2015::23:09:42.583 NedWorker Ned-Worker-Thread-1: - Thread[Ned-Worker-Thread-1,5,main] dies due to!
+<WARN> 16-Aug-2015::23:09:42.583 NedWorker Ned-Worker-Thread-0: - Thread[Ned-Worker-Thread-0,5,main] dies due to!
+<WARN> 16-Aug-2015::23:09:42.583 NedWorker Ned-Worker-Thread-2: - Thread[Ned-Worker-Thread-2,5,main] dies due to!
+<WARN> 16-Aug-2015::23:09:42.589 NcsMain JVM-Launcher: - CONTROL SOCKET CLOSED - HALTING
+<WARN> 16-Aug-2015::23:09:42.589 NcsJVMLauncher main: -  NCS JVM STOPPED
+ NCS JVM STOPPED
+Starting java-vm with options:
+' -classpath :/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/* -Dport=4569 -Xmx512M -Djava.awt.headless=true -Djava.security.egd=file:/dev/./urandom -Dfile.encoding=UTF-8'
+NCS JVM STARTING
+NcsLogger applying Default configuration!
+<INFO> 16-Aug-2015::23:31:50.137 NcsMain JVM-Launcher: - CONNECTED TO to NCS --> Socket[addr=/127.0.0.1,port=4569,localport=53336]
+<INFO> 16-Aug-2015::23:31:50.154 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:50.162 NcsMain JVM-Launcher: -  <= GOT INIT_JVM
+JMXURL : service:jmx:rmi://127.0.0.1:9901/jndi/rmi://127.0.0.1:9902/ncs
+<INFO> 16-Aug-2015::23:31:51.286 NcsMain JVM-Launcher: - ALARM SERVICE STARTED
+<INFO> 16-Aug-2015::23:31:51.286 NcsMain JVM-Launcher: - DONE COMMAND --> INIT_JVM
+<INFO> 16-Aug-2015::23:31:51.287 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:51.287 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 16-Aug-2015::23:31:51.288 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-apicdc"] -->
+<INFO> 16-Aug-2015::23:31:51.288 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/cisco-apicdc-ns.jar
+<INFO> 16-Aug-2015::23:31:51.288 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/commons-io-2.4.jar
+<INFO> 16-Aug-2015::23:31:51.288 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/commons-logging-1.2.jar
+<INFO> 16-Aug-2015::23:31:51.288 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/httpclient-4.4.jar
+<INFO> 16-Aug-2015::23:31:51.289 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/httpcore-4.4.jar
+<INFO> 16-Aug-2015::23:31:51.289 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-apicdc"] --> OK
+<INFO> 16-Aug-2015::23:31:51.289 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 16-Aug-2015::23:31:51.289 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:51.290 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 16-Aug-2015::23:31:51.291 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-ios"] -->
+<INFO> 16-Aug-2015::23:31:51.291 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-ios/shared-jar/ios-ns.jar
+<INFO> 16-Aug-2015::23:31:51.291 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-ios"] --> OK
+<INFO> 16-Aug-2015::23:31:51.291 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 16-Aug-2015::23:31:51.291 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:51.291 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 16-Aug-2015::23:31:51.291 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-iosxr"] -->
+<INFO> 16-Aug-2015::23:31:51.292 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-xr/shared-jar/iosxr-ns.jar
+<INFO> 16-Aug-2015::23:31:51.292 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-iosxr"] --> OK
+<INFO> 16-Aug-2015::23:31:51.292 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 16-Aug-2015::23:31:51.292 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:51.292 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 16-Aug-2015::23:31:51.292 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["odl"] -->
+<INFO> 16-Aug-2015::23:31:51.293 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/odl/shared-jar/odl-ns.jar
+<INFO> 16-Aug-2015::23:31:51.293 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["odl"] --> OK
+<INFO> 16-Aug-2015::23:31:51.293 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 16-Aug-2015::23:31:51.293 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:51.293 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 16-Aug-2015::23:31:51.293 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["qos"] -->
+<INFO> 16-Aug-2015::23:31:51.294 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/qos/shared-jar/commons-net-3.3.jar
+<INFO> 16-Aug-2015::23:31:51.294 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/qos/shared-jar/qos-ns.jar
+<INFO> 16-Aug-2015::23:31:51.294 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["qos"] --> OK
+<INFO> 16-Aug-2015::23:31:51.294 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 16-Aug-2015::23:31:51.294 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:51.294 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 16-Aug-2015::23:31:51.294 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 16-Aug-2015::23:31:51.295 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-apicdc"] -->
+<INFO> 16-Aug-2015::23:31:51.316 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-apicdc"] --> LOADED
+<INFO> 16-Aug-2015::23:31:51.316 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 16-Aug-2015::23:31:51.317 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:51.317 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 16-Aug-2015::23:31:51.317 NcsMain JVM-Launcher: - FOUND TYPE: upgrade
+<INFO> 16-Aug-2015::23:31:51.317 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 16-Aug-2015::23:31:51.317 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-ios"] -->
+<WARN> 16-Aug-2015::23:31:51.328 ResourceManager JVM-Launcher: - Resource annotated field :IOSNedCli::mm already set, no resource injection performed
+<INFO> 16-Aug-2015::23:31:51.328 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-ios"] --> LOADED
+<INFO> 16-Aug-2015::23:31:51.328 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 16-Aug-2015::23:31:51.328 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:51.329 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 16-Aug-2015::23:31:51.329 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 16-Aug-2015::23:31:51.329 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-iosxr"] -->
+<WARN> 16-Aug-2015::23:31:51.335 ResourceManager JVM-Launcher: - Resource annotated field :IosxrNedCli::mm already set, no resource injection performed
+<INFO> 16-Aug-2015::23:31:51.335 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-iosxr"] --> LOADED
+<INFO> 16-Aug-2015::23:31:51.335 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 16-Aug-2015::23:31:51.335 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:51.335 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 16-Aug-2015::23:31:51.335 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 16-Aug-2015::23:31:51.336 NcsMain JVM-Launcher: - LOADING PACKAGE ["odl"] -->
+<INFO> 16-Aug-2015::23:31:51.340 NcsMain JVM-Launcher: - LOADING PACKAGE ["odl"] --> LOADED
+<INFO> 16-Aug-2015::23:31:51.340 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 16-Aug-2015::23:31:51.341 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:51.341 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 16-Aug-2015::23:31:51.341 NcsMain JVM-Launcher: - FOUND TYPE: callback
+<INFO> 16-Aug-2015::23:31:51.341 NcsMain JVM-Launcher: - LOADING PACKAGE ["qos"] -->
+############ Service Initiled
+<INFO> 16-Aug-2015::23:31:51.344 NcsMain JVM-Launcher: - LOADING PACKAGE ["qos"] --> LOADED
+<INFO> 16-Aug-2015::23:31:51.345 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 16-Aug-2015::23:31:51.345 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:51.345 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:31:51.345 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-apicdc:cisco-apicdc"] -->
+<INFO> 16-Aug-2015::23:31:51.347 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-apicdc:cisco-apicdc"] --> DONE
+<INFO> 16-Aug-2015::23:31:51.347 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:31:51.347 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:51.347 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:31:51.347 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:upgrade-ned-id"] -->
+<INFO> 16-Aug-2015::23:31:51.347 NcsMain JVM-Launcher: - => Nothing to deploy for component cisco-ios:upgrade-ned-id
+<INFO> 16-Aug-2015::23:31:51.348 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:upgrade-ned-id"] --> DONE
+<INFO> 16-Aug-2015::23:31:51.348 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:31:51.348 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:51.348 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:31:51.348 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:cisco-ios"] -->
+<INFO> 16-Aug-2015::23:31:51.348 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:cisco-ios"] --> DONE
+<INFO> 16-Aug-2015::23:31:51.348 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:31:51.348 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:51.349 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:31:51.349 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-iosxr:cisco-ios-xr"] -->
+<INFO> 16-Aug-2015::23:31:51.349 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-iosxr:cisco-ios-xr"] --> DONE
+<INFO> 16-Aug-2015::23:31:51.349 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:31:51.349 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:51.349 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:31:51.349 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["odl:odl"] -->
+<INFO> 16-Aug-2015::23:31:51.349 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["odl:odl"] --> DONE
+<INFO> 16-Aug-2015::23:31:51.350 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:31:51.350 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:51.350 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:31:51.350 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["qos:RFSSkeleton"] -->
+<INFO> 16-Aug-2015::23:31:51.380 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["qos:RFSSkeleton"] --> DONE
+<INFO> 16-Aug-2015::23:31:51.381 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:31:51.381 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:51.381 NcsMain JVM-Launcher: -  <= GOT DONE_LOADING
+<INFO> 16-Aug-2015::23:31:51.381 NcsMain JVM-Launcher: - DONE LOADING  -->
+<INFO> 16-Aug-2015::23:31:51.381 NcsMain JVM-Launcher: - DONE LOADING --> OK
+<INFO> 16-Aug-2015::23:31:51.382 NcsMain JVM-Launcher: - DONE COMMAND --> DONE_LOADING
+<INFO> 16-Aug-2015::23:31:51.382 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:52.516 NcsMain JVM-Launcher: -  <= GOT UNLOAD_ALL
+<INFO> 16-Aug-2015::23:31:52.516 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["qos"] -->
+<INFO> 16-Aug-2015::23:31:52.517 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["qos"] --> OK
+<INFO> 16-Aug-2015::23:31:52.517 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["odl"] -->
+<WARN> 16-Aug-2015::23:31:52.517 Dp NCS-DpMUX-1-qos:RFSSkeleton: - Socket was closed
+<INFO> 16-Aug-2015::23:31:52.518 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["odl"] --> OK
+<INFO> 16-Aug-2015::23:31:52.518 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-ios"] -->
+<INFO> 16-Aug-2015::23:31:52.518 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-ios"] --> OK
+<INFO> 16-Aug-2015::23:31:52.518 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-apicdc"] -->
+<INFO> 16-Aug-2015::23:31:52.518 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-apicdc"] --> OK
+<INFO> 16-Aug-2015::23:31:52.519 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-iosxr"] -->
+<INFO> 16-Aug-2015::23:31:52.519 NcsMain JVM-Launcher: - UNLOAD PACKAGE ["cisco-iosxr"] --> OK
+<INFO> 16-Aug-2015::23:31:52.519 NcsMain JVM-Launcher: - DONE COMMAND --> UNLOAD_ALL
+<INFO> 16-Aug-2015::23:31:52.519 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:52.519 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 16-Aug-2015::23:31:52.519 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-apicdc"] -->
+<INFO> 16-Aug-2015::23:31:52.519 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/cisco-apicdc-ns.jar
+<INFO> 16-Aug-2015::23:31:52.520 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/commons-io-2.4.jar
+<INFO> 16-Aug-2015::23:31:52.520 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/commons-logging-1.2.jar
+<INFO> 16-Aug-2015::23:31:52.520 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/httpclient-4.4.jar
+<INFO> 16-Aug-2015::23:31:52.520 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/httpcore-4.4.jar
+<INFO> 16-Aug-2015::23:31:52.520 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-apicdc"] --> OK
+<INFO> 16-Aug-2015::23:31:52.520 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 16-Aug-2015::23:31:52.520 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:52.520 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 16-Aug-2015::23:31:52.520 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-ios"] -->
+<INFO> 16-Aug-2015::23:31:52.520 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-ios/shared-jar/ios-ns.jar
+<INFO> 16-Aug-2015::23:31:52.520 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-ios"] --> OK
+<INFO> 16-Aug-2015::23:31:52.521 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 16-Aug-2015::23:31:52.521 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:52.521 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 16-Aug-2015::23:31:52.521 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-iosxr"] -->
+<INFO> 16-Aug-2015::23:31:52.521 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-xr/shared-jar/iosxr-ns.jar
+<INFO> 16-Aug-2015::23:31:52.521 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-iosxr"] --> OK
+<INFO> 16-Aug-2015::23:31:52.521 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 16-Aug-2015::23:31:52.521 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:52.521 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 16-Aug-2015::23:31:52.521 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["odl"] -->
+<INFO> 16-Aug-2015::23:31:52.521 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/odl/shared-jar/odl-ns.jar
+<INFO> 16-Aug-2015::23:31:52.521 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["odl"] --> OK
+<INFO> 16-Aug-2015::23:31:52.521 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 16-Aug-2015::23:31:52.522 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:52.522 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 16-Aug-2015::23:31:52.522 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["qos"] -->
+<INFO> 16-Aug-2015::23:31:52.522 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/qos/shared-jar/commons-net-3.3.jar
+<INFO> 16-Aug-2015::23:31:52.522 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/qos/shared-jar/qos-ns.jar
+<INFO> 16-Aug-2015::23:31:52.522 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["qos"] --> OK
+<INFO> 16-Aug-2015::23:31:52.522 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 16-Aug-2015::23:31:52.522 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:52.522 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 16-Aug-2015::23:31:52.522 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 16-Aug-2015::23:31:52.522 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-apicdc"] -->
+<INFO> 16-Aug-2015::23:31:52.527 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-apicdc"] --> LOADED
+<INFO> 16-Aug-2015::23:31:52.527 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 16-Aug-2015::23:31:52.527 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:52.527 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 16-Aug-2015::23:31:52.527 NcsMain JVM-Launcher: - FOUND TYPE: upgrade
+<INFO> 16-Aug-2015::23:31:52.528 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 16-Aug-2015::23:31:52.528 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-ios"] -->
+<WARN> 16-Aug-2015::23:31:52.533 ResourceManager JVM-Launcher: - Resource annotated field :IOSNedCli::mm already set, no resource injection performed
+<INFO> 16-Aug-2015::23:31:52.533 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-ios"] --> LOADED
+<INFO> 16-Aug-2015::23:31:52.533 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 16-Aug-2015::23:31:52.533 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:52.533 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 16-Aug-2015::23:31:52.533 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 16-Aug-2015::23:31:52.534 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-iosxr"] -->
+<WARN> 16-Aug-2015::23:31:52.537 ResourceManager JVM-Launcher: - Resource annotated field :IosxrNedCli::mm already set, no resource injection performed
+<INFO> 16-Aug-2015::23:31:52.537 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-iosxr"] --> LOADED
+<INFO> 16-Aug-2015::23:31:52.537 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 16-Aug-2015::23:31:52.537 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:52.537 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 16-Aug-2015::23:31:52.538 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 16-Aug-2015::23:31:52.538 NcsMain JVM-Launcher: - LOADING PACKAGE ["odl"] -->
+<INFO> 16-Aug-2015::23:31:52.542 NcsMain JVM-Launcher: - LOADING PACKAGE ["odl"] --> LOADED
+<INFO> 16-Aug-2015::23:31:52.542 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 16-Aug-2015::23:31:52.543 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:52.543 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 16-Aug-2015::23:31:52.543 NcsMain JVM-Launcher: - FOUND TYPE: callback
+<INFO> 16-Aug-2015::23:31:52.543 NcsMain JVM-Launcher: - LOADING PACKAGE ["qos"] -->
+############ Service Initiled
+<INFO> 16-Aug-2015::23:31:52.545 NcsMain JVM-Launcher: - LOADING PACKAGE ["qos"] --> LOADED
+<INFO> 16-Aug-2015::23:31:52.545 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 16-Aug-2015::23:31:52.545 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:52.546 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:31:52.546 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-apicdc:cisco-apicdc"] -->
+<INFO> 16-Aug-2015::23:31:52.546 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-apicdc:cisco-apicdc"] --> DONE
+<INFO> 16-Aug-2015::23:31:52.546 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:31:52.546 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:52.546 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:31:52.546 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:upgrade-ned-id"] -->
+<INFO> 16-Aug-2015::23:31:52.546 NcsMain JVM-Launcher: - => Nothing to deploy for component cisco-ios:upgrade-ned-id
+<INFO> 16-Aug-2015::23:31:52.546 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:upgrade-ned-id"] --> DONE
+<INFO> 16-Aug-2015::23:31:52.546 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:31:52.546 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:52.547 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:31:52.547 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:cisco-ios"] -->
+<INFO> 16-Aug-2015::23:31:52.547 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:cisco-ios"] --> DONE
+<INFO> 16-Aug-2015::23:31:52.547 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:31:52.547 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:52.547 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:31:52.547 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-iosxr:cisco-ios-xr"] -->
+<INFO> 16-Aug-2015::23:31:52.547 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-iosxr:cisco-ios-xr"] --> DONE
+<INFO> 16-Aug-2015::23:31:52.547 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:31:52.548 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:52.548 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:31:52.548 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["odl:odl"] -->
+<INFO> 16-Aug-2015::23:31:52.548 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["odl:odl"] --> DONE
+<INFO> 16-Aug-2015::23:31:52.548 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:31:52.548 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:52.548 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:31:52.548 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["qos:RFSSkeleton"] -->
+<INFO> 16-Aug-2015::23:31:52.552 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["qos:RFSSkeleton"] --> DONE
+<INFO> 16-Aug-2015::23:31:52.552 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 16-Aug-2015::23:31:52.552 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 16-Aug-2015::23:31:52.552 NcsMain JVM-Launcher: -  <= GOT DONE_LOADING
+<INFO> 16-Aug-2015::23:31:52.552 NcsMain JVM-Launcher: - DONE LOADING  -->
+<INFO> 16-Aug-2015::23:31:52.552 NcsMain JVM-Launcher: - DONE LOADING --> OK
+<INFO> 16-Aug-2015::23:31:52.553 NcsMain JVM-Launcher: - DONE COMMAND --> DONE_LOADING
+<INFO> 16-Aug-2015::23:31:52.553 NcsMain JVM-Launcher: - READ SOCKET =>
+Delete ---- Modification
+com.tailf.navu.NavuException: com.tailf.maapi.MaapiException: /ncs:devices/device{odlc}/rpc/rpc-get-tunnel-id/get-tunnel-id/node: Missing valueBefore QOS servicelevel2
+After QOS servicelevel2
+node
+name
+pcc://110.0.0.1
+tencentlsp
+<topology xmlns="urn:TBD:params:xml:ns:yang:network-topology"><topology-id>pcep-topology</topology-id><topology-types><topology-pcep xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"></topology-pcep></topology-types><node><node-id>pcc://110.0.0.2</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><ip-address>110.0.0.2</ip-address><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><state-sync>synchronized</state-sync></path-computation-client></node><node><node-id>pcc://110.0.0.1</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><reported-lsp><name>tencentlsp</name><path><lsp-id>2</lsp-id><ero><subobject><loose>false</loose><remote-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">13.0.0.3</remote-ip-address><local-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">13.0.0.1</local-ip-address><sid xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">24001</sid><m-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">true</m-flag><c-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">false</c-flag><sid-type xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">ipv4-adjacency</sid-type></subobject><subobject><loose>false</loose><remote-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">23.0.0.2</remote-ip-address><local-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">23.0.0.3</local-ip-address><sid xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">24001</sid><m-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">true</m-flag><c-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">false</c-flag><sid-type xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">ipv4-adjacency</sid-type></subobject><processing-rule>false</processing-rule><ignore>false</ignore></ero><bandwidth><processing-rule>false</processing-rule><ignore>false</ignore><bandwidth>AAAAAA==</bandwidth></bandwidth><lspa><setup-priority>7</setup-priority><ignore>false</ignore><exclude-any>0</exclude-any><processing-rule>false</processing-rule><tlvs></tlvs><hold-priority>7</hold-priority><local-protection-desired>false</local-protection-desired><include-any>0</include-any><include-all>0</include-all></lspa><lsp xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><ignore>false</ignore><administrative>true</administrative><delegate>true</delegate><sync>false</sync><remove>false</remove><plsp-id>26</plsp-id><processing-rule>false</processing-rule><create xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</create><operational>up</operational><tlvs><lsp-identifiers><ipv4><ipv4-tunnel-sender-address>1.1.1.1</ipv4-tunnel-sender-address><ipv4-tunnel-endpoint-address>2.2.2.2</ipv4-tunnel-endpoint-address><ipv4-extended-tunnel-id>2.2.2.2</ipv4-extended-tunnel-id></ipv4><lsp-id>2</lsp-id><tunnel-id>25</tunnel-id></lsp-identifiers><symbolic-path-name><path-name>dGVuY2VudGxzcA==</path-name></symbolic-path-name><path-binding><binding-value>AAAAXcs=</binding-value><binding-type>0</binding-type></path-binding></tlvs></lsp></path></reported-lsp><state-sync>synchronized</state-sync><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><ip-address>110.0.0.1</ip-address></path-computation-client></node><node><node-id>pcc://110.0.0.3</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><ip-address>110.0.0.3</ip-address><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><state-sync>synchronized</state-sync></path-computation-client></node></topology>
+25
+25
+Before QOS servicelevel2
+After QOS servicelevel1
+node
+name
+pcc://110.0.0.1
+tencentlsp
+<topology xmlns="urn:TBD:params:xml:ns:yang:network-topology"><topology-id>pcep-topology</topology-id><topology-types><topology-pcep xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"></topology-pcep></topology-types><node><node-id>pcc://110.0.0.2</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><ip-address>110.0.0.2</ip-address><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><state-sync>synchronized</state-sync></path-computation-client></node><node><node-id>pcc://110.0.0.1</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><reported-lsp><name>tencentlsp</name><path><lsp-id>2</lsp-id><ero><subobject><loose>false</loose><remote-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">13.0.0.3</remote-ip-address><local-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">13.0.0.1</local-ip-address><sid xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">24001</sid><m-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">true</m-flag><c-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">false</c-flag><sid-type xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">ipv4-adjacency</sid-type></subobject><subobject><loose>false</loose><remote-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">23.0.0.2</remote-ip-address><local-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">23.0.0.3</local-ip-address><sid xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">24001</sid><m-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">true</m-flag><c-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">false</c-flag><sid-type xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">ipv4-adjacency</sid-type></subobject><processing-rule>false</processing-rule><ignore>false</ignore></ero><bandwidth><processing-rule>false</processing-rule><ignore>false</ignore><bandwidth>AAAAAA==</bandwidth></bandwidth><lspa><setup-priority>7</setup-priority><ignore>false</ignore><exclude-any>0</exclude-any><processing-rule>false</processing-rule><tlvs></tlvs><hold-priority>7</hold-priority><local-protection-desired>false</local-protection-desired><include-any>0</include-any><include-all>0</include-all></lspa><lsp xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><ignore>false</ignore><administrative>true</administrative><delegate>true</delegate><sync>false</sync><remove>false</remove><plsp-id>26</plsp-id><processing-rule>false</processing-rule><create xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</create><operational>up</operational><tlvs><lsp-identifiers><ipv4><ipv4-tunnel-sender-address>1.1.1.1</ipv4-tunnel-sender-address><ipv4-tunnel-endpoint-address>2.2.2.2</ipv4-tunnel-endpoint-address><ipv4-extended-tunnel-id>2.2.2.2</ipv4-extended-tunnel-id></ipv4><lsp-id>2</lsp-id><tunnel-id>25</tunnel-id></lsp-identifiers><symbolic-path-name><path-name>dGVuY2VudGxzcA==</path-name></symbolic-path-name><path-binding><binding-value>AAAAXcs=</binding-value><binding-type>0</binding-type></path-binding></tlvs></lsp></path></reported-lsp><state-sync>synchronized</state-sync><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><ip-address>110.0.0.1</ip-address></path-computation-client></node><node><node-id>pcc://110.0.0.3</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><ip-address>110.0.0.3</ip-address><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><state-sync>synchronized</state-sync></path-computation-client></node></topology>
+25
+25
+Update ---- Modification
+node
+name
+pcc://110.0.0.1
+tencentlsp
+<topology xmlns="urn:TBD:params:xml:ns:yang:network-topology"><topology-id>pcep-topology</topology-id><topology-types><topology-pcep xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"></topology-pcep></topology-types><node><node-id>pcc://110.0.0.2</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><ip-address>110.0.0.2</ip-address><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><state-sync>synchronized</state-sync></path-computation-client></node><node><node-id>pcc://110.0.0.1</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><reported-lsp><name>tencentlsp</name><path><lsp-id>2</lsp-id><ero><subobject><loose>false</loose><remote-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">13.0.0.3</remote-ip-address><local-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">13.0.0.1</local-ip-address><sid xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">24001</sid><m-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">true</m-flag><c-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">false</c-flag><sid-type xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">ipv4-adjacency</sid-type></subobject><subobject><loose>false</loose><remote-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">23.0.0.2</remote-ip-address><local-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">23.0.0.3</local-ip-address><sid xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">24001</sid><m-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">true</m-flag><c-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">false</c-flag><sid-type xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">ipv4-adjacency</sid-type></subobject><processing-rule>false</processing-rule><ignore>false</ignore></ero><bandwidth><processing-rule>false</processing-rule><ignore>false</ignore><bandwidth>AAAAAA==</bandwidth></bandwidth><lspa><setup-priority>7</setup-priority><ignore>false</ignore><exclude-any>0</exclude-any><processing-rule>false</processing-rule><tlvs></tlvs><hold-priority>7</hold-priority><local-protection-desired>false</local-protection-desired><include-any>0</include-any><include-all>0</include-all></lspa><lsp xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><ignore>false</ignore><administrative>true</administrative><delegate>true</delegate><sync>false</sync><remove>false</remove><plsp-id>26</plsp-id><processing-rule>false</processing-rule><create xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</create><operational>up</operational><tlvs><lsp-identifiers><ipv4><ipv4-tunnel-sender-address>1.1.1.1</ipv4-tunnel-sender-address><ipv4-tunnel-endpoint-address>2.2.2.2</ipv4-tunnel-endpoint-address><ipv4-extended-tunnel-id>2.2.2.2</ipv4-extended-tunnel-id></ipv4><lsp-id>2</lsp-id><tunnel-id>25</tunnel-id></lsp-identifiers><symbolic-path-name><path-name>dGVuY2VudGxzcA==</path-name></symbolic-path-name><path-binding><binding-value>AAAAXcs=</binding-value><binding-type>0</binding-type></path-binding></tlvs></lsp></path></reported-lsp><state-sync>synchronized</state-sync><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><ip-address>110.0.0.1</ip-address></path-computation-client></node><node><node-id>pcc://110.0.0.3</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><ip-address>110.0.0.3</ip-address><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><state-sync>synchronized</state-sync></path-computation-client></node></topology>
+25
+25
+<WARN> 16-Aug-2015::23:34:55.261 InstancePath Did-13-Worker-10: - Could not retrieve ConfKey part of path /ncs:devices/device{a9k}/config/cisco-ios-xr:router/static/address-family/ipv4/unicast/routes
+com.tailf.conf.ConfException: wrong number of keys at '/ncs:devices/device/config/cisco-ios-xr:router/static/address-family/ipv4/unicast/routes'
+	at com.tailf.conf.InstancePath.convertToConfKey(InstancePath.java:661)
+	at com.tailf.conf.InstancePath.toString(InstancePath.java:872)
+	at com.tailf.conf.ConfPath.toString(ConfPath.java:134)
+	at java.lang.String.valueOf(String.java:2982)
+	at java.lang.StringBuilder.append(StringBuilder.java:131)
+	at com.tailf.conf.ConfException.mk(ConfException.java:79)
+	at com.tailf.maapi.MaapiException.mk(MaapiException.java:53)
+	at com.tailf.maapi.Maapi.exists(Maapi.java:2021)
+	at com.tailf.maapi.Maapi.exists(Maapi.java:2044)
+	at com.tailf.navu.NavuContext.exists(NavuContext.java:493)
+	at com.tailf.navu.NavuList.refreshElem(NavuList.java:1142)
+	at com.tailf.navu.NavuList.delete(NavuList.java:763)
+	at com.tailf.navu.NavuList.delete(NavuList.java:867)
+	at com.example.qos.qosRFS.removeTrafficSteer(qosRFS.java:410)
+	at com.example.qos.qosRFS.postModification(qosRFS.java:318)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.tailf.dp.annotations.ServiceCallbackProxy.postModification(ServiceCallbackProxy.java:252)
+	at com.tailf.dp.DpTrans.protoCallback(DpTrans.java:1746)
+	at com.tailf.dp.DpTrans.read(DpTrans.java:646)
+	at com.tailf.dp.DpTrans.run(DpTrans.java:373)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+	at com.tailf.dp.DpThread.run(DpThread.java:41)
+com.tailf.navu.NavuException: Error in NavuContext.existsDelete ---- Modification
+node
+name
+pcc://110.0.0.1
+tencentlsp
+<topology xmlns="urn:TBD:params:xml:ns:yang:network-topology"><topology-id>pcep-topology</topology-id><topology-types><topology-pcep xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"></topology-pcep></topology-types><node><node-id>pcc://110.0.0.2</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><ip-address>110.0.0.2</ip-address><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><state-sync>synchronized</state-sync></path-computation-client></node><node><node-id>pcc://110.0.0.1</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><reported-lsp><name>tencentlsp</name><path><lsp-id>2</lsp-id><ero><subobject><loose>false</loose><remote-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">13.0.0.3</remote-ip-address><local-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">13.0.0.1</local-ip-address><sid xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">24001</sid><m-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">true</m-flag><c-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">false</c-flag><sid-type xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">ipv4-adjacency</sid-type></subobject><subobject><loose>false</loose><remote-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">23.0.0.2</remote-ip-address><local-ip-address xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">23.0.0.3</local-ip-address><sid xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">24001</sid><m-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">true</m-flag><c-flag xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">false</c-flag><sid-type xmlns="urn:opendaylight:params:xml:ns:yang:pcep:segment:routing">ipv4-adjacency</sid-type></subobject><processing-rule>false</processing-rule><ignore>false</ignore></ero><bandwidth><processing-rule>false</processing-rule><ignore>false</ignore><bandwidth>AAAAAA==</bandwidth></bandwidth><lspa><setup-priority>7</setup-priority><ignore>false</ignore><exclude-any>0</exclude-any><processing-rule>false</processing-rule><tlvs></tlvs><hold-priority>7</hold-priority><local-protection-desired>false</local-protection-desired><include-any>0</include-any><include-all>0</include-all></lspa><lsp xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><ignore>false</ignore><administrative>true</administrative><delegate>true</delegate><sync>false</sync><remove>false</remove><plsp-id>26</plsp-id><processing-rule>false</processing-rule><create xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</create><operational>up</operational><tlvs><lsp-identifiers><ipv4><ipv4-tunnel-sender-address>1.1.1.1</ipv4-tunnel-sender-address><ipv4-tunnel-endpoint-address>2.2.2.2</ipv4-tunnel-endpoint-address><ipv4-extended-tunnel-id>2.2.2.2</ipv4-extended-tunnel-id></ipv4><lsp-id>2</lsp-id><tunnel-id>25</tunnel-id></lsp-identifiers><symbolic-path-name><path-name>dGVuY2VudGxzcA==</path-name></symbolic-path-name><path-binding><binding-value>AAAAXcs=</binding-value><binding-type>0</binding-type></path-binding></tlvs></lsp></path></reported-lsp><state-sync>synchronized</state-sync><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><ip-address>110.0.0.1</ip-address></path-computation-client></node><node><node-id>pcc://110.0.0.3</node-id><path-computation-client xmlns="urn:opendaylight:params:xml:ns:yang:topology:pcep"><ip-address>110.0.0.3</ip-address><stateful-tlv><stateful xmlns="urn:opendaylight:params:xml:ns:yang:pcep:ietf:stateful"><lsp-update-capability>true</lsp-update-capability><initiation xmlns="urn:opendaylight:params:xml:ns:yang:pcep:crabbe:initiated">true</initiation></stateful></stateful-tlv><state-sync>synchronized</state-sync></path-computation-client></node></topology>
+25
+25
+<WARN> 16-Aug-2015::23:38:01.251 InstancePath Did-13-Worker-10: - Could not retrieve ConfKey part of path /ncs:devices/device{a9k}/config/cisco-ios-xr:router/static/address-family/ipv4/unicast/routes
+com.tailf.conf.ConfException: wrong number of keys at '/ncs:devices/device/config/cisco-ios-xr:router/static/address-family/ipv4/unicast/routes'
+	at com.tailf.conf.InstancePath.convertToConfKey(InstancePath.java:661)
+	at com.tailf.conf.InstancePath.toString(InstancePath.java:872)
+	at com.tailf.conf.ConfPath.toString(ConfPath.java:134)
+	at java.lang.String.valueOf(String.java:2982)
+	at java.lang.StringBuilder.append(StringBuilder.java:131)
+	at com.tailf.conf.ConfException.mk(ConfException.java:79)
+	at com.tailf.maapi.MaapiException.mk(MaapiException.java:53)
+	at com.tailf.maapi.Maapi.exists(Maapi.java:2021)
+	at com.tailf.maapi.Maapi.exists(Maapi.java:2044)
+	at com.tailf.navu.NavuContext.exists(NavuContext.java:493)
+	at com.tailf.navu.NavuList.refreshElem(NavuList.java:1142)
+	at com.tailf.navu.NavuList.delete(NavuList.java:763)
+	at com.tailf.navu.NavuList.delete(NavuList.java:867)
+	at com.example.qos.qosRFS.removeTrafficSteer(qosRFS.java:410)
+	at com.example.qos.qosRFS.postModification(qosRFS.java:275)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.tailf.dp.annotations.ServiceCallbackProxy.postModification(ServiceCallbackProxy.java:252)
+	at com.tailf.dp.DpTrans.protoCallback(DpTrans.java:1746)
+	at com.tailf.dp.DpTrans.read(DpTrans.java:646)
+	at com.tailf.dp.DpTrans.run(DpTrans.java:373)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+	at com.tailf.dp.DpThread.run(DpThread.java:41)
+com.tailf.navu.NavuException: Error in NavuContext.exists<INFO> 16-Aug-2015::23:38:16.640 NcsMain JVM-Launcher: -  <= GOT STOP_VM
+<WARN> 16-Aug-2015::23:38:16.640 NcsMain JVM-Launcher: - STOPPING
+<WARN> 16-Aug-2015::23:38:16.640 Dp NCS-DpMUX-2-qos:RFSSkeleton: - Socket was closed
+<WARN> 16-Aug-2015::23:38:16.641 NedWorker Ned-Worker-Thread-0: - Thread[Ned-Worker-Thread-0,5,main] dies due to!
+<WARN> 16-Aug-2015::23:38:16.641 NedWorker Ned-Worker-Thread-1: - Thread[Ned-Worker-Thread-1,5,main] dies due to!
+<WARN> 16-Aug-2015::23:38:16.641 NedWorker Ned-Worker-Thread-2: - Thread[Ned-Worker-Thread-2,5,main] dies due to!
+<WARN> 16-Aug-2015::23:38:16.646 NcsMain JVM-Launcher: - CONTROL SOCKET CLOSED - HALTING
+<WARN> 16-Aug-2015::23:38:16.646 NcsJVMLauncher main: -  NCS JVM STOPPED
+ NCS JVM STOPPED
+Starting java-vm with options:
+' -classpath :/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/* -Dport=4569 -Xmx512M -Djava.awt.headless=true -Djava.security.egd=file:/dev/./urandom -Dfile.encoding=UTF-8'
+NCS JVM STARTING
+NcsLogger applying Default configuration!
+<INFO> 17-Aug-2015::00:30:25.730 NcsMain JVM-Launcher: - CONNECTED TO to NCS --> Socket[addr=/127.0.0.1,port=4569,localport=54233]
+<INFO> 17-Aug-2015::00:30:25.746 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 17-Aug-2015::00:30:25.754 NcsMain JVM-Launcher: -  <= GOT INIT_JVM
+JMXURL : service:jmx:rmi://127.0.0.1:9901/jndi/rmi://127.0.0.1:9902/ncs
+<INFO> 17-Aug-2015::00:30:26.838 NcsMain JVM-Launcher: - ALARM SERVICE STARTED
+<INFO> 17-Aug-2015::00:30:26.838 NcsMain JVM-Launcher: - DONE COMMAND --> INIT_JVM
+<INFO> 17-Aug-2015::00:30:26.838 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 17-Aug-2015::00:30:26.838 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 17-Aug-2015::00:30:26.839 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-apicdc"] -->
+<INFO> 17-Aug-2015::00:30:26.839 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/cisco-apicdc-ns.jar
+<INFO> 17-Aug-2015::00:30:26.839 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/commons-io-2.4.jar
+<INFO> 17-Aug-2015::00:30:26.839 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/commons-logging-1.2.jar
+<INFO> 17-Aug-2015::00:30:26.840 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/httpclient-4.4.jar
+<INFO> 17-Aug-2015::00:30:26.840 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-apicdc/shared-jar/httpcore-4.4.jar
+<INFO> 17-Aug-2015::00:30:26.840 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-apicdc"] --> OK
+<INFO> 17-Aug-2015::00:30:26.840 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 17-Aug-2015::00:30:26.841 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 17-Aug-2015::00:30:26.842 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 17-Aug-2015::00:30:26.842 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-ios"] -->
+<INFO> 17-Aug-2015::00:30:26.842 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-ios/shared-jar/ios-ns.jar
+<INFO> 17-Aug-2015::00:30:26.842 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-ios"] --> OK
+<INFO> 17-Aug-2015::00:30:26.842 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 17-Aug-2015::00:30:26.842 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 17-Aug-2015::00:30:26.842 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 17-Aug-2015::00:30:26.843 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-iosxr"] -->
+<INFO> 17-Aug-2015::00:30:26.843 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/cisco-xr/shared-jar/iosxr-ns.jar
+<INFO> 17-Aug-2015::00:30:26.843 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["cisco-iosxr"] --> OK
+<INFO> 17-Aug-2015::00:30:26.843 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 17-Aug-2015::00:30:26.843 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 17-Aug-2015::00:30:26.843 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 17-Aug-2015::00:30:26.843 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["odl"] -->
+<INFO> 17-Aug-2015::00:30:26.844 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/odl/shared-jar/odl-ns.jar
+<INFO> 17-Aug-2015::00:30:26.844 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["odl"] --> OK
+<INFO> 17-Aug-2015::00:30:26.844 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 17-Aug-2015::00:30:26.844 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 17-Aug-2015::00:30:26.844 NcsMain JVM-Launcher: -  <= GOT LOAD_SHARED_JARS
+<INFO> 17-Aug-2015::00:30:26.844 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["qos"] -->
+<INFO> 17-Aug-2015::00:30:26.844 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/qos/shared-jar/commons-net-3.3.jar
+<INFO> 17-Aug-2015::00:30:26.845 NcsMain JVM-Launcher: - loading shared jar: file:///Users/fan/Documents/NCS-Workspace/apic/state/packages-in-use/1/qos/shared-jar/qos-ns.jar
+<INFO> 17-Aug-2015::00:30:26.845 NcsMain JVM-Launcher: - LOAD SHARED PACKAGE ["qos"] --> OK
+<INFO> 17-Aug-2015::00:30:26.845 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_SHARED_JARS
+<INFO> 17-Aug-2015::00:30:26.845 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 17-Aug-2015::00:30:26.845 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 17-Aug-2015::00:30:26.845 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 17-Aug-2015::00:30:26.846 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-apicdc"] -->
+<INFO> 17-Aug-2015::00:30:26.865 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-apicdc"] --> LOADED
+<INFO> 17-Aug-2015::00:30:26.865 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 17-Aug-2015::00:30:26.865 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 17-Aug-2015::00:30:26.865 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 17-Aug-2015::00:30:26.866 NcsMain JVM-Launcher: - FOUND TYPE: upgrade
+<INFO> 17-Aug-2015::00:30:26.866 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 17-Aug-2015::00:30:26.866 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-ios"] -->
+<WARN> 17-Aug-2015::00:30:26.876 ResourceManager JVM-Launcher: - Resource annotated field :IOSNedCli::mm already set, no resource injection performed
+<INFO> 17-Aug-2015::00:30:26.876 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-ios"] --> LOADED
+<INFO> 17-Aug-2015::00:30:26.876 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 17-Aug-2015::00:30:26.876 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 17-Aug-2015::00:30:26.876 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 17-Aug-2015::00:30:26.877 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 17-Aug-2015::00:30:26.877 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-iosxr"] -->
+<WARN> 17-Aug-2015::00:30:26.881 ResourceManager JVM-Launcher: - Resource annotated field :IosxrNedCli::mm already set, no resource injection performed
+<INFO> 17-Aug-2015::00:30:26.881 NcsMain JVM-Launcher: - LOADING PACKAGE ["cisco-iosxr"] --> LOADED
+<INFO> 17-Aug-2015::00:30:26.882 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 17-Aug-2015::00:30:26.882 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 17-Aug-2015::00:30:26.882 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 17-Aug-2015::00:30:26.882 NcsMain JVM-Launcher: - FOUND TYPE: ned
+<INFO> 17-Aug-2015::00:30:26.882 NcsMain JVM-Launcher: - LOADING PACKAGE ["odl"] -->
+<INFO> 17-Aug-2015::00:30:26.887 NcsMain JVM-Launcher: - LOADING PACKAGE ["odl"] --> LOADED
+<INFO> 17-Aug-2015::00:30:26.887 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 17-Aug-2015::00:30:26.887 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 17-Aug-2015::00:30:26.887 NcsMain JVM-Launcher: -  <= GOT LOAD_PACKAGE
+<INFO> 17-Aug-2015::00:30:26.887 NcsMain JVM-Launcher: - FOUND TYPE: callback
+<INFO> 17-Aug-2015::00:30:26.887 NcsMain JVM-Launcher: - LOADING PACKAGE ["qos"] -->
+############ Service Initiled
+<INFO> 17-Aug-2015::00:30:26.890 NcsMain JVM-Launcher: - LOADING PACKAGE ["qos"] --> LOADED
+<INFO> 17-Aug-2015::00:30:26.890 NcsMain JVM-Launcher: - DONE COMMAND --> LOAD_PACKAGE
+<INFO> 17-Aug-2015::00:30:26.891 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 17-Aug-2015::00:30:26.891 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 17-Aug-2015::00:30:26.891 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-apicdc:cisco-apicdc"] -->
+<INFO> 17-Aug-2015::00:30:26.892 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-apicdc:cisco-apicdc"] --> DONE
+<INFO> 17-Aug-2015::00:30:26.893 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 17-Aug-2015::00:30:26.893 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 17-Aug-2015::00:30:26.893 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 17-Aug-2015::00:30:26.893 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:upgrade-ned-id"] -->
+<INFO> 17-Aug-2015::00:30:26.893 NcsMain JVM-Launcher: - => Nothing to deploy for component cisco-ios:upgrade-ned-id
+<INFO> 17-Aug-2015::00:30:26.893 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:upgrade-ned-id"] --> DONE
+<INFO> 17-Aug-2015::00:30:26.893 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 17-Aug-2015::00:30:26.893 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 17-Aug-2015::00:30:26.894 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 17-Aug-2015::00:30:26.894 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:cisco-ios"] -->
+<INFO> 17-Aug-2015::00:30:26.894 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-ios:cisco-ios"] --> DONE
+<INFO> 17-Aug-2015::00:30:26.894 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 17-Aug-2015::00:30:26.894 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 17-Aug-2015::00:30:26.894 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 17-Aug-2015::00:30:26.895 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-iosxr:cisco-ios-xr"] -->
+<INFO> 17-Aug-2015::00:30:26.895 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["cisco-iosxr:cisco-ios-xr"] --> DONE
+<INFO> 17-Aug-2015::00:30:26.895 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 17-Aug-2015::00:30:26.895 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 17-Aug-2015::00:30:26.895 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 17-Aug-2015::00:30:26.895 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["odl:odl"] -->
+<INFO> 17-Aug-2015::00:30:26.895 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["odl:odl"] --> DONE
+<INFO> 17-Aug-2015::00:30:26.895 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 17-Aug-2015::00:30:26.895 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 17-Aug-2015::00:30:26.896 NcsMain JVM-Launcher: -  <= GOT INSTANTIATE_COMPONENT
+<INFO> 17-Aug-2015::00:30:26.896 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["qos:RFSSkeleton"] -->
+<INFO> 17-Aug-2015::00:30:26.924 NcsMain JVM-Launcher: - INSTANTIATE COMPONENT ["qos:RFSSkeleton"] --> DONE
+<INFO> 17-Aug-2015::00:30:26.925 NcsMain JVM-Launcher: - DONE COMMAND --> INSTANTIATE_COMPONENT
+<INFO> 17-Aug-2015::00:30:26.925 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 17-Aug-2015::00:30:26.925 NcsMain JVM-Launcher: -  <= GOT DONE_LOADING
+<INFO> 17-Aug-2015::00:30:26.925 NcsMain JVM-Launcher: - DONE LOADING  -->
+<INFO> 17-Aug-2015::00:30:26.925 NcsMain JVM-Launcher: - DONE LOADING --> OK
+<INFO> 17-Aug-2015::00:30:26.926 NcsMain JVM-Launcher: - DONE COMMAND --> DONE_LOADING
+<INFO> 17-Aug-2015::00:30:26.926 NcsMain JVM-Launcher: - READ SOCKET =>
+<INFO> 17-Aug-2015::00:30:40.688 NcsMain JVM-Launcher: -  <= GOT STOP_VM
+<WARN> 17-Aug-2015::00:30:40.688 NcsMain JVM-Launcher: - STOPPING
+<WARN> 17-Aug-2015::00:30:40.689 Dp NCS-DpMUX-1-qos:RFSSkeleton: - Socket was closed
+<WARN> 17-Aug-2015::00:30:40.694 NcsMain JVM-Launcher: - CONTROL SOCKET CLOSED - HALTING
+<WARN> 17-Aug-2015::00:30:40.694 NcsJVMLauncher main: -  NCS JVM STOPPED
+ NCS JVM STOPPED

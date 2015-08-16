@@ -562,5 +562,6 @@ public class Odl {
         Node tunnel_id = getChildByName(lsp_identifiers,"tunnel-id");
         System.out.println(tunnel_id.getFirstChild().getNodeValue());
         return tunnel_id.getFirstChild().getNodeValue();
+    	//return "0";
     }
 }
