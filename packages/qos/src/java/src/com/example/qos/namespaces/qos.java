@@ -87,6 +87,8 @@ public class qos extends ConfNamespace {
     public static final String _error_ = "error";
     public static final int    _in_sync = 1179976821;
     public static final String _in_sync_ = "in-sync";
+    public static final int    _isNotified = 771315417;
+    public static final String _isNotified_ = "isNotified";
     public static final int    _outformat = 2033658489;
     public static final String _outformat_ = "outformat";
     public static final int    _failed_device = 1735357793;

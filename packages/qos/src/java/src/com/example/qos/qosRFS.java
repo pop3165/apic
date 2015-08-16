@@ -39,9 +39,17 @@ public class qosRFS{
 	String lspName="tencentlsp";
 	Integer tunnelNumber;
 	
+	OdlEventsClient odlEventsClient;
+	
 	enum LspType{ SegmentRouting, RSVP};
 	
 	static LspType lt = LspType.SegmentRouting;
+	
+	//we use 
+	public qosRFS(){
+		System.out.println("############ Service Initiled");
+		//odlEventsClient = odlEventsClient.getInstance();
+	}
 
     /**
      * Create callback method.
@@ -248,136 +256,135 @@ public class qosRFS{
 	Properties opaque)
 	throws DpCallbackException{
 		
-		if(ServiceOperationType.DELETE == operation){
-			System.out.println("Delete ---- Modification");
+		try{
+			NavuList managedDevices =context.getRootNode().container("devices").list("device");
+	        NavuContainer odlController=managedDevices.elem("odlc");
+	        NavuContainer a9k = managedDevices.elem("a9k");
+	        
+	        //ConfBool isNotified = (ConfBool) context.getRootNode().container("services").list("qos", "qos").elem("c_qos").leaf("isNotified").value();
+	        ConfBool isNotified = new ConfBool(false);
+	        
+	        
+	        if(ServiceOperationType.DELETE == operation){
+				System.out.println("Delete ---- Modification");
+				
+	                //Get tunnelNumber of certain LSP by @lspName
+					getTunnelNumber(odlController);
+					
+					//remove traffic steering static routes
+					removeTrafficSteer(a9k);
+					
+	                switch(lt){
+	                case RSVP:
+	                	odlController.container("rpc").container("odl", "rpc-remove-lsp").action("remove-lsp").call("<node>"+odl_node+"</node><name>"+lspName+"</name><network-topology>pcep-topology</network-topology>");
+	                	break;
+	                	
+	                case SegmentRouting:
+	                	odlController.container("rpc").container("odl", "rpc-remove-lsp-sr").action("remove-lsp-sr").call("<node>"+odl_node+"</node><name>"+lspName+"</name><network-topology>pcep-topology</network-topology>");
+	                	break;
+	                }
+			}
 			
-			try{
-				
-				NavuList managedDevices =context.getRootNode().container("devices").list("device");
-                NavuContainer odlController=managedDevices.elem("odlc");
-                NavuContainer a9k = managedDevices.elem("a9k");
-                
-                //Get tunnelNumber of certain LSP by @lspName
-				getTunnelNumber(odlController);
-				
-				//remove traffic steering static routes
-				removeTrafficSteer(a9k);
-				
-                switch(lt){
-                case RSVP:
-                	odlController.container("rpc").container("odl", "rpc-remove-lsp").action("remove-lsp").call("<node>"+odl_node+"</node><name>"+lspName+"</name><network-topology>pcep-topology</network-topology>");
-                	break;
-                	
-                case SegmentRouting:
-                	odlController.container("rpc").container("odl", "rpc-remove-lsp-sr").action("remove-lsp-sr").call("<node>"+odl_node+"</node><name>"+lspName+"</name><network-topology>pcep-topology</network-topology>");
-                	break;
-                }
-                
-                
+	        //northbound update without topology change events
+			if(ServiceOperationType.UPDATE == operation && isNotified.booleanValue() == false){
+				System.out.println("Update ---- Modification");
+	                if(qos_level.equals("level1")){
+	                	
+	                	switch(lt){
+	                	case RSVP:
+	                		
+	                		//Get tunnelNumber of certain LSP by @lspName
+	        				getTunnelNumber(odlController);
+	        				//remove traffic steering static routes
+	        				removeTrafficSteer(a9k);
+	        				
+	                		System.out.println("delete old(level2) lsp");
+	                		odlController.container("rpc").container("odl", "rpc-remove-lsp").action("remove-lsp").call("<node>"+odl_node+"</node><name>"+lspName+"</name><network-topology>pcep-topology</network-topology>");
+	        				
+	                		//add lsp, R1->R2,next hop 12.0.0.2
+	                		System.out.println("create new(level1) lsp");
+	                		odlController.container("rpc").container("odl", "rpc-add-lsp").action("add-lsp").call("<node>"+odl_node+"</node><name>"+lspName+"</name><arguments><lsp><delegate>true</delegate><administrative>true</administrative> </lsp><endpoints-obj><ipv4><source-ipv4-address>1.1.1.1</source-ipv4-address><destination-ipv4-address>2.2.2.2</destination-ipv4-address></ipv4> </endpoints-obj><ero><subobject><loose>false</loose><ip-prefix><ip-prefix>12.0.0.2/32</ip-prefix></ip-prefix></subobject></ero> </arguments><network-topology>pcep-topology</network-topology>");		
+	                		
+	                		//Get tunnelNumber of certain LSP by @lspName
+	        				getTunnelNumber(odlController);
+	        				//add traffic steering static routes
+	        				addTrafficSteer(a9k);
+	                		break;
+	                	case SegmentRouting:
+	                		
+	                		//Get tunnelNumber of certain LSP by @lspName
+	        				getTunnelNumber(odlController);
+	        				//remove traffic steering static routes
+	        				removeTrafficSteer(a9k);
+	        				
+	                		System.out.println("delete old(level2) lsp-sr");
+	                		odlController.container("rpc").container("odl", "rpc-remove-lsp-sr").action("remove-lsp-sr").call("<node>"+odl_node+"</node><name>"+lspName+"</name><network-topology>pcep-topology</network-topology>");
+	                        
+	                		//add lsp-sr, R1->R2,next hop 12.0.0.2
+	                		System.out.println("create new(level1) lsp-sr");
+	                		odlController.container("rpc").container("odl", "rpc-add-lsp-sr").action("add-lsp-sr").call("<node>"+odl_node+"</node><name>"+lspName+"</name><arguments><lsp><delegate>true</delegate><administrative>true</administrative></lsp><path-setup-type><pst>1</pst></path-setup-type><endpoints-obj><ipv4><source-ipv4-address>1.1.1.1</source-ipv4-address><destination-ipv4-address>2.2.2.2</destination-ipv4-address></ipv4></endpoints-obj><ero><subobject><loose>false</loose><sid-type>ipv4-adjacency</sid-type><m-flag>true</m-flag><sid>24001</sid><local-ip-address>12.0.0.1</local-ip-address><remote-ip-address>12.0.0.2</remote-ip-address></subobject></ero></arguments><network-topology>pcep-topology</network-topology>");
+	                		
+	                		//Get tunnelNumber of certain LSP by @lspName
+	        				getTunnelNumber(odlController);
+	        				//add traffic steering static routes
+	        				addTrafficSteer(a9k);
+	                		break;
+	                	}
+	                }
+	                
+	                if(qos_level.equals("level2")){
+	                	
+	                	switch(lt){
+	                	case RSVP:
+	                		//Get tunnelNumber of certain LSP by @lspName
+	        				getTunnelNumber(odlController);
+	        				//remove traffic steering static routes
+	        				removeTrafficSteer(a9k);
+	        				
+		                	System.out.println("delete old(level1) lsp");
+		                    odlController.container("rpc").container("odl", "rpc-remove-lsp").action("remove-lsp").call("<node>"+odl_node+"</node><name>"+lspName+"</name><network-topology>pcep-topology</network-topology>");
+	
+		                    System.out.println("create new(level2) lsp");
+		                    //add-lsp, R1->R3->R2, next hop 13.0.0.3, 23.0.0.2
+		                    odlController.container("rpc").container("odl", "rpc-add-lsp").action("add-lsp").call("<node>"+odl_node+"</node><name>"+lspName+"</name><arguments><lsp><delegate>true</delegate><administrative>true</administrative> </lsp><endpoints-obj><ipv4><source-ipv4-address>1.1.1.1</source-ipv4-address><destination-ipv4-address>2.2.2.2</destination-ipv4-address></ipv4> </endpoints-obj><ero><subobject><loose>false</loose><ip-prefix><ip-prefix>13.0.0.3/32</ip-prefix></ip-prefix></subobject><subobject><loose>false</loose><ip-prefix><ip-prefix>23.0.0.2/32</ip-prefix></ip-prefix></subobject></ero> </arguments><network-topology>pcep-topology</network-topology>");
+		                    
+		                    //Get tunnelNumber of certain LSP by @lspName
+	        				getTunnelNumber(odlController);
+	        				//add traffic steering static routes
+	        				addTrafficSteer(a9k);
+		                    break;
+	                	case SegmentRouting:
+	                		//Get tunnelNumber of certain LSP by @lspName
+	        				getTunnelNumber(odlController);
+	        				//remove traffic steering static routes
+	        				removeTrafficSteer(a9k);
+	        				
+	                		System.out.println("delete old(level1) lsp-sr");
+	                		odlController.container("rpc").container("odl", "rpc-remove-lsp-sr").action("remove-lsp-sr").call("<node>"+odl_node+"</node><name>"+lspName+"</name><network-topology>pcep-topology</network-topology>");
+	                        
+	        				//add lsp-sr, R1->R3->R2, next hop 13.0.0.3, 23.0.0.2
+	                		System.out.println("create new(level2) lsp-sr");
+	                		odlController.container("rpc").container("odl", "rpc-add-lsp-sr").action("add-lsp-sr").call("<node>"+odl_node+"</node><name>"+lspName+"</name><arguments><lsp><delegate>true</delegate><administrative>true</administrative></lsp><path-setup-type><pst>1</pst></path-setup-type><endpoints-obj><ipv4><source-ipv4-address>1.1.1.1</source-ipv4-address><destination-ipv4-address>2.2.2.2</destination-ipv4-address></ipv4></endpoints-obj><ero><subobject><loose>false</loose><sid-type>ipv4-adjacency</sid-type><m-flag>true</m-flag><sid>24003</sid><local-ip-address>13.0.0.1</local-ip-address><remote-ip-address>13.0.0.3</remote-ip-address></subobject><subobject><loose>false</loose><sid-type>ipv4-adjacency</sid-type><m-flag>true</m-flag><sid>24002</sid><local-ip-address>23.0.0.3</local-ip-address><remote-ip-address>23.0.0.2</remote-ip-address></subobject></ero></arguments><network-topology>pcep-topology</network-topology>");
+	                		
+	                		//Get tunnelNumber of certain LSP by @lspName
+	        				getTunnelNumber(odlController);
+	        				//add traffic steering static routes
+	        				addTrafficSteer(a9k);
+	                		break;
+	                	}
+	                }
+	                
 			}
-			catch(Exception e){
-				System.out.print(e);
+			 //northbound update and topology change events
+			if(ServiceOperationType.UPDATE == operation && isNotified.booleanValue() == true){
+				System.out.println("####### something need to be taked care in Service");
+				
+				//after handled events, set mark back to false
+				//context.getRootNode().container("services").list("qos", "qos").elem("c_qos").leaf("isNotified").set(new ConfBool(false));
 			}
+		}catch(Exception e){
+			System.out.print(e);
 		}
-		
-		if(ServiceOperationType.UPDATE == operation){
-			System.out.println("Update ---- Modification");
-			
-			try{
-				NavuList managedDevices =context.getRootNode().container("devices").list("device");
-                NavuContainer odlController=managedDevices.elem("odlc");
-                NavuContainer a9k = managedDevices.elem("a9k");
-                
-                if(qos_level.equals("level1")){
-                	
-                	switch(lt){
-                	case RSVP:
-                		
-                		//Get tunnelNumber of certain LSP by @lspName
-        				getTunnelNumber(odlController);
-        				//remove traffic steering static routes
-        				removeTrafficSteer(a9k);
-        				
-                		System.out.println("delete old(level2) lsp");
-                		odlController.container("rpc").container("odl", "rpc-remove-lsp").action("remove-lsp").call("<node>"+odl_node+"</node><name>"+lspName+"</name><network-topology>pcep-topology</network-topology>");
-        				
-                		//add lsp, R1->R2,next hop 12.0.0.2
-                		System.out.println("create new(level1) lsp");
-                		odlController.container("rpc").container("odl", "rpc-add-lsp").action("add-lsp").call("<node>"+odl_node+"</node><name>"+lspName+"</name><arguments><lsp><delegate>true</delegate><administrative>true</administrative> </lsp><endpoints-obj><ipv4><source-ipv4-address>1.1.1.1</source-ipv4-address><destination-ipv4-address>2.2.2.2</destination-ipv4-address></ipv4> </endpoints-obj><ero><subobject><loose>false</loose><ip-prefix><ip-prefix>12.0.0.2/32</ip-prefix></ip-prefix></subobject></ero> </arguments><network-topology>pcep-topology</network-topology>");		
-                		
-                		//Get tunnelNumber of certain LSP by @lspName
-        				getTunnelNumber(odlController);
-        				//add traffic steering static routes
-        				addTrafficSteer(a9k);
-                		break;
-                	case SegmentRouting:
-                		
-                		//Get tunnelNumber of certain LSP by @lspName
-        				getTunnelNumber(odlController);
-        				//remove traffic steering static routes
-        				removeTrafficSteer(a9k);
-        				
-                		System.out.println("delete old(level2) lsp-sr");
-                		odlController.container("rpc").container("odl", "rpc-remove-lsp-sr").action("remove-lsp-sr").call("<node>"+odl_node+"</node><name>"+lspName+"</name><network-topology>pcep-topology</network-topology>");
-                        
-                		//add lsp-sr, R1->R2,next hop 12.0.0.2
-                		System.out.println("create new(level1) lsp-sr");
-                		odlController.container("rpc").container("odl", "rpc-add-lsp-sr").action("add-lsp-sr").call("<node>"+odl_node+"</node><name>"+lspName+"</name><arguments><lsp><delegate>true</delegate><administrative>true</administrative></lsp><path-setup-type><pst>1</pst></path-setup-type><endpoints-obj><ipv4><source-ipv4-address>1.1.1.1</source-ipv4-address><destination-ipv4-address>2.2.2.2</destination-ipv4-address></ipv4></endpoints-obj><ero><subobject><loose>false</loose><sid-type>ipv4-adjacency</sid-type><m-flag>true</m-flag><sid>24001</sid><local-ip-address>12.0.0.1</local-ip-address><remote-ip-address>12.0.0.2</remote-ip-address></subobject></ero></arguments><network-topology>pcep-topology</network-topology>");
-                		
-                		//Get tunnelNumber of certain LSP by @lspName
-        				getTunnelNumber(odlController);
-        				//add traffic steering static routes
-        				addTrafficSteer(a9k);
-                		break;
-                	}
-                }
-                
-                if(qos_level.equals("level2")){
-                	
-                	switch(lt){
-                	case RSVP:
-                		//Get tunnelNumber of certain LSP by @lspName
-        				getTunnelNumber(odlController);
-        				//remove traffic steering static routes
-        				removeTrafficSteer(a9k);
-        				
-	                	System.out.println("delete old(level1) lsp");
-	                    odlController.container("rpc").container("odl", "rpc-remove-lsp").action("remove-lsp").call("<node>"+odl_node+"</node><name>"+lspName+"</name><network-topology>pcep-topology</network-topology>");
-
-	                    System.out.println("create new(level2) lsp");
-	                    //add-lsp, R1->R3->R2, next hop 13.0.0.3, 23.0.0.2
-	                    odlController.container("rpc").container("odl", "rpc-add-lsp").action("add-lsp").call("<node>"+odl_node+"</node><name>"+lspName+"</name><arguments><lsp><delegate>true</delegate><administrative>true</administrative> </lsp><endpoints-obj><ipv4><source-ipv4-address>1.1.1.1</source-ipv4-address><destination-ipv4-address>2.2.2.2</destination-ipv4-address></ipv4> </endpoints-obj><ero><subobject><loose>false</loose><ip-prefix><ip-prefix>13.0.0.3/32</ip-prefix></ip-prefix></subobject><subobject><loose>false</loose><ip-prefix><ip-prefix>23.0.0.2/32</ip-prefix></ip-prefix></subobject></ero> </arguments><network-topology>pcep-topology</network-topology>");
-	                    
-	                    //Get tunnelNumber of certain LSP by @lspName
-        				getTunnelNumber(odlController);
-        				//add traffic steering static routes
-        				addTrafficSteer(a9k);
-	                    break;
-                	case SegmentRouting:
-                		//Get tunnelNumber of certain LSP by @lspName
-        				getTunnelNumber(odlController);
-        				//remove traffic steering static routes
-        				removeTrafficSteer(a9k);
-        				
-                		System.out.println("delete old(level1) lsp-sr");
-                		odlController.container("rpc").container("odl", "rpc-remove-lsp-sr").action("remove-lsp-sr").call("<node>"+odl_node+"</node><name>"+lspName+"</name><network-topology>pcep-topology</network-topology>");
-                        
-        				//add lsp-sr, R1->R3->R2, next hop 13.0.0.3, 23.0.0.2
-                		System.out.println("create new(level2) lsp-sr");
-                		odlController.container("rpc").container("odl", "rpc-add-lsp-sr").action("add-lsp-sr").call("<node>"+odl_node+"</node><name>"+lspName+"</name><arguments><lsp><delegate>true</delegate><administrative>true</administrative></lsp><path-setup-type><pst>1</pst></path-setup-type><endpoints-obj><ipv4><source-ipv4-address>1.1.1.1</source-ipv4-address><destination-ipv4-address>2.2.2.2</destination-ipv4-address></ipv4></endpoints-obj><ero><subobject><loose>false</loose><sid-type>ipv4-adjacency</sid-type><m-flag>true</m-flag><sid>24003</sid><local-ip-address>13.0.0.1</local-ip-address><remote-ip-address>13.0.0.3</remote-ip-address></subobject><subobject><loose>false</loose><sid-type>ipv4-adjacency</sid-type><m-flag>true</m-flag><sid>24002</sid><local-ip-address>23.0.0.3</local-ip-address><remote-ip-address>23.0.0.2</remote-ip-address></subobject></ero></arguments><network-topology>pcep-topology</network-topology>");
-                		
-                		//Get tunnelNumber of certain LSP by @lspName
-        				getTunnelNumber(odlController);
-        				//add traffic steering static routes
-        				addTrafficSteer(a9k);
-                		break;
-                	}
-                }
-                }
-			catch(Exception e){
-				System.out.print(e);
-			}
-		}	
 		
 		return opaque;
 		
@@ -393,8 +400,8 @@ public class qosRFS{
 		
 		device.container("config").container("cisco-ios-xr", "router").container("static").container("address-family").container("ipv4").container("unicast").list("routes").create(new String[]{"88.88.88.88/32", "tunnel-te"+tunnelNumber});
 		//device.container("config").container("cisco-ios-xr", "router").container("static").container("address-family").container("ipv4").container("unicast").list("routes").create(key);
-		device.container("config").container("cisco-ios-xr", "router").container("static").container("address-family").container("ipv4").container("unicast").list("routes").elem(key).leaf("net").set("88.88.88.88/32");
-		device.container("config").container("cisco-ios-xr", "router").container("static").container("address-family").container("ipv4").container("unicast").list("routes").elem(key).leaf("interface").set("tunnel-te"+tunnelNumber);
+		device.container("config").container("cisco-ios-xr", "router").container("static").container("address-family").container("ipv4").container("unicast").list("routes").elem(new String[]{"88.88.88.88/32", "tunnel-te"+tunnelNumber}).leaf("net").set("88.88.88.88/32");
+		device.container("config").container("cisco-ios-xr", "router").container("static").container("address-family").container("ipv4").container("unicast").list("routes").elem(new String[]{"88.88.88.88/32", "tunnel-te"+tunnelNumber}).leaf("interface").set("tunnel-te"+tunnelNumber);
 	}
 	
 	private void removeTrafficSteer(NavuContainer device) throws NavuException{

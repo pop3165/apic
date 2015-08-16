@@ -1,0 +1,13 @@
+# Created by: admin
+# Date: 2015-08-16 09:03:26
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10356
+
+ncs:services {
+    qos:qos c_qos {
+        qos:isNotified false;
+    }
+ }

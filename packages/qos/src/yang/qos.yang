@@ -57,7 +57,11 @@ module qos {
 		
 			leaf qos-level{
 				type string;
-			}	
+			}
+			
+			leaf isNotified{
+				type boolean;
+			}
 			
 		}
 	}

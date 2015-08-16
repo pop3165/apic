@@ -1,0 +1,13 @@
+# Created by: admin
+# Date: 2015-08-15 23:03:42
+# Via: maapi
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10353
+
+ncs:services {
+    qos:qos c_qos {
+        qos:dst-endpoint 100.0.0.3;
+    }
+ }
