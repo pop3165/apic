@@ -412,9 +412,9 @@ public class odlNed extends NedGenericBase  {
                 if (cmdname.equals("add-lsp-sr")) this.controller.addLspSR(p);
                 if (cmdname.equals("update-lsp-sr")) this.controller.updateLspSR(p);
                 if (cmdname.equals("remove-lsp-sr")) this.controller.removeLspSR(p);
-            MaapiSchemas.CSNode ecs =
-                odlNed.schemas.findCSNode(Ncs.uri, "/devices/device/rpc", cmdname);
-            ecs = ecs.getChild(odl._operation_result);
+           // MaapiSchemas.CSNode ecs =
+             //   odlNed.schemas.findCSNode(Ncs.uri, "/devices/device/rpc", cmdname);
+            //ecs = ecs.getChild(odl._operation_result);
             ConfNamespace x = new odl();
             if (cmdname.equals("get-tunnel-id")){
                     worker.commandResponse(new ConfXMLParam[] {
@@ -426,7 +426,7 @@ public class odlNed extends NedGenericBase  {
                     });
             }
 
-            int a = 1;
+            //int a = 1;
         }
         catch (Exception e) {
             throw new NedException("", e);

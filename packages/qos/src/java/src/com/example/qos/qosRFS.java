@@ -357,7 +357,7 @@ public class qosRFS{
 	                		//Get tunnelNumber of certain LSP by @lspName
 	        				getTunnelNumber(odlController);
 	        				//remove traffic steering static routes
-	        				//removeTrafficSteer(a9k);
+	        				removeTrafficSteer(a9k);
 	        				
 	                		System.out.println("delete old(level1) lsp-sr");
 	                		odlController.container("rpc").container("odl", "rpc-remove-lsp-sr").action("remove-lsp-sr").call("<node>"+odl_node+"</node><name>"+lspName+"</name><network-topology>pcep-topology</network-topology>");
@@ -369,7 +369,7 @@ public class qosRFS{
 	                		//Get tunnelNumber of certain LSP by @lspName
 	        				getTunnelNumber(odlController);
 	        				//add traffic steering static routes
-	        				//addTrafficSteer(a9k);
+	        				addTrafficSteer(a9k);
 	                		break;
 	                	}
 	                }
