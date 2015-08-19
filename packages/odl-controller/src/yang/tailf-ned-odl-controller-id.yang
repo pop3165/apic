@@ -1,0 +1,12 @@
+module tailf-ned-odl-controller-id {
+  namespace 'http://tail-f.com/ned/odl-controller-id';
+  prefix odl-controller-id;
+
+  import tailf-ncs-ned {
+    prefix ned;
+  }
+
+  identity odl-controller {
+    base ned:generic-ned-id;
+  }
+}

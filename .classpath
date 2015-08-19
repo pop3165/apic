@@ -1,46 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
-	<classpathentry kind="src" path="packages/cisco-apicdc/src/java/src"/>
-	<classpathentry kind="src" path="packages/cisco-ios/src/java/src"/>
-	<classpathentry kind="src" path="packages/cisco-xr/src/java/src"/>
-	<classpathentry kind="src" path="packages/odl/src/java/src"/>
-	<classpathentry kind="src" path="packages/qos/src/java/src"/>
-	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/ncs.jar" sourcepath="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/ncs-src.jar"/>
-	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/conf-api.jar" sourcepath="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/conf-api-src.jar"/>
-	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/commons-net-3.3.jar"/>
-	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/ganymed-ssh2.jar"/>
-	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/log4j-1.2.16.jar"/>
-	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/log4j.jar"/>
-	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/snmp4j-1.11.3.jar"/>
-	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/snmp4j.jar"/>
-	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/tailf-ganymed-ssh2-262-p2.jar"/>
-	<classpathentry kind="lib" path="packages/cisco-apicdc/shared-jar/cisco-apicdc-ns.jar"/>
-	<classpathentry kind="lib" path="packages/cisco-apicdc/shared-jar/commons-io-2.4.jar"/>
-	<classpathentry kind="lib" path="packages/cisco-apicdc/shared-jar/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="packages/cisco-apicdc/shared-jar/httpclient-4.4.jar"/>
-	<classpathentry kind="lib" path="packages/cisco-apicdc/shared-jar/httpcore-4.4.jar"/>
-	<classpathentry kind="lib" path="packages/cisco-ios/shared-jar/ios-ns.jar"/>
-	<classpathentry kind="lib" path="packages/cisco-xr/shared-jar/iosxr-ns.jar"/>
-	<classpathentry kind="lib" path="packages/odl/shared-jar/odl-ns.jar"/>
-	<classpathentry kind="lib" path="packages/qos/shared-jar/commons-net-3.3.jar"/>
-	<classpathentry kind="lib" path="packages/qos/shared-jar/qos-ns.jar"/>
-	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/commons-codec-1.9.jar"/>
-	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/conf-api-5.4.1.jar"/>
-	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/conf-api-src-5.4.1.jar"/>
-	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/fluent-hc-4.5.jar"/>
-	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/httpcore-4.4.1.jar"/>
-	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/httpmime-4.5.jar"/>
-	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/jna-4.1.0.jar"/>
-	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/jna-platform-4.1.0.jar"/>
-	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/ncs-3.4.1.jar"/>
-	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/ncs-src-3.4.1.jar"/>
-	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/websocket-api-9.3.2.v20150730.jar"/>
-	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/websocket-client-9.3.2.v20150730.jar"/>
-	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/websocket-common-9.3.2.v20150730.jar"/>
-	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/jetty-io-9.3.2.v20150730.jar"/>
-	<classpathentry kind="lib" path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/jetty-util-9.3.2.v20150730.jar"/>
-	<classpathentry kind="output" path="bin"/>
+  <classpathentry
+     kind="con"
+     path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry
+     kind="con"
+     path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
+  <classpathentry kind="output" path="bin"/>
+  <classpathentry kind="src"
+     path="./packages/cisco-apicdc/src/java/src"/>
+  <classpathentry kind="src"
+     path="./packages/cisco-ios/src/java/src"/>
+  <classpathentry kind="src"
+     path="./packages/cisco-xr/src/java/src"/>
+  <classpathentry kind="src"
+     path="./packages/odl/src/java/src"/>
+  <classpathentry kind="src"
+     path="./packages/odl-controller/src/java/src"/>
+  <classpathentry kind="src"
+     path="./packages/qos/src/java/src"/>
+  <classpathentry
+       kind="lib"
+       path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/ncs.jar"
+       sourcepath="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/ncs-src.jar"/>
+  <classpathentry
+    kind="lib"
+    path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/conf-api.jar"
+    sourcepath="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/conf-api-src.jar"/>
+
+  <classpathentry
+     kind="lib"
+     path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/commons-codec-1.9.jar"/>
+  <classpathentry
+     kind="lib"
+     path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/commons-logging-1.2.jar"/>
+  <classpathentry
+     kind="lib"
+     path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/commons-net-3.3.jar"/>
+  <classpathentry
+     kind="lib"
+     path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/fluent-hc-4.5.jar"/>
+  <classpathentry
+     kind="lib"
+     path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/ganymed-ssh2.jar"/>
+  <classpathentry
+     kind="lib"
+     path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/httpclient-4.5.jar"/>
+  <classpathentry
+     kind="lib"
+     path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/httpclient-cache-4.5.jar"/>
+  <classpathentry
+     kind="lib"
+     path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/httpclient-win-4.5.jar"/>
+  <classpathentry
+     kind="lib"
+     path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/httpcore-4.4.1.jar"/>
+  <classpathentry
+     kind="lib"
+     path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/httpmime-4.5.jar"/>
+  <classpathentry
+     kind="lib"
+     path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/jetty-io-9.3.2.v20150730.jar"/>
+  <classpathentry
+     kind="lib"
+     path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/jetty-util-9.3.2.v20150730.jar"/>
+  <classpathentry
+     kind="lib"
+     path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/jna-4.1.0.jar"/>
+  <classpathentry
+     kind="lib"
+     path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/jna-platform-4.1.0.jar"/>
+  <classpathentry
+     kind="lib"
+     path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/log4j-1.2.16.jar"/>
+  <classpathentry
+     kind="lib"
+     path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/log4j.jar"/>
+  <classpathentry
+     kind="lib"
+     path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/snmp4j-1.11.3.jar"/>
+  <classpathentry
+     kind="lib"
+     path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/snmp4j.jar"/>
+  <classpathentry
+     kind="lib"
+     path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/tailf-ganymed-ssh2-262-p2.jar"/>
+  <classpathentry
+     kind="lib"
+     path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/websocket-api-9.3.2.v20150730.jar"/>
+  <classpathentry
+     kind="lib"
+     path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/websocket-client-9.3.2.v20150730.jar"/>
+  <classpathentry
+     kind="lib"
+     path="/Users/fan/Documents/NCS-Workspace/ncs3.4/java/jar/websocket-common-9.3.2.v20150730.jar"/>
+  <classpathentry
+    kind="lib"
+     path="./packages/cisco-apicdc/shared-jar/cisco-apicdc-ns.jar"/>
+  <classpathentry
+    kind="lib"
+     path="./packages/cisco-apicdc/shared-jar/commons-io-2.4.jar"/>
+  <classpathentry
+    kind="lib"
+     path="./packages/cisco-apicdc/shared-jar/commons-logging-1.2.jar"/>
+  <classpathentry
+    kind="lib"
+     path="./packages/cisco-apicdc/shared-jar/httpclient-4.4.jar"/>
+  <classpathentry
+    kind="lib"
+     path="./packages/cisco-apicdc/shared-jar/httpcore-4.4.jar"/>
+  <classpathentry
+    kind="lib"
+     path="./packages/cisco-ios/shared-jar/ios-ns.jar"/>
+  <classpathentry
+    kind="lib"
+     path="./packages/cisco-xr/shared-jar/iosxr-ns.jar"/>
+  <classpathentry
+    kind="lib"
+     path="./packages/odl/shared-jar/odl-ns.jar"/>
+  <classpathentry
+    kind="lib"
+     path="./packages/odl-controller/shared-jar/odlcontroller-ns.jar"/>
+  <classpathentry
+    kind="lib"
+     path="./packages/odl-controller/shared-jar/staxon-1.3.jar"/>
+  <classpathentry
+    kind="lib"
+     path="./packages/qos/shared-jar/commons-net-3.3.jar"/>
+  <classpathentry
+    kind="lib"
+     path="./packages/qos/shared-jar/qos-ns.jar"/>
 </classpath>

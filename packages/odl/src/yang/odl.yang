@@ -403,7 +403,7 @@ rpc get-tunnel-id {
 	  }
 	output {
 	  leaf tunnel-id {
-	    type string;
+	    type uint32;
 	  }
     }
   }

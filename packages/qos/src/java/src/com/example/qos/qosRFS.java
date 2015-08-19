@@ -283,6 +283,8 @@ public class qosRFS{
 	                	odlController.container("rpc").container("odl", "rpc-remove-lsp-sr").action("remove-lsp-sr").call("<node>"+odl_node+"</node><name>"+lspName+"</name><network-topology>pcep-topology</network-topology>");
 	                	break;
 	                }
+	                
+	                a9k.container("config").container("cisco-ios-xr", "interface").list("TenGigE").elem("0/0/2/0").container("service-policy").container("type").container("pbr").leaf("input").delete();
 			}
 			
 	        //northbound update without topology change events
@@ -373,7 +375,9 @@ public class qosRFS{
 	                		break;
 	                	}
 	                }
-	                
+	            
+	                a9k.container("config").container("cisco-ios-xr", "interface").list("TenGigE").elem("0/0/2/0").container("service-policy").container("type").container("pbr").leaf("input").set("E-PBR");
+					  
 			}
 			 //northbound update and topology change events
 			if(ServiceOperationType.UPDATE == operation && isNotified.booleanValue() == true){
@@ -421,6 +425,9 @@ public class qosRFS{
 		tunnelNumber = Integer.valueOf(stringData.substring(start, end));
 		
 		return tunnelNumber;
+		
+//		tunnelNumber = 0;
+//		return 0;
 	}
 	
 }

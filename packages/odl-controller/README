@@ -1,0 +1,63 @@
+1. Introduction
+---------------
+
+   This document describes the NED for the Odl Controller device.
+
+2. Getting started
+------------------
+
+   Set up the environment in $DIR, change DIR to something suitable
+
+     tar xvzf ned-odl-controller.tgz
+     mv ned-odl-controller $NCS_DIR/packages/neds/
+
+     export DIR=/tmp/ncs-odl-controller
+     ncs-setup --ned-package $NCS_DIR/packages/neds/odl-controller --dest $DIR
+     cd $DIR
+
+   Start ncs:
+
+     ncs
+
+   Start NCS CLI:
+
+     ncs_cli -u admin
+
+   In the CLI configure the device. Enter configuration mode:
+
+     % configure
+
+   Set the required configurables, change address, port, remote user data if needed:
+
+     % set devices authgroups group <authgroup-name> umap admin remote-name <remote name> remote-password <remote password>
+     % set devices device <device-name> address <address> port 8181
+     % set devices device <device-name> device-type generic ned-id odl-controller
+     % set devices device <device-name> state admin-state unlocked
+     % set devices device <device-name> authgroup <authgroup-name>
+     % commit
+
+   Optional configurations
+
+     Make the NED dump all messages sent to/from the netscaler device
+
+     % set devices global-settings trace raw
+     % commit
+
+     Make the NED print debug log messages
+     % set java-vm java-logging logger com.tailf.packages.ned.odlcontroller level level-debug
+     % commit
+
+
+3. Device Configuration
+-----------------------
+    For instance, add a key entry:
+
+    % request devices device odl-controller rpc rpc-add-key add-key LispAddressContainer { Ipv4Address { Ipv4Address 1.1.1.2 afi 1 } } authkey def key-type 1 mask-length 32
+    result Succeded!
+
+    Or get a specific key entry:
+
+    % request devices device odl-controller rpc rpc-get-key get-key LispAddressContainer { Ipv4Address { Ipv4Address 1.1.1.2 afi 1 } } mask-length 32 
+    result Succeeded!
+    output {"output":{"authkey":"abc"}}
+    

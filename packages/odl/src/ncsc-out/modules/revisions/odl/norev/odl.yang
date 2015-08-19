@@ -544,7 +544,7 @@ module odl {
         }
         output {
           leaf tunnel-id {
-            type string;
+            type uint32;
           }
         }
       }

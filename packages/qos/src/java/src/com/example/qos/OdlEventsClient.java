@@ -84,7 +84,7 @@ public class OdlEventsClient {
 	            ClientUpgradeRequest request = new ClientUpgradeRequest();
 	            client.connect(socket, echoUri, request);
 	            System.out.printf("Connecting to : %s%n", echoUri);
-	            socket.awaitClose(30, TimeUnit.SECONDS);
+	            socket.awaitClose(30, TimeUnit.MINUTES);
 	            
 	            
 	        } catch (Throwable t) {

@@ -1,0 +1,22 @@
+<ncs-pkg-build xmlns='http://tail-f.com/ns/ncs-pkg-build'>
+    <date>2015-07-02 19:04:43</date>
+    <file>ncs-3.4-odl-controller-3.0.0_19e6eaf.tar.gz</file>
+    <type>release</type>
+    <arch>linux.x86_64</arch>
+    <java>compiled Java class data, version 50.0 (Java 1.6)</java>
+    <package>
+        <name>odl-controller</name>
+        <version>3.0.0_19e6eaf</version>
+        <ref>origin/develop</ref>
+        <sha1>19e6eaf</sha1>
+    </package>
+    <ncs>
+        <version>3.4</version>
+        <sha1></sha1>
+    </ncs>
+    <dev-support>
+        <version>1.0</version>
+        <branch>develop</branch>
+        <sha1>e29b796</sha1>
+    </dev-support>
+</ncs-pkg-build>

@@ -534,7 +534,7 @@ public class Odl {
         String c15 = c14.replace("</network-topology>","\"]</network-topology-ref>");
         return c15;
 	}
-    public String getTunnelId(ConfXMLParam[] p) throws Exception {
+    public long getTunnelId(ConfXMLParam[] p) throws Exception {
     	String node="";
     	String name="";
     	for (ConfXMLParam t:p){
@@ -550,23 +550,24 @@ public class Odl {
         String uri = "/restconf/operational/network-topology:network-topology/topology/pcep-topology/";
         String response = httpGet(uri);
         System.out.println(response);
-//        Document doc = getXMLFromString(response);
-//    
-//        Node tnode = getChildWithSubnodeValue(doc.getFirstChild(),"node","node-id",node);
-//        Node path_computation_client = getChildByName(tnode,"path-computation-client");
-//        Node reported_lsp = getChildWithSubnodeValue(path_computation_client,"reported-lsp","name",name);
-//        Node path = getChildByName(reported_lsp,"path");
-//        Node lsp = getChildByName(path,"lsp");
-//        Node tlvs = getChildByName(lsp,"tlvs");
-//        Node lsp_identifiers = getChildByName(tlvs,"lsp-identifiers");
-//        Node tunnel_id = getChildByName(lsp_identifiers,"tunnel-id");
-//        System.out.println(tunnel_id.getFirstChild().getNodeValue());
-//        return tunnel_id.getFirstChild().getNodeValue();
+        Document doc = getXMLFromString(response);
+    
+        Node tnode = getChildWithSubnodeValue(doc.getFirstChild(),"node","node-id",node);
+        Node path_computation_client = getChildByName(tnode,"path-computation-client");
+        Node reported_lsp = getChildWithSubnodeValue(path_computation_client,"reported-lsp","name",name);
+        Node path = getChildByName(reported_lsp,"path");
+        Node lsp = getChildByName(path,"lsp");
+        Node tlvs = getChildByName(lsp,"tlvs");
+        Node lsp_identifiers = getChildByName(tlvs,"lsp-identifiers");
+        Node tunnel_id = getChildByName(lsp_identifiers,"tunnel-id");
+        System.out.println(tunnel_id.getFirstChild().getNodeValue());
+        /*
         int indexNode = response.indexOf("<node>"+node+"</node>");
         int indexName = response.indexOf("<name>"+name+"</name>",indexNode);
         int indexTunnelId = response.indexOf("<tunnel-id>",indexName);
         int indexEndTunnelId = response.indexOf("</tunnel-id>",indexTunnelId);
-        return response.substring(indexTunnelId+11 , indexEndTunnelId);
+        */
+        return Long.parseLong(tunnel_id.getFirstChild().getNodeValue());
         
     }
 }

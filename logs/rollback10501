@@ -1,0 +1,62 @@
+# Created by: admin
+# Date: 2015-08-18 14:57:59
+# Via: cli
+# Type: delta
+# Label: 
+# Comment: 
+# No: 10501
+
+ncs:devices {
+    ncs:device a9k {
+        ncs:config {
+            cisco-ios-xr:interface {
+                cisco-ios-xr:TenGigE 0/0/2/0 {
+                    cisco-ios-xr:service-policy {
+                        cisco-ios-xr:type {
+                            cisco-ios-xr:pbr {
+                                cisco-ios-xr:input E-PBR;
+                            }
+                        }
+                    }
+                }
+                cisco-ios-xr:tunnel-te 1 {
+                    cisco-ios-xr:shutdown;
+                }
+            }
+            cisco-ios-xr:router {
+                cisco-ios-xr:static {
+                    cisco-ios-xr:address-family {
+                        cisco-ios-xr:ipv4 {
+                            cisco-ios-xr:unicast {
+                                cisco-ios-xr:routes 88.88.88.88/32 tunnel-te35 {
+                                }
+                                cisco-ios-xr:routes 88.88.88.88/32 tunnel-te40 {
+                                }
+                                cisco-ios-xr:routes 88.88.88.88/32 tunnel-te49 {
+                                }
+                                cisco-ios-xr:routes 88.88.88.88/32 tunnel-te57 {
+                                }
+                                cisco-ios-xr:routes 88.88.88.88/32 tunnel-te59 {
+                                }
+                                cisco-ios-xr:routes 88.88.88.88/32 tunnel-te61 {
+                                }
+                                cisco-ios-xr:routes 88.88.88.88/32 tunnel-te69 {
+                                }
+                                cisco-ios-xr:routes 88.88.88.88/32 tunnel-te71 {
+                                }
+                                cisco-ios-xr:routes 88.88.88.88/32 tunnel-te74 {
+                                }
+                                cisco-ios-xr:routes 88.88.88.88/32 tunnel-te77 {
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            cisco-ios-xr:domain {
+                delete:
+                cisco-ios-xr:name cisco.com;
+            }
+         }
+     }
+ }

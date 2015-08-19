@@ -27,6 +27,7 @@ import com.tailf.conf.ConfXMLParam;
 import com.tailf.conf.ConfXMLParamLeaf;
 import com.tailf.conf.ConfValue;
 import com.tailf.conf.ConfBuf;
+import com.tailf.conf.ConfUInt32;
 import com.tailf.conf.ConfXMLParamValue;
 import com.tailf.maapi.Maapi;
 import com.tailf.maapi.MaapiSchemas;
@@ -418,7 +419,7 @@ public class odlNed extends NedGenericBase  {
             ConfNamespace x = new odl();
             if (cmdname.equals("get-tunnel-id")){
                     worker.commandResponse(new ConfXMLParam[] {
-                        new ConfXMLParamValue(x, "tunnel-id",new ConfBuf(this.controller.getTunnelId(p)))
+                        new ConfXMLParamValue(x, "tunnel-id",new ConfUInt32(this.controller.getTunnelId(p)))
                     });
             }else{
                     worker.commandResponse(new ConfXMLParam[] {

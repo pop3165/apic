@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<ncs-package xmlns="http://tail-f.com/ns/ncs-packages">
+  <name>odl-controller</name>
+  <package-version>3.0.0</package-version>
+  <description>NED package for ODL Controller</description>
+  <ncs-min-version>3.2</ncs-min-version>
+  <ncs-min-version>3.3</ncs-min-version>
+  <ncs-min-version>3.4</ncs-min-version>
+  <ncs-min-version>4.0</ncs-min-version>
+  <component>
+    <name>odl-controller</name>
+    <ned>
+      <generic>
+        <ned-id xmlns:odl-controller-id="http://tail-f.com/ned/odl-controller-id">odl-controller-id:odl-controller</ned-id>
+        <java-class-name>com.tailf.packages.ned.odlcontroller.OdlControllerNedGeneric</java-class-name>
+      </generic>
+      <device>
+        <vendor>Cisco</vendor>
+      </device>
+      <option>
+        <name>ordered-diff</name>
+      </option>
+    </ned>
+  </component>
+</ncs-package>
